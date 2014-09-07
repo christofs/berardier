@@ -1,79 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="fra">
-
     <fileDesc>
       <titleStmt>
-        <title>Essai sur le récit, ou Entretiens sur la manière de raconter.
-          Édition électronique.</title>
+        <title>"Sixième entretien. Narration historique. Qualités de cette narration" de : Essai sur le récit, ou Entretiens sur la manière de
+          raconter. Édition électronique.</title>
         <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
         <editor>Christof Schöch</editor>
-        <principal>Christof Schöch</principal>
       </titleStmt>
-
       <editionStmt>
-        <edition>Version 0.6, 12/2010</edition>
+        <edition>Version 0.7, 09/2014</edition>
       </editionStmt>
-
       <publicationStmt>
-        <p>Édition électronique publiée en ligne à l'adresse
-          http://www.berardier.org sous licence Creative Commons BY-NC-SA 3.0
-          (Attribution-Noncommercial-Share Alike).</p>
+        <p>Texte libre de droits. Édition électronique publiée en ligne à l'adresse
+          http://tapas.neu.edu/berardier/essai/ sous licence Creative Commons Attribution 3.0
+          (CC-BY). Republication de l'édition électronique publiée en ligne à l'adresse
+          http://berardier.org en 2010.</p>
       </publicationStmt>
-
       <sourceDesc>
         <bibl>
           <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
-          <title>Essai sur le récit, ou entretiens sur la manière de
-            raconter</title>
+          <title>Essai sur le récit, ou entretiens sur la manière de raconter</title>
           <pubPlace>Paris</pubPlace>
           <publisher>Charles-Pierrre Berton</publisher>
           <date>1776</date>
           <extent>Format in-12, X-725 pages.</extent>
         </bibl>
       </sourceDesc>
-
     </fileDesc>
-
-
     <encodingDesc>
       <projectDesc>
-        <p>Cette édition fournit une édition accessible en ligne et commentée de
-          l'Essai sur le récit, ou Entretiens sur la manière de raconter, par
-          François-Joseph Bérardier de Bataut. </p>
+        <p>Cette édition fournit une édition accessible en ligne et commentée de l'Essai sur le
+          récit, ou Entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut.
+        </p>
       </projectDesc>
       <editorialDecl>
-        <p>L'édition électronique est réalisée au format XML et conforme au
-          standard TEI, version 5, défini par la Text Encoding Initiative. Elle
-          utilise un sous-ensemble d'éléments définis dans le TEI-Lite, ce
-          sous-ensemble étant documenté dans un schéma XML. L'édition réunit une
-          transcription diplomatique (graphies d'époque, coquilles,
-          abréviations) et une version de lecture (graphies modernisées,
-          coquilles corrigées, abréviations explicitées). L'édition fournit avec
-          le texte des commentaires explicatifs, des références bibliographiques
-          et un dossier critique. </p>
+        <p>L'édition réunit une transcription diplomatique (graphies d'époque, coquilles,
+          abréviations) et une version de lecture (graphies modernisées, coquilles corrigées,
+          abréviations explicitées).</p>
       </editorialDecl>
     </encodingDesc>
-
     <revisionDesc>
       <change when="2011-04-12" who="Christof Schöch">Updated header
         information, corrected transcription.</change>
       <change when="2010-07-15" who="Christof Schöch">Transfer zu
         TEI-Lite.</change>
+      <change when="2014-09-06" who="Christof Schöch">Minor adjustments for TAPAS
+        publication.</change>
     </revisionDesc>
   </teiHeader>
-
-
-
   <text>
     <body>
-      <div type="chapter" xml:id="ENT06">
+      <div type="chapter" xml:id="essai06">
         <head>SIXIÈME ENTRETIEN. <lb/>NARRATION HISTORIQUE. <lb/><hi
             rend="italic">Qualités de cette Narration.</hi></head>
-
         <p>Après le <choice>
             <orig>dîner</orig>
             <reg>diner</reg>
@@ -96,7 +77,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> qui n'intéressent que médiocrement des particuliers.</p>
-
         <p>Ce plaisir, reprit Euphorbe, doit être <pb xml:id="p295"/> plus
           piquant pour vous que pour moi. J'y suis fait&#160;: je l'éprouve la
           plus grande partie de l'année&#160;; tandis que vous êtes dans ce
@@ -106,7 +86,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> j'y prends part.</p>
-
         <p>C'est-à-dire, poursuivit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -123,7 +102,6 @@
           </choice> passés, vous les trouvez ici. Voilà une assez belle
           compagnie, pour un homme seul. Mais, dites-moi, laquelle de ces deux
           sociétés a pour vous plus de charmes&#160;?</p>
-
         <p>Le cœur, répondit Euphorbe, est plus satisfait dans le commerce de
           l'amitié&#160;: mais l'esprit fait plus de fond sur les récits de ces
           morts, dont la plupart, comme Tacite, <choice>
@@ -163,7 +141,6 @@
             fiction.&#160;»</note> Dans ces derniers même, le vrai se déguise
           sous le masque d'un mensonge ingénieux, qui ne peut induire personne
           en erreur.</p>
-
         <p>Entre les récits dont le ton est grave <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -194,7 +171,6 @@
             <reg>goutte</reg>
           </choice> d'eau dans la trachée-artère<note resp="author">[Grec.] <hi
               rend="italic">Quomodo Scrib. Hist.</hi></note>.</p>
-
         <p>Le prince des orateurs latins, repartit Euphorbe, regarde cette
           maxime, comme un de ces principes incontestables <pb xml:id="p297"/>
           avoués de tout l'univers.<note resp="author">Quis nescit primam esse
@@ -210,12 +186,12 @@
               oratore</hi> II, XV, 62. Dans notre édition de référence, le texte
             lit ainsi&#160;: «&#160;Nam quis nescit primam esse historiae legem,
             ne quid falsi dicere audeat? Deinde ne quid veri non
-            audeat&#160;?»</note><quote rend="inline">Qui ne sait, dit-il, que
+            audeat&#160;?»</note><q rend="inline">Qui ne sait, dit-il, que
             le premier devoir d'un historien est de ne rien dire de faux, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> le second, d'oser dire la vérité quelle qu'elle puisse
-            être&#160;?</quote><note resp="editor">Les guillemets finaux
+            être&#160;?</q><note resp="editor">Les guillemets finaux
             manquent dans l'original.</note> Malheureusement il arrive ici le
           même inconvénient que dans la morale. Tout le monde convient de la <choice>
             <orig>régle</orig>
@@ -224,7 +200,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> bien peu de gens la réduisent en pratique.</p>
-
         <p>Que voulez-vous, répliqua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -244,7 +219,6 @@
             <reg>pourraient</reg>
           </choice> les blesser. Voulez-vous qu'un historien se perde sans
           ressource&#160;?</p>
-
         <p>Non, reprit Euphorbe&#160;; mais je veux qu'il se taise, s'il est
           dans ces circonstances, plutôt que d'altérer la vérité. Je ne vois
           point de loi qui le mette dans la nécessité d'écrire&#160;; <choice>
@@ -254,11 +228,11 @@
           jamais oublier ce qu'à dit M. de Fenélon<note resp="author"><choice>
               <orig>Dial. 6 t. 2</orig>
               <reg><hi rend="italics">Dialogues</hi></reg>
-            </choice> 6, tome 2.</note>: <quote rend="inline">La <choice>
+            </choice> 6, tome 2.</note>: <q rend="inline">La <choice>
               <orig>reconnoissance</orig>
               <reg>reconnaissance</reg>
             </choice> n'est pas ce qu'on cherche dans l'histoire&#160;; c'est ce
-            qui la rend suspecte.</quote><note resp="editor">La source de cette
+            qui la rend suspecte.</q><note resp="editor">La source de cette
             citation n'a pas encore pu être identifiée, ni son exactitude
             vérifiée.</note> Aurez-vous d'ailleurs la même indulgence pour ceux
           que la malignité <choice>
@@ -269,8 +243,7 @@
             <orig>entiere</orig>
             <reg>entière</reg>
           </choice>, même aux dépens de la vérité&#160;?</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><note resp="author"><choice>
                   <orig>Hor.</orig>
                   <reg>Horace,</reg>
@@ -284,8 +257,7 @@
                   <reg>liber 1,</reg>
                 </choice> v. 99.</note><hi rend="italic">Hic nigræ succus
                 loliginis, hæc est</hi></l>
-            <l><hi rend="italic">Ærugo mera</hi>,</l></quote></p>
-
+            <l><hi rend="italic">Ærugo mera</hi>,</l></q></p>
         <p>répondit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -305,7 +277,6 @@
             <reg>non seulement</reg>
           </choice> à ne rien dire de faux, mais encore à dire tout ce qui est
           vrai.</p>
-
         <p>Avec votre permission, interrompit Euphorbe, vous faites dire à
           l'orateur <pb xml:id="p299"/> un peu plus qu'il ne dit en effet. Il
           veut qu'on ne craigne pas d'exposer la vérité&#160;; mais il ne
@@ -321,7 +292,7 @@
             <sic/>
             <corr>.</corr>
           </choice>
-          <quote rend="inline">Que m'importe (remarque agréablement Lucien), la
+          <q rend="inline">Que m'importe (remarque agréablement Lucien), la
             forme du bouclier que <choice>
               <orig>portoit</orig>
               <reg>portait</reg>
@@ -346,7 +317,7 @@
             </choice> de laurier&#160;? Tout cela ne contribue point à me faire <choice>
               <orig>connoître</orig>
               <reg>connaître</reg>
-            </choice> l'action principale.</quote><note resp="author">Quomodo <choice>
+            </choice> l'action principale.</q><note resp="author">Quomodo <choice>
               <orig>scrib.</orig>
               <reg>scribere</reg>
             </choice>
@@ -361,7 +332,6 @@
           uns disent faux par ignorance, ou par un excès de crédulité&#160;: ils
           ne s'en doutent pas. Les autres blessent la vérité de propos délibéré,
           par haine, par flatterie, par esprit de parti.</p>
-
         <p>Que d'<choice>
             <orig>écueuils</orig>
             <reg>écueils</reg>
@@ -404,7 +374,6 @@
             <orig>premiere</orig>
             <reg>première</reg>
           </choice> partie de ses provisions.</p>
-
         <p><choice>
             <sic>Vons</sic>
             <corr>Vous</corr>
@@ -428,14 +397,12 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> la nature. </p>
-
         <p><pb xml:id="p301"/> Vous supposez, ce me semble, interrompit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
           </choice>, que l'historien est obligé quelquefois de raconter des
           faits contraires à la vraisemblance. Comment, s'il vous plaît,
           pourra-t-on ajouter foi à son récit&#160;?</p>
-
         <p><choice>
             <orig>Etoit</orig>
             <reg>Etait</reg>
@@ -484,7 +451,6 @@
             <reg>et</reg>
           </choice> les moins équivoques. Ce n'est qu'à ce prix qu'il évitera le
           soupçon d'être trop crédule.</p>
-
         <p>J'<choice>
             <orig>aurois</orig>
             <reg>aurais</reg>
@@ -523,7 +489,6 @@
             <orig>célébroient</orig>
             <reg>célébraient</reg>
           </choice> que leurs exploits, aux dépens même de leurs ennemis.</p>
-
         <p>Si votre avis <choice>
             <orig>étoit</orig>
             <reg>était</reg>
@@ -576,7 +541,7 @@
               <reg>et</reg>
             </choice> publica, sua certe liberata fide, ab Caudio in castia
             Romana inviolati redierunt. <hi rend="italic">Liv. l. 9, c.
-            11</hi>.</note><quote rend="inline">Les consuls revinrent de Caudium
+            11</hi>.</note><q rend="inline">Les consuls revinrent de Caudium
             dans le camp, sans avoir éprouvé aucun mauvais traitement, ayant
             ainsi pleinement satisfait à leurs propres <choice>
               <orig>engagemens</orig>
@@ -584,7 +549,7 @@
             </choice>, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> peut-être à ceux de la république.</quote> Ce mot <hi
+            </choice> peut-être à ceux de la république.</q> Ce mot <hi
             rend="italic">peut-être</hi>, est un reste d'hommage que l'historien
           semble rendre à la justice, malgré son inclination. Bien d'autres
           après lui ont eu le même <choice>
@@ -620,7 +585,6 @@
             <reg>avaient</reg>
           </choice> reçu des bienfaits, l'un de Charlemagne, l'autre de
           Constantin.</p>
-
         <p><choice>
             <orig>A</orig>
             <reg>À</reg>
@@ -642,7 +606,6 @@
             <orig>seroient</orig>
             <reg>seraient</reg>
           </choice> bien payés.</p>
-
         <p>Si l'on doit moins appréhender la flatterie de leur part, reprit
           Euphorbe, peut-être aussi sont-ils plus exposés à écouter la haine <choice>
             <orig>&amp;</orig>
@@ -684,7 +647,6 @@
             <reg>et</reg>
           </choice> surtout de l'esprit de parti, qui nous représente les objets
           tout autres qu'ils ne sont en eux-mêmes.</p>
-
         <p>Il est vrai, continua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -845,7 +807,6 @@
           s'affranchir&#160;; mais aussitôt qu'on parut lui en faire une loi,
           aux dépens de son autorité, il sut la venger par un châtiment, qui
           n'avait rien de condamnable que dans la forme.</p>
-
         <p>Je suis ravi, mon cher, répartit Euphorbe, <pb xml:id="p309"/> que
           vous deveniez dissertateur. Mais il me semble que vous avez mis en
           oubli une petite objection. Qui <choice>
@@ -859,7 +820,6 @@
             <orig>loix</orig>
             <reg>lois</reg>
           </choice>&#160;?</p>
-
         <p>L'historien latin nous l'apprend encore, reprit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -892,7 +852,6 @@
             <reg>et</reg>
           </choice> dans lequel on a cru voir une liberté que Grégoire de Tours
           n'y a point vue lui-même.</p>
-
         <p>La raison de cette différence est sensible, poursuivit Euphorbe. Les
           auteurs dont vous vous plaignez, n'<choice>
             <orig>avoient</orig>
@@ -970,7 +929,7 @@
           </choice> de l'abbé Fleury. Vous aurez du plaisir à voir ces deux
           récits rapprochés. Lisons d'abord celui de l'avocat général de la
           chambre des comptes.<note resp="author">Rech. l. 3, ch. 13.</note>
-          <quote rend="inline">Lorsque <choice>
+          <q rend="inline">Lorsque <choice>
               <orig>Philippes I</orig>
               <reg>Philippe I</reg>
             </choice> de ce nom <choice>
@@ -1032,9 +991,8 @@
               <reg>avait</reg>
             </choice> été ratifiée par le roi. Voilà comment il employa la
             grandeur extraordinaire de Rome, au préjudice de nos anciennes
-            libertés.</quote> Faites-moi le plaisir de me dire maintenant
+            libertés.</q> Faites-moi le plaisir de me dire maintenant
           quelles idées vous a laissé ce récit&#160;?</p>
-
         <p>J'en conclus, répondit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -1058,7 +1016,6 @@
           </choice> démarche, <pb xml:id="p313"/> il me semble voir une
           injustice&#160;; dans la seconde, une inconséquence mêlée de
           bassesse.</p>
-
         <p>Il faut donc maintenant, reprit Euphorbe, vous éclaircir tout cela, <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -1092,7 +1049,7 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> sur les entreprises des papes. <note resp="author">Hist.
-            Eccles. l. 64, n. 1.</note><quote rend="inline"><choice>
+            Eccles. l. 64, n. 1.</note><q rend="inline"><choice>
               <orig>Geoffroi</orig>
               <reg>Geoffroy</reg>
             </choice>, évêque de Chartres, deux fois déposés par le légat Hugues
@@ -1210,9 +1167,9 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> lui, donner votre secours pour la conduite de son
-            diocèse.</quote></p>
+            diocèse.</q></p>
         <p>Plus bas, l'historien continue ainsi&#160;: <note resp="author"><hi
-              rend="italic">Ibid. n. 3</hi>.</note><quote rend="inline"
+              rend="italic">Ibid. n. 3</hi>.</note><q rend="inline"
             >L'archevêque Richer tint un concile à <choice>
               <orig>Etampes</orig>
               <reg>Étampes</reg>
@@ -1267,13 +1224,12 @@
             </choice> rétablir Geoffroi&#160;: mais Yves appella au pape, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> arrêta la procédure du concile.</quote> Eh bien,
+            </choice> arrêta la procédure du concile.</q> Eh bien,
           plaignez-vous encore <choice>
             <orig>Geoffroi</orig>
             <reg>Geoffroy</reg>
           </choice>&#160;? êtes-vous encore indisposé contre celui qu'on lui a
           donné pour successeur&#160;?</p>
-
         <p>Tout le ressentiment que j'<choice>
             <orig>avois</orig>
             <reg>avais</reg>
@@ -1320,7 +1276,6 @@
             <orig>suffisoient</orig>
             <reg>suffisaient</reg>
           </choice> pour autoriser Yves de Chartres à récuser leur jugement.</p>
-
         <p>C'est une autre <choice>
             <orig>espece</orig>
             <reg>espèce</reg>
@@ -1340,20 +1295,19 @@
           </choice> partisan de <choice>
             <orig>Geoffroi</orig>
             <reg>Geoffroy</reg>
-          </choice>. <quote rend="inline">Car</quote>, selon le <choice>
+          </choice>. <q rend="inline">Car</q>, selon le <choice>
             <orig>P.</orig>
             <reg>Père</reg>
           </choice> d'Orléans<note resp="author"><choice>
               <orig>Préf. des Révol. d'Angl.</orig>
               <reg>Préface de <hi rend="italic">L'Histoire des révolutions
                   d'Angleterre</hi>.</reg>
-            </choice></note>, <quote rend="inline">il n'est pas plus permis de
+            </choice></note>, <q rend="inline">il n'est pas plus permis de
             falsifier les pensées <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> les motifs de ceux dont on écrit l'histoire, que leurs
-            actions.</quote>&#160;</p>
-
+            actions.</q>&#160;</p>
         <p>Si ce principe est vrai, comme je n'en doute pas, interrompit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -1363,8 +1317,7 @@
               <orig>Luca. civ. Belli. lib.</orig>
               <reg>Lucain, <hi rend="italic">Belli civilis</hi>, liber </reg>
             </choice>9, v. 1038. </note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent"><hi rend="italic">Lachrymas non sponte
                 cadentes</hi></l>
             <l><hi rend="italic">Essudit, gemitusque expressit pectore
@@ -1375,8 +1328,7 @@
                 ne tyranni</hi></l>
             <l><hi rend="italic">Destruit, et generi mavult lugere
               revulfum</hi>,</l>
-            <l><hi rend="italic">Quam debere caput</hi>.</l></quote></p>
-
+            <l><hi rend="italic">Quam debere caput</hi>.</l></q></p>
         <p><pb xml:id="p318"/> Je ne <choice>
             <orig>sçais</orig>
             <reg>sais</reg>
@@ -1397,7 +1349,6 @@
             <reg>et</reg>
           </choice> je n'en vois ici aucune. Les historiens même, tels que
           Plutarque, Valère-Maxime, ne s'accordent point avec lui là-dessus. </p>
-
         <p>Lucain <choice>
             <orig>étoit</orig>
             <reg>était</reg>
@@ -1422,7 +1373,7 @@
           </choice> dit des ouvrages d'esprit en général<note resp="author"><choice>
               <orig>Caract.</orig>
               <reg><hi rend="italic">Les Charactères,</hi></reg>
-            </choice> ch. 1.</note>. <quote rend="inline">L'on a cette
+            </choice> ch. 1.</note>. <q rend="inline">L'on a cette
             incommodité à essuyer dans la lecture des livres faits par des gens
             de parti <choice>
               <orig>&amp;</orig>
@@ -1433,7 +1384,7 @@
             ni avec une <choice>
               <orig>entiere</orig>
               <reg>entière</reg>
-            </choice> exactitude.</quote> Ce n'est pas même assez, pour
+            </choice> exactitude.</q> Ce n'est pas même assez, pour
           s'assurer de la vérité dans un historien, d'examiner quel intérêt
           personnel il <choice>
             <orig>pouvoit</orig>
@@ -1493,7 +1444,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> raconter, mais non pas deviner.</p>
-
         <p>Vous me <choice>
             <orig>paroissez</orig>
             <reg>paraissez</reg>
@@ -1551,7 +1501,6 @@
           </choice> sur la scène,<note resp="editor">La graphie de l'original
             est ici plus moderne que dans d'autres endroits du texte.</note>
           selon qu'il le juge à propos.</p>
-
         <p>Dites mieux, interrompit Euphorbe&#160;: il le doit. L'histoire n'est
           point une simple gazette&#160;; elle n'est pas même une compilation de
           faits rangés par ordre de dates, telles que sont les chroniques <choice>
@@ -1578,7 +1527,6 @@
           lisent. Il faut donc que l'écrivain supplée à cette <pb xml:id="p322"
           /> incapacité, pour donner à son ouvrage l'utilité qui lui
           convient.</p>
-
         <p>Je <choice>
             <orig>sçais</orig>
             <reg>sais</reg>
@@ -1590,12 +1538,11 @@
           naître que de la vérité. Il déclame même avec force contre les
           louanges que les historiens donnent à ceux dont ils détaillent les
             actions.<note resp="author">Quomodo scrib. sit hist.</note></p>
-
         <p>Quels éloges condamne Lucien, répartit Euphorbe&#160;? ceux qui sont
           outrés, fabuleux, déplacés. Mais il n'a jamais entendu proscrire les
           louanges données à propos des hommes de mérite. Dans l'endroit même
           que vous citez, il prévient votre objection par ces mots&#160;:<note
-            resp="author">[Grec.]</note><quote rend="inline">Je ne prétends pas
+            resp="author">[Grec.]</note><q rend="inline">Je ne prétends pas
             dire par-là, qu'il ne faut jamais louer dans l'histoire&#160;; mais
             seulement qu'il faut le faire dans des circonstances convenables, <choice>
               <orig>&amp;</orig>
@@ -1603,7 +1550,7 @@
             </choice> se prescrire des bornes sur cet objet<choice>
               <sic/>
               <corr>.</corr>
-            </choice></quote> C'est dans ce même sens, que l'auteur des <pb
+            </choice></q> C'est dans ce même sens, que l'auteur des <pb
             xml:id="p323"/>
           <choice>
             <orig><hi rend="italic">caracteres de ce siécle</hi></orig>
@@ -1612,14 +1559,14 @@
               <orig>La Bru.</orig>
               <reg>La Bruyère, <hi rend="italic">Caractères</hi>, </reg>
             </choice> ch. 1.</note>
-          <quote rend="inline">Amas d'épithetes, mauvaises louanges&#160;: ce
+          <q rend="inline">Amas d'épithetes, mauvaises louanges&#160;: ce
             sont les faits qui louent, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> la <choice>
               <orig>maniere</orig>
               <reg>manière</reg>
-            </choice> de les raconter.</quote> En observant ces <choice>
+            </choice> de les raconter.</q> En observant ces <choice>
             <orig>régles</orig>
             <reg>règles</reg>
           </choice>, l'écrivain s'acquitte du double devoir qui lui est imposé.
@@ -1656,15 +1603,15 @@
             <orig>espece</orig>
             <reg>espèce</reg>
           </choice> d'ouvrage est plus propre à produire cet effet, que le récit
-          historique&#160;? <quote rend="inline">Les bons exemples</quote>, dit
+          historique&#160;? <q rend="inline">Les bons exemples</q>, dit
           Pline le jeune<note resp="author"><choice>
               <orig>Panégyr. de Traj</orig>
               <reg><hi rend="italic">Panégyrique de Trajan</hi></reg>
-            </choice>.</note>, <quote rend="inline">ont cet avantage, qu'ils
+            </choice>.</note>, <q rend="inline">ont cet avantage, qu'ils
             montrent tout à la fois, que la vertu est possible, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> qu'elle est approuvée.</quote> Où se rencontre l'empreinte
+            </choice> qu'elle est approuvée.</q> Où se rencontre l'empreinte
           de cette approbation, si ce n'est dans les jugements que porte des
           faits, celui qui les raconte, <choice>
             <orig>&amp;</orig>
@@ -1681,7 +1628,6 @@
             <reg>et</reg>
           </choice> resteront gravés dans l'esprit du lecteur, où ils ne peuvent
           manquer d'établir en même temps les principes les plus avantageux.</p>
-
 
         <p>Voilà des fonctions bien nobles <choice>
             <orig>&amp;</orig>
@@ -1754,7 +1700,7 @@
             in convivio, luxæque cum æqualibus viderant tempus terentes, sed
             nocte sera deditam lanæ inter lucubrantes ancillas in medio œdium
             sedentem inveniunt. <hi rend="italic">Liv. l.</hi> 1. c.
-            57.</note><quote rend="inline">Dans une partie de débauche, <pb
+            57.</note><q rend="inline">Dans une partie de débauche, <pb
               xml:id="p326"/> dit-il, où les princes du sang royal <choice>
               <orig>soupoient</orig>
               <reg>soupaient</reg>
@@ -1785,7 +1731,7 @@
             </choice>, sera la preuve <choice>
               <orig>complette</orig>
               <reg>complète</reg>
-            </choice> de ce que nous cherchons.</quote> C'<choice>
+            </choice> de ce que nous cherchons.</q> C'<choice>
             <orig>étoit</orig>
             <reg>était</reg>
           </choice> au camp devant Ardée, à seize <choice>
@@ -1794,7 +1740,7 @@
           </choice> de Rome, que <pb xml:id="p327"/> cette scène se <choice>
             <orig>passoit</orig>
             <reg>passait</reg>
-          </choice>. Voyons quelle en fut l'issue. <quote rend="inline">Cette
+          </choice>. Voyons quelle en fut l'issue. <q rend="inline">Cette
             jeunesse, continue Tite-Live, <choice>
               <orig>étoit</orig>
               <reg>était</reg>
@@ -1843,7 +1789,7 @@
             </choice> s'<choice>
               <orig>occupoit</orig>
               <reg>occupait</reg>
-            </choice> d'ouvrages propres à son sexe.</quote> Dans les dames de
+            </choice> d'ouvrages propres à son sexe.</q> Dans les dames de
           Rome, peut-on <choice>
             <orig>méconnoître</orig>
             <reg>méconnaître</reg>
@@ -1866,7 +1812,6 @@
             <orig>seroit</orig>
             <reg>serait</reg>
           </choice> ignorée.</p>
-
         <p>Sans doute, poursuivit Euphorbe, les vices <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -1928,7 +1873,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> sensées, ne forment un excellent traité de morale.</p>
-
         <p>Laissons donc à l'historien, reprit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -1958,7 +1902,6 @@
             <orig>parens</orig>
             <reg>parents</reg>
           </choice>, sans amis.</p>
-
         <p>Gardons-nous d'un pareil <choice>
             <orig>remede</orig>
             <reg>remède</reg>
@@ -1971,7 +1914,6 @@
             <reg>et</reg>
           </choice> de votre vie, choisiriez-vous des juges pareils à
           l'historien dont vous venez de parler&#160;?</p>
-
         <p>Non, répondit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -1988,7 +1930,6 @@
             de Magistrats, d'Hommes d'État.&#160;» (<hi rend="italic"
               >Dictionnaire de l'Académie française</hi>, 4e. éd. de
             1762).</note></p>
-
         <p>Je le crois, poursuivit Euphorbe. Que n'<choice>
             <orig>auroit</orig>
             <reg>aurait</reg>
@@ -2152,7 +2093,6 @@
             <reg>et</reg>
           </choice> des amis, pour assigner à chaque action le degré de mérite
           ou de scélératesse qui lui convient.</p>
-
         <p>J'entends parfaitement tout cela, répliqua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2183,7 +2123,6 @@
             <orig>particuliere</orig>
             <reg>particulière</reg>
           </choice>.</p>
-
         <p>Quand les <choice>
             <orig>inconvéniens</orig>
             <reg>inconvénients</reg>
@@ -2274,7 +2213,6 @@
             <orig>intégre</orig>
             <reg>intègre</reg>
           </choice>, même à ses propres dépens.</p>
-
         <p>C'est en effet, continua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2338,7 +2276,6 @@
             xml:id="p336"/> sont propres à rendre l'histoire plus utile encore,
           par les excellentes maximes dont ils sont remplis. Pour moi, je les ai
           toujours lus avec le plus grand plaisir.</p>
-
         <p>Ce sont des <choice>
             <orig>pieces</orig>
             <reg>pièces</reg>
@@ -2579,7 +2516,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> son savoir faire.</p>
-
         <p>Indépendamment de toutes ces raisons, poursuivit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2641,7 +2577,6 @@
             <orig>Auteurs</orig>
             <reg>auteurs</reg>
           </choice> nous eussent privés de ces beaux morceaux.</p>
-
         <p>Je n'en suis pas moins enchanté que vous, repartit Euphorbe&#160;:
           mais je ne leur pardonne point de venir se mêler dans un récit
           véritable, en portant les livrées du mensonge. J'<choice>
@@ -2657,7 +2592,6 @@
             <orig>regneroit</orig>
             <reg>regnerait</reg>
           </choice> la fiction.</p>
-
         <p>Mais, après tout, répliqua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2685,7 +2619,6 @@
             <orig>voudroit</orig>
             <reg>voudrait</reg>
           </choice> lui ressembler.</p>
-
         <p>Ne seriez-vous pas tenté, dit Euphorbe en riant, de chercher un sujet
           de tragédie dans la vie de ce scélérat&#160;? Il en <choice>
             <orig>seroit</orig>
@@ -2730,7 +2663,6 @@
             <orig>stile</orig>
             <reg>style</reg>
           </choice> qu'elle emploie.</p>
-
         <p>Par cette noblesse du sujet, interrompit <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2770,7 +2702,6 @@
             <reg>choisirais</reg>
           </choice> assurément plutôt un de ces sujets, que celui sur qui nous
           plaisantions tout-à-l'heure.</p>
-
         <p>Vous auriez bien raison, répondit Euphorbe. Ils sont <choice>
             <orig>très-propres</orig>
             <reg>très propres</reg>
@@ -2799,7 +2730,6 @@
           qu'on s'obstine à admirer. Au reste, nous avons déjà remarqué que
           l'histoire des grands crimes est aussi instructive que toute autre,
           lorsqu'elle est bien maniée.</p>
-
         <p>Je vois bien, continua <choice>
             <orig>Timagene</orig>
             <reg>Timagène</reg>
@@ -2827,11 +2757,11 @@
               <orig>Réflex. sur l'Hist.</orig>
               <reg><hi rend="italic">Réflexions sur l'Histoire</hi>.</reg>
             </choice></note>
-          <quote rend="inline">Il faut l'écrire sensément, c'est-à-dire, ne
+          <q rend="inline">Il faut l'écrire sensément, c'est-à-dire, ne
             point se livrer à son imagination, se posséder dans les grands
             sujets, se soutenir dans les petits, sacrifier ce qui doit être
             omis, n'être ni trop diffus, ni trop serré. Mariana est un modèle
-            dans cette partie.</quote><note resp="editor">Dans les <hi
+            dans cette partie.</q><note resp="editor">Dans les <hi
               rend="italic">Instructions sur l'histoire</hi> (1677) du Père
             Rapin, on peut lire&#160;: «&#160;Écrire sensément, c'est aller
             droit au but en quelque matière que ce soit qu'on écrive, sans
@@ -2889,7 +2819,6 @@
             <reg>et</reg>
           </choice> une plate monotonie qui dégoûte. Par quels moyens
           pourrons-nous y réussir&#160;?</p>
-
         <p>Le succès en cela, repartit Euphorbe, dépend beaucoup de l'ordre <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -2916,7 +2845,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> voir en quel état sont nos fruits.</p>
-
       </div>
     </body>
   </text>

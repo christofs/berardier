@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-  
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="fra">
-    
     <fileDesc>
       <titleStmt>
-        <title>Essai sur le récit, ou Entretiens sur la manière de raconter. Édition électronique.</title>
+        <title>"Douzième entretien. Du roman" de : Essai sur le récit, ou Entretiens sur la manière
+          de raconter. Édition électronique.</title>
         <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
         <editor>Christof Schöch</editor>
-        <principal>Christof Schöch</principal>
       </titleStmt>
-      
       <editionStmt>
-        <edition>Version 0.6, 12/2010</edition>
-      </editionStmt> 
-      
+        <edition>Version 0.7, 09/2014</edition>
+      </editionStmt>
       <publicationStmt>
-        <p>Édition électronique publiée en ligne à l'adresse http://www.berardier.org sous licence Creative Commons BY-NC-SA 3.0 (Attribution-Noncommercial-Share Alike).</p>
+        <p>Texte libre de droits. Édition électronique publiée en ligne à l'adresse
+          http://tapas.neu.edu/berardier/essai/ sous licence Creative Commons Attribution 3.0
+          (CC-BY). Republication de l'édition électronique publiée en ligne à l'adresse
+          http://berardier.org en 2010.</p>
       </publicationStmt>
-      
       <sourceDesc>
         <bibl>
           <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
@@ -31,203 +28,1677 @@
           <extent>Format in-12, X-725 pages.</extent>
         </bibl>
       </sourceDesc>
-      
     </fileDesc>
-
-    
     <encodingDesc>
       <projectDesc>
-      <p>Cette édition fournit une édition accessible en ligne et commentée de l'Essai sur le récit, ou Entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut. </p>
+        <p>Cette édition fournit une édition accessible en ligne et commentée de l'Essai sur le
+          récit, ou Entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut.
+        </p>
       </projectDesc>
       <editorialDecl>
-        <p>L'édition électronique est réalisée au format XML et conforme au standard TEI, version 5, défini par la Text Encoding Initiative. Elle utilise un sous-ensemble d'éléments définis dans le TEI-Lite, ce sous-ensemble étant documenté dans un schéma XML. L'édition réunit une transcription diplomatique (graphies d'époque, coquilles, abréviations) et une version de lecture (graphies modernisées, coquilles corrigées, abréviations explicitées). L'édition fournit avec le texte des commentaires explicatifs, des références bibliographiques et un dossier critique. </p>
+        <p>L'édition réunit une transcription diplomatique (graphies d'époque, coquilles,
+          abréviations) et une version de lecture (graphies modernisées, coquilles corrigées,
+          abréviations explicitées).</p>
       </editorialDecl>
     </encodingDesc>
-    
     <revisionDesc>
-      <change when="2009-11-12" who="Christof Schöch">Transfer zu TEI-Lite, inkl. "choice". Desiderata: Zitate nicht kontrolliert. Indizierung.</change>
-      <change when="2009-11-15" who="Christof Schöch"> Introduit des blancs entre les paragraphes, pour une meilleure lisibilité. Desiderata: Verszitate, Verweise, Indizierung.</change>
+      <change when="2009-11-12" who="Christof Schöch">Transfer zu TEI-Lite, inkl. "choice".
+        Desiderata: Zitate nicht kontrolliert. Indizierung.</change>
+      <change when="2009-11-15" who="Christof Schöch"> Introduit des blancs entre les paragraphes,
+        pour une meilleure lisibilité. Desiderata: Verszitate, Verweise, Indizierung.</change>
       <change when="2009-11-28" who="Christof Schöch">Header information hinzugefügt.</change>
       <change when="2010-06-05" who="Christof Schöch">Korrekturen im Haupttext.</change>
-      <change when="2011-04-12" who="Christof Schöch">Updated header information, corrections to transcription.</change>
+      <change when="2011-04-12" who="Christof Schöch">Updated header information, corrections to
+        transcription.</change>
+      <change when="2014-09-06" who="Christof Schöch">Minor adjustments for TAPAS
+        publication.</change>
     </revisionDesc>
   </teiHeader>
-
-
-
-    <text>
+  <text>
     <body>
-    <div type="chapter" xml:id="ENT12">
-    <head>DOUZIÈME ENTRETIEN. <hi rend="italic">Du <choice><orig>Roman</orig><reg>roman</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> du <choice><orig>Conte</orig><reg>conte</reg></choice>.</hi></head>
-    
-    <p>Sur le soir du même jour, Timagène voyant son ami occupé avec ses gens d'affaire, <choice><orig>étoit</orig><reg>était</reg></choice> allé se promener, un livre à la main, sur les bords d'un canal assez étendu qui <choice><orig>formoit</orig><reg>formait</reg></choice> un agréable miroir, sous les fenêtres du <choice><orig>sallon</orig><reg>salon</reg></choice>.</p>
-    
-    <p>Euphorbe ne <choice><sic>fût</sic><corr>fut</corr></choice> pas plutôt débarrassé de quelques détails qu'entraîne nécessairement le soin d'une terre, qu'il vint le joindre. N'est-ce pas une indiscrétion, lui dit-il en l'abordant, de vous demander quelle lecture occupe ici votre loisir ?</p>
-    
-    <p>Celle d'un livre, répondit Timagène, que vous regarderez sans doute comme bien frivole, <choice><orig>&amp;</orig><reg>et</reg></choice> que j'ai pourtant trouvé parmi les vôtres&#160;: c'est ce qui doit me servir d'excuse auprès de vous. Vous en rirez, si vous voulez&#160;; je <choice><orig>lisois</orig><reg>lisais</reg></choice> les aventures du fameux <choice><orig>Don-Quichotte</orig><reg>Don Quichotte</reg></choice> de la Manche. <choice><orig>A</orig><reg>À</reg></choice> cette occasion, je me <choice><orig>proposois</orig><reg>proposais</reg></choice> de vous demander, par quelle raison ce roman est le seul qui se rencontre dans votre bibliothèque&#160;? Il me <pb xml:id="p670"></pb>semble, qu'il n'en <choice><orig>faudroit</orig><reg>faudrait</reg></choice> point avoir du tout, ou qu'il en  <choice><orig>faudroit</orig><reg>faudrait</reg></choice> avoir une collection plus <choice><sic>complette</sic><corr>complète</corr></choice>.</p>
-    
-    <p>C'est parce que je n'en veux avoir aucun, reprit Euphorbe, que j'ai fait l'acquisition de celui-là. J'<choice><orig>aurois</orig><reg>aurais</reg></choice> pu placer à côté le <choice><orig>Prince Fanferedin</orig><reg><hi rend="italic">Prince Fan-Férédin</hi></reg></choice> du <choice><orig>P.</orig><reg>Père</reg></choice> Bougeant.<note resp="editor">Ce texte parut en 1735. Il s'agit d'un récit de voyage allégorique et satirique qui critique notamment le rapport inégal entre un fil thématique ténu et les ornements qui ne seraient là que pour cacher cette faiblesse (voir chapitre XII). Voir Guillaume-Hyacinthe Bougeant, <hi rend="italic">Voyage merveilleux du prince Fan-Férédin dans la Romancie</hi>, 1735 (voir <ref target="/dossier/ouvrages">bibliographie</ref>). </note> L'un et l'autre est une critique ingénieuse des romans, et peut servir de préservatif contre l'envie même de les lire.</p> 
-    
-    <p>Le roman, répliqua Timagène, <choice><orig>paroit</orig><reg>paraît</reg></choice> cependant tenir un rang distingué dans la littérature. Son antiquité n'est pas douteuse. Dès les premiers âges du monde on <choice><orig>aimoit</orig><reg>aimait</reg></choice> à feindre et même a revêtir la fiction des <choice><orig>ornemens</orig><reg>ornements</reg></choice> de la <choice><orig>poësie</orig><reg>poésie</reg></choice>.<note resp="editor">C'est un argument souvent avancé à l'époque pour démontrer la noblesse du genre.</note></p>
-    
-    <p>Ne confondons point, repartit Euphorbe, le roman avec la fiction <choice><orig>&amp;</orig><reg>et</reg></choice> la <choice><orig>poësie</orig><reg>poésie</reg></choice>. Il est peut-être né de l'une ou de l'autre&#160;: mais il est difficile de <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice> à ses traits ceux qui lui ont donné le jour. Tout roman est une fiction, j'en conviens&#160;: mais toute fiction n'est pas un roman. L'antiquité de celle-ci remonte jusqu'à l'origine du monde. Nos anciens <choice><orig>ayeux</orig><reg>aïeux</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>sur-tout</orig><reg>surtout</reg></choice> les orientaux, <choice><orig>avoient</orig><reg>avaient</reg></choice> un goût décidé pour l'allégorie <choice><orig>&amp;</orig><reg>et</reg></choice> l'<choice><orig>êmblême</orig><reg>emblème</reg></choice>, et nos livres saints sont remplis de paraboles. Prétendra-t-on<pb xml:id="p671"></pb> trouver dans tout cela des romans&#160;? J'y vois des hommes qui veulent instruire leurs semblables d'un fait, ou même d'une vérité importante, <choice><orig>&amp;</orig><reg>et</reg></choice> qui cherchent à le faire d'une manière ingénieuse&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> vous pensez, sans doute, comme moi, qu'un <choice><orig>Auteur</orig><reg>auteur</reg></choice> romancier ne s'occupe pas beaucoup d'un pareil objet. Quant à la <choice><orig>poësie</orig><reg>poésie</reg></choice>, elle n'est nullement essentielle à l'ouvrage dont il s'agit. Il semble même qu'elle ne lui convient en aucune façon. Le <choice><orig>stile</orig><reg>style</reg></choice> du roman doit plus approcher de la simplicité de l'histoire, que des chants harmonieux de la <choice><orig>lire</orig><reg>lyre</reg></choice>. Cette raison <choice><orig>suffiroit</orig><reg>suffirait</reg></choice> seule pour empêcher de confondre le <choice><orig>Télémaque</orig><reg><hi rend="italic">Télémaque</hi></reg></choice> avec aucune <choice><orig>espece</orig><reg>espèce</reg></choice> de roman.<note resp="editor">Ce passage est cité par Albert Chérel, <hi rend="italic">Fénelon au XVIIIe siècle en France</hi>, 1917, (voir <ref target="/node/27">bibliographie</ref>), p. 448.</note></p>
-    
-    <p>Néanmoins, reprit Timagène, nous avons de vrais romans de la plus haute antiquité. Les naissances des <choice><orig>différens</orig><reg>différents</reg></choice> empires, ne sont-elles pas à proprement parler autant de romans&#160;? Témoin l'histoire de la louve, qui allaita Rémus <choice><orig>&amp;</orig><reg>et</reg></choice> Romulus&#160;: témoins les faits du grand Artus, des Chevaliers de la table ronde <choice><orig>&amp;</orig><reg>et</reg></choice> tant d'autres.</p>
-    
-    <p>Convenons d'abord, s'il vous plaît, repartit Euphorbe, de l'idée précise que nous devons nous faire du roman. Je crois l'avoir trouvée dans un orateur latin<pb xml:id="p672"></pb> du commencement de ce siècle ;<note resp="author">In quibus &amp; fingitur et amatur&#160;; nec alius, praeter amorem, unis intenditur. <hi rend="italic">Porei orat. de lib. Rom.</hi></note><note resp="editor">Bérardier fait référence ici au « Discours sur les romans » du Père Charles Porée&#160;: <hi rend="italic">De Libris qui vulgo dicuntur romanenses</hi>, prononcé le 25 février 1736 au collège Louis-le-Grand (voir <ref target="/node/20">bibliographie</ref>). C'est une critique assez féroce du genre romanesque.</note> <quote rend="inline">C'est, dit-il, un compose de fiction et d'amour, où l'auteur ne propose d'autre objet que cette passion.</quote> Un écrivain moderne, dans le discours qu'il a mis à la tête d'un<note resp="author"><hi rend="italic">Toni et Clairette</hi>.</note><note resp="editor">Il s'agit du texte suivant&#160;: Nicolas Bricaire de La Dixmerie, « Discours sur l'origine, les progrès et le genre des Romans », in&#160;: <hi rend="italic">Toni et Clairette</hi>, Paris&#160;: Didot l'aîné, 1773, vol. 1, p. v-lxxvi.</note> de ses romans, <choice><orig>reconnoît</orig><reg>reconnait</reg></choice> la vérité de cette définition, lorsqu'il assure que <quote rend="italic">l'amour fait la base de ces sortes d'ouvrages</quote>. Sur ce principe, vous voyez que ces récits merveilleux dont on a enveloppé l'origine des empires, sont plutôt des fables que des romans. Néanmoins si vous voulez leur donner ce nom, je ne contesterai point avec vous là-dessus&#160;: j'avouerai même qu'il en est à qui ce titre est incontestablement dû, <choice><orig>&amp;</orig><reg>et</reg></choice> qui remontent à des temps fort reculés&#160;: tel est celui d'Achilles Tatius et quelques autres. Mais cette ancienneté ne m'inspirera pas plus de respect pour leur nom. Je leur <choice><orig>appliquerois</orig><reg>appliquerais</reg></choice> volontiers ce que le fameux Marius <choice><orig>disoit</orig><reg>disait</reg></choice> des grands de Rome, que leur noblesse <choice><orig>étoit</orig><reg>était</reg></choice> un flambeau qui ne <choice><orig>servoit</orig><reg>servait</reg></choice> qu'à éclairer<pb xml:id="p673"></pb> leurs vices. Si de tout temps il y a eu des romans, je vois aussi que de tout temps on a réclamé contre ces sortes d'ouvrages&#160;: je vois que les beaux <choice><orig>siécles</orig><reg>siècles</reg></choice> d'Athènes <choice><orig>&amp;</orig><reg>et</reg></choice> de Rome les ont ignorés, où, s'il les ont connus, qu'ils n'en ont pas fait grand cas, puisqu aucun n'a mérité d'arriver jusqu'à nous.<note resp="editor">Depuis l’étude désormais classique de Georges May sur <hi rend="italic">Le Dilemme du roman au XVIIIe siècle</hi> (1963, voir <ref target="/node/21">bibliographie</ref>), on sait que le roman, promis à devenir le genre littéraire dominant au XIXe siècle, est en quête de légitimation au XVIIIe siècle . Euphorbe, notamment, ne fait dans les pages qui suivent que reprendre un certain nombre des arguments les plus courants.</note></p>
-    
-    <p>Il est vrai, répliqua Timagène, que dans la généalogie du roman, cet intervalle forme une lacune assez considérable. Cependant on peut distinguer dans cette <choice><orig>espece</orig><reg>espèce</reg></choice> de composition trois <choice><orig>différens</orig><reg>différents</reg></choice> âges&#160;; celui des premiers romans, qu'on peut appeler les romans grossiers <choice><orig>&amp;</orig><reg>et</reg></choice> que je vous abandonne&#160;; le second est celui des romans de chevalerie, tels que ceux de l'archevêque Turpin, les <choice><orig>Rollands</orig><reg>Rolands</reg></choice>, les Artus <choice><orig>&amp;</orig><reg>et</reg></choice> tant d'autres&#160;; le <choice><orig>troisieme</orig><reg>troisième</reg></choice> est le nôtre, où le roman est devenu honnête et poli, et s'est dégagé de ce merveilleux absurde et gigantesque, qui le <choice><orig>défiguroit</orig><reg>defigurait</reg></choice> autrefois. Croyez-vous que ces derniers soient si condamnables&#160;? Il me semble avoir lu quelque part, que Photius lui-même dans sa bibliothèque, <choice><orig>approuvoit</orig><reg>approuvait</reg></choice> la lecture de ces sortes de livres.</p>
-    
-    <p>Vous avez raison, interrompit Euphorbe, mais de quels romans permet-il <pb xml:id="p674"></pb>la lecture ?<note resp="author"><quote>Ex quibus duplicem fructum, neque eum mediocrem, consequi licet&#160;: tum quod maleficens et fascinorosus quivis, etsi millies effugisse videatur, tandem aliquando meritas poenas indicatur dedisse&#160;: tum quod ostendantur insontes quam plurimi, cum in maximum periculum et propinquam discrimen venerint, praeter spem omnem plerumque servati.</quote></note> <quote rend="inline">De ceux qui nous présentent deux objets également utiles&#160;; là un scélérat enfin puni de ses forfaits&#160;; après avoir échappé mille fois au châtiment qu'il méritait&#160;; ici un homme vertueux éprouvé par les plus grands revers, par les dangers les plus pressants, et qui retrouve contre toute espérance le bonheur et la paix.</quote> À ces traits <choice><orig>reconnoissez</orig><reg>reconnaissez</reg></choice>-vous les nôtres&#160;? Retrouvez-vous ces héros dont la victoire la plus éclatante consiste à triompher de l'honneur d'une princesse, <choice><orig>&amp;</orig><reg>et</reg></choice> à répandre le sang d'un rival ?</p>
-    
-    <p>Mais enfin, ajouta Timagène, vous ne condamnez pas un délassement honnête, qui puisse de temps en temps faire diversion à des occupations sérieuses. Combien de gens à qui le goût, les circonstances, l'état, la fortune même ne permettent pas de prendre part<pb xml:id="p675"></pb>aux <choice><orig>divertissemens</orig><reg>divertissements</reg></choice> ordinaires du reste de la société&#160;! Ils n'ont donc d'autre ressource que la lecture de ces livres, qui <choice><orig>paroissent </orig><reg>paraissent</reg></choice> d'ailleurs convenir à tout homme de lettres, par la <choice><orig>maniere</orig><reg>manière</reg></choice> dont ils sont écrits.</p>
-    
-    <p>Avouer qu'un ouvrage n'a d'autre but que le simple amusement du lecteur, poursuivit Euphorbe, c'est en donner une idée bien mince, pour ne rien dire de plus. Eh&#160;! pourquoi ne <choice><orig>seroit</orig><reg>serait</reg></choice>-on pas utile en amusant&#160;? N'est-ce pas là l'objet naturel de tout ce qui mérite le nom de belles-lettres&#160;? J'en appelle encore ici au suffrage d'un auteur de romans que j'ai déjà cité.<note resp="author"><choice><orig>Disc. sur les Rom.</orig><reg><hi rend="italic">Discours sur les romans</hi>,</reg></choice> <choice><orig>Préf.</orig><reg>préface</reg></choice> de <choice><orig>Toni et Clairette</orig><reg><hi rend="italic">Toni et Clairette</hi></reg></choice>.</note><note resp="editor">Bérardier vient effectivement de citer le « Discours sur les romans », par Bricaire de la Dixmerie (voir page <ref target="/node/8#p672">672</ref>).</note> <quote rend="inline">Le roman, dit-il, est peut-être aujourd'hui le genre de littérature que les Anglois cultivent le plus avantageusement. Il est devenu entre leurs mains une production utile, ingénieuse, souvent même une production raisonnable. … C'est un secret que nos romanciers français ignorèrent où dédaignèrent trop longtemps. Nous avions, il est vrai, le roman comique de Scarron et le roman bourgeois de <choice><orig>Furetiere</orig><reg>Furetière</reg></choice>&#160;; nous<pb xml:id="p676"></pb> avions même le <choice><orig>Gilblas</orig><reg><hi rend="italic">Gil Blas</hi></reg></choice> de <choice><orig>le Sage</orig><reg>Lesage</reg></choice>&#160;: mais tous ces romans <choice><orig>peignoient</orig><reg>peignaient</reg></choice> des ridicules, sans attaquer les vices, sans même nous faire bien <choice><orig>appercevoir</orig><reg>apercevoir</reg></choice> le danger de certaines passions, sans inspirer aucun sentiment louable. On sait qu'un roman ne doit pas être un sermon&#160;; qu'il ne doit rien présenter d'austère, où du moins qu'il doit mettre à l'écart l'enveloppe de l'austérité&#160;: mais le vase entouré de miel doit offrir au <choice><sic>tempéramment</sic><corr>tempérament</corr></choice> le plus délicat un breuvage salutaire. S'il ne renferme que du miel, il pourra ne faire qu'affadir celui qu'on prétendait soulager.</quote><note resp="editor">Dixmerie, « Discours sur les romans », 1773 (<ref target="/node/20">bibliographie</ref>), p. xxv.</note> Ce témoignage ici ne <choice><sic>peut-être</sic><corr>peut être</corr></choice> suspect. C'est celui d'un <choice><orig>Auteur</orig><reg>auteur</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un <choice><orig>Auteur</orig><reg>auteur</reg></choice> de romans. Sans examiner si les <choice><orig>Anglois</orig><reg>Anglais</reg></choice> ont mis autant d'utilité dans les leurs que le dit cet écrivain, <choice><orig>&amp;</orig><reg>et</reg></choice> si une production <choice><orig>peut-être</orig><reg>peut être</reg></choice> utile, sans être raisonnable, comme il <choice><orig>paroît</orig><reg>paraît</reg></choice> l'avancer, je m'arrête seulement au principe qu'il suppose et qu'il établit par ces mots&#160;; <quote rend="italic">Le vase entouré de miel doit offrir un breuvage salutaire. S'il ne renferme que du miel, il pourra ne faire qu'affadir</quote>.<note resp="editor">L'image du miel ou du sucre qui tempère et cache la médecine amère remonte à Platon. On trouve l'idée au XVIIe siècle, par exemple chez Charles Sorel (<hi rend="italic">Histoire comique de Francion</hi>, 1626) qui la reprend à la <hi rend="italic">Jérusalem délivrée</hi> du Tasse ou chez le père Rapin (<hi rend="italic">Réflexions sur la poétique d'Aristote</hi>, 1674). Au XVIIIe siècle, on la trouve chez Voltaire, Marmontel, Rousseau ou Rétif de la Bretonne. Sade détourne l'image ironiquement, dans l'épigraphe d’<hi rend="italic">Aline et Valcour</hi> (1788/1795) qu'il emprunte au <hi rend="italic">De Rerum natura</hi> de Lucrèce (livre IV, vers 11-17).</note> C'est dire bien clairement que le roman n'atteint point son objet, s'il se contente d'être amusant&#160;; s'il peint <pb xml:id="p677"></pb> des ridicules, sans attaquer les vices. Mais que sera-ce donc si le miel renferme du poison&#160;?</p>
-    
-    <p>Je suis <choice><orig>tout-à-fait</orig><reg>tout à fait</reg></choice> d'accord avec votre <choice><orig>Auteur</orig><reg>auteur</reg></choice>, reprit Timagène, sur ce qu'il dit de l'inutilité du roman. Je <choice><orig>ferois</orig><reg>ferais</reg></choice> volontiers le même reproche au théâtre comique. Il se propose pour unique objet le ridicule&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>par-là</orig><reg>par là</reg></choice> il ne fait aucune impression pour la réformation des mœurs. Quelques-unes de nos comédies nous présentent des affectations, des minauderies, des <choice><orig>foiblesses</orig><reg>faiblesses</reg></choice> de <choice><orig>caractere</orig><reg>caractère</reg></choice>, que nous plaignons, plus que nous ne les haissons&#160;: telles sont l'étourdi, le distrait, les femmes savantes&#160;: d'autres semblent déclarer la guerre à des vices plus essentiels&#160;; mais en ne les attaquant que du côté du ridicule, leurs efforts sont presque toujours sans fruit. D'ailleurs il en est des <choice><orig>caracteres</orig><reg>caractères</reg></choice> dramatiques comme de ces statues faites pour être placées dans un point de vue éloigné. On les porte toujours au-dessus des proportions naturelles, afin qu'elles produisent leur effet. De même l'<choice><orig>Auteur</orig><reg>auteur</reg></choice> dramatique charge les couleurs et grossit les traits de ses principaux personnages pour les rendre plus <choice><orig>plaisans</orig><reg>plaisants</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> plus ridicules. Que le misantrope soit moins <pb xml:id="p678"></pb> brusque, moins bourru<choice><orig>&#160;;</orig><reg>,</reg></choice> ce sera presque un homme vertueux<choice><orig>&#160;:</orig><reg>,</reg></choice> on <choice><orig>auroit</orig><reg>aurait</reg></choice> quelque envie de lui ressembler<choice><orig>&#160;:</orig><reg>&#160;;</reg></choice> ôtez au glorieux un peu de cette morgue, de cette arrogance outrée avec laquelle il traite tout le genre humain, nous ne verrons plus en lui qu'un de ces fils de la fortune que nous rencontrons tous les jours.<note resp="editor">La ponctuation dans la première partie de la phrase a ici été modifiée, uniquement dans le texte de lecture, en la calquant sur celle de la seconde partie de la phrase, et dans l'objectif d'une meilleure lisibilité.</note> Qu'arrive-t-il de là&#160;? Que le spectateur, ne trouvant point en lui-même cet excès où le personnage comique porte sa passion, rit avec les autres, sans s'apercevoir qu'il rit de lui-même, et sans penser à se réformer.</p>
-    
-    <p>Votre reproche me <choice><orig>paroît</orig><reg>paraît</reg></choice> fort juste, repartit Euphorbe. C'est le moindre de ceux qu'on peut faire au roman. S'il n'<choice><orig>étoit</orig><reg>était</reg></choice> qu'inutile, il <choice><orig>mériteroit</orig><reg>mériterait</reg></choice> le mépris&#160;; mais il est à craindre, par l'influence qu'il a toujours eue sur toutes les parties de la société. Quel désordre vos romans de chevalerie n'ont-ils pas <choice><sic>jetté</sic><corr>jeté</corr></choice> dans l'histoire, en mêlant leurs <choice><orig>chimeres</orig><reg>chimères</reg></choice> aux véritables <choice><orig>événemens</orig><reg>événements</reg></choice>, en bouleversant les <choice><orig>tems</orig><reg>temps</reg></choice> et les lieux où ils se sont passés&#160;? Vous en conveniez tout à l'heure, quand vous disiez que l'origine de chaque empire est une <choice><orig>espece</orig><reg>espèce</reg></choice> de roman.<note resp="editor">Timagène vient de citer une phrase de Bricaire de la Dixmerie allant dans ce sens&#160;; voir page <ref target="/node/8#p672">672</ref>.</note> Quel tort n'a-t-il point fait à la tragédie, où tous les héros même de l'antiquité<pb xml:id="p679"></pb> la plus reculée sont devenus des﻿ Amadis, et quelquefois des Céladons&#160;? Le farouche, l'indomptable Achille, en venant jusqu'à nous, à bien changé de caractère. Nos <choice><orig>François</orig><reg>français</reg></choice> <choice><orig>éclateroient</orig><reg>éclateraient</reg></choice> de rire, si on lui <choice><orig>mettoit</orig><reg>mettait</reg></choice> aujourd'hui dans la bouche, en parlant à Iphigénie, ce que lui <choice><orig>fasoit</orig><reg>faisait</reg></choice> dire sur le théâtre d'Athènes le Racine des Grecs&#160;: <quote rend="italic">Madame, je n'eus jamais que du respect pour vous. Ce n'est point l'amour qui anime mes transports contre votre père, c'est l'injustice de ses procédés, et l'abus de mon nom, dont il se sert pour vous traîner au pied des autels.</quote> Voilà, s'<choice><orig>écrieroit</orig><reg>écrierait</reg></choice>-on, un cavalier bien peu galant&#160;! Pourquoi aussi Euripide n'<choice><orig>avoit</orig><reg>avait</reg></choice>-il point lu de romans&#160;? Au reste, ces <choice><orig>inconvéniens</orig><reg>inconvénients</reg></choice> sont peu de chose en comparaison du préjudice qu'ils apportent aux mœurs. Ces sortes d'ouvrages se proposent bien plus d'émouvoir le cœur par le ressort des passions, que d'amuser l'esprit par les <choice><orig>graces</orig><reg>grâces</reg></choice> du <choice><orig>stile</orig><reg>style</reg></choice>. <choice><orig>De-là</orig><reg>De là</reg></choice> ces intrigues entrelacées, pour ainsi dire, les unes dans les autres, ces situations touchantes, ces révolutions subites et attendrissantes, où l'on passe de l'excès de la <choice><orig>misere</orig><reg>misère</reg></choice> au comble du bonheur, ou de l'état le plus brillant à la plus cruelle infortune.<pb xml:id="p680"></pb> Dans ces agitations, pour qui ménage-t-on l'intérêt et la sensibilité du lecteur&#160;? Pour un prince, ou une princesse, dont souvent tout le mérite, et toute la vertu se réduisent à aimer. Quel est le personnage odieux&#160;? C'est un <choice><orig>pere</orig><reg>père</reg></choice>, un époux, un oncle tout occupé de conserver l'honneur d'une femme, d'une fille, d'une parente. <choice><orig>Par-tout</orig><reg>Partout</reg></choice> il est question de l'amour&#160;: <choice><orig>par-tout</orig><reg>partout</reg></choice> on s'étudie à peindre sa naissance, ses progrès, ses inquiétudes, ses joies, ses tristesses ;<choice><orig>&amp;</orig><reg> et</reg></choice> on a soin de répandre sur tout cela le plus de fleurs qu'il est possible. Je vous laisse à penser quels effets doivent produire ces portraits sur un jeune cœur, encore sans défiance, et qui par son propre penchant est d'intelligence avec ses ennemis.</p>
-    
- <p>Ne <choice><orig>pourroit</orig><reg>pourrait</reg></choice>-on pas vous dire, répliqua Timagène, que ces descriptions <choice><orig>familieres</orig><reg>familières</reg></choice> aux romans, sont plus faites pour guérir la passion de l'amour, que pour l'inspirer&#160;? Quoi de plus propre à en dégoûter que le détail des malheurs qu'il entraîne, des vicissitudes qu'il éprouve, des chagrins auxquel il expose ?</p>
- 
- <p>Eh&#160;! mon cher ami, répondit Euphorbe, faut-il mettre le feu à sa maison,<pb xml:id="p681"></pb> pour la préserver de l'incendie&#160;? Si les <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> de romans se <choice><orig>proposoient</orig><reg>proposaient</reg></choice> le but que vous leur prêtez, nous <choice><orig>présenteroient</orig><reg>présenteraient</reg></choice>-ils l'amour sous les dehors les plus enchanteurs&#160;? Ses blessures, ses larmes, <choice><orig>auroient</orig><reg>auraient</reg></choice>-elles des charmes&#160;? Son esclavage <choice><orig>seroit</orig><reg>serait</reg></choice>-il un empire&#160;? Ses fers <choice><orig>seroient</orig><reg>seraient</reg></choice>-ils des roses&#160;? On représente hideux, ce qu'on veut faire haïr.<note resp="editor">Dans son <hi rend="italic">Idée sur le roman</hi>, 1799 (<ref target="/node/21">bibliographie</ref>), Sade détournera l'image des roses pour justifier, avec une ironie teintée de sarcasme, sa peinture des scélérats dans <hi rend="italic">Aline et Valcour</hi>&#160;: «&#160;Je dois enfin répondre au reproche que l'on me fit, quand parut Aline et Valcour. Mes pinceaux, dit-on, sont trop forts, je prête au vice des traits trop odieux&#160;; en veut-on savoir la raison&#160;? Je ne veux pas faire aimer le vice&#160;; je n'ai pas comme Crébillon et comme Dorat, le dangereux projet de faire adorer aux femmes les personnages qui les trompent, je veux, au contraire, qu'elles les détestent&#160;; c'est le seul moyen qui puisse les empêcher d'en être dupes&#160;; et, pour y réussir, j'ai rendu ceux de mes héros qui suivent la carrière du vice tellement effroyables, qu'ils inspireront bien sûrement ni pitié ni amour&#160;; en cela, j'ose le dire, je deviens plus moral que ceux qui se croient permis de les embellir&#160;; les pernicieux ouvrages de ces auteurs ressemblent à ces fruits de l'Amérique qui, sous le plus brillant coloris, portent la mort dans leur sein&#160;; cette trahison de la nature, dont il ne nous appartient pas de dévoiler le motif, n'est pas faite pour l'homme&#160;; jamais enfin, je le répète, jamais je ne peindrai le crime que sous les couleurs de l'enfer, je veux qu'on le voie à nu, qu'on le craigne, qu'on le déteste, et je ne connais point d'autre façon pour en arriver là que le montrer avec toute l'horreur qui le caractérise. Malheur à tous ceux qui l'entourent de roses&#160;! Leurs vues ne sont pas aussi pures, et je ne les copierai jamais&#160;» (p.&#160;62).</note> Un seul exemple, choisi parmi cent autres, vous prouvera plus efficacement encore, que dans ces écrits on songe bien peu aux intérêts de la vertu. Je vais vous donner en deux mots un précis fidèle<note resp="editor">La graphie de l'original est ici plus moderne que dans le reste du texte.</note> d'un roman que je ne vous nommerai point.<note resp="editor">Ce roman, s'il existe, n'a pas en tout cas pu être identifié.</note> Après l'avoir entendu, vous en jugerez comme il vous plaira. Une jeune personne, nommée Cécile, pour éviter de suivre son <choice><orig>pere</orig><reg>père</reg></choice> dans un gouvernement en Amérique, et de s'éloigner <choice><orig>par-là</orig><reg>par là</reg></choice> du comte d'<choice><orig>Egremont</orig><reg>Égremont</reg></choice> son amant, de concert avec ce dernier, se déguise en page, et sort de la maison paternelle, accompagnée d'un certain nombre de gens, que son amant lui <choice><orig>avoit</orig><reg>avait</reg></choice> donnés. De toute cette escorte les uns meurent en chemin, les autres sont massacrés par les voleurs dans le passage des Pyrénées. Cécile échappe à ce carnage et est seule dans une cabane, au milieu de ces<pb xml:id="p682"></pb> ﻿montagnes. Elle y exprime de la <choice><orig>maniere</orig><reg>manière</reg></choice> la plus touchante son désespoir et sa douleur de se voir séparée de son amant. Dans cette solitude, elle est rencontrée par un <choice><orig>françois</orig><reg>français</reg></choice>, qui, trompé par son habillement, l'emmené avec lui, et la place chez sa sœur en qualité de page. Ce déguisement donne lieu a des scènes bizarres. La sœur devient d'abord amoureuse du prétendu page, <choice><orig>&amp;</orig><reg>et</reg></choice> lorsqu'elle est informée de son sexe, elle se permet des libertés qui font naître des soupçons dans l'esprit de son <choice><orig>frere</orig><reg>frère</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> se portent enfin à mettre un jour l'épée à la main, <choice><orig>&amp;</orig><reg>et</reg></choice> à blesser légèrement Cécile, dont il devient amoureux à son tour, après qu'on l'a instruit de son histoire. Cécile prend le parti d'entrer dans un couvent. Elle y trouve la sœur du comte d'<choice><orig>Egremont</orig><reg>Égremont</reg></choice>. Celui-ci arrive à Paris quelques jours après. Sa sœur l'instruit du lieu où est son amante&#160;: il lui rend visite et apprend que le <choice><orig>françois</orig><reg>français</reg></choice>, dont nous avons parlé, est son rival. Il l'appelle en duel&#160;; ils se battent&#160;: l'un et l'autre périt dans le combat, et Cécile, en apprenant la mort du comte, expire de douleur. Voilà l'esquisse de cette aventure romanesque. Je vous demande maintenant quelle impression elle doit faire sur nos mœurs ?</p>
- 
- <p><pb xml:id="p683"></pb>Je ne peux pas disconvenir, répondit Timagène, qu'elle n'est pas capable d'en produire une bien bonne. L'exemple d'une jeune personne qui sacrifie à sa passion, son honneur, les devoirs que lui imposent le nom de fille, <choice><orig>&amp;</orig><reg>et</reg></choice> le respect pour les <choice><orig>loix</orig><reg>lois</reg></choice>, n'est pas un trop bel exemple à suivre. Son déguisement, <choice><orig>&amp;</orig><reg>et</reg></choice> les aventures qu'il fait naître, me <choice><orig>paroissent</orig><reg>paraissent</reg></choice> avoir quelque chose d'indécent. Ce <choice><orig>seroit</orig><reg>serait</reg></choice>, je pense, une mauvaise excuse de dire, que les malheurs et la mort de Cécile inspirent de l'horreur pour sa conduite. On sent que tout l'intérêt est pour elle, <choice><orig>&amp;</orig><reg>et</reg></choice> que ses infortunes ne font que l'augmenter&#160;: on est attendri par ses plaintes&#160;: on est plus porté à gémir sur son sort, qu'à la condamner. Si on veut qu'elle meure de douleur, n'est-ce pas pour rendre plus admirable cette constante fidélité dont elle est la victime&#160;? En un mot, il me semble que tout l'art de l'auteur tend à nous faire répandre des pleurs sur le tombeau de cette <choice><orig>espece</orig><reg>espèce</reg></choice> d'héroïne, d'un nouveau genre.</p>
- 
- <p>Vous ne dites rien, poursuivit Euphorbe, de cette catastrophe sanglante, où les deux rivaux s'arrachent la vie, pour le digne objet de leur passion. Il est peu de romans qui ne présentent<pb xml:id="p684"></pb> quelqu'un de ces cartels, procrits par toutes les <choice><orig>loix</orig><reg>lois</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> si funestes à la France&#160;; et l'on peut dire que s'ils n'ont pas donné naissance aux duels, ils n'ont pas peu contribué à les accréditer. Ils ont substitué le point d'honneur au véritable honneur, <choice><orig>&amp;</orig><reg>et</reg></choice> tel qui <choice><orig>trembleroit</orig><reg>tremblerait</reg></choice> peut-être sur la <choice><orig>bréche</orig><reg>brèche</reg></choice>, en servant son prince et la patrie, affronte la mort en champ clos, pour les beaux yeux d'une femme, ou pour venger une injure, souvent plus imprudente que criminelle.</p>
- 
- <p>Ce que vous venez de dire, reprit Timagène, me rappelle quelques vers de M. Arnaud d'Andilly, qui ont bien du rapport avec votre façon de penser.<note resp="editor">Il s'agit de Robert Arnauld d’Andilly (1589-1674), conseiller d’État, proche de Marie de Médicis, fervent catholique.</note> Voici comme sa muse apostrophe les romans.</p>
- 
- <p><quote rend="verse">
-    <l>Enchanteurs des esprits, qui par de fausses peines </l>
-    <l>Allumez un vrai feu dans le fond de nos veines :</l>
-    <l>Plus vos discours trompeurs paraissent innocents, </l>
-    <l>Plus leur poison pénètre, et leurs traits sont perçants, </l>
-    <l>Et moins l'esprit résiste à l'effort de leurs charmes.</l>
-    <l><pb xml:id="p685"></pb>Vous troublez la raison par de mortels plaisirs&#160;; </l>
-    <l>Vous flattez notre erreur, et lui donnez des armes </l>
-    <l>Pour combattre en nos cœurs les plus chastes désirs.</l>
-  </quote></p>
-    
-    <p>Si cette <choice><orig>poësie</orig><reg>poésie</reg></choice> n'est pas des plus brillantes, vous en trouverez assurément les pensées sages et vraies. Enfin je vois bien qu'il faut prendre ici le parti de faire main basse sur tous les romans et sur tous les contes&#160;; car je ne crois pas que vous fassiez plus de <choice><orig>grace</orig><reg>grâce</reg></choice> à ceux-ci qu'aux premiers.</p>
-    
-    <p>Le conte, réprit Euphorbe, a beaucoup d'affinité avec le roman. Il est à ce dernier, <choice><orig>à-peu-près</orig><reg>à peu près</reg></choice>, ce que la comédie est à la tragédie&#160;; avec cette différence, que le roman renferme plus de <choice><orig>matiere</orig><reg>matière</reg></choice> que le conte, et par conséquent est bien plus étendu.<note resp="editor">Ce dernier passage de l’<hi rend="italic">Essai sur le récit</hi> est cité par Nicole Guenier, « Pour une définition du conte », 1970 (voir <ref target="/node/27/">bibliographie</ref>), p. 431.</note> Le premier nous donne le détail de toute la vie, ou d'une grande partie de la vie de ses héros&#160;: le second est le récit d'une action particulière, qu'on peut attribuer à des personnages de tout état et de toute condition. Je n'aurai pas en effet plus d'égards pour les uns que pour les autres, quand ils se trouveront dans la même classe.<note resp="editor">C'est-à-dire, <hi rend="italic">même s'ils se trouveront dans la même classe</hi>.</note> <pb xml:id="p686"></pb>Accorderiez-vous votre suffrage, exigeriez-vous que je donnasse le mien, à des aventures capables de faire rougir la vertu la plus équivoque&#160;? Ils sont bien écrits, sans doute&#160;: tant pis. Ils n'en sont que plus pernicieux. Et je ne parle pas ici seulement de ceux qui portent, pour ainsi dire, sur le front l'empreinte de leur infamie, mais aussi de ceux qu'on prétend faire valoir de nos jours, en disant qu'ils couvrent les objets d'une gaze <choice><orig>légere</orig><reg>légère</reg></choice>&#160;; gaze infidèle, qui ne voile rien, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne sert qu'à irriter la curiosité <choice><orig>&amp;</orig><reg>et</reg></choice> les passions.<note resp="editor">Le gaze dans le discours est un topos du discours romanesque. Il apparaît par exemple chez Sade, dans <hi rend="italic">Aline et Valcour</hi>.</note> Si l'objet est honnête, il doit <choice><orig>paroître</orig><reg>paraître</reg></choice> dans tout son jour&#160;; s'il ne l'est pas, il faut l'ensevelir dans les <choice><orig>ténébres</orig><reg>ténèbres</reg></choice> les plus profondes. Cependant vous me prêtez plus de rigidité, que je ne veux en avoir moi-même. Je ne prétends point proscrire tous les romans et tous les contes, <choice><sic>tels</sic><corr>quels</corr></choice><note resp="editor">Il semble bien s'agir ici, dans l'original, d'une coquille.</note> qu'ils puissent être. Pensez-vous qu'on n'en puisse pas composer qui soient favorables à la vertu et aux mœurs ?</p>
-    
-    <p>Je crois tout le contraire, répliqua Timagene. Eh&#160;! qui pourrait empêcher qu'on ne prit pour sujet d'un roman les actions d'un grand homme qui <choice><orig>intéresseroit</orig><reg>intéresserait</reg></choice> par ses malheurs, et plus encore par ses vertus et son mérite&#160;? Cela n'est <pb xml:id="p687"></pb>pas plus difficile à feindre<note resp="editor">Sic. On aurait pu s'attendre, également, au verbe 'peindre'.</note> qu'un héros amoureux. Il <choice><orig>passeroit</orig><reg>passerait</reg></choice> par mille traverses&#160;; il <choice><orig>éprouveroit</orig><reg>éprouverait</reg></choice> les revers les plus accablants&#160;; il se <choice><orig>trouveroit</orig><reg>trouverait</reg></choice> exposé aux dangers les plus affreux&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> toujours il <choice><orig>échapperoit</orig><reg>échapperait</reg></choice>, tantôt par son intrépidité, tantôt par son adresse, quelquefois par des conjonctures heureuses et imprévues. Dans la suite de ces <choice><orig>événemens</orig><reg>événements</reg></choice>, je ne vois pas qu'il fut impossible de ménager ces révolutions frappantes qui étonnent l'esprit du lecteur, ces situations délicates, intéressantes, qui le tiennent en suspens, <choice><orig>&amp;</orig><reg>et</reg></choice> lui causent une <choice><orig>espece</orig><reg>espèce</reg></choice> de trouble délicieux. On <choice><orig>mettroit</orig><reg>mettrait</reg></choice> en jeu le ressort des passions, mais ce <choice><orig>seroit</orig><reg>serait</reg></choice> pour arriver au bien.</p>
-    
-    <p>Des gens d'esprit, ajouta Euphorbe, ont désiré que le théâtre fût mis à la portée de tous les citoyens, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'en conséquence on en bannit l'amour, où du moins qu'on n'y donnât accès qu'à celui qui est consacré par les <choice><orig>loix</orig><reg>lois</reg></choice> divines et humaines. Il semble qu'alors, avec quelques autres précautions encore, la scène <choice><orig>rentreroit</orig><reg>rentrerait</reg></choice> dans ses droits naturels, et <choice><orig>reviendroit</orig><reg>reviendrait</reg></choice> à sa <choice><orig>permiere</orig><reg>première</reg></choice> origine. À en juger en effet par quelques tragédies des anciens, ce spectacle <choice><orig>étoit</orig><reg>était</reg></choice>, et <choice><orig>devoit</orig><reg>devait</reg></choice> être une école de vertu. Cette idée <pb xml:id="p688"></pb>qui a paru chimérique a bien d'autres, a pourtant été appuyée en partie par l'expérience. Nos grands maîtres ont prouvé qu'elle n'<choice><orig>étoit</orig><reg>était</reg></choice> point impraticable. Polieucte, Athalie, Mérope font verser des pleurs, qu'on a point à se reprocher.<note resp="editor">Le terme négatif initial n'est pas supplée, ici.</note> Cinna n'<choice><orig>intéresseroit</orig><reg>intéresserait</reg></choice> pas moins, quand la passion du héros pour Emilie n'<choice><orig>auroit</orig><reg>aurait</reg></choice> pas lieu. On y <choice><orig>verroit</orig><reg>verrait</reg></choice> toujours un grand homme prêt à périr sous le poignard d'un furieux, qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> comblé de biens. On le <choice><orig>verroit</orig><reg>verrait</reg></choice> avec transport découvrir ce complot, <choice><orig>&amp;</orig><reg>et</reg></choice> ne s'en venger que par un pardon général, <choice><orig>&amp;</orig><reg>et</reg></choice> de nouveaux bienfaits. Ce qui réussit dans l'action théâtrale, <choice><orig>seroit</orig><reg>serait</reg></choice>-il impossible dans le récit&#160;? Parmi les contes moraux, j'en <choice><orig>lisois</orig><reg>lisais</reg></choice> un ces jours-ci qui peut servir de preuve à ce que nous disons, si l'on en excepte certains détails d'amourettes, qu'on <choice><orig>auroit</orig><reg>aurait</reg></choice> pu aisément supprimer. En voici une courte analyse. Une <choice><orig>mere</orig><reg>mère</reg></choice> reste veuve avec deux enfants. Elle montre une prédilection aveugle pour l'aîné, jeune homme sans mérite <choice><orig>&amp;</orig><reg>et</reg></choice> sans <choice><orig>talens</orig><reg>talents</reg></choice>. Le cadet, poussé à bout par la dureté de sa <choice><orig>mere</orig><reg>mère</reg></choice>, passe dans les îles, où il fait en peu de temps une fortune brillante. Cependant la <choice><orig>mere</orig><reg>mère</reg></choice>, toute occoupée de son aîné, lui fait conclure <pb xml:id="p689"></pb>un mariage avantageux, <choice><orig>&amp;</orig><reg>et</reg></choice> lui cède tous ses biens. Le jeune homme ne tarde pas à se ruiner par la débauche et le jeu. Il meurt sans être regretté de personne <choice><orig>&amp;</orig><reg>et</reg></choice> laisse sa <choice><orig>mere</orig><reg>mère</reg></choice> dans la <choice><orig>derniere</orig><reg>dernière</reg></choice> <choice><orig>misere</orig><reg>misère</reg></choice>. Le cadet apprend en Amérique le triste état de celle qui lui <choice><orig>avoit</orig><reg>avait</reg></choice> donné le jour. La nature fait taire chez lui tout autre sentiment&#160;; il vend ses fonds, en fait de l'argent, arrive en France, <choice><orig>&amp;</orig><reg>et</reg></choice> vient partager ses biens avec sa <choice><orig>mere</orig><reg>mère</reg></choice> qu'il détermine enfin à le suivre dans le nouveau monde. Quel intérêt plus vif, que celui qui nous attache à ce jeune exilé&#160;? Mais quel fond d'instructions pour les <choice><orig>meres</orig><reg>mères</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> pour les enfants ?</p>
-    
-    <p>Vous commencez à me rassurer, répliqua Timagène en riant, <choice><orig>&amp;</orig><reg>et</reg></choice> je vois que nous pourrions bien un jour trouver, dans votre bibliothèque une centaine de contes <choice><orig>&amp;</orig><reg>et</reg></choice> une douzaine de romans à côté de celui-ci. En attendant, voyons s'il vous plaît, à quelles <choice><orig>régles</orig><reg>règles</reg></choice> il sont assujettis l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre. Vous m'avez fait entendre, il n'y a qu'un moment, que le roman <choice><orig>étoit</orig><reg>était</reg></choice> né de la fiction <choice><orig>&amp;</orig><reg>et</reg></choice> de la <choice><orig>poësie</orig><reg>poésie</reg></choice>. Je crois en effet qu'il est, pour ainsi parler, le singe du <choice><orig>poëme</orig><reg>poème</reg></choice> épique&#160;: mais il me semble qu'il s'est <pb xml:id="p690"></pb>affranchi de toutes ses <choice><orig>régles</orig><reg>règles</reg></choice>. Si l'on y voit un héros, ce qui n'arrive pas toujours, l'unité d'action n'y est nullement observée. C'est un tissu d'<choice><orig>événemens</orig><reg>événements</reg></choice> enchâssés les uns dans les autres, <choice><orig>&amp;</orig><reg>et</reg></choice> dont aucun ne peut être appellé le fait principal. Souvent l'incident a plus de saillie <choice><orig>&amp;</orig><reg>et</reg></choice> d'étendue que le fond même du récit, au point de le faire <choice><orig>entierement</orig><reg>entièrement</reg></choice> oublier. On y <choice><orig>chercheroit</orig><reg>chercherait</reg></choice> vainement l'unité de temps.<note resp="editor">Ici, contrairement à d'autres occasions, le terme 'temps' comporte la graphie moderne.</note> La vie <choice><orig>entiere</orig><reg>entière</reg></choice> d'un héros, est la <choice><orig>carriere</orig><reg>carrière</reg></choice> que se prescrit l'<choice><orig>Auteur</orig><reg>auteur</reg></choice>&#160;; encore n'est-il pas bien sûr qu'il soit tenu de se renfermer dans ces bornes. Je ne vois pas que l'on fasse état ici de la réflexion d'Horace.</p>
-    
-    <p><quote rend="verse">
-      <l><hi rend="italic">In médias res</hi> </l>
-      <l><hi rend="italic">Nom secus ac notas auditorem rapis</hi>.<note resp="editor">Il s’agit d’un vers tiré d’un passage bien connu de l’<hi rend="italic">Art poétique</hi> dans lequel Horace déconseille au poète de toujours remonter aux premières origines de son récit et lui recommande de commencer plutôt son récit « in medias res » et de supposer le reste connu des lecteurs ou auditeurs&#160;; voir Horace, <hi rend="italic">De arte poetica&#160;: lateinisch und deutsch</hi>, ed. Horst Rüdiger, Zürich&#160;: Artemis, Lebendige Antike, 1961, v. 148-149.</note></l></quote></p>
-    
-    <p>On raconte tout de suite les choses, comme on suppose qu'elles se sont passées <choice><orig>&amp;</orig><reg>et</reg></choice> selon l'ordre naturel des temps. À quoi donc se réduisent les préceptes de cette <choice><orig>espece</orig><reg>espèce</reg></choice> d'ouvrage ?</p>
-    
-    <p>Je n'en <choice><orig>connois</orig><reg>connais</reg></choice> presque point d'autres, répondit Euphorbe, que ceux qui concernent l'intérêt <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>stile</orig><reg>style</reg></choice>. Le merveilleux et la fiction sont admis dans le roman. Il les a, sans doute, empruntés <pb xml:id="p691"></pb>de l'épopée&#160;: mais dans l'un <choice><orig>&amp;</orig><reg>et</reg></choice> dans l'autre il s'est étrangement écarté de son modèle. C'est bien ici qu'on a profité de la liberté de tout oser, qu'Horace accorde aux <choice><orig>poëtes</orig><reg>poètes</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> aux peintres&#160;: malheureusement, contre l'avis de ce <choice><orig>poëte</orig><reg>poète</reg></choice> critique, on l'a fait sans réserve.<note resp="editor">Constat d'une liberté des règles propre au roman, telle que l'affirme également Choderlos de Laclos lorsqu'il parle du roman comme «&#160;le plus libre de nos genres de littérature&#160;». Voir Choderlos de Laclos. «&#160;Observations du général Laclos sur le roman théâtral de M. Lacretelle aîné&#160;», 1803/1824 (voir <ref target="/node/21/">bibliographie</ref>), p. 488.</note> Tantôt ce sont des fées bonnes ou mauvaises, qui d'un coup de baguette changent toute la nature&#160;: tantôt ce sont des antropophages, qui dévorent leurs semblables&#160;: là ce sont des géants d'une grandeur énorme, où des hommes subitement métamorphosés en bêtes, en arbres&#160;: ici ce sont des pays qui ne ressemblent en rien aux nôtres&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> pour enfanter tant de prodiges, on n'a pas même recours au pouvoir des Dieux, dont l'intervention les <choice><orig>rendroit</orig><reg>rendrait</reg></choice> plus supportables. Ce reproche tombe surtout sur la plupart des anciens romans. Ceux d'aujourd'hui ne sont pas sujets à ce défaut. Notre <choice><orig>siécle</orig><reg>siècle</reg></choice> n'est pas ami du merveilleux. Il a bien de la peine à croire celui qui est incontestable&#160;: jugez s'il doit s'accommoder de celui qui est imaginaire. On s'est donc un peu plus rapproché de la vraisemblance, mais on ne l'a point encore parfaitement atteinte. Dans nos romans modernes, aucun des <pb xml:id="p692"></pb><choice><orig>événemens</orig><reg>événements</reg></choice> en particulier, ne sort communément des <choice><orig>loix</orig><reg>lois</reg></choice> de la nature <choice><orig>&amp;</orig><reg>et</reg></choice> de l'ordre des choses&#160;; mais ces <choice><orig>événemens</orig><reg>événements</reg></choice> sont si singuliers, leur enchaînement est si rare, qu'il <choice><orig>seroit</orig><reg>serait</reg></choice> moralement impossible d'en trouver un exemple, <choice><orig>&amp;</orig><reg>et</reg></choice> que s'il s'en <choice><orig>rencontroit</orig><reg>rencontrait</reg></choice> un seul, il <choice><orig>passeroit</orig><reg>passerait</reg></choice> pour un prodige. On peut supposer quelquefois qu'une <choice><orig>mere</orig><reg>mère</reg></choice> est assez dénaturée pour substituer un enfant à celui que le ciel lui a donné&#160;: il n'est pas impossible qu'un jeune homme quitte ses parents, qu'il leur soit inconnu longtemps, qu'on le croie mort&#160;: il se peut faire qu'une personne éprouve des malheurs, qu'elle coure des hasards&#160;: il peut arriver qu'un <choice><orig>pere</orig><reg>père</reg></choice> par une heureuse rencontre reconnaisse un fils qu'il <choice><orig>croyoit</orig><reg>croyait</reg></choice> perdu. Mais est-il bien naturel que ces circonstances se réunissent, s'accumulent, toutes à la fois, toutes en <choice><orig>même-temps</orig><reg>même temps</reg></choice> dans la même personne&#160;; que cette <choice><orig>reconnoissance</orig><reg>reconnaissance</reg></choice> imprévue arrive précisément dans le moment où le <choice><orig>pere</orig><reg>père</reg></choice>, après s'être opposé <choice><orig>long-temps</orig><reg>longtemps</reg></choice> à une alliance avantageuse pour celui qu'il ne <choice><orig>connoissoit</orig><reg>connaissait</reg></choice> point encore, se trouve sur le point de le condamner à mort&#160;? Voilà cependant quelques-uns des bizarres assemblages que nous offrent les romans. Sont-ils bien <pb xml:id="p693"></pb>dans les <choice><orig>régles</orig><reg>règles</reg></choice> de la vraisemblance ?</p>
-    
-    <p>Ce que vous condamnez dans le concours des <choice><orig>événemens</orig><reg>événements</reg></choice>, ajouta Timagène, se rencontre au moins aussi souvent dans les qualités qu'on attribue aux <choice><orig>différens</orig><reg>différents</reg></choice> personnages. Ils ne sont jamais ou bons ou méchants à demi. Si l'on peint un scélérat, c'est un monstre composé de tous les vices imaginables. Les héros au contraire, où les héroïnes, ont communément toutes les vertus <choice><orig>&amp;</orig><reg>et</reg></choice> tous les <choice><orig>talens</orig><reg>talents</reg></choice>, sans mélange d'aucun défaut. Comme ces derniers portraits sont plus ragoûtants que les autres, je veux vous en mettre un sous les yeux, que je me rappelle encore. Il est tiré de Voiture. C'est le portrait de Zélide, dans le roman qui porte son nom.<note resp="editor">Il s'agit de <hi rend="italic">L'Histoire d'Alcidalis et de Zélide</hi>, par le poète et épistolier Vincent Voiture (1597-1648). Voir <hi rend="italic">Les Œuvres de Monsieur de Voiture</hi>&#160;, 1729 (voir <ref target="/dossier/ouvrages/">bibliographie</ref>) tome 2, p.&#160;276-458, 283.</note> <quote rend="inline">Zélide <choice><orig>étoit</orig><reg>était</reg></choice> le plus parfait ouvrage, que le ciel ait jamais fait. <choice><orig>...</orig><reg>[...]</reg></choice><note resp="editor">Bérardier omet ici une phrase du texte original, pourtant en relation directe avec son propos sur la vraisemblance&#160;: <quote rend="inline">Comme sa vie <choice><orig>devoit</orig><reg>devait</reg></choice> être pleine de miracles, sa personne l'<choice><orig>étoit</orig><reg>était</reg></choice> aussi, &amp; cette histoire qui est <choice><orig>vrai-semblable</orig><reg>vraisemblable</reg></choice> en toutes choses, est incroyable seulement, en ce qu'elle raconte d'elle</quote>.</note> Depuis que le soleil <choice><orig>faisoit</orig><reg>faisait</reg></choice> le tour de la terre, il n'y <choice><orig>avoit</orig><reg>avait</reg></choice> point vu une beauté si accomplie que la sienne, et dans le plus beau corps du monde, elle <choice><orig>avoit</orig><reg>avait</reg></choice> un esprit qui ne peut être imaginé des nôtres, et qui <choice><orig>sembloit</orig><reg>semblait</reg></choice> être de ceux qui ne doivent pas gouverner d'autres corps, que ceux de <choice><orig>la haut</orig><reg>là-haut</reg></choice>, qui ont été faits pour conduire les astres. En un âge où à peine les autres <pb xml:id="p694"></pb><choice><orig>sçavent</orig><reg>savent</reg></choice> proférer quelques paroles, elle <choice><orig>disoit</orig><reg>disait</reg></choice> des choses qui eussent été admirées en la bouche des plus sages. Personne n'eut jamais une naissance plus heureuse que la sienne. Toutes les étoiles s'<choice><orig>étoient</orig><reg>étaient</reg></choice> accordées ensemble pour lui donner ce qu'elles <choice><orig>avoient</orig><reg>avaient</reg></choice> de meilleur, <choice><orig>&amp;</orig><reg>et</reg></choice> le ciel <choice><orig>avoit</orig><reg>avait</reg></choice> mis tant de choses en elle, que la moindre partie qui y fût, <choice><orig>étoit</orig><reg>était</reg></choice> celle qu'elle <choice><orig>tenoit</orig><reg>tenait</reg></choice> de la terre, et elle <choice><orig>sembloit</orig><reg>semblait</reg></choice> une personne céleste, tombée ici par miracle. Ses inclinations la <choice><orig>portoient</orig><reg>portaient</reg></choice> si puissamment au bien, que pour ce qui <choice><orig>étoit</orig><reg>était</reg></choice> de faillir, il <choice><orig>sembloit</orig><reg>semblait</reg></choice> qu'elle n'eut point de libre-arbitre, <choice><orig>&amp;</orig><reg>et</reg></choice> toutes les vertus lui <choice><orig>étoient</orig><reg>étaient</reg></choice> si naturelles, qu'il eût fallu qu'elle se fût fait violence, pour n'en pas exercer quelqu'une. Jamais il n'y eut de combat en son âme. Jamais elle ne fut en doute entre le bien <choice><orig>&amp;</orig><reg>et</reg></choice> le mal, <choice><orig>&amp;</orig><reg>et</reg></choice> elle <choice><orig>suivoit</orig><reg>suivait</reg></choice> toujours la justice et la bienséance, en suivant toutes ses volontés…. La moindre part des perfections qui <choice><orig>étoient</orig><reg>étaient</reg></choice> en elle, <choice><orig>étoit</orig><reg>etait</reg></choice> celle qui se <choice><orig>pouvoient</orig><reg>pouvaient</reg></choice> dire.</quote> Je vous le demande, avez-vous jamais rencontré la copie d'un pareil original&#160;? Pour moi, je crois que ce n'est point là la marche de la nature. Je ne connus <pb xml:id="p695"></pb>﻿jamais de <choice><orig>caractere</orig><reg>caractère</reg></choice> si vicieux qui n'eût quelque chose de bon, ni de vertu si parfaite, qui n'eût quelque tache. Mais revenons à l'intérêt qui doit <choice><orig>régner</orig><reg>règner</reg></choice> dans le roman. Est-il bien aisé de le produire ?</p>
-    
-    <p>Il l'est plus, sans doute, répartit Eurphorbe, dans cette <choice><orig>espece</orig><reg>espèce</reg></choice> de récit, que dans l'histoire <choice><orig>&amp;</orig><reg>et</reg></choice> dans tout autre qui <choice><orig>s'appuye</orig><reg>s'appuie</reg></choice> sur la vérité. L'écrivain étant maître de sa <choice><orig>matiere</orig><reg>matière</reg></choice>, il <choice><orig>seroit</orig><reg>serait</reg></choice> bien maladroit s'il ne <choice><orig>disposoit</orig><reg>disposait</reg></choice> pas ses <choice><orig>événemens</orig><reg>événements</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> ses <choice><orig>caracteres</orig><reg>caractères</reg></choice> d'une <choice><orig>maniere</orig><reg>manière</reg></choice> propre à nous attacher. Il faut donc qu'on nous fasse estimer <choice><orig>&amp;</orig><reg>et</reg></choice> aimer un, ou plusieurs personnages. On les supposera dans différentes conjonctures critiques, capables de nous faire appréhender pour pour leurs biens, leur honneur, ou leurs jours, <choice><orig>&amp;</orig><reg>et</reg></choice> qui seront l'effet du hasard, de quelque imprudence ou de quelque faute excusable&#160;: un scélérat n'a point de droit à notre attachement. On entretiendra nos <choice><orig>allarmes</orig><reg>alarmes</reg></choice>, en faisant briller de temps en temps des rayons d'espérance qui <choice><orig>disparoîtront</orig><reg>disparaîtront</reg></choice> ensuite. On soutiendra cette douce agitation pendant tout le cours du récit, jusqu'au dénouement, qui doit mettre le comble à l'intérêt, en nous procurant une satisfaction pleine <pb xml:id="p696"></pb>de charmes. Plusieurs autres moyens particuliers peuvent contribuer encore dans le détail des faits à échauffer l'intérêt&#160;: tels sont les discours pathétiques, les suspensions adroites, les descriptions vives et animées&#160;; en un mot, tout ce qui peut mettre en mouvement les passions. Mais il faut qu'elles soient honnêtes et légitimes, comme la compassion, la terreur, l'admiration du beau et du sublime.<note resp="editor">Bérardier reprend ici, sans en tirer aucun argument, la distinction rendue célèbre par Edmund Burke en 1757. Voir son<hi rend="italic"> Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful</hi>, 1757, dont la première traduction française date de 1765.</note> Plus l'intérêt sera vif, plus il sera dangereux, s'il tombe sur un objet condamnable.</p>
-    
-    <p>Je vois que l'intérêt du roman, poursuivit Timagène, a beaucoup de rapport avec celui de l'epopée et du <choice><orig>poëme</orig><reg>poème</reg></choice> tragique&#160;; et j'en conclus que celui du conte doit avoir quelque ressemblance avec ce qui nous attache au <choice><orig>poëme</orig><reg>poème</reg></choice> comique. Les défauts des particuliers, leurs <choice><orig>caracteres</orig><reg>caractères</reg></choice>, leurs intrigues, leurs querelles mêmes, doivent produire à proportion de celui-ci les mêmes effets que sur la scène. Je soupçonne même que, pour le <choice><orig>stile</orig><reg>style</reg></choice>, le conte a de la conformité avec la comédie <choice><orig>&amp;</orig><reg>et</reg></choice> le roman avec la tragédie <choice><orig>&amp;</orig><reg>et</reg></choice> l'épopée.</p>
-    
-    <p>Je ne suis pas tout à fait de votre avis sur cet article, interrompit Euphorbe. La muse épique embauche la trompette&#160;; <pb xml:id="p697"></pb> celle de la tragédie chausse le cothurne&#160;: leur air doit toujours être grand et magnifique, et se soutenir par toutes les richesses de la <choice><orig>poësie</orig><reg>poésie</reg></choice>. Le roman, il est vrai, a quelque conformité avec ces deux <choice><orig>poëmes</orig><reg>poèmes</reg></choice> par la fiction <choice><orig>&amp;</orig><reg>et</reg></choice> l'intérêt&#160;: mais il n'est que le récit d'une suite d'<choice><orig>événemens</orig><reg>événements</reg></choice> vraisemblables, placés dans leur ordre naturel&#160;; il est communément écrit en prose&#160;; et par là il se rapproche d'avantage de l'histoire. Il doit donc imiter son <choice><orig>stile</orig><reg>style</reg></choice>&#160;; c'est-à-dire, que l'écrivain doit se laisser oublier, pour n'occuper son lecteur que des faits qu'il raconte, et produire plus <choice><orig>surement</orig><reg>sûrement</reg></choice> l'illusion nécessaire à l'intérêt. Il faut qu'il s'exprime d'une manière noble, sans enflure, serrée, sans obscurité, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>sur-tout</orig><reg>surtout</reg></choice> qu'il évite la recherche de l'esprit, <choice><orig>&amp;</orig><reg>et</reg></choice> l'affectation des grands mots. Par rapport aux <choice><orig>caracteres</orig><reg>caractères</reg></choice> qu'il présente, il est nécessaire qu'ils soient aussi soutenus que dans le <choice><orig>poëme</orig><reg>poème</reg></choice> épique. Ce sont des enfants de son imagination&#160;; il peut les former à son gré&#160;: il doit donc les rendre semblables à ceux de la nature. Le <choice><orig>caractere</orig><reg>caractère</reg></choice> d'un personnage doit se montrer jusque dans ses discours. <choice><orig>Don Guichotte</orig><reg>Don Quichotte</reg></choice><note resp="editor">La graphie originale du nom est attestée à l'époque.</note> ne parle qu'avec emphase et d'un ton ridiculement <choice><orig>empoulé</orig><reg>ampoulé</reg></choice>&#160;; Sancho ne dément <pb xml:id="p698"></pb>jamais cette ingénuité <choice><orig>grossiere</orig><reg>grossière</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> triviale, qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> dû puiser dans sa <choice><orig>premiere</orig><reg>première</reg></choice> origine. Il en est tout autrement du conte. Le principal mérite de son <choice><orig>stile</orig><reg>style</reg></choice> consiste dans cette aimable naïveté, dont nous faisions l'éloge ce matin. Il a cela de commun avec la fable&#160;: composé avec beaucoup d'art, il n'en laisse presque point <choice><orig>paroître</orig><reg>paraître</reg></choice>.</p>
-    
-    <p>C'est apparemment là, ajouta Timagène, ce que veut dire l'<choice><orig>Auteur</orig><reg>auteur</reg></choice> des contes moraux, par ces mots que j'ai lus dans sa préface&#160;: <quote rend="inline">Quand c'est moi qui raconte, je me livre à l'impression actuelle du sentiment ou de l'image que je dois rendre&#160;: c'est mon sujet qui me donne le ton. Quand je fais parler mes personnages, tout l'art que j'y emploie est d'être présent à leur entretien, et d'écrire ce que je crois entendre.</quote><note resp="editor">Cette citation de Jean-François Marmontel (1723-1799) est tirée de la « Préface » aux <hi rend="italic">Contes moraux</hi>. Dans l'édition de 1772, elle se trouve au tome 1, p. iii-xii, ici p. x&#160;; la préface est incluse également dans les <hi rend="italic">Œuvres complètes de Marmontel</hi> de 1818, au tome 3, p. ix-xvi</note> En effet, je pense que le meilleur moyen pour réussir dans le conte, est d'étudier plus son sujet, que ses termes, de se mettre à la place de ceux qui agissent, <choice><orig>&amp;</orig><reg>et</reg></choice> de laisser alors la nature nous fournir ses expressions, comme elle les dicte dans la conversation <choice><orig>familière</orig><reg>familiere</reg></choice>. Ne <choice><orig>diroit</orig><reg>dirait</reg></choice>-on pas que ces vers de <choice><orig>la Fontaine</orig><reg>La Fontaine</reg></choice>, dans le conte de Bélphégor, ont coulé d'eux-mêmes sous sa plume ?</p>
-    
-    <p><quote rend="verse">
-    <l><pb xml:id="p699"></pb>Un Intendant&#160;? Qu'est-ce que cette chose&#160;? </l>
-    <l>Je définis cet être, un animal </l>
-    <l>Qui, comme on dit, sait pêcher en eau trouble&#160;: </l>
-    <l>Et plus le bien de son maître va mal, </l>
-    <l>Plus le sien croît, plus son profit redouble&#160;; </l>
-    <l>Tant qu'aisément lui-même acheterait </l>
-    <l>Ce qui de net au Seigneur resterait&#160;: </l>
-    <l>Donc, par raisen bien et dûment déduite&#160;; </l>
-    <l>On pourrait voir chaque chose réduite </l>
-    <l>En son état, s'il arrivait qu'un jour </l>
-    <l>L'autre devint l'Intendant à son tour&#160;; </l>
-    <l>Car regagnant ce qu'il eut étant maître, </l>
-    <l>Ils reprendraient tous deux leur premier être.</l>
-  </quote></p>
-    
-    <p>Voilà assurément du simple et du naïf&#160;; où je me trompe fort.</p>
-
-    <p>Vous avez bien raison, reprit Euphorbe&#160;: mais je suis en état de vous citer ici quelques autres exemples, dont la naïveté est encore plus sensible. J'ai sur moi un recueil des poésies de <choice><orig>la Monnoye</orig><reg>La Monnoye</reg></choice>&#160;: permettez que je vous lise quelques-uns de ses contes.<note resp="editor">Il s'agit de Bernard de La Monnoye (1641-1728), avocat, poète et critique qui fut élu membre de l'Académie française en 1713.</note> Ils ne sont pas longs&#160;; ils nous divertiront.</p>
-
-    <p><quote rend="verse">
-    <l>Un gros coquin, veille de fête-Dieu,</l>
-    <l>Chez un barbier fut présenter sa face, </l>
-    <l><pb xml:id="p700"></pb>Le suppliant de lui vouloir, par grâce, </l>
-    <l>Faire le poil pour l'amour du bon Dieu. </l>
-    <l>Fort volontiers, dit le barbier honnête&#160;; </l>
-    <l>Vite, garçon, en faveur de la fête, </l>
-    <l>Dépêchez-moi cette barbe gratis. </l>
-    <l>Aussitôt dit, un de ses apprentis </l>
-    <l>Charcute au gueux le menton et la joue. </l>
-    <l>Le patient faisait piteuse moue, </l>
-    <l>Et comme il vit paraitre en ce moment </l>
-    <l>Certain barbet navré cruellement, </l>
-    <l>Pour vol par lui commis dans la cuisine&#160;; </l>
-    <l>Ah&#160;! pauvre chien, que je vois en ce lieu, </l>
-    <l>S'écria-t il, je connais à ta mine </l>
-    <l>Qu'on t'a rasé pour l'amour du bon Dieu.<note resp="editor">Il s'agit « D’un Barbier et d’un gueux », dans les <hi rend="italic">Poésies de M. de la Monnoye</hi>, 1716 (voir <ref target="/node/20/">bibliographie</ref>), p. 39-40.</note></l></quote></p>
-    
-    <p>La plaisanterie est fort bonne, répliqua Timagène&#160;; mais il y a dans ce conte quelques façons de parler, qui me semblent au-dessous du naïf, <choice><orig>&amp;</orig><reg>et</reg></choice> approcher un peu du trivial. Il <choice><orig>étoit</orig><reg>était</reg></choice> possible de mettre plus de noblesse dans l'expression, surtout du premier et du neuvième vers.</p>
-    
-    <p>Dans celui-ci, poursuivit Euphorbe, vous ne trouverez pas le même défaut.</p>
-    
-    <p><quote rend="verse">
-    <l>En certain bourg au bonhomme Lucas </l>
-    <l>Messire Artus passait un bail à ferme, </l>
-    <l>Et prétendait au bout de chaque terme, </l>
-    <l><pb xml:id="p701"></pb>Outre le prix, avoir un cochon gras. </l>
-    <l>Pour un cochon, je n'y répugne pas, </l>
-    <l>Dit le fermier, mais gras, c'est autre chose. </l>
-    <l>Que sais-je moi ce qu'il arrivera&#160;? </l>
-    <l>Le grain peut-être, ou le gland manquera. </l>
-    <l>Point ne me veux soumettre à telle clause. </l>
-    <l>Artus répond que point n'en démordra. </l>
-    <l>Messieurs, leur dit le Notaire équitable, </l>
-    <l>Vous pouvez prendre un milieu, l'on mettra, </l>
-    <l>Qu'au sieur bailleur le preneur donnera, </l>
-    <l>Bon an, mal an, un cochon raisonnable.
-  <note resp="editor">Il s'agit de l’« Expédient d’un notaire », dans les <hi rend="italic">Poésies de M. de la Monnoye</hi>, 1716 (voir <ref target="/node/20/">bibliographie</ref>), p. 44.</note></l></quote></p>
-    
-<p>Je vois dans cette historiette, ajouta Timagène, un <choice><orig>stile</orig><reg>style</reg></choice> clair, aisé, simple. C'est le ton de la conversation. La naïveté qui terminé ce conte, dans la place où elle est, produit une surprise très àgréable.</p>
-
-<p>En voici encore un, continua Euphorbe, dans un genre un peu différent, mais qui ne vous plaira pas moins. C'est un dialogue entre deux amis qui se rencontrent le matin dans une église.</p>
-    
-    <p><quote rend="verse">
-    <l>Bon jour, compère André. Bon jour, compère Gile, </l>
-    <l><pb xml:id="p702"></pb>Comment vous portez-vous? Bien, et vous&#160;? A souhait.</l>
-    <l>Puis-je ouir cette Messe&#160;? Elle est tout votre fait&#160;; </l>
-    <l>Le Prêtre n'en est pas encore à l'Evangile. </l>
-    <l>Voulez-vous qu'au sortit nous déjeunions en ville&#160;? </l>
-    <l>Tope. Nous en mettrons sire Ambroise et Rolait. </l>
-    <l>D'accord. Il ne nous faut qu'un bon cochon de lait. </l>
-    <l>Ha, vous, n'y songez pas&#160;; c'est aujourd'hui vigile. </l>
-    <l>Vigile&#160;? A demain donc, je suis pour les jours gras. </l>
-    <l>A propos&#160;; on m'a dit que le voisin Lucas </l>
-    <l>Épouse votre… Point. J'ai découvert ses dettes. </l>
-    <l>Où vend-on de bon vin&#160;? Tout proche l'Hôtel-Dieu. </l>
-    <l>Grand merci. Prêtez-moi, de grace, vos lunettes. </l>
-    <l>Oh, oh, la Messe est dite&#160;: Adieu, compère, adieu.<note resp="editor">Il s'agit du « Dialogue de deux compères à la Messe », dans les <hi rend="italic">Poésies de M. de la Monnoye</hi>, 1716 (voir <ref target="/node/20/">bibliographie</ref>), p. 62-63.
- </note></l></quote></p>
- 
-<p>Voilà assurément, reprit Timagène, beaucoup de <choice><orig>légéreté</orig><reg>légèreté</reg></choice>, une simplicité <pb xml:id="p703"></pb>charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> même une <choice><orig>satyre</orig><reg>satire</reg></choice> <choice><orig>très-fine</orig><reg>très fine</reg></choice>&#160;: mais prétendez-vous nous donner cela pour un récit ?</p>
- 
-    <p>Sans doute, répondit Euphorbe, et pour un récit <choice><orig>très-adroit</orig><reg>très adroit</reg></choice>. Il est aisé de vous en convaincre en le remettant dans sa forme ordinaire. Voici à peu près à quoi il <choice><orig>pourroit</orig><reg>pourrait</reg></choice> se réduire. <hi rend="italic">Un jour Giles rencontra dans l'église son <choice><orig>compere</orig><reg>compère</reg></choice> André. Après avoir donné <choice><orig>&amp;</orig><reg>et</reg></choice> reçu le bon jour, il lui demanda s'il <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> entendre la messe, à laquelle il <choice><orig>assistoit</orig><reg>assistait</reg></choice> lui-même. Vous le pouvez, répondit André&#160;; elle n'est pas encore à l'Évangile. Voulez-vous reprit l'autre, que nous déjeunions aujourd'hui ensemble&#160;? …</hi> Je ne pousse pas plus loin cette narration qui <choice><orig>deviendroit</orig><reg>deviendrait</reg></choice> insupportable <choice><orig>&amp;</orig><reg>et</reg></choice> par sa longueur <choice><orig>&amp;</orig><reg>et</reg></choice> par sa monotonie. L'auteur évite habilement cet inconvénient en introduisant tout à coup ses personnages. Nous entendons leurs propos, comme si nous étions dans le temple. La suppression surtout de toutes les liaisons donne à leur conversation une vivacité, qui ne porte aucun préjudice à la clarté.<note resp="editor">Sans le dire, Bérardier reprend ici une idée de Marmontel, dont il cite plus la « Préface » aux <hi rend="italic">Contes moraux</hi>. Dans cette préface, Marmontel renvoie précisément à son projet de supprimer les incises du type « dit-il », « reprit-elle » etc. dans les dialogues des contes ou des romans.</note></p>
-    
-<p>Excusez, repartit en riant Timagène&#160;: c'est cette vivacité qui m'a trompé. J'<choice><orig>imaginois</orig><reg>imaginais</reg></choice> presque être présent à l'entretien des deux <choice><orig>comperes</orig><reg>compères</reg></choice>, pendant la <pb xml:id="p704"></pb>messe, et je ne <choice><orig>songeois</orig><reg>songeais</reg></choice> pas que c'<choice><orig>étoit</orig><reg>était</reg></choice> <choice><orig>la Monnoye</orig><reg>La Monnoye</reg></choice> qui me le <choice><orig>racontoit</orig><reg>racontait</reg></choice>. Je trouve, comme vous, que c'est un artifice <choice><orig>très-utile</orig><reg>très utile</reg></choice> de retrancher les liaisons, lorsqu'on peut le faire sans <choice><sic>jetter</sic><corr>jeter</corr></choice> de l'obscurité dans le dialogue. Mais selon moi, on ne doit pas se croire à l'abri de cet inconvénient, en substituant à ces liaisons des traits d'impression formés par la presse, comme on le pratique souvent aujourd'hui. Ces signes typographiques ne parlent qu'aux <choice><orig>ieux</orig><reg>yeux</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> non point aux oreilles. Ils avertissent le lecteur&#160;; mais moi qui ne suis qu'auditeur, je suis en danger de me méprendre, si la suite du discours ne suffit pas pour m'apprendre le changement des interlocuteurs&#160;: <choice><orig>&amp;</orig><reg>et</reg></choice> si celle-ci est suffisante, le trait devient inutile.</p>
-    
-    <p>Nos écrivains modernes, poursuivit Euphorbe, ont cru par cette invention se tirer d'un embarras assez commun dans les dialogues indirects. La nécessité où l'on est d'avertir le lecteur toutes les fois qu'un personnage prend la parole, allonge la diction, et la rend souvent traînante. Ils ont cru pouvoir remplacer les expressions usitées dans ce cas, par un signe arbitraire&#160;: mais la remarque que vous venez de faire, en montre <pb xml:id="p705"></pb> l'insuffisance. Je pense donc que tout dépend ici du jugement <choice><orig>&amp;</orig><reg>et</reg></choice> de l'attention de auteur&#160;: il <choice><orig>employera</orig><reg>emploiera</reg></choice> les liaisons, partout où leur suppression <choice><orig>pourroit</orig><reg>pourrait</reg></choice> induire en erreur une oreille attentive&#160;: il les omettra, lorsque la suite du discours fera suffisamment apercevoir la différence des interlocuteurs. Le bon goût est le seul juge qu'il doit écouter dans cette circonstance.</p>
-    
-    <p>Vous êtes un homme admirable, pour trouver des <choice><orig>tempéramens</orig><reg>tempéraments</reg></choice>,<note resp="editor">Au sens « d'expédients et d'adoucissements qu’on propose pour concilier les esprits et pour accommoder les affaires », sens signalé par le <hi rend="italic">Dictionnaire de l'Académie française</hi>, huitième édition, 1932-35.</note> reprit Timagène&#160;: mais je vois que vous ne ménagez pas beaucoup notre paresse. Comme la nuit approche, je veux mettre à profit le reste du jour. Je vais me rendre dans votre cabinet, <choice><orig>&amp;</orig><reg>et</reg></choice> parcourir les <choice><orig>poësies</orig><reg>poésies</reg></choice> de <choice><orig>la Monnoye</orig><reg>La Monnoye</reg></choice> pour voir si partout il a aussi bien réussi, que dans les endroits dont vous m'avez fait part.</p>
-    <p>FIN.</p>
-    </div>
+      <div type="chapter" xml:id="essai12">
+        <head>DOUZIÈME ENTRETIEN. <hi rend="italic">Du <choice>
+              <orig>Roman</orig>
+              <reg>roman</reg>
+            </choice>
+            <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> du <choice>
+              <orig>Conte</orig>
+              <reg>conte</reg>
+            </choice>.</hi></head>
+        <p>Sur le soir du même jour, Timagène voyant son ami occupé avec ses gens d'affaire, <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> allé se promener, un livre à la main, sur les bords d'un canal assez étendu qui <choice>
+            <orig>formoit</orig>
+            <reg>formait</reg>
+          </choice> un agréable miroir, sous les fenêtres du <choice>
+            <orig>sallon</orig>
+            <reg>salon</reg>
+          </choice>.</p>
+        <p>Euphorbe ne <choice>
+            <sic>fût</sic>
+            <corr>fut</corr>
+          </choice> pas plutôt débarrassé de quelques détails qu'entraîne nécessairement le soin
+          d'une terre, qu'il vint le joindre. N'est-ce pas une indiscrétion, lui dit-il en
+          l'abordant, de vous demander quelle lecture occupe ici votre loisir ?</p>
+        <p>Celle d'un livre, répondit Timagène, que vous regarderez sans doute comme bien frivole, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que j'ai pourtant trouvé parmi les vôtres&#160;: c'est ce qui doit me servir
+          d'excuse auprès de vous. Vous en rirez, si vous voulez&#160;; je <choice>
+            <orig>lisois</orig>
+            <reg>lisais</reg>
+          </choice> les aventures du fameux <choice>
+            <orig>Don-Quichotte</orig>
+            <reg>Don Quichotte</reg>
+          </choice> de la Manche. <choice>
+            <orig>A</orig>
+            <reg>À</reg>
+          </choice> cette occasion, je me <choice>
+            <orig>proposois</orig>
+            <reg>proposais</reg>
+          </choice> de vous demander, par quelle raison ce roman est le seul qui se rencontre dans
+          votre bibliothèque&#160;? Il me <pb xml:id="p670"/>semble, qu'il n'en <choice>
+            <orig>faudroit</orig>
+            <reg>faudrait</reg>
+          </choice> point avoir du tout, ou qu'il en <choice>
+            <orig>faudroit</orig>
+            <reg>faudrait</reg>
+          </choice> avoir une collection plus <choice>
+            <sic>complette</sic>
+            <corr>complète</corr>
+          </choice>.</p>
+        <p>C'est parce que je n'en veux avoir aucun, reprit Euphorbe, que j'ai fait l'acquisition de
+          celui-là. J'<choice>
+            <orig>aurois</orig>
+            <reg>aurais</reg>
+          </choice> pu placer à côté le <choice>
+            <orig>Prince Fanferedin</orig>
+            <reg><hi rend="italic">Prince Fan-Férédin</hi></reg>
+          </choice> du <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> Bougeant.<note resp="editor">Ce texte parut en 1735. Il s'agit d'un récit de
+            voyage allégorique et satirique qui critique notamment le rapport inégal entre un fil
+            thématique ténu et les ornements qui ne seraient là que pour cacher cette faiblesse
+            (voir chapitre XII). Voir Guillaume-Hyacinthe Bougeant, <hi rend="italic">Voyage
+              merveilleux du prince Fan-Férédin dans la Romancie</hi>, 1735 (voir <ref
+              target="/dossier/ouvrages">bibliographie</ref>). </note> L'un et l'autre est une
+          critique ingénieuse des romans, et peut servir de préservatif contre l'envie même de les
+          lire.</p>
+        <p>Le roman, répliqua Timagène, <choice>
+            <orig>paroit</orig>
+            <reg>paraît</reg>
+          </choice> cependant tenir un rang distingué dans la littérature. Son antiquité n'est pas
+          douteuse. Dès les premiers âges du monde on <choice>
+            <orig>aimoit</orig>
+            <reg>aimait</reg>
+          </choice> à feindre et même a revêtir la fiction des <choice>
+            <orig>ornemens</orig>
+            <reg>ornements</reg>
+          </choice> de la <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice>.<note resp="editor">C'est un argument souvent avancé à l'époque pour démontrer
+            la noblesse du genre.</note></p>
+        <p>Ne confondons point, repartit Euphorbe, le roman avec la fiction <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice>. Il est peut-être né de l'une ou de l'autre&#160;: mais il est difficile de <choice>
+            <orig>reconnoître</orig>
+            <reg>reconnaître</reg>
+          </choice> à ses traits ceux qui lui ont donné le jour. Tout roman est une fiction, j'en
+          conviens&#160;: mais toute fiction n'est pas un roman. L'antiquité de celle-ci remonte
+          jusqu'à l'origine du monde. Nos anciens <choice>
+            <orig>ayeux</orig>
+            <reg>aïeux</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>sur-tout</orig>
+            <reg>surtout</reg>
+          </choice> les orientaux, <choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> un goût décidé pour l'allégorie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'<choice>
+            <orig>êmblême</orig>
+            <reg>emblème</reg>
+          </choice>, et nos livres saints sont remplis de paraboles. Prétendra-t-on<pb xml:id="p671"
+          /> trouver dans tout cela des romans&#160;? J'y vois des hommes qui veulent instruire
+          leurs semblables d'un fait, ou même d'une vérité importante, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui cherchent à le faire d'une manière ingénieuse&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> vous pensez, sans doute, comme moi, qu'un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> romancier ne s'occupe pas beaucoup d'un pareil objet. Quant à la <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice>, elle n'est nullement essentielle à l'ouvrage dont il s'agit. Il semble même
+          qu'elle ne lui convient en aucune façon. Le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> du roman doit plus approcher de la simplicité de l'histoire, que des chants
+          harmonieux de la <choice>
+            <orig>lire</orig>
+            <reg>lyre</reg>
+          </choice>. Cette raison <choice>
+            <orig>suffiroit</orig>
+            <reg>suffirait</reg>
+          </choice> seule pour empêcher de confondre le <choice>
+            <orig>Télémaque</orig>
+            <reg><hi rend="italic">Télémaque</hi></reg>
+          </choice> avec aucune <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de roman.<note resp="editor">Ce passage est cité par Albert Chérel, <hi
+              rend="italic">Fénelon au XVIIIe siècle en France</hi>, 1917, (voir <ref
+              target="/node/27">bibliographie</ref>), p. 448.</note></p>
+        <p>Néanmoins, reprit Timagène, nous avons de vrais romans de la plus haute antiquité. Les
+          naissances des <choice>
+            <orig>différens</orig>
+            <reg>différents</reg>
+          </choice> empires, ne sont-elles pas à proprement parler autant de romans&#160;? Témoin
+          l'histoire de la louve, qui allaita Rémus <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> Romulus&#160;: témoins les faits du grand Artus, des Chevaliers de la table
+          ronde <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tant d'autres.</p>
+        <p>Convenons d'abord, s'il vous plaît, repartit Euphorbe, de l'idée précise que nous devons
+          nous faire du roman. Je crois l'avoir trouvée dans un orateur latin<pb xml:id="p672"/> du
+          commencement de ce siècle ;<note resp="author">In quibus &amp; fingitur et amatur&#160;;
+            nec alius, praeter amorem, unis intenditur. <hi rend="italic">Porei orat. de lib.
+              Rom.</hi></note><note resp="editor">Bérardier fait référence ici au « Discours sur les
+            romans » du Père Charles Porée&#160;: <hi rend="italic">De Libris qui vulgo dicuntur
+              romanenses</hi>, prononcé le 25 février 1736 au collège Louis-le-Grand (voir <ref
+              target="/node/20">bibliographie</ref>). C'est une critique assez féroce du genre
+            romanesque.</note>
+          <q rend="inline">C'est, dit-il, un compose de fiction et d'amour, où l'auteur ne propose
+            d'autre objet que cette passion.</q> Un écrivain moderne, dans le discours qu'il a mis à
+          la tête d'un<note resp="author"><hi rend="italic">Toni et Clairette</hi>.</note><note
+            resp="editor">Il s'agit du texte suivant&#160;: Nicolas Bricaire de La Dixmerie, «
+            Discours sur l'origine, les progrès et le genre des Romans », in&#160;: <hi
+              rend="italic">Toni et Clairette</hi>, Paris&#160;: Didot l'aîné, 1773, vol. 1, p.
+            v-lxxvi.</note> de ses romans, <choice>
+            <orig>reconnoît</orig>
+            <reg>reconnait</reg>
+          </choice> la vérité de cette définition, lorsqu'il assure que <q rend="italic">l'amour
+            fait la base de ces sortes d'ouvrages</q>. Sur ce principe, vous voyez que ces récits
+          merveilleux dont on a enveloppé l'origine des empires, sont plutôt des fables que des
+          romans. Néanmoins si vous voulez leur donner ce nom, je ne contesterai point avec vous
+          là-dessus&#160;: j'avouerai même qu'il en est à qui ce titre est incontestablement dû, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui remontent à des temps fort reculés&#160;: tel est celui d'Achilles Tatius et
+          quelques autres. Mais cette ancienneté ne m'inspirera pas plus de respect pour leur nom.
+          Je leur <choice>
+            <orig>appliquerois</orig>
+            <reg>appliquerais</reg>
+          </choice> volontiers ce que le fameux Marius <choice>
+            <orig>disoit</orig>
+            <reg>disait</reg>
+          </choice> des grands de Rome, que leur noblesse <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> un flambeau qui ne <choice>
+            <orig>servoit</orig>
+            <reg>servait</reg>
+          </choice> qu'à éclairer<pb xml:id="p673"/> leurs vices. Si de tout temps il y a eu des
+          romans, je vois aussi que de tout temps on a réclamé contre ces sortes d'ouvrages&#160;:
+          je vois que les beaux <choice>
+            <orig>siécles</orig>
+            <reg>siècles</reg>
+          </choice> d'Athènes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de Rome les ont ignorés, où, s'il les ont connus, qu'ils n'en ont pas fait grand
+          cas, puisqu aucun n'a mérité d'arriver jusqu'à nous.<note resp="editor">Depuis l’étude
+            désormais classique de Georges May sur <hi rend="italic">Le Dilemme du roman au XVIIIe
+              siècle</hi> (1963, voir <ref target="/node/21">bibliographie</ref>), on sait que le
+            roman, promis à devenir le genre littéraire dominant au XIXe siècle, est en quête de
+            légitimation au XVIIIe siècle . Euphorbe, notamment, ne fait dans les pages qui suivent
+            que reprendre un certain nombre des arguments les plus courants.</note></p>
+        <p>Il est vrai, répliqua Timagène, que dans la généalogie du roman, cet intervalle forme une
+          lacune assez considérable. Cependant on peut distinguer dans cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de composition trois <choice>
+            <orig>différens</orig>
+            <reg>différents</reg>
+          </choice> âges&#160;; celui des premiers romans, qu'on peut appeler les romans grossiers <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que je vous abandonne&#160;; le second est celui des romans de chevalerie, tels
+          que ceux de l'archevêque Turpin, les <choice>
+            <orig>Rollands</orig>
+            <reg>Rolands</reg>
+          </choice>, les Artus <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tant d'autres&#160;; le <choice>
+            <orig>troisieme</orig>
+            <reg>troisième</reg>
+          </choice> est le nôtre, où le roman est devenu honnête et poli, et s'est dégagé de ce
+          merveilleux absurde et gigantesque, qui le <choice>
+            <orig>défiguroit</orig>
+            <reg>defigurait</reg>
+          </choice> autrefois. Croyez-vous que ces derniers soient si condamnables&#160;? Il me
+          semble avoir lu quelque part, que Photius lui-même dans sa bibliothèque, <choice>
+            <orig>approuvoit</orig>
+            <reg>approuvait</reg>
+          </choice> la lecture de ces sortes de livres.</p>
+        <p>Vous avez raison, interrompit Euphorbe, mais de quels romans permet-il <pb xml:id="p674"
+          />la lecture ?<note resp="author"><q>Ex quibus duplicem fructum, neque eum mediocrem,
+              consequi licet&#160;: tum quod maleficens et fascinorosus quivis, etsi millies
+              effugisse videatur, tandem aliquando meritas poenas indicatur dedisse&#160;: tum quod
+              ostendantur insontes quam plurimi, cum in maximum periculum et propinquam discrimen
+              venerint, praeter spem omnem plerumque servati.</q></note>
+          <q rend="inline">De ceux qui nous présentent deux objets également utiles&#160;; là un
+            scélérat enfin puni de ses forfaits&#160;; après avoir échappé mille fois au châtiment
+            qu'il méritait&#160;; ici un homme vertueux éprouvé par les plus grands revers, par les
+            dangers les plus pressants, et qui retrouve contre toute espérance le bonheur et la
+            paix.</q> À ces traits <choice>
+            <orig>reconnoissez</orig>
+            <reg>reconnaissez</reg>
+          </choice>-vous les nôtres&#160;? Retrouvez-vous ces héros dont la victoire la plus
+          éclatante consiste à triompher de l'honneur d'une princesse, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à répandre le sang d'un rival ?</p>
+        <p>Mais enfin, ajouta Timagène, vous ne condamnez pas un délassement honnête, qui puisse de
+          temps en temps faire diversion à des occupations sérieuses. Combien de gens à qui le goût,
+          les circonstances, l'état, la fortune même ne permettent pas de prendre part<pb
+            xml:id="p675"/>aux <choice>
+            <orig>divertissemens</orig>
+            <reg>divertissements</reg>
+          </choice> ordinaires du reste de la société&#160;! Ils n'ont donc d'autre ressource que la
+          lecture de ces livres, qui <choice>
+            <orig>paroissent </orig>
+            <reg>paraissent</reg>
+          </choice> d'ailleurs convenir à tout homme de lettres, par la <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> dont ils sont écrits.</p>
+        <p>Avouer qu'un ouvrage n'a d'autre but que le simple amusement du lecteur, poursuivit
+          Euphorbe, c'est en donner une idée bien mince, pour ne rien dire de plus. Eh&#160;!
+          pourquoi ne <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice>-on pas utile en amusant&#160;? N'est-ce pas là l'objet naturel de tout ce qui
+          mérite le nom de belles-lettres&#160;? J'en appelle encore ici au suffrage d'un auteur de
+          romans que j'ai déjà cité.<note resp="author"><choice>
+              <orig>Disc. sur les Rom.</orig>
+              <reg><hi rend="italic">Discours sur les romans</hi>,</reg>
+            </choice>
+            <choice>
+              <orig>Préf.</orig>
+              <reg>préface</reg>
+            </choice> de <choice>
+              <orig>Toni et Clairette</orig>
+              <reg><hi rend="italic">Toni et Clairette</hi></reg>
+            </choice>.</note><note resp="editor">Bérardier vient effectivement de citer le «
+            Discours sur les romans », par Bricaire de la Dixmerie (voir page <ref
+              target="/node/8#p672">672</ref>).</note>
+          <q rend="inline">Le roman, dit-il, est peut-être aujourd'hui le genre de littérature que
+            les Anglois cultivent le plus avantageusement. Il est devenu entre leurs mains une
+            production utile, ingénieuse, souvent même une production raisonnable. … C'est un secret
+            que nos romanciers français ignorèrent où dédaignèrent trop longtemps. Nous avions, il
+            est vrai, le roman comique de Scarron et le roman bourgeois de <choice>
+              <orig>Furetiere</orig>
+              <reg>Furetière</reg>
+            </choice>&#160;; nous<pb xml:id="p676"/> avions même le <choice>
+              <orig>Gilblas</orig>
+              <reg><hi rend="italic">Gil Blas</hi></reg>
+            </choice> de <choice>
+              <orig>le Sage</orig>
+              <reg>Lesage</reg>
+            </choice>&#160;: mais tous ces romans <choice>
+              <orig>peignoient</orig>
+              <reg>peignaient</reg>
+            </choice> des ridicules, sans attaquer les vices, sans même nous faire bien <choice>
+              <orig>appercevoir</orig>
+              <reg>apercevoir</reg>
+            </choice> le danger de certaines passions, sans inspirer aucun sentiment louable. On
+            sait qu'un roman ne doit pas être un sermon&#160;; qu'il ne doit rien présenter
+            d'austère, où du moins qu'il doit mettre à l'écart l'enveloppe de l'austérité&#160;:
+            mais le vase entouré de miel doit offrir au <choice>
+              <sic>tempéramment</sic>
+              <corr>tempérament</corr>
+            </choice> le plus délicat un breuvage salutaire. S'il ne renferme que du miel, il pourra
+            ne faire qu'affadir celui qu'on prétendait soulager.</q><note resp="editor">Dixmerie, «
+            Discours sur les romans », 1773 (<ref target="/node/20">bibliographie</ref>), p.
+            xxv.</note> Ce témoignage ici ne <choice>
+            <sic>peut-être</sic>
+            <corr>peut être</corr>
+          </choice> suspect. C'est celui d'un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> d'un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> de romans. Sans examiner si les <choice>
+            <orig>Anglois</orig>
+            <reg>Anglais</reg>
+          </choice> ont mis autant d'utilité dans les leurs que le dit cet écrivain, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si une production <choice>
+            <orig>peut-être</orig>
+            <reg>peut être</reg>
+          </choice> utile, sans être raisonnable, comme il <choice>
+            <orig>paroît</orig>
+            <reg>paraît</reg>
+          </choice> l'avancer, je m'arrête seulement au principe qu'il suppose et qu'il établit par
+          ces mots&#160;; <q rend="italic">Le vase entouré de miel doit offrir un breuvage
+            salutaire. S'il ne renferme que du miel, il pourra ne faire qu'affadir</q>.<note
+            resp="editor">L'image du miel ou du sucre qui tempère et cache la médecine amère remonte
+            à Platon. On trouve l'idée au XVIIe siècle, par exemple chez Charles Sorel (<hi
+              rend="italic">Histoire comique de Francion</hi>, 1626) qui la reprend à la <hi
+              rend="italic">Jérusalem délivrée</hi> du Tasse ou chez le père Rapin (<hi
+              rend="italic">Réflexions sur la poétique d'Aristote</hi>, 1674). Au XVIIIe siècle, on
+            la trouve chez Voltaire, Marmontel, Rousseau ou Rétif de la Bretonne. Sade détourne
+            l'image ironiquement, dans l'épigraphe d’<hi rend="italic">Aline et Valcour</hi>
+            (1788/1795) qu'il emprunte au <hi rend="italic">De Rerum natura</hi> de Lucrèce (livre
+            IV, vers 11-17).</note> C'est dire bien clairement que le roman n'atteint point son
+          objet, s'il se contente d'être amusant&#160;; s'il peint <pb xml:id="p677"/> des
+          ridicules, sans attaquer les vices. Mais que sera-ce donc si le miel renferme du
+          poison&#160;?</p>
+        <p>Je suis <choice>
+            <orig>tout-à-fait</orig>
+            <reg>tout à fait</reg>
+          </choice> d'accord avec votre <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice>, reprit Timagène, sur ce qu'il dit de l'inutilité du roman. Je <choice>
+            <orig>ferois</orig>
+            <reg>ferais</reg>
+          </choice> volontiers le même reproche au théâtre comique. Il se propose pour unique objet
+          le ridicule&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>par-là</orig>
+            <reg>par là</reg>
+          </choice> il ne fait aucune impression pour la réformation des mœurs. Quelques-unes de nos
+          comédies nous présentent des affectations, des minauderies, des <choice>
+            <orig>foiblesses</orig>
+            <reg>faiblesses</reg>
+          </choice> de <choice>
+            <orig>caractere</orig>
+            <reg>caractère</reg>
+          </choice>, que nous plaignons, plus que nous ne les haissons&#160;: telles sont l'étourdi,
+          le distrait, les femmes savantes&#160;: d'autres semblent déclarer la guerre à des vices
+          plus essentiels&#160;; mais en ne les attaquant que du côté du ridicule, leurs efforts
+          sont presque toujours sans fruit. D'ailleurs il en est des <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice> dramatiques comme de ces statues faites pour être placées dans un point de vue
+          éloigné. On les porte toujours au-dessus des proportions naturelles, afin qu'elles
+          produisent leur effet. De même l'<choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> dramatique charge les couleurs et grossit les traits de ses principaux
+          personnages pour les rendre plus <choice>
+            <orig>plaisans</orig>
+            <reg>plaisants</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> plus ridicules. Que le misantrope soit moins <pb xml:id="p678"/> brusque, moins bourru<choice>
+            <orig>&#160;;</orig>
+            <reg>,</reg>
+          </choice> ce sera presque un homme vertueux<choice>
+            <orig>&#160;:</orig>
+            <reg>,</reg>
+          </choice> on <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> quelque envie de lui ressembler<choice>
+            <orig>&#160;:</orig>
+            <reg>&#160;;</reg>
+          </choice> ôtez au glorieux un peu de cette morgue, de cette arrogance outrée avec laquelle
+          il traite tout le genre humain, nous ne verrons plus en lui qu'un de ces fils de la
+          fortune que nous rencontrons tous les jours.<note resp="editor">La ponctuation dans la
+            première partie de la phrase a ici été modifiée, uniquement dans le texte de lecture, en
+            la calquant sur celle de la seconde partie de la phrase, et dans l'objectif d'une
+            meilleure lisibilité.</note> Qu'arrive-t-il de là&#160;? Que le spectateur, ne trouvant
+          point en lui-même cet excès où le personnage comique porte sa passion, rit avec les
+          autres, sans s'apercevoir qu'il rit de lui-même, et sans penser à se réformer.</p>
+        <p>Votre reproche me <choice>
+            <orig>paroît</orig>
+            <reg>paraît</reg>
+          </choice> fort juste, repartit Euphorbe. C'est le moindre de ceux qu'on peut faire au
+          roman. S'il n'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> qu'inutile, il <choice>
+            <orig>mériteroit</orig>
+            <reg>mériterait</reg>
+          </choice> le mépris&#160;; mais il est à craindre, par l'influence qu'il a toujours eue
+          sur toutes les parties de la société. Quel désordre vos romans de chevalerie n'ont-ils pas <choice>
+            <sic>jetté</sic>
+            <corr>jeté</corr>
+          </choice> dans l'histoire, en mêlant leurs <choice>
+            <orig>chimeres</orig>
+            <reg>chimères</reg>
+          </choice> aux véritables <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice>, en bouleversant les <choice>
+            <orig>tems</orig>
+            <reg>temps</reg>
+          </choice> et les lieux où ils se sont passés&#160;? Vous en conveniez tout à l'heure,
+          quand vous disiez que l'origine de chaque empire est une <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de roman.<note resp="editor">Timagène vient de citer une phrase de Bricaire de
+            la Dixmerie allant dans ce sens&#160;; voir page <ref target="/node/8#p672"
+            >672</ref>.</note> Quel tort n'a-t-il point fait à la tragédie, où tous les héros même
+          de l'antiquité<pb xml:id="p679"/> la plus reculée sont devenus des﻿ Amadis, et quelquefois
+          des Céladons&#160;? Le farouche, l'indomptable Achille, en venant jusqu'à nous, à bien
+          changé de caractère. Nos <choice>
+            <orig>François</orig>
+            <reg>français</reg>
+          </choice>
+          <choice>
+            <orig>éclateroient</orig>
+            <reg>éclateraient</reg>
+          </choice> de rire, si on lui <choice>
+            <orig>mettoit</orig>
+            <reg>mettait</reg>
+          </choice> aujourd'hui dans la bouche, en parlant à Iphigénie, ce que lui <choice>
+            <orig>fasoit</orig>
+            <reg>faisait</reg>
+          </choice> dire sur le théâtre d'Athènes le Racine des Grecs&#160;: <q rend="italic"
+            >Madame, je n'eus jamais que du respect pour vous. Ce n'est point l'amour qui anime mes
+            transports contre votre père, c'est l'injustice de ses procédés, et l'abus de mon nom,
+            dont il se sert pour vous traîner au pied des autels.</q> Voilà, s'<choice>
+            <orig>écrieroit</orig>
+            <reg>écrierait</reg>
+          </choice>-on, un cavalier bien peu galant&#160;! Pourquoi aussi Euripide n'<choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice>-il point lu de romans&#160;? Au reste, ces <choice>
+            <orig>inconvéniens</orig>
+            <reg>inconvénients</reg>
+          </choice> sont peu de chose en comparaison du préjudice qu'ils apportent aux mœurs. Ces
+          sortes d'ouvrages se proposent bien plus d'émouvoir le cœur par le ressort des passions,
+          que d'amuser l'esprit par les <choice>
+            <orig>graces</orig>
+            <reg>grâces</reg>
+          </choice> du <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice>. <choice>
+            <orig>De-là</orig>
+            <reg>De là</reg>
+          </choice> ces intrigues entrelacées, pour ainsi dire, les unes dans les autres, ces
+          situations touchantes, ces révolutions subites et attendrissantes, où l'on passe de
+          l'excès de la <choice>
+            <orig>misere</orig>
+            <reg>misère</reg>
+          </choice> au comble du bonheur, ou de l'état le plus brillant à la plus cruelle
+            infortune.<pb xml:id="p680"/> Dans ces agitations, pour qui ménage-t-on l'intérêt et la
+          sensibilité du lecteur&#160;? Pour un prince, ou une princesse, dont souvent tout le
+          mérite, et toute la vertu se réduisent à aimer. Quel est le personnage odieux&#160;? C'est
+          un <choice>
+            <orig>pere</orig>
+            <reg>père</reg>
+          </choice>, un époux, un oncle tout occupé de conserver l'honneur d'une femme, d'une fille,
+          d'une parente. <choice>
+            <orig>Par-tout</orig>
+            <reg>Partout</reg>
+          </choice> il est question de l'amour&#160;: <choice>
+            <orig>par-tout</orig>
+            <reg>partout</reg>
+          </choice> on s'étudie à peindre sa naissance, ses progrès, ses inquiétudes, ses joies, ses
+          tristesses ;<choice>
+            <orig>&amp;</orig>
+            <reg> et</reg>
+          </choice> on a soin de répandre sur tout cela le plus de fleurs qu'il est possible. Je
+          vous laisse à penser quels effets doivent produire ces portraits sur un jeune cœur, encore
+          sans défiance, et qui par son propre penchant est d'intelligence avec ses ennemis.</p>
+        <p>Ne <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice>-on pas vous dire, répliqua Timagène, que ces descriptions <choice>
+            <orig>familieres</orig>
+            <reg>familières</reg>
+          </choice> aux romans, sont plus faites pour guérir la passion de l'amour, que pour
+          l'inspirer&#160;? Quoi de plus propre à en dégoûter que le détail des malheurs qu'il
+          entraîne, des vicissitudes qu'il éprouve, des chagrins auxquel il expose ?</p>
+        <p>Eh&#160;! mon cher ami, répondit Euphorbe, faut-il mettre le feu à sa maison,<pb
+            xml:id="p681"/> pour la préserver de l'incendie&#160;? Si les <choice>
+            <orig>Auteurs</orig>
+            <reg>auteurs</reg>
+          </choice> de romans se <choice>
+            <orig>proposoient</orig>
+            <reg>proposaient</reg>
+          </choice> le but que vous leur prêtez, nous <choice>
+            <orig>présenteroient</orig>
+            <reg>présenteraient</reg>
+          </choice>-ils l'amour sous les dehors les plus enchanteurs&#160;? Ses blessures, ses
+          larmes, <choice>
+            <orig>auroient</orig>
+            <reg>auraient</reg>
+          </choice>-elles des charmes&#160;? Son esclavage <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice>-il un empire&#160;? Ses fers <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice>-ils des roses&#160;? On représente hideux, ce qu'on veut faire haïr.<note
+            resp="editor">Dans son <hi rend="italic">Idée sur le roman</hi>, 1799 (<ref
+              target="/node/21">bibliographie</ref>), Sade détournera l'image des roses pour
+            justifier, avec une ironie teintée de sarcasme, sa peinture des scélérats dans <hi
+              rend="italic">Aline et Valcour</hi>&#160;: «&#160;Je dois enfin répondre au reproche
+            que l'on me fit, quand parut Aline et Valcour. Mes pinceaux, dit-on, sont trop forts, je
+            prête au vice des traits trop odieux&#160;; en veut-on savoir la raison&#160;? Je ne
+            veux pas faire aimer le vice&#160;; je n'ai pas comme Crébillon et comme Dorat, le
+            dangereux projet de faire adorer aux femmes les personnages qui les trompent, je veux,
+            au contraire, qu'elles les détestent&#160;; c'est le seul moyen qui puisse les empêcher
+            d'en être dupes&#160;; et, pour y réussir, j'ai rendu ceux de mes héros qui suivent la
+            carrière du vice tellement effroyables, qu'ils inspireront bien sûrement ni pitié ni
+            amour&#160;; en cela, j'ose le dire, je deviens plus moral que ceux qui se croient
+            permis de les embellir&#160;; les pernicieux ouvrages de ces auteurs ressemblent à ces
+            fruits de l'Amérique qui, sous le plus brillant coloris, portent la mort dans leur
+            sein&#160;; cette trahison de la nature, dont il ne nous appartient pas de dévoiler le
+            motif, n'est pas faite pour l'homme&#160;; jamais enfin, je le répète, jamais je ne
+            peindrai le crime que sous les couleurs de l'enfer, je veux qu'on le voie à nu, qu'on le
+            craigne, qu'on le déteste, et je ne connais point d'autre façon pour en arriver là que
+            le montrer avec toute l'horreur qui le caractérise. Malheur à tous ceux qui l'entourent
+            de roses&#160;! Leurs vues ne sont pas aussi pures, et je ne les copierai jamais&#160;»
+            (p.&#160;62).</note> Un seul exemple, choisi parmi cent autres, vous prouvera plus
+          efficacement encore, que dans ces écrits on songe bien peu aux intérêts de la vertu. Je
+          vais vous donner en deux mots un précis fidèle<note resp="editor">La graphie de l'original
+            est ici plus moderne que dans le reste du texte.</note> d'un roman que je ne vous
+          nommerai point.<note resp="editor">Ce roman, s'il existe, n'a pas en tout cas pu être
+            identifié.</note> Après l'avoir entendu, vous en jugerez comme il vous plaira. Une jeune
+          personne, nommée Cécile, pour éviter de suivre son <choice>
+            <orig>pere</orig>
+            <reg>père</reg>
+          </choice> dans un gouvernement en Amérique, et de s'éloigner <choice>
+            <orig>par-là</orig>
+            <reg>par là</reg>
+          </choice> du comte d'<choice>
+            <orig>Egremont</orig>
+            <reg>Égremont</reg>
+          </choice> son amant, de concert avec ce dernier, se déguise en page, et sort de la maison
+          paternelle, accompagnée d'un certain nombre de gens, que son amant lui <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> donnés. De toute cette escorte les uns meurent en chemin, les autres sont
+          massacrés par les voleurs dans le passage des Pyrénées. Cécile échappe à ce carnage et est
+          seule dans une cabane, au milieu de ces<pb xml:id="p682"/> ﻿montagnes. Elle y exprime de
+          la <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> la plus touchante son désespoir et sa douleur de se voir séparée de son amant.
+          Dans cette solitude, elle est rencontrée par un <choice>
+            <orig>françois</orig>
+            <reg>français</reg>
+          </choice>, qui, trompé par son habillement, l'emmené avec lui, et la place chez sa sœur en
+          qualité de page. Ce déguisement donne lieu a des scènes bizarres. La sœur devient d'abord
+          amoureuse du prétendu page, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> lorsqu'elle est informée de son sexe, elle se permet des libertés qui font
+          naître des soupçons dans l'esprit de son <choice>
+            <orig>frere</orig>
+            <reg>frère</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> se portent enfin à mettre un jour l'épée à la main, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à blesser légèrement Cécile, dont il devient amoureux à son tour, après qu'on
+          l'a instruit de son histoire. Cécile prend le parti d'entrer dans un couvent. Elle y
+          trouve la sœur du comte d'<choice>
+            <orig>Egremont</orig>
+            <reg>Égremont</reg>
+          </choice>. Celui-ci arrive à Paris quelques jours après. Sa sœur l'instruit du lieu où est
+          son amante&#160;: il lui rend visite et apprend que le <choice>
+            <orig>françois</orig>
+            <reg>français</reg>
+          </choice>, dont nous avons parlé, est son rival. Il l'appelle en duel&#160;; ils se
+          battent&#160;: l'un et l'autre périt dans le combat, et Cécile, en apprenant la mort du
+          comte, expire de douleur. Voilà l'esquisse de cette aventure romanesque. Je vous demande
+          maintenant quelle impression elle doit faire sur nos mœurs ?</p>
+        <p><pb xml:id="p683"/>Je ne peux pas disconvenir, répondit Timagène, qu'elle n'est pas
+          capable d'en produire une bien bonne. L'exemple d'une jeune personne qui sacrifie à sa
+          passion, son honneur, les devoirs que lui imposent le nom de fille, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le respect pour les <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice>, n'est pas un trop bel exemple à suivre. Son déguisement, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les aventures qu'il fait naître, me <choice>
+            <orig>paroissent</orig>
+            <reg>paraissent</reg>
+          </choice> avoir quelque chose d'indécent. Ce <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice>, je pense, une mauvaise excuse de dire, que les malheurs et la mort de Cécile
+          inspirent de l'horreur pour sa conduite. On sent que tout l'intérêt est pour elle, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que ses infortunes ne font que l'augmenter&#160;: on est attendri par ses
+          plaintes&#160;: on est plus porté à gémir sur son sort, qu'à la condamner. Si on veut
+          qu'elle meure de douleur, n'est-ce pas pour rendre plus admirable cette constante fidélité
+          dont elle est la victime&#160;? En un mot, il me semble que tout l'art de l'auteur tend à
+          nous faire répandre des pleurs sur le tombeau de cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> d'héroïne, d'un nouveau genre.</p>
+        <p>Vous ne dites rien, poursuivit Euphorbe, de cette catastrophe sanglante, où les deux
+          rivaux s'arrachent la vie, pour le digne objet de leur passion. Il est peu de romans qui
+          ne présentent<pb xml:id="p684"/> quelqu'un de ces cartels, procrits par toutes les <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si funestes à la France&#160;; et l'on peut dire que s'ils n'ont pas donné
+          naissance aux duels, ils n'ont pas peu contribué à les accréditer. Ils ont substitué le
+          point d'honneur au véritable honneur, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tel qui <choice>
+            <orig>trembleroit</orig>
+            <reg>tremblerait</reg>
+          </choice> peut-être sur la <choice>
+            <orig>bréche</orig>
+            <reg>brèche</reg>
+          </choice>, en servant son prince et la patrie, affronte la mort en champ clos, pour les
+          beaux yeux d'une femme, ou pour venger une injure, souvent plus imprudente que
+          criminelle.</p>
+        <p>Ce que vous venez de dire, reprit Timagène, me rappelle quelques vers de M. Arnaud
+          d'Andilly, qui ont bien du rapport avec votre façon de penser.<note resp="editor">Il
+            s'agit de Robert Arnauld d’Andilly (1589-1674), conseiller d’État, proche de Marie de
+            Médicis, fervent catholique.</note> Voici comme sa muse apostrophe les romans.</p>
+        <p>
+          <q rend="verse">
+            <l>Enchanteurs des esprits, qui par de fausses peines </l>
+            <l>Allumez un vrai feu dans le fond de nos veines :</l>
+            <l>Plus vos discours trompeurs paraissent innocents, </l>
+            <l>Plus leur poison pénètre, et leurs traits sont perçants, </l>
+            <l>Et moins l'esprit résiste à l'effort de leurs charmes.</l>
+            <l><pb xml:id="p685"/>Vous troublez la raison par de mortels plaisirs&#160;; </l>
+            <l>Vous flattez notre erreur, et lui donnez des armes </l>
+            <l>Pour combattre en nos cœurs les plus chastes désirs.</l>
+          </q>
+        </p>
+        <p>Si cette <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice> n'est pas des plus brillantes, vous en trouverez assurément les pensées sages et
+          vraies. Enfin je vois bien qu'il faut prendre ici le parti de faire main basse sur tous
+          les romans et sur tous les contes&#160;; car je ne crois pas que vous fassiez plus de <choice>
+            <orig>grace</orig>
+            <reg>grâce</reg>
+          </choice> à ceux-ci qu'aux premiers.</p>
+        <p>Le conte, réprit Euphorbe, a beaucoup d'affinité avec le roman. Il est à ce dernier, <choice>
+            <orig>à-peu-près</orig>
+            <reg>à peu près</reg>
+          </choice>, ce que la comédie est à la tragédie&#160;; avec cette différence, que le roman
+          renferme plus de <choice>
+            <orig>matiere</orig>
+            <reg>matière</reg>
+          </choice> que le conte, et par conséquent est bien plus étendu.<note resp="editor">Ce
+            dernier passage de l’<hi rend="italic">Essai sur le récit</hi> est cité par Nicole
+            Guenier, « Pour une définition du conte », 1970 (voir <ref target="/node/27/"
+              >bibliographie</ref>), p. 431.</note> Le premier nous donne le détail de toute la vie,
+          ou d'une grande partie de la vie de ses héros&#160;: le second est le récit d'une action
+          particulière, qu'on peut attribuer à des personnages de tout état et de toute condition.
+          Je n'aurai pas en effet plus d'égards pour les uns que pour les autres, quand ils se
+          trouveront dans la même classe.<note resp="editor">C'est-à-dire, <hi rend="italic">même
+              s'ils se trouveront dans la même classe</hi>.</note>
+          <pb xml:id="p686"/>Accorderiez-vous votre suffrage, exigeriez-vous que je donnasse le
+          mien, à des aventures capables de faire rougir la vertu la plus équivoque&#160;? Ils sont
+          bien écrits, sans doute&#160;: tant pis. Ils n'en sont que plus pernicieux. Et je ne parle
+          pas ici seulement de ceux qui portent, pour ainsi dire, sur le front l'empreinte de leur
+          infamie, mais aussi de ceux qu'on prétend faire valoir de nos jours, en disant qu'ils
+          couvrent les objets d'une gaze <choice>
+            <orig>légere</orig>
+            <reg>légère</reg>
+          </choice>&#160;; gaze infidèle, qui ne voile rien, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui ne sert qu'à irriter la curiosité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les passions.<note resp="editor">Le gaze dans le discours est un topos du
+            discours romanesque. Il apparaît par exemple chez Sade, dans <hi rend="italic">Aline et
+              Valcour</hi>.</note> Si l'objet est honnête, il doit <choice>
+            <orig>paroître</orig>
+            <reg>paraître</reg>
+          </choice> dans tout son jour&#160;; s'il ne l'est pas, il faut l'ensevelir dans les <choice>
+            <orig>ténébres</orig>
+            <reg>ténèbres</reg>
+          </choice> les plus profondes. Cependant vous me prêtez plus de rigidité, que je ne veux en
+          avoir moi-même. Je ne prétends point proscrire tous les romans et tous les contes, <choice>
+            <sic>tels</sic>
+            <corr>quels</corr>
+          </choice><note resp="editor">Il semble bien s'agir ici, dans l'original, d'une
+            coquille.</note> qu'ils puissent être. Pensez-vous qu'on n'en puisse pas composer qui
+          soient favorables à la vertu et aux mœurs ?</p>
+        <p>Je crois tout le contraire, répliqua Timagene. Eh&#160;! qui pourrait empêcher qu'on ne
+          prit pour sujet d'un roman les actions d'un grand homme qui <choice>
+            <orig>intéresseroit</orig>
+            <reg>intéresserait</reg>
+          </choice> par ses malheurs, et plus encore par ses vertus et son mérite&#160;? Cela n'est
+            <pb xml:id="p687"/>pas plus difficile à feindre<note resp="editor">Sic. On aurait pu
+            s'attendre, également, au verbe 'peindre'.</note> qu'un héros amoureux. Il <choice>
+            <orig>passeroit</orig>
+            <reg>passerait</reg>
+          </choice> par mille traverses&#160;; il <choice>
+            <orig>éprouveroit</orig>
+            <reg>éprouverait</reg>
+          </choice> les revers les plus accablants&#160;; il se <choice>
+            <orig>trouveroit</orig>
+            <reg>trouverait</reg>
+          </choice> exposé aux dangers les plus affreux&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> toujours il <choice>
+            <orig>échapperoit</orig>
+            <reg>échapperait</reg>
+          </choice>, tantôt par son intrépidité, tantôt par son adresse, quelquefois par des
+          conjonctures heureuses et imprévues. Dans la suite de ces <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice>, je ne vois pas qu'il fut impossible de ménager ces révolutions frappantes qui
+          étonnent l'esprit du lecteur, ces situations délicates, intéressantes, qui le tiennent en
+          suspens, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> lui causent une <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de trouble délicieux. On <choice>
+            <orig>mettroit</orig>
+            <reg>mettrait</reg>
+          </choice> en jeu le ressort des passions, mais ce <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> pour arriver au bien.</p>
+        <p>Des gens d'esprit, ajouta Euphorbe, ont désiré que le théâtre fût mis à la portée de tous
+          les citoyens, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qu'en conséquence on en bannit l'amour, où du moins qu'on n'y donnât accès qu'à
+          celui qui est consacré par les <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice> divines et humaines. Il semble qu'alors, avec quelques autres précautions
+          encore, la scène <choice>
+            <orig>rentreroit</orig>
+            <reg>rentrerait</reg>
+          </choice> dans ses droits naturels, et <choice>
+            <orig>reviendroit</orig>
+            <reg>reviendrait</reg>
+          </choice> à sa <choice>
+            <orig>permiere</orig>
+            <reg>première</reg>
+          </choice> origine. À en juger en effet par quelques tragédies des anciens, ce spectacle <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice>, et <choice>
+            <orig>devoit</orig>
+            <reg>devait</reg>
+          </choice> être une école de vertu. Cette idée <pb xml:id="p688"/>qui a paru chimérique a
+          bien d'autres, a pourtant été appuyée en partie par l'expérience. Nos grands maîtres ont
+          prouvé qu'elle n'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> point impraticable. Polieucte, Athalie, Mérope font verser des pleurs, qu'on a
+          point à se reprocher.<note resp="editor">Le terme négatif initial n'est pas supplée,
+            ici.</note> Cinna n'<choice>
+            <orig>intéresseroit</orig>
+            <reg>intéresserait</reg>
+          </choice> pas moins, quand la passion du héros pour Emilie n'<choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> pas lieu. On y <choice>
+            <orig>verroit</orig>
+            <reg>verrait</reg>
+          </choice> toujours un grand homme prêt à périr sous le poignard d'un furieux, qu'il <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> comblé de biens. On le <choice>
+            <orig>verroit</orig>
+            <reg>verrait</reg>
+          </choice> avec transport découvrir ce complot, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ne s'en venger que par un pardon général, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de nouveaux bienfaits. Ce qui réussit dans l'action théâtrale, <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice>-il impossible dans le récit&#160;? Parmi les contes moraux, j'en <choice>
+            <orig>lisois</orig>
+            <reg>lisais</reg>
+          </choice> un ces jours-ci qui peut servir de preuve à ce que nous disons, si l'on en
+          excepte certains détails d'amourettes, qu'on <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> pu aisément supprimer. En voici une courte analyse. Une <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice> reste veuve avec deux enfants. Elle montre une prédilection aveugle pour l'aîné,
+          jeune homme sans mérite <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sans <choice>
+            <orig>talens</orig>
+            <reg>talents</reg>
+          </choice>. Le cadet, poussé à bout par la dureté de sa <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice>, passe dans les îles, où il fait en peu de temps une fortune brillante.
+          Cependant la <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice>, toute occoupée de son aîné, lui fait conclure <pb xml:id="p689"/>un mariage
+          avantageux, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> lui cède tous ses biens. Le jeune homme ne tarde pas à se ruiner par la débauche
+          et le jeu. Il meurt sans être regretté de personne <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> laisse sa <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice> dans la <choice>
+            <orig>derniere</orig>
+            <reg>dernière</reg>
+          </choice>
+          <choice>
+            <orig>misere</orig>
+            <reg>misère</reg>
+          </choice>. Le cadet apprend en Amérique le triste état de celle qui lui <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> donné le jour. La nature fait taire chez lui tout autre sentiment&#160;; il vend
+          ses fonds, en fait de l'argent, arrive en France, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> vient partager ses biens avec sa <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice> qu'il détermine enfin à le suivre dans le nouveau monde. Quel intérêt plus vif,
+          que celui qui nous attache à ce jeune exilé&#160;? Mais quel fond d'instructions pour les <choice>
+            <orig>meres</orig>
+            <reg>mères</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> pour les enfants ?</p>
+        <p>Vous commencez à me rassurer, répliqua Timagène en riant, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> je vois que nous pourrions bien un jour trouver, dans votre bibliothèque une
+          centaine de contes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> une douzaine de romans à côté de celui-ci. En attendant, voyons s'il vous plaît,
+          à quelles <choice>
+            <orig>régles</orig>
+            <reg>règles</reg>
+          </choice> il sont assujettis l'un <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'autre. Vous m'avez fait entendre, il n'y a qu'un moment, que le roman <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> né de la fiction <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice>. Je crois en effet qu'il est, pour ainsi parler, le singe du <choice>
+            <orig>poëme</orig>
+            <reg>poème</reg>
+          </choice> épique&#160;: mais il me semble qu'il s'est <pb xml:id="p690"/>affranchi de
+          toutes ses <choice>
+            <orig>régles</orig>
+            <reg>règles</reg>
+          </choice>. Si l'on y voit un héros, ce qui n'arrive pas toujours, l'unité d'action n'y est
+          nullement observée. C'est un tissu d'<choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> enchâssés les uns dans les autres, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dont aucun ne peut être appellé le fait principal. Souvent l'incident a plus de
+          saillie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> d'étendue que le fond même du récit, au point de le faire <choice>
+            <orig>entierement</orig>
+            <reg>entièrement</reg>
+          </choice> oublier. On y <choice>
+            <orig>chercheroit</orig>
+            <reg>chercherait</reg>
+          </choice> vainement l'unité de temps.<note resp="editor">Ici, contrairement à d'autres
+            occasions, le terme 'temps' comporte la graphie moderne.</note> La vie <choice>
+            <orig>entiere</orig>
+            <reg>entière</reg>
+          </choice> d'un héros, est la <choice>
+            <orig>carriere</orig>
+            <reg>carrière</reg>
+          </choice> que se prescrit l'<choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice>&#160;; encore n'est-il pas bien sûr qu'il soit tenu de se renfermer dans ces
+          bornes. Je ne vois pas que l'on fasse état ici de la réflexion d'Horace.</p>
+        <p>
+          <q rend="verse">
+            <l>
+              <hi rend="italic">In médias res</hi>
+            </l>
+            <l><hi rend="italic">Nom secus ac notas auditorem rapis</hi>.<note resp="editor">Il
+                s’agit d’un vers tiré d’un passage bien connu de l’<hi rend="italic">Art
+                  poétique</hi> dans lequel Horace déconseille au poète de toujours remonter aux
+                premières origines de son récit et lui recommande de commencer plutôt son récit « in
+                medias res » et de supposer le reste connu des lecteurs ou auditeurs&#160;; voir
+                Horace, <hi rend="italic">De arte poetica&#160;: lateinisch und deutsch</hi>, ed.
+                Horst Rüdiger, Zürich&#160;: Artemis, Lebendige Antike, 1961, v. 148-149.</note></l>
+          </q>
+        </p>
+        <p>On raconte tout de suite les choses, comme on suppose qu'elles se sont passées <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> selon l'ordre naturel des temps. À quoi donc se réduisent les préceptes de cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> d'ouvrage ?</p>
+        <p>Je n'en <choice>
+            <orig>connois</orig>
+            <reg>connais</reg>
+          </choice> presque point d'autres, répondit Euphorbe, que ceux qui concernent l'intérêt <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice>. Le merveilleux et la fiction sont admis dans le roman. Il les a, sans doute,
+          empruntés <pb xml:id="p691"/>de l'épopée&#160;: mais dans l'un <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans l'autre il s'est étrangement écarté de son modèle. C'est bien ici qu'on a
+          profité de la liberté de tout oser, qu'Horace accorde aux <choice>
+            <orig>poëtes</orig>
+            <reg>poètes</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> aux peintres&#160;: malheureusement, contre l'avis de ce <choice>
+            <orig>poëte</orig>
+            <reg>poète</reg>
+          </choice> critique, on l'a fait sans réserve.<note resp="editor">Constat d'une liberté des
+            règles propre au roman, telle que l'affirme également Choderlos de Laclos lorsqu'il
+            parle du roman comme «&#160;le plus libre de nos genres de littérature&#160;». Voir
+            Choderlos de Laclos. «&#160;Observations du général Laclos sur le roman théâtral de M.
+            Lacretelle aîné&#160;», 1803/1824 (voir <ref target="/node/21/">bibliographie</ref>), p.
+            488.</note> Tantôt ce sont des fées bonnes ou mauvaises, qui d'un coup de baguette
+          changent toute la nature&#160;: tantôt ce sont des antropophages, qui dévorent leurs
+          semblables&#160;: là ce sont des géants d'une grandeur énorme, où des hommes subitement
+          métamorphosés en bêtes, en arbres&#160;: ici ce sont des pays qui ne ressemblent en rien
+          aux nôtres&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> pour enfanter tant de prodiges, on n'a pas même recours au pouvoir des Dieux,
+          dont l'intervention les <choice>
+            <orig>rendroit</orig>
+            <reg>rendrait</reg>
+          </choice> plus supportables. Ce reproche tombe surtout sur la plupart des anciens romans.
+          Ceux d'aujourd'hui ne sont pas sujets à ce défaut. Notre <choice>
+            <orig>siécle</orig>
+            <reg>siècle</reg>
+          </choice> n'est pas ami du merveilleux. Il a bien de la peine à croire celui qui est
+          incontestable&#160;: jugez s'il doit s'accommoder de celui qui est imaginaire. On s'est
+          donc un peu plus rapproché de la vraisemblance, mais on ne l'a point encore parfaitement
+          atteinte. Dans nos romans modernes, aucun des <pb xml:id="p692"/><choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> en particulier, ne sort communément des <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice> de la nature <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de l'ordre des choses&#160;; mais ces <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> sont si singuliers, leur enchaînement est si rare, qu'il <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> moralement impossible d'en trouver un exemple, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que s'il s'en <choice>
+            <orig>rencontroit</orig>
+            <reg>rencontrait</reg>
+          </choice> un seul, il <choice>
+            <orig>passeroit</orig>
+            <reg>passerait</reg>
+          </choice> pour un prodige. On peut supposer quelquefois qu'une <choice>
+            <orig>mere</orig>
+            <reg>mère</reg>
+          </choice> est assez dénaturée pour substituer un enfant à celui que le ciel lui a
+          donné&#160;: il n'est pas impossible qu'un jeune homme quitte ses parents, qu'il leur soit
+          inconnu longtemps, qu'on le croie mort&#160;: il se peut faire qu'une personne éprouve des
+          malheurs, qu'elle coure des hasards&#160;: il peut arriver qu'un <choice>
+            <orig>pere</orig>
+            <reg>père</reg>
+          </choice> par une heureuse rencontre reconnaisse un fils qu'il <choice>
+            <orig>croyoit</orig>
+            <reg>croyait</reg>
+          </choice> perdu. Mais est-il bien naturel que ces circonstances se réunissent,
+          s'accumulent, toutes à la fois, toutes en <choice>
+            <orig>même-temps</orig>
+            <reg>même temps</reg>
+          </choice> dans la même personne&#160;; que cette <choice>
+            <orig>reconnoissance</orig>
+            <reg>reconnaissance</reg>
+          </choice> imprévue arrive précisément dans le moment où le <choice>
+            <orig>pere</orig>
+            <reg>père</reg>
+          </choice>, après s'être opposé <choice>
+            <orig>long-temps</orig>
+            <reg>longtemps</reg>
+          </choice> à une alliance avantageuse pour celui qu'il ne <choice>
+            <orig>connoissoit</orig>
+            <reg>connaissait</reg>
+          </choice> point encore, se trouve sur le point de le condamner à mort&#160;? Voilà
+          cependant quelques-uns des bizarres assemblages que nous offrent les romans. Sont-ils bien
+            <pb xml:id="p693"/>dans les <choice>
+            <orig>régles</orig>
+            <reg>règles</reg>
+          </choice> de la vraisemblance ?</p>
+        <p>Ce que vous condamnez dans le concours des <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice>, ajouta Timagène, se rencontre au moins aussi souvent dans les qualités qu'on
+          attribue aux <choice>
+            <orig>différens</orig>
+            <reg>différents</reg>
+          </choice> personnages. Ils ne sont jamais ou bons ou méchants à demi. Si l'on peint un
+          scélérat, c'est un monstre composé de tous les vices imaginables. Les héros au contraire,
+          où les héroïnes, ont communément toutes les vertus <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tous les <choice>
+            <orig>talens</orig>
+            <reg>talents</reg>
+          </choice>, sans mélange d'aucun défaut. Comme ces derniers portraits sont plus ragoûtants
+          que les autres, je veux vous en mettre un sous les yeux, que je me rappelle encore. Il est
+          tiré de Voiture. C'est le portrait de Zélide, dans le roman qui porte son nom.<note
+            resp="editor">Il s'agit de <hi rend="italic">L'Histoire d'Alcidalis et de Zélide</hi>,
+            par le poète et épistolier Vincent Voiture (1597-1648). Voir <hi rend="italic">Les
+              Œuvres de Monsieur de Voiture</hi>&#160;, 1729 (voir <ref target="/dossier/ouvrages/"
+              >bibliographie</ref>) tome 2, p.&#160;276-458, 283.</note>
+          <q rend="inline">Zélide <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> le plus parfait ouvrage, que le ciel ait jamais fait. <choice>
+              <orig>...</orig>
+              <reg>[...]</reg>
+            </choice><note resp="editor">Bérardier omet ici une phrase du texte original, pourtant
+              en relation directe avec son propos sur la vraisemblance&#160;: <q rend="inline">Comme
+                sa vie <choice>
+                  <orig>devoit</orig>
+                  <reg>devait</reg>
+                </choice> être pleine de miracles, sa personne l'<choice>
+                  <orig>étoit</orig>
+                  <reg>était</reg>
+                </choice> aussi, &amp; cette histoire qui est <choice>
+                  <orig>vrai-semblable</orig>
+                  <reg>vraisemblable</reg>
+                </choice> en toutes choses, est incroyable seulement, en ce qu'elle raconte
+                d'elle</q>.</note> Depuis que le soleil <choice>
+              <orig>faisoit</orig>
+              <reg>faisait</reg>
+            </choice> le tour de la terre, il n'y <choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> point vu une beauté si accomplie que la sienne, et dans le plus beau corps du
+            monde, elle <choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> un esprit qui ne peut être imaginé des nôtres, et qui <choice>
+              <orig>sembloit</orig>
+              <reg>semblait</reg>
+            </choice> être de ceux qui ne doivent pas gouverner d'autres corps, que ceux de <choice>
+              <orig>la haut</orig>
+              <reg>là-haut</reg>
+            </choice>, qui ont été faits pour conduire les astres. En un âge où à peine les autres
+              <pb xml:id="p694"/><choice>
+              <orig>sçavent</orig>
+              <reg>savent</reg>
+            </choice> proférer quelques paroles, elle <choice>
+              <orig>disoit</orig>
+              <reg>disait</reg>
+            </choice> des choses qui eussent été admirées en la bouche des plus sages. Personne
+            n'eut jamais une naissance plus heureuse que la sienne. Toutes les étoiles s'<choice>
+              <orig>étoient</orig>
+              <reg>étaient</reg>
+            </choice> accordées ensemble pour lui donner ce qu'elles <choice>
+              <orig>avoient</orig>
+              <reg>avaient</reg>
+            </choice> de meilleur, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le ciel <choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> mis tant de choses en elle, que la moindre partie qui y fût, <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> celle qu'elle <choice>
+              <orig>tenoit</orig>
+              <reg>tenait</reg>
+            </choice> de la terre, et elle <choice>
+              <orig>sembloit</orig>
+              <reg>semblait</reg>
+            </choice> une personne céleste, tombée ici par miracle. Ses inclinations la <choice>
+              <orig>portoient</orig>
+              <reg>portaient</reg>
+            </choice> si puissamment au bien, que pour ce qui <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> de faillir, il <choice>
+              <orig>sembloit</orig>
+              <reg>semblait</reg>
+            </choice> qu'elle n'eut point de libre-arbitre, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> toutes les vertus lui <choice>
+              <orig>étoient</orig>
+              <reg>étaient</reg>
+            </choice> si naturelles, qu'il eût fallu qu'elle se fût fait violence, pour n'en pas
+            exercer quelqu'une. Jamais il n'y eut de combat en son âme. Jamais elle ne fut en doute
+            entre le bien <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le mal, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> elle <choice>
+              <orig>suivoit</orig>
+              <reg>suivait</reg>
+            </choice> toujours la justice et la bienséance, en suivant toutes ses volontés…. La
+            moindre part des perfections qui <choice>
+              <orig>étoient</orig>
+              <reg>étaient</reg>
+            </choice> en elle, <choice>
+              <orig>étoit</orig>
+              <reg>etait</reg>
+            </choice> celle qui se <choice>
+              <orig>pouvoient</orig>
+              <reg>pouvaient</reg>
+            </choice> dire.</q> Je vous le demande, avez-vous jamais rencontré la copie d'un pareil
+          original&#160;? Pour moi, je crois que ce n'est point là la marche de la nature. Je ne
+          connus <pb xml:id="p695"/>﻿jamais de <choice>
+            <orig>caractere</orig>
+            <reg>caractère</reg>
+          </choice> si vicieux qui n'eût quelque chose de bon, ni de vertu si parfaite, qui n'eût
+          quelque tache. Mais revenons à l'intérêt qui doit <choice>
+            <orig>régner</orig>
+            <reg>règner</reg>
+          </choice> dans le roman. Est-il bien aisé de le produire ?</p>
+        <p>Il l'est plus, sans doute, répartit Eurphorbe, dans cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de récit, que dans l'histoire <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans tout autre qui <choice>
+            <orig>s'appuye</orig>
+            <reg>s'appuie</reg>
+          </choice> sur la vérité. L'écrivain étant maître de sa <choice>
+            <orig>matiere</orig>
+            <reg>matière</reg>
+          </choice>, il <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> bien maladroit s'il ne <choice>
+            <orig>disposoit</orig>
+            <reg>disposait</reg>
+          </choice> pas ses <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ses <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice> d'une <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> propre à nous attacher. Il faut donc qu'on nous fasse estimer <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> aimer un, ou plusieurs personnages. On les supposera dans différentes
+          conjonctures critiques, capables de nous faire appréhender pour pour leurs biens, leur
+          honneur, ou leurs jours, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui seront l'effet du hasard, de quelque imprudence ou de quelque faute
+          excusable&#160;: un scélérat n'a point de droit à notre attachement. On entretiendra nos <choice>
+            <orig>allarmes</orig>
+            <reg>alarmes</reg>
+          </choice>, en faisant briller de temps en temps des rayons d'espérance qui <choice>
+            <orig>disparoîtront</orig>
+            <reg>disparaîtront</reg>
+          </choice> ensuite. On soutiendra cette douce agitation pendant tout le cours du récit,
+          jusqu'au dénouement, qui doit mettre le comble à l'intérêt, en nous procurant une
+          satisfaction pleine <pb xml:id="p696"/>de charmes. Plusieurs autres moyens particuliers
+          peuvent contribuer encore dans le détail des faits à échauffer l'intérêt&#160;: tels sont
+          les discours pathétiques, les suspensions adroites, les descriptions vives et
+          animées&#160;; en un mot, tout ce qui peut mettre en mouvement les passions. Mais il faut
+          qu'elles soient honnêtes et légitimes, comme la compassion, la terreur, l'admiration du
+          beau et du sublime.<note resp="editor">Bérardier reprend ici, sans en tirer aucun
+            argument, la distinction rendue célèbre par Edmund Burke en 1757. Voir son<hi
+              rend="italic"> Philosophical Enquiry into the Origin of Our Ideas of the Sublime and
+              Beautiful</hi>, 1757, dont la première traduction française date de 1765.</note> Plus
+          l'intérêt sera vif, plus il sera dangereux, s'il tombe sur un objet condamnable.</p>
+        <p>Je vois que l'intérêt du roman, poursuivit Timagène, a beaucoup de rapport avec celui de
+          l'epopée et du <choice>
+            <orig>poëme</orig>
+            <reg>poème</reg>
+          </choice> tragique&#160;; et j'en conclus que celui du conte doit avoir quelque
+          ressemblance avec ce qui nous attache au <choice>
+            <orig>poëme</orig>
+            <reg>poème</reg>
+          </choice> comique. Les défauts des particuliers, leurs <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice>, leurs intrigues, leurs querelles mêmes, doivent produire à proportion de
+          celui-ci les mêmes effets que sur la scène. Je soupçonne même que, pour le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice>, le conte a de la conformité avec la comédie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le roman avec la tragédie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'épopée.</p>
+        <p>Je ne suis pas tout à fait de votre avis sur cet article, interrompit Euphorbe. La muse
+          épique embauche la trompette&#160;; <pb xml:id="p697"/> celle de la tragédie chausse le
+          cothurne&#160;: leur air doit toujours être grand et magnifique, et se soutenir par toutes
+          les richesses de la <choice>
+            <orig>poësie</orig>
+            <reg>poésie</reg>
+          </choice>. Le roman, il est vrai, a quelque conformité avec ces deux <choice>
+            <orig>poëmes</orig>
+            <reg>poèmes</reg>
+          </choice> par la fiction <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'intérêt&#160;: mais il n'est que le récit d'une suite d'<choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> vraisemblables, placés dans leur ordre naturel&#160;; il est communément écrit
+          en prose&#160;; et par là il se rapproche d'avantage de l'histoire. Il doit donc imiter
+          son <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice>&#160;; c'est-à-dire, que l'écrivain doit se laisser oublier, pour n'occuper son
+          lecteur que des faits qu'il raconte, et produire plus <choice>
+            <orig>surement</orig>
+            <reg>sûrement</reg>
+          </choice> l'illusion nécessaire à l'intérêt. Il faut qu'il s'exprime d'une manière noble,
+          sans enflure, serrée, sans obscurité, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>sur-tout</orig>
+            <reg>surtout</reg>
+          </choice> qu'il évite la recherche de l'esprit, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'affectation des grands mots. Par rapport aux <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice> qu'il présente, il est nécessaire qu'ils soient aussi soutenus que dans le <choice>
+            <orig>poëme</orig>
+            <reg>poème</reg>
+          </choice> épique. Ce sont des enfants de son imagination&#160;; il peut les former à son
+          gré&#160;: il doit donc les rendre semblables à ceux de la nature. Le <choice>
+            <orig>caractere</orig>
+            <reg>caractère</reg>
+          </choice> d'un personnage doit se montrer jusque dans ses discours. <choice>
+            <orig>Don Guichotte</orig>
+            <reg>Don Quichotte</reg>
+          </choice><note resp="editor">La graphie originale du nom est attestée à l'époque.</note>
+          ne parle qu'avec emphase et d'un ton ridiculement <choice>
+            <orig>empoulé</orig>
+            <reg>ampoulé</reg>
+          </choice>&#160;; Sancho ne dément <pb xml:id="p698"/>jamais cette ingénuité <choice>
+            <orig>grossiere</orig>
+            <reg>grossière</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> triviale, qu'il <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> dû puiser dans sa <choice>
+            <orig>premiere</orig>
+            <reg>première</reg>
+          </choice> origine. Il en est tout autrement du conte. Le principal mérite de son <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> consiste dans cette aimable naïveté, dont nous faisions l'éloge ce matin. Il a
+          cela de commun avec la fable&#160;: composé avec beaucoup d'art, il n'en laisse presque
+          point <choice>
+            <orig>paroître</orig>
+            <reg>paraître</reg>
+          </choice>.</p>
+        <p>C'est apparemment là, ajouta Timagène, ce que veut dire l'<choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> des contes moraux, par ces mots que j'ai lus dans sa préface&#160;: <q
+            rend="inline">Quand c'est moi qui raconte, je me livre à l'impression actuelle du
+            sentiment ou de l'image que je dois rendre&#160;: c'est mon sujet qui me donne le ton.
+            Quand je fais parler mes personnages, tout l'art que j'y emploie est d'être présent à
+            leur entretien, et d'écrire ce que je crois entendre.</q><note resp="editor">Cette
+            citation de Jean-François Marmontel (1723-1799) est tirée de la « Préface » aux <hi
+              rend="italic">Contes moraux</hi>. Dans l'édition de 1772, elle se trouve au tome 1, p.
+            iii-xii, ici p. x&#160;; la préface est incluse également dans les <hi rend="italic"
+              >Œuvres complètes de Marmontel</hi> de 1818, au tome 3, p. ix-xvi</note> En effet, je
+          pense que le meilleur moyen pour réussir dans le conte, est d'étudier plus son sujet, que
+          ses termes, de se mettre à la place de ceux qui agissent, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de laisser alors la nature nous fournir ses expressions, comme elle les dicte
+          dans la conversation <choice>
+            <orig>familière</orig>
+            <reg>familiere</reg>
+          </choice>. Ne <choice>
+            <orig>diroit</orig>
+            <reg>dirait</reg>
+          </choice>-on pas que ces vers de <choice>
+            <orig>la Fontaine</orig>
+            <reg>La Fontaine</reg>
+          </choice>, dans le conte de Bélphégor, ont coulé d'eux-mêmes sous sa plume ?</p>
+        <p>
+          <q rend="verse">
+            <l><pb xml:id="p699"/>Un Intendant&#160;? Qu'est-ce que cette chose&#160;? </l>
+            <l>Je définis cet être, un animal </l>
+            <l>Qui, comme on dit, sait pêcher en eau trouble&#160;: </l>
+            <l>Et plus le bien de son maître va mal, </l>
+            <l>Plus le sien croît, plus son profit redouble&#160;; </l>
+            <l>Tant qu'aisément lui-même acheterait </l>
+            <l>Ce qui de net au Seigneur resterait&#160;: </l>
+            <l>Donc, par raisen bien et dûment déduite&#160;; </l>
+            <l>On pourrait voir chaque chose réduite </l>
+            <l>En son état, s'il arrivait qu'un jour </l>
+            <l>L'autre devint l'Intendant à son tour&#160;; </l>
+            <l>Car regagnant ce qu'il eut étant maître, </l>
+            <l>Ils reprendraient tous deux leur premier être.</l>
+          </q>
+        </p>
+        <p>Voilà assurément du simple et du naïf&#160;; où je me trompe fort.</p>
+        <p>Vous avez bien raison, reprit Euphorbe&#160;: mais je suis en état de vous citer ici
+          quelques autres exemples, dont la naïveté est encore plus sensible. J'ai sur moi un
+          recueil des poésies de <choice>
+            <orig>la Monnoye</orig>
+            <reg>La Monnoye</reg>
+          </choice>&#160;: permettez que je vous lise quelques-uns de ses contes.<note resp="editor"
+            >Il s'agit de Bernard de La Monnoye (1641-1728), avocat, poète et critique qui fut élu
+            membre de l'Académie française en 1713.</note> Ils ne sont pas longs&#160;; ils nous
+          divertiront.</p>
+        <p>
+          <q rend="verse">
+            <l>Un gros coquin, veille de fête-Dieu,</l>
+            <l>Chez un barbier fut présenter sa face, </l>
+            <l><pb xml:id="p700"/>Le suppliant de lui vouloir, par grâce, </l>
+            <l>Faire le poil pour l'amour du bon Dieu. </l>
+            <l>Fort volontiers, dit le barbier honnête&#160;; </l>
+            <l>Vite, garçon, en faveur de la fête, </l>
+            <l>Dépêchez-moi cette barbe gratis. </l>
+            <l>Aussitôt dit, un de ses apprentis </l>
+            <l>Charcute au gueux le menton et la joue. </l>
+            <l>Le patient faisait piteuse moue, </l>
+            <l>Et comme il vit paraitre en ce moment </l>
+            <l>Certain barbet navré cruellement, </l>
+            <l>Pour vol par lui commis dans la cuisine&#160;; </l>
+            <l>Ah&#160;! pauvre chien, que je vois en ce lieu, </l>
+            <l>S'écria-t il, je connais à ta mine </l>
+            <l>Qu'on t'a rasé pour l'amour du bon Dieu.<note resp="editor">Il s'agit « D’un Barbier
+                et d’un gueux », dans les <hi rend="italic">Poésies de M. de la Monnoye</hi>, 1716
+                (voir <ref target="/node/20/">bibliographie</ref>), p. 39-40.</note></l>
+          </q>
+        </p>
+        <p>La plaisanterie est fort bonne, répliqua Timagène&#160;; mais il y a dans ce conte
+          quelques façons de parler, qui me semblent au-dessous du naïf, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> approcher un peu du trivial. Il <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> possible de mettre plus de noblesse dans l'expression, surtout du premier et du
+          neuvième vers.</p>
+        <p>Dans celui-ci, poursuivit Euphorbe, vous ne trouverez pas le même défaut.</p>
+        <p>
+          <q rend="verse">
+            <l>En certain bourg au bonhomme Lucas </l>
+            <l>Messire Artus passait un bail à ferme, </l>
+            <l>Et prétendait au bout de chaque terme, </l>
+            <l><pb xml:id="p701"/>Outre le prix, avoir un cochon gras. </l>
+            <l>Pour un cochon, je n'y répugne pas, </l>
+            <l>Dit le fermier, mais gras, c'est autre chose. </l>
+            <l>Que sais-je moi ce qu'il arrivera&#160;? </l>
+            <l>Le grain peut-être, ou le gland manquera. </l>
+            <l>Point ne me veux soumettre à telle clause. </l>
+            <l>Artus répond que point n'en démordra. </l>
+            <l>Messieurs, leur dit le Notaire équitable, </l>
+            <l>Vous pouvez prendre un milieu, l'on mettra, </l>
+            <l>Qu'au sieur bailleur le preneur donnera, </l>
+            <l>Bon an, mal an, un cochon raisonnable. <note resp="editor">Il s'agit de l’« Expédient
+                d’un notaire », dans les <hi rend="italic">Poésies de M. de la Monnoye</hi>, 1716
+                (voir <ref target="/node/20/">bibliographie</ref>), p. 44.</note></l>
+          </q>
+        </p>
+        <p>Je vois dans cette historiette, ajouta Timagène, un <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> clair, aisé, simple. C'est le ton de la conversation. La naïveté qui terminé ce
+          conte, dans la place où elle est, produit une surprise très àgréable.</p>
+        <p>En voici encore un, continua Euphorbe, dans un genre un peu différent, mais qui ne vous
+          plaira pas moins. C'est un dialogue entre deux amis qui se rencontrent le matin dans une
+          église.</p>
+        <p>
+          <q rend="verse">
+            <l>Bon jour, compère André. Bon jour, compère Gile, </l>
+            <l><pb xml:id="p702"/>Comment vous portez-vous? Bien, et vous&#160;? A souhait.</l>
+            <l>Puis-je ouir cette Messe&#160;? Elle est tout votre fait&#160;; </l>
+            <l>Le Prêtre n'en est pas encore à l'Evangile. </l>
+            <l>Voulez-vous qu'au sortit nous déjeunions en ville&#160;? </l>
+            <l>Tope. Nous en mettrons sire Ambroise et Rolait. </l>
+            <l>D'accord. Il ne nous faut qu'un bon cochon de lait. </l>
+            <l>Ha, vous, n'y songez pas&#160;; c'est aujourd'hui vigile. </l>
+            <l>Vigile&#160;? A demain donc, je suis pour les jours gras. </l>
+            <l>A propos&#160;; on m'a dit que le voisin Lucas </l>
+            <l>Épouse votre… Point. J'ai découvert ses dettes. </l>
+            <l>Où vend-on de bon vin&#160;? Tout proche l'Hôtel-Dieu. </l>
+            <l>Grand merci. Prêtez-moi, de grace, vos lunettes. </l>
+            <l>Oh, oh, la Messe est dite&#160;: Adieu, compère, adieu.<note resp="editor">Il s'agit
+                du « Dialogue de deux compères à la Messe », dans les <hi rend="italic">Poésies de
+                  M. de la Monnoye</hi>, 1716 (voir <ref target="/node/20/">bibliographie</ref>), p.
+                62-63. </note></l>
+          </q>
+        </p>
+        <p>Voilà assurément, reprit Timagène, beaucoup de <choice>
+            <orig>légéreté</orig>
+            <reg>légèreté</reg>
+          </choice>, une simplicité <pb xml:id="p703"/>charmante, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> même une <choice>
+            <orig>satyre</orig>
+            <reg>satire</reg>
+          </choice>
+          <choice>
+            <orig>très-fine</orig>
+            <reg>très fine</reg>
+          </choice>&#160;: mais prétendez-vous nous donner cela pour un récit ?</p>
+        <p>Sans doute, répondit Euphorbe, et pour un récit <choice>
+            <orig>très-adroit</orig>
+            <reg>très adroit</reg>
+          </choice>. Il est aisé de vous en convaincre en le remettant dans sa forme ordinaire.
+          Voici à peu près à quoi il <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice> se réduire. <hi rend="italic">Un jour Giles rencontra dans l'église son <choice>
+              <orig>compere</orig>
+              <reg>compère</reg>
+            </choice> André. Après avoir donné <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> reçu le bon jour, il lui demanda s'il <choice>
+              <orig>pouvoit</orig>
+              <reg>pouvait</reg>
+            </choice> entendre la messe, à laquelle il <choice>
+              <orig>assistoit</orig>
+              <reg>assistait</reg>
+            </choice> lui-même. Vous le pouvez, répondit André&#160;; elle n'est pas encore à
+            l'Évangile. Voulez-vous reprit l'autre, que nous déjeunions aujourd'hui ensemble&#160;?
+            …</hi> Je ne pousse pas plus loin cette narration qui <choice>
+            <orig>deviendroit</orig>
+            <reg>deviendrait</reg>
+          </choice> insupportable <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> par sa longueur <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> par sa monotonie. L'auteur évite habilement cet inconvénient en introduisant
+          tout à coup ses personnages. Nous entendons leurs propos, comme si nous étions dans le
+          temple. La suppression surtout de toutes les liaisons donne à leur conversation une
+          vivacité, qui ne porte aucun préjudice à la clarté.<note resp="editor">Sans le dire,
+            Bérardier reprend ici une idée de Marmontel, dont il cite plus la « Préface » aux <hi
+              rend="italic">Contes moraux</hi>. Dans cette préface, Marmontel renvoie précisément à
+            son projet de supprimer les incises du type « dit-il », « reprit-elle » etc. dans les
+            dialogues des contes ou des romans.</note></p>
+        <p>Excusez, repartit en riant Timagène&#160;: c'est cette vivacité qui m'a trompé. J'<choice>
+            <orig>imaginois</orig>
+            <reg>imaginais</reg>
+          </choice> presque être présent à l'entretien des deux <choice>
+            <orig>comperes</orig>
+            <reg>compères</reg>
+          </choice>, pendant la <pb xml:id="p704"/>messe, et je ne <choice>
+            <orig>songeois</orig>
+            <reg>songeais</reg>
+          </choice> pas que c'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice>
+          <choice>
+            <orig>la Monnoye</orig>
+            <reg>La Monnoye</reg>
+          </choice> qui me le <choice>
+            <orig>racontoit</orig>
+            <reg>racontait</reg>
+          </choice>. Je trouve, comme vous, que c'est un artifice <choice>
+            <orig>très-utile</orig>
+            <reg>très utile</reg>
+          </choice> de retrancher les liaisons, lorsqu'on peut le faire sans <choice>
+            <sic>jetter</sic>
+            <corr>jeter</corr>
+          </choice> de l'obscurité dans le dialogue. Mais selon moi, on ne doit pas se croire à
+          l'abri de cet inconvénient, en substituant à ces liaisons des traits d'impression formés
+          par la presse, comme on le pratique souvent aujourd'hui. Ces signes typographiques ne
+          parlent qu'aux <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> non point aux oreilles. Ils avertissent le lecteur&#160;; mais moi qui ne suis
+          qu'auditeur, je suis en danger de me méprendre, si la suite du discours ne suffit pas pour
+          m'apprendre le changement des interlocuteurs&#160;: <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si celle-ci est suffisante, le trait devient inutile.</p>
+        <p>Nos écrivains modernes, poursuivit Euphorbe, ont cru par cette invention se tirer d'un
+          embarras assez commun dans les dialogues indirects. La nécessité où l'on est d'avertir le
+          lecteur toutes les fois qu'un personnage prend la parole, allonge la diction, et la rend
+          souvent traînante. Ils ont cru pouvoir remplacer les expressions usitées dans ce cas, par
+          un signe arbitraire&#160;: mais la remarque que vous venez de faire, en montre <pb
+            xml:id="p705"/> l'insuffisance. Je pense donc que tout dépend ici du jugement <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de l'attention de auteur&#160;: il <choice>
+            <orig>employera</orig>
+            <reg>emploiera</reg>
+          </choice> les liaisons, partout où leur suppression <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice> induire en erreur une oreille attentive&#160;: il les omettra, lorsque la suite
+          du discours fera suffisamment apercevoir la différence des interlocuteurs. Le bon goût est
+          le seul juge qu'il doit écouter dans cette circonstance.</p>
+        <p>Vous êtes un homme admirable, pour trouver des <choice>
+            <orig>tempéramens</orig>
+            <reg>tempéraments</reg>
+          </choice>,<note resp="editor">Au sens « d'expédients et d'adoucissements qu’on propose
+            pour concilier les esprits et pour accommoder les affaires », sens signalé par le <hi
+              rend="italic">Dictionnaire de l'Académie française</hi>, huitième édition,
+            1932-35.</note> reprit Timagène&#160;: mais je vois que vous ne ménagez pas beaucoup
+          notre paresse. Comme la nuit approche, je veux mettre à profit le reste du jour. Je vais
+          me rendre dans votre cabinet, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> parcourir les <choice>
+            <orig>poësies</orig>
+            <reg>poésies</reg>
+          </choice> de <choice>
+            <orig>la Monnoye</orig>
+            <reg>La Monnoye</reg>
+          </choice> pour voir si partout il a aussi bien réussi, que dans les endroits dont vous
+          m'avez fait part.</p>
+        <p>FIN.</p>
+      </div>
     </body>
-    </text>
+  </text>
 </TEI>
