@@ -1,0 +1,2923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader xml:lang="fra">
+
+    <fileDesc>
+      <titleStmt>
+        <title>Essai sur le récit, ou Entretiens sur la manière de raconter.
+          Édition électronique.</title>
+        <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
+        <editor>Christof Schöch</editor>
+        <principal>Christof Schöch</principal>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Version 0.6, 12/2010</edition>
+      </editionStmt>
+
+      <publicationStmt>
+        <p>Édition électronique publiée en ligne à l'adresse
+          http://www.berardier.org sous licence Creative Commons BY-NC-SA 3.0
+          (Attribution-Noncommercial-Share Alike).</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
+          <title>Essai sur le récit, ou entretiens sur la manière de
+            raconter</title>
+          <pubPlace>Paris</pubPlace>
+          <publisher>Charles-Pierrre Berton</publisher>
+          <date>1776</date>
+          <extent>Format in-12, X-725 pages.</extent>
+        </bibl>
+      </sourceDesc>
+
+    </fileDesc>
+
+
+    <encodingDesc>
+      <projectDesc>
+        <p>Cette édition fournit une édition accessible en ligne et commentée de
+          l'Essai sur le récit, ou Entretiens sur la manière de raconter, par
+          François-Joseph Bérardier de Bataut. </p>
+      </projectDesc>
+      <editorialDecl>
+        <p>L'édition électronique est réalisée au format XML et conforme au
+          standard TEI, version 5, défini par la Text Encoding Initiative. Elle
+          utilise un sous-ensemble d'éléments définis dans le TEI-Lite, ce
+          sous-ensemble étant documenté dans un schéma XML. L'édition réunit une
+          transcription diplomatique (graphies d'époque, coquilles,
+          abréviations) et une version de lecture (graphies modernisées,
+          coquilles corrigées, abréviations explicitées). L'édition fournit avec
+          le texte des commentaires explicatifs, des références bibliographiques
+          et un dossier critique. </p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <revisionDesc>
+      <change when="2011-04-12" who="Christof Schöch">Updated header
+        information, corrected transcription.</change>
+      <change when="2010-07-15" who="Christof Schöch">Transfer zu
+        TEI-Lite.</change>
+    </revisionDesc>
+  </teiHeader>
+
+
+
+  <text>
+    <body>
+      <div type="chapter" xml:id="ENT06">
+        <head>SIXIÈME ENTRETIEN. <lb/>NARRATION HISTORIQUE. <lb/><hi
+            rend="italic">Qualités de cette Narration.</hi></head>
+
+        <p>Après le <choice>
+            <orig>dîner</orig>
+            <reg>diner</reg>
+          </choice>, les deux amis voulant laisser passer la grande chaleur, <choice>
+            <orig>allerent</orig>
+            <reg>allèrent</reg>
+          </choice> goûter le frais dans la <choice>
+            <orig>bibliothéque</orig>
+            <reg>bibliothèque</reg>
+          </choice> d'Euphorbe. Avouez, dit en y entrant <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, qu'il est bien gracieux de se trouver quelquefois
+          débarrassé de ces compagnies, avec qui on ne peut s'entretenir que de
+          frivolités, de modes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de spectacles, ou tout au plus de nouvelles vraies ou
+          fausses, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui n'intéressent que médiocrement des particuliers.</p>
+
+        <p>Ce plaisir, reprit Euphorbe, doit être <pb xml:id="p295"/> plus
+          piquant pour vous que pour moi. J'y suis fait&#160;: je l'éprouve la
+          plus grande partie de l'année&#160;; tandis que vous êtes dans ce
+          grand monde, où l'on court après une félicité, qui vient me chercher
+          dans ma retraite. Je ne suis pas cependant un misantrope&#160;: je
+          suis informé de tout ce qui se passe de notre temps, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> j'y prends part.</p>
+
+        <p>C'est-à-dire, poursuivit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, que vous êtes en relation avec tous les âges. Vos amis vous
+          transmettent les <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> présents&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les <choice>
+            <orig>siécles</orig>
+            <reg>siècles</reg>
+          </choice> passés, vous les trouvez ici. Voilà une assez belle
+          compagnie, pour un homme seul. Mais, dites-moi, laquelle de ces deux
+          sociétés a pour vous plus de charmes&#160;?</p>
+
+        <p>Le cœur, répondit Euphorbe, est plus satisfait dans le commerce de
+          l'amitié&#160;: mais l'esprit fait plus de fond sur les récits de ces
+          morts, dont la plupart, comme Tacite, <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> exempts de tout motif de haine <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> d'intérêt<note resp="author">Sine <choice>
+              <orig>irâ</orig>
+              <reg>ira</reg>
+            </choice>
+            <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> studio&#160;; quorum causas procul habeo. <choice>
+              <orig>Ann. lib. 1. c. 1</orig>
+              <reg><hi rend="italic">Annales</hi>, liber 1, chap. 1</reg>
+            </choice>.</note>. Ce sont les deux plus cruels ennemis de la
+          vérité&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la vérité est la qualité la plus essentielle de tout récit,
+          soit grave <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sérieux, <pb xml:id="p296"/> soit badin <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> amusant&#160;; si nous en exceptons ceux qui vivent de
+          fiction, pour m'exprimer comme Despréaux.<note resp="editor"
+            >L'allusion vise le chant III de l'<hi rend="italic">Art
+              poétique</hi> de Nicolas Boileau (voir <ref
+              target="/dossier/ouvrages">bibliographie</ref>), v. 160-163&#160;:
+            «&#160;D'un air plus grand encor la Poésie épique, / Dans le vaste
+            récit d'une longue action, / Se soutient par la fable et vit de
+            fiction.&#160;»</note> Dans ces derniers même, le vrai se déguise
+          sous le masque d'un mensonge ingénieux, qui ne peut induire personne
+          en erreur.</p>
+
+        <p>Entre les récits dont le ton est grave <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sérieux, ajouta <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, l'histoire est sans doute un de ceux à qui cette vérité est
+          plus essentielle.<note resp="editor">Marmontel précise, dans l'article
+            «&#160;Histoire&#160;» des <hi rend="italic">Éléments de
+              littérature</hi> de 1787 (voir <ref target="/dossier/critique"
+              >bibliographie</ref>), p.&#160;612&#160;: «&#160;De tous les
+            attributs, le plus essentiel à l'<hi rend="italic">histoire</hi> est
+            donc la vérité, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> la vérité intéressante&#160;», pour constater que cet
+            idéal ne se trouve jamais réalisé.</note> Personne n'aime à être
+          dupe. Lorsqu'on lit un historien, on est, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> on doit être persuadé qu'il ne veut point tromper&#160;: en
+          conséquence, on est disposé à le croire. N'est-il pas cruel alors de
+          se voir abusé par sa propre bonne foi&#160;? C'est une lâcheté
+          d'attaquer un homme qui n'est point en garde. D'où je conclus, avec
+          notre ami Lucien, que le plus léger mensonge n'est pas mieux reçu dans
+          l'histoire, que la moindre <choice>
+            <orig>goute</orig>
+            <reg>goutte</reg>
+          </choice> d'eau dans la trachée-artère<note resp="author">[Grec.] <hi
+              rend="italic">Quomodo Scrib. Hist.</hi></note>.</p>
+
+        <p>Le prince des orateurs latins, repartit Euphorbe, regarde cette
+          maxime, comme un de ces principes incontestables <pb xml:id="p297"/>
+          avoués de tout l'univers.<note resp="author">Quis nescit primam esse
+            historiæ legem ne quid falsi dicere audeat, deinde ne quid vere non
+            audeat&#160;? De <choice>
+              <orig>orat.</orig>
+              <reg>oratore,</reg>
+            </choice>
+            <choice>
+              <orig>lib. 2, c. 37</orig>
+              <reg>liber 2, c. 37</reg>
+            </choice>.</note><note resp="editor">Cicéron, <hi rend="italic">De
+              oratore</hi> II, XV, 62. Dans notre édition de référence, le texte
+            lit ainsi&#160;: «&#160;Nam quis nescit primam esse historiae legem,
+            ne quid falsi dicere audeat? Deinde ne quid veri non
+            audeat&#160;?»</note><quote rend="inline">Qui ne sait, dit-il, que
+            le premier devoir d'un historien est de ne rien dire de faux, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le second, d'oser dire la vérité quelle qu'elle puisse
+            être&#160;?</quote><note resp="editor">Les guillemets finaux
+            manquent dans l'original.</note> Malheureusement il arrive ici le
+          même inconvénient que dans la morale. Tout le monde convient de la <choice>
+            <orig>régle</orig>
+            <reg>règle</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> bien peu de gens la réduisent en pratique.</p>
+
+        <p>Que voulez-vous, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;? un écrivain n'a pas tout le temps nécessaire&#160;;
+          il n'est pas à portée de se procurer des mémoires fidèles<note
+            resp="editor">La graphie de l'original est ici plus moderne que dans
+            le reste du texte.</note>&#160;: un autre dépend de certaines
+          personnes en place&#160;: à titre de <choice>
+            <orig>reconnoissance</orig>
+            <reg>reconnaissance</reg>
+          </choice>, à titre d'intérêt, il doit ménager leur délicatesse&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> il ne peut le faire qu'en déguisant ou passant sous silence
+          certains faits qui <choice>
+            <orig>pourroient</orig>
+            <reg>pourraient</reg>
+          </choice> les blesser. Voulez-vous qu'un historien se perde sans
+          ressource&#160;?</p>
+
+        <p>Non, reprit Euphorbe&#160;; mais je veux qu'il se taise, s'il est
+          dans ces circonstances, plutôt que d'altérer la vérité. Je ne vois
+          point de loi qui le mette dans la nécessité d'écrire&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> s'il se détermine <pb xml:id="p298"/> à le faire, il ne doit
+          jamais oublier ce qu'à dit M. de Fenélon<note resp="author"><choice>
+              <orig>Dial. 6 t. 2</orig>
+              <reg><hi rend="italics">Dialogues</hi></reg>
+            </choice> 6, tome 2.</note>: <quote rend="inline">La <choice>
+              <orig>reconnoissance</orig>
+              <reg>reconnaissance</reg>
+            </choice> n'est pas ce qu'on cherche dans l'histoire&#160;; c'est ce
+            qui la rend suspecte.</quote><note resp="editor">La source de cette
+            citation n'a pas encore pu être identifiée, ni son exactitude
+            vérifiée.</note> Aurez-vous d'ailleurs la même indulgence pour ceux
+          que la malignité <choice>
+            <sic>où</sic>
+            <corr>ou</corr>
+          </choice> la flatterie porte à déchirer des particuliers, un prince,
+          une nation toute <choice>
+            <orig>entiere</orig>
+            <reg>entière</reg>
+          </choice>, même aux dépens de la vérité&#160;?</p>
+
+        <p><quote rend="verse">
+            <l><note resp="author"><choice>
+                  <orig>Hor.</orig>
+                  <reg>Horace,</reg>
+                </choice>
+                <choice>
+                  <orig>Sat. 3</orig>
+                  <reg><hi rend="italics">Satire 3,</hi></reg>
+                </choice>
+                <choice>
+                  <orig>lib. 1.</orig>
+                  <reg>liber 1,</reg>
+                </choice> v. 99.</note><hi rend="italic">Hic nigræ succus
+                loliginis, hæc est</hi></l>
+            <l><hi rend="italic">Ærugo mera</hi>,</l></quote></p>
+
+        <p>répondit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>. C'est une noirceur d'attacher à la calomnie le sceau de
+          l'immortalité. Ainsi, puisque vous le voulez, nous condamnerons les
+          premiers au silence, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ceux-ci à un déshonneur éternel&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> nous nous en tiendrons à la <choice>
+            <orig>régle</orig>
+            <reg>règle</reg>
+          </choice> de Ciceron, qui oblige l'historien, <choice>
+            <orig>non-seulement</orig>
+            <reg>non seulement</reg>
+          </choice> à ne rien dire de faux, mais encore à dire tout ce qui est
+          vrai.</p>
+
+        <p>Avec votre permission, interrompit Euphorbe, vous faites dire à
+          l'orateur <pb xml:id="p299"/> un peu plus qu'il ne dit en effet. Il
+          veut qu'on ne craigne pas d'exposer la vérité&#160;; mais il ne
+          prétend pas qu'on doive raconter tout ce qui est vrai. Il y a des
+          vérités inutiles&#160;: <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si nous en croyons Velleius Paterculus, il <choice>
+            <orig>vaudroit</orig>
+            <reg>vaudrait</reg>
+          </choice> presque mieux omettre des faits nécessaires, que de nous
+          arrêter à ceux qui n'ont aucune espèce d'utilité<choice>
+            <sic/>
+            <corr>.</corr>
+          </choice>
+          <quote rend="inline">Que m'importe (remarque agréablement Lucien), la
+            forme du bouclier que <choice>
+              <orig>portoit</orig>
+              <reg>portait</reg>
+            </choice> le général, les <choice>
+              <orig>ornemens</orig>
+              <reg>ornements</reg>
+            </choice>
+            <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> la richesse de son baudrier&#160;? <choice>
+              <orig>A</orig>
+              <reg>À</reg>
+            </choice> quoi bon me décrire la caverne où il s'est réfugié,
+            couverte de lierre, de <choice>
+              <orig>mirte</orig>
+              <reg>myrte</reg>
+            </choice>
+            <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de laurier&#160;? Tout cela ne contribue point à me faire <choice>
+              <orig>connoître</orig>
+              <reg>connaître</reg>
+            </choice> l'action principale.</quote><note resp="author">Quomodo <choice>
+              <orig>scrib.</orig>
+              <reg>scribere</reg>
+            </choice>
+            <choice>
+              <orig>Hist.</orig>
+              <reg>Historiam.</reg>
+            </choice></note><note resp="editor">Lucien de Samosathe,
+            «&#160;Comment il faut écrire l’histoire&#160;?».</note> Mais ce
+          défaut est léger en comparaison de la fausseté. Celui-ci<note
+            resp="editor">Il semble que le référent implicite soit ici 'le
+            défaut de la fausseté'.</note> a bien des sources différentes. Les
+          uns disent faux par ignorance, ou par un excès de crédulité&#160;: ils
+          ne s'en doutent pas. Les autres blessent la vérité de propos délibéré,
+          par haine, par flatterie, par esprit de parti.</p>
+
+        <p>Que d'<choice>
+            <orig>écueuils</orig>
+            <reg>écueils</reg>
+          </choice> pour un historien, s'écria <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;! Pour éviter le seul reproche d'ignorance, ce n'est
+          pas assez qu'il consulte <pb xml:id="p300"/> d'excellents mémoires. Il
+          lui faut une étendue de <choice>
+            <orig>connoissances</orig>
+            <reg>connaissances</reg>
+          </choice>, qui le rende presque universel. Sans parler de la
+          chronologie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la géographie, qu'on nomme les deux <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice> de l'histoire, combien d'<choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> exigent qu'il soit versé dans la physique&#160;! Il détaille
+          une négociation, un traité de paix. Peut-il ignorer les ressorts de la
+          politique&#160;? Dans le récit d'une guerre, il doit être au fait de
+          la tactique, de la disposition <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de l'approvisionnement d'une armée, des <choice>
+            <orig>campemens</orig>
+            <reg>campements</reg>
+          </choice>, de l'attaque <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la défense des places&#160;; enfin il faut qu'il <choice>
+            <orig>connoisse</orig>
+            <reg>connaisse</reg>
+          </choice> les intérêts des puissances, qui jouent les plus gands rôles
+          dans son histoire. Et quand il a acquis tout cela, il n'a encore que
+          la <choice>
+            <orig>premiere</orig>
+            <reg>première</reg>
+          </choice> partie de ses provisions.</p>
+
+        <p><choice>
+            <sic>Vons</sic>
+            <corr>Vous</corr>
+          </choice> avez bien raison, reprit Euphorbe&#160;: car s'il ne joint à
+          ces sciences un jugement sain, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> une critique sage, il tombera dans une crédulité
+          puérile&#160;; à tout moment, il prendra le vraisemblable pour le
+          vrai&#160;; enfin, il admettra sans examen, tout ce que le hasard lui
+          présentera. Je suis fâché que l'éloquent <choice>
+            <orig>Tite Live</orig>
+            <reg>Tite-Live</reg>
+          </choice> nous rapporte si souvent des prodiges incroyables, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dont, sans doute, il n'<choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> pas toujours bien examiné la source <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la nature. </p>
+
+        <p><pb xml:id="p301"/> Vous supposez, ce me semble, interrompit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, que l'historien est obligé quelquefois de raconter des
+          faits contraires à la vraisemblance. Comment, s'il vous plaît,
+          pourra-t-on ajouter foi à son récit&#160;?</p>
+
+        <p><choice>
+            <orig>Etoit</orig>
+            <reg>Etait</reg>
+          </choice>-ce une chose bien vraisemblable, repartit Euphorbe, que le
+          barbare Sylla mourut paisiblement au sein d'une patrie, qu'il <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> cruellement déchirée&#160;?<note resp="editor">Lucius
+            Cornelius Sulla (138-78 av. J.-C.) était un homme d'État
+            romain.</note> Il y a trois cents ans, <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice>-on pu prévoir, qu'un moine vindicatif <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> apostat <choice>
+            <orig>entraîneroit</orig>
+            <reg>entraînerait</reg>
+          </choice> à sa suite des souverains, des peuples, des royaumes
+          entiers, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>mettroit</orig>
+            <reg>mettrait</reg>
+          </choice> en armes toute l'Europe&#160;? <choice>
+            <orig>ce</orig>
+            <reg>Ce</reg>
+          </choice> sont là néanmoins des faits incontestables. La vérité n'est
+          donc pas toujours accompagnée de la vraisemblance. Mais, dans tout ce
+          qui s'écarte de la nature, de l'usage, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice> ordinaires, l'auteur doit être attentif à s'appuyer des
+          preuves les plus claires,<note resp="editor">La construction du verbe
+            s'appuyer (au sens figuratif) avec 'de' semble déjà être un
+            archaisme à l'époque où écrit Bérardier. Le <hi rend="italics"
+              >Dictionnaire de l'Académie française</hi> la connaît dans la
+            première édition (1694), mais pas dans la quatrième (1762).</note>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les moins équivoques. Ce n'est qu'à ce prix qu'il évitera le
+          soupçon d'être trop crédule.</p>
+
+        <p>J'<choice>
+            <orig>aurois</orig>
+            <reg>aurais</reg>
+          </choice> volontiers quelque indulgence pour cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de défaut, poursuivit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>. Il a communément sa source dans un fonds de probité. Pour
+          n'être jamais dupe de l'imposture, il faut en avoir été le partisan ou
+          la victime. Mais <pb xml:id="p302"/> je ne puis pardonner à ceux qui
+          me trompent de gaité de cœur, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dont la plume est conduite par l'aversion ou l'intérêt. Ils <choice>
+            <orig>mériteroient</orig>
+            <reg>mériteraient</reg>
+          </choice> bien qu'on leur fît le même traitement que les Scythes
+          firent aux Grecs<note resp="author">Bodin, <choice>
+              <orig>Method</orig>
+              <reg><hi rend="italic">Methodus</hi></reg>
+            </choice>, <choice>
+              <orig>c.</orig>
+              <reg>chap.</reg>
+            </choice> 3.</note>,<note resp="editor">Il s'agit du <hi
+              rend="italic">Methodus ad facilem historiarum cognitionem</hi>
+              (<hi rend="italic">Méthode pour étudier l’Histoire</hi>), publié
+            en 1566 par le jurisconsulte, philosophe et théoricien politique
+            français Jean Bodin (1529-1596). Voir la <ref
+              target="/dossier/ouvrages">bibliographie</ref>.</note> dont ils
+          détruisirent tous les <choice>
+            <orig>monumens</orig>
+            <reg>monuments</reg>
+          </choice>, parce qu'ils n'y <choice>
+            <orig>célébroient</orig>
+            <reg>célébraient</reg>
+          </choice> que leurs exploits, aux dépens même de leurs ennemis.</p>
+
+        <p>Si votre avis <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> suivi, dit Euphorbe, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si l'on <choice>
+            <orig>réformoit</orig>
+            <reg>réformait</reg>
+          </choice> tous les historiens<choice>
+            <orig>, </orig>
+            <reg> </reg>
+          </choice>qui<note resp="editor">La ponctuation a ici été modifiée,
+            dans le texte de lecture.</note> flattent leur patrie ou leurs
+          princes, il <choice>
+            <orig>resteroit</orig>
+            <reg>resterait</reg>
+          </choice> bien de la place dans nos bibliothèques. Pollion <choice>
+            <orig>reprochoit</orig>
+            <reg>reprochait</reg>
+          </choice> autrefois, à Tite-Live, <hi rend="italic">la
+          Patavinité</hi>&#160;; s'il n'<choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> pas été Romain, il lui <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> reproché, peut-être avec plus de justice, une partialité
+          décidée pour Rome. Ce penchant l'aveugle à un tel point, qu'il <choice>
+            <orig>paroît</orig>
+            <reg>paraît</reg>
+          </choice> approuver la ruse indigne dont la république usa contre les
+          Samnites, aux fourches Caudines. Il s'efforce d'abord de prouver que
+          les consuls n'<choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> point fait de traité, mais une simple promesse&#160;; sans
+          doute, pour en conclure, qu'ils <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> seuls responsables de cet engagement. Après avoir raconté
+            <pb xml:id="p303"/> l'admirable expédient trouvé par l'un de ces
+          deux magistrats, de se faire livrer à l'ennemi, pour dégager le peuple
+          Romain de ses obligations, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le refus que fit le général Samnite de les recevoir, il
+            ajoute&#160;;<note resp="author">Et illi quidem, forsitan <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> publica, sua certe liberata fide, ab Caudio in castia
+            Romana inviolati redierunt. <hi rend="italic">Liv. l. 9, c.
+            11</hi>.</note><quote rend="inline">Les consuls revinrent de Caudium
+            dans le camp, sans avoir éprouvé aucun mauvais traitement, ayant
+            ainsi pleinement satisfait à leurs propres <choice>
+              <orig>engagemens</orig>
+              <reg>engagements</reg>
+            </choice>, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> peut-être à ceux de la république.</quote> Ce mot <hi
+            rend="italic">peut-être</hi>, est un reste d'hommage que l'historien
+          semble rendre à la justice, malgré son inclination. Bien d'autres
+          après lui ont eu le même <choice>
+            <orig>foible</orig>
+            <reg>faible</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sont plus condamnables encore en ce qu'ils ont osé déguiser
+          la vérité. Ainsi, Velléius Paterculus est le panégyriste de <choice>
+            <orig>Tibere</orig>
+            <reg>Tibère</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> même de l'odieux Séjan. Paul Jove n'épargne pas les
+          mensonges pour flatter les Médicis. <choice>
+            <orig>Eginard</orig>
+            <reg>Éginhard</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>Eusebe</orig>
+            <reg>Eusèbe</reg>
+          </choice> font sentir qu'ils <choice>
+            <orig>attendoient</orig>
+            <reg>attendaient</reg>
+          </choice>, ou qu'ils <choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> reçu des bienfaits, l'un de Charlemagne, l'autre de
+          Constantin.</p>
+
+        <p><choice>
+            <orig>A</orig>
+            <reg>À</reg>
+          </choice> ce que je vois, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, <pb xml:id="p304"/> les historiens contemporains ne sont
+          pas toujours les plus fidèles.<note resp="editor">La graphie de
+            l'original est ici plus moderne que dans le reste du texte.</note> J'<choice>
+            <orig>aimerois</orig>
+            <reg>aimerais</reg>
+          </choice> mieux m'en rapporter à ceux qui n'ont paru que quelques
+          années après les princes dont ils ont écrit l'histoire. Assez voisins
+          des <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> qu'ils détaillent, pour en être parfaitement instruits, ils
+          n'ont pu se flatter que des éloges menteurs <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice> bien payés.</p>
+
+        <p>Si l'on doit moins appréhender la flatterie de leur part, reprit
+          Euphorbe, peut-être aussi sont-ils plus exposés à écouter la haine <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la vengeance. La distance des temps, plus encore que celle
+          des lieux, met à couvert du ressentiment d'un homme puissant, qu'on
+          diffame impunément. C'est ainsi que le Vassor se livre hardiment <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> avec complaisance à toute sa passion contre le cardinal de
+          Richelieu <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> contre Louis XIII lui-même, dans l'histoire qu'il a écrite
+          de ce prince plus de quarante ans après sa mort <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> celle de son ministre.<note resp="editor">Il s'agit de
+            Michel Le Vassor (1648-1718) et de son <hi rend="italic">Histoire du
+              règne de Louis XIII, roi de France et de Navarre</hi></note>
+          L'historien véritablement digne de foi, est donc celui qui se trouve à
+          portée de vérifier les faits qu'il avance, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dont la vertu se sent assez de fermeté pour braver un
+          injuste courroux, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> pour mépriser une faveur qui <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> le prix d'une lâcheté criminelle. Tel qu'un magistrat <pb
+            xml:id="p305"/> intègre, il condamnera le vice sous la pourpre, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> rendra hommage à la vertu, même dans ses ennemis. Le seul
+          amour de la vérité l'élevera au-dessus des préjugés, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> surtout de l'esprit de parti, qui nous représente les objets
+          tout autres qu'ils ne sont en eux-mêmes.</p>
+
+        <p>Il est vrai, continua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;; presque toujours notre amour-propre rejette sur les
+          autres les défauts qui ne sont qu'en nous. Nous ressemblons tous à ce
+          vieillard qui, ne voulant point avouer l'affaiblissement de sa vue, se <choice>
+            <orig>plaignoit</orig>
+            <reg>plaignait</reg>
+          </choice> que tous les appartements <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> mal éclairés, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>prétendoit</orig>
+            <reg>prétendait</reg>
+          </choice> qu'on <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> dû y ouvrir des fenêtres plus grandes&#160;: ou à cet autre,
+          à qui son grand âge <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> rendu l'oreille un peu dure&#160;: je ne sais, <choice>
+            <orig>disoit</orig>
+            <reg>disait</reg>
+          </choice>-il, pourquoi depuis quelque temps les gens ont pris la
+          mauvaise habitude de parler si bas. Chaque écrivain voit les choses
+          sous le rapport qui l'affecte le plus. Par exemple, vous <choice>
+            <orig>connoissez</orig>
+            <reg>connaissez</reg>
+          </choice> le fameux trait de ce soldat qui fendit d'un coup de hache,
+          en présence de Clovis, un vase que ce prince <choice>
+            <orig>vouloit</orig>
+            <reg>voulait</reg>
+          </choice> séparer du butin, pour le rendre à l'église de Reims, qui le <choice>
+            <orig>redemandoit</orig>
+            <reg>redemandait</reg>
+          </choice>. J'ai été bien surpris, je l'avoue, en <pb xml:id="p306"/>
+          voyant quelques auteurs modernes prétendre prouver par ce fait, que le
+          gouvernement <choice>
+            <orig>françois</orig>
+            <reg>français</reg>
+          </choice>
+          <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> alors quelque chose de républicain, ou du moins <choice>
+            <orig>tenoit</orig>
+            <reg>tenait</reg>
+          </choice> beaucoup de l'aristocratie. J'<choice>
+            <orig>avois</orig>
+            <reg>avais</reg>
+          </choice> cru y <choice>
+            <orig>appercevoir</orig>
+            <reg>apercevoir</reg>
+          </choice> au contraire le pouvoir le plus absolu <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le plus indépendant dans le souverain. Car enfin, je crois
+          qu'on peut raisonner ainsi&#160;: un prince qui, de l'aveu des
+          seigneurs de sa cour, peut disposer du butin, par le droit de
+          propriété&#160;; qui est tellement le maître de ses sujets, qu'aucun
+          n'est en droit de résister à sa puissance, est assurément un monarque
+          absolu, s'il n'est pas quelque chose de plus. Voilà cependant ce que <choice>
+            <orig>reconnoissent</orig>
+            <reg>reconnaissent</reg>
+          </choice> ouvertement dans Clovis les principaux officiers de son
+          armée, s'il en faut croire la réponse qu'ils firent au Roi,<note
+            resp="author">Omnia, gloriose Rex, quæ cernimus tua sunt&#160;: sed <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> nos ipsi tuo sumus dominio subjugati. Nunc quod tibi
+            beneplacitum videtur, facito&#160;: nullus enim potestati tuæ
+            resistere valet. <hi rend="italic">Lib. 2. c. 27</hi>. <lb/>Tout ce
+            qui est ici sous nos ieux, grand Roi, vous appartient&#160;:
+            nous-mêmes nous sommes soumis au joug de votre empire. Faites tout
+            ce qui vous semblera bon&#160;: car personne ne peut s'opposer à
+            votre puissance.</note> selon <pb xml:id="p307"/> Grégoire de Tours,
+          qui nous a transmis cet événement. La suite du récit confirme encore
+          cette idée. Le prince outragé par la brutalité du soldat, fut assez
+          maître de lui-même alors pour modérer son ressentiment, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> se contenta de prendre le vase <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de le remettre entre les mains du député de l'église de
+          Reims. Il est évident qu'il use ici de son droit, malgré l'opposition
+          de ce particulier, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sans demander un nouveau consentement, parce qu'il n'en <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> jamais eu besoin. Quelque temps après, dans une revue
+          générale, Clovis renverse à ses pieds, d'un coup de hache d'armes
+          l'insolent qui lui <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> manqué, en lui disant, <hi rend="italic">Souviens-toi du
+            vase de Soissons</hi>&#160;: <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'historien ajoute<note>Magnum sibi per hanc causam timorem
+            statuens. <hi rend="italic">Ibid</hi>.</note>, <hi rend="italic"
+            >par-là il se fit respecter <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> craindre de ses sujets</hi>. Cette façon de se faire
+          justice par ses mains, sans autre forme de procès, a bien quelque
+          chose de barbare <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> d'indécent dans un roi&#160;: mais elle n'en prouve pas
+          moins que le soldat <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> criminel de lèse-majesté dans l'occasion dont il s'agit,
+          comme l'insinuent ces <pb xml:id="p308"/> mots, <hi rend="italic"
+            >souviens-toi du vase de Soissons</hi>. Il n'est pas dit que cette
+          punition imprévue ait produit aucune plainte, aucun murmure dans
+          l'armée&#160;; mais seulement qu'elle rendit ce prince plus
+          redoutable. Quelle preuve donc <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice>-on appuyer sur l'emportement aveugle d'un sujet qui perd
+          tout respect pour son souverain&#160;? Grégoire de Tours remarque que
+          toute l'assemblée fut étonnée de son audace. <hi rend="italic"
+            >Stupefactis omnibus</hi>. Qui <choice>
+            <orig>pouvoit</orig>
+            <reg>pouvait</reg>
+          </choice> donner lieu à cet étonnement, si le soldat ne <choice>
+            <orig>faisoit</orig>
+            <reg>faisait</reg>
+          </choice> qu'exercer un droit légitime <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> établi sur la constitution même de l'état&#160;? Ainsi,
+          lorsque Clovis demande qu'on mette à part le vase en question, c'est
+          assurément une condescendance de sa part, qui ne peut former aucun
+          titre pour ses sujets. La politique <choice>
+            <orig>exigeoit</orig>
+            <reg>exigeait</reg>
+          </choice> qu'il ménageât des <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice> farouches dont il <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> besoin pour achever ses conquêtes&#160;: en conséquence, il
+          voulait bien avoir certains égards, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> se soumettre à quelques usages dont il pouvait
+          s'affranchir&#160;; mais aussitôt qu'on parut lui en faire une loi,
+          aux dépens de son autorité, il sut la venger par un châtiment, qui
+          n'avait rien de condamnable que dans la forme.</p>
+
+        <p>Je suis ravi, mon cher, répartit Euphorbe, <pb xml:id="p309"/> que
+          vous deveniez dissertateur. Mais il me semble que vous avez mis en
+          oubli une petite objection. Qui <choice>
+            <orig>pouvoit</orig>
+            <reg>pouvait</reg>
+          </choice> porter un homme de néant, sans titres, sans naissance, à une
+          semblable violence, si ce n'est qu'il se <choice>
+            <orig>croyoit</orig>
+            <reg>croyait</reg>
+          </choice> autorisé par les <choice>
+            <orig>loix</orig>
+            <reg>lois</reg>
+          </choice>&#160;?</p>
+
+        <p>L'historien latin nous l'apprend encore, reprit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>. Dans les <choice>
+            <orig>ames</orig>
+            <reg>âmes</reg>
+          </choice> basses, sans principes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sans éducation, la passion ne respecte aucunes bornes. Tel <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> l'homme dont il s'agit ici. Il est qualifié <hi
+            rend="italic">levis et invidus</hi>. C'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> une tête mal organisée. D'ailleurs il s'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> peut-être flatté que le sort le <choice>
+            <orig>rendroit</orig>
+            <reg>rendrait</reg>
+          </choice> maître de ce vase précieux&#160;; il le <choice>
+            <orig>désiroit</orig>
+            <reg>désirait</reg>
+          </choice> violemment. Il devint furieux quand il vit son espérance
+          évanouie. C'en fut assez pour lui faire commettre l'attentat qui nous
+          surprend, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans lequel on a cru voir une liberté que Grégoire de Tours
+          n'y a point vue lui-même.</p>
+
+        <p>La raison de cette différence est sensible, poursuivit Euphorbe. Les
+          auteurs dont vous vous plaignez, n'<choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> pas les mêmes <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice> que le prélat historien. Celui-ci ne <choice>
+            <orig>pensoit</orig>
+            <reg>pensait</reg>
+          </choice> qu'à écrire une histoire&#160;; ceux-là <choice>
+            <orig>vouloient</orig>
+            <reg>voulaient</reg>
+          </choice> faire servir l'histoire de preuve à un <choice>
+            <sic>systême</sic>
+            <corr>système</corr>
+          </choice> en faveur duquel leur esprit <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> déjà prévenu.<pb xml:id="p310 "/> Dans cette disposition,
+          ils ont cru <choice>
+            <orig>appercevoir</orig>
+            <reg>apercevoir</reg>
+          </choice> partout l'objet qui leur <choice>
+            <orig>plaisoit</orig>
+            <reg>plaisait</reg>
+          </choice>, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> n'ont donné qu'une attention très <choice>
+            <orig>légere</orig>
+            <reg>légère</reg>
+          </choice> à ce qui <choice>
+            <orig>pouvoit</orig>
+            <reg>pouvait</reg>
+          </choice> lui nuire. Aussi, voyez-vous qu'ils s'arrêtent avec
+          complaisance sur la demande du roi, sur l'usage de partager le butin,
+          sur l'audacieuse conduite du soldat, sans dire un mot de la réponse
+          des seigneurs, de la vengeance éclatante du souverain, enfin, de la
+          soumission <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la tranquillité de ceux qui en furent les témoins. Tel
+          est le malheureux effet du préjugé. On rapproche certaines
+          circonstances&#160;; on en omet d'autres&#160;; on entremêle le tout
+          de quelques réflexions. Par cet artifice, le même événement, sous la
+          plume de deux écrivains différemment passionnés, semble changer de
+          nature&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si la haine <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la malignité s'en mêlent, on réussit à décrier des
+          souverains, des corps, des nations entières. Ainsi, la conduite de
+          Marie Stuart, reine d'<choice>
+            <orig>Ecosse</orig>
+            <reg>Écosse</reg>
+          </choice>, est aussi odieuse dans quelques <choice>
+            <orig>Auteurs</orig>
+            <reg>auteurs</reg>
+          </choice> protestants, qu'elle est digne d'estime <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de vénération dans les écrits des catholiques. On en <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice> citer mille autres exemples&#160;; mais je me contenterai de
+          vous en rapporter un seul, dont j'ai la mémoire encore toute fraîche.
+          En lisant, <pb xml:id="p311"/> ces jours-ci, les recherches de
+          Pasquier, je rencontrai un fait concernant Yves de Chartres, que
+          j'allai chercher aussitôt dans l'<choice>
+            <orig>histoire ecclésiastique</orig>
+            <reg><hi rend="italic">Histoire ecclésiastique</hi></reg>
+          </choice> de l'abbé Fleury. Vous aurez du plaisir à voir ces deux
+          récits rapprochés. Lisons d'abord celui de l'avocat général de la
+          chambre des comptes.<note resp="author">Rech. l. 3, ch. 13.</note>
+          <quote rend="inline">Lorsque <choice>
+              <orig>Philippes I</orig>
+              <reg>Philippe I</reg>
+            </choice> de ce nom <choice>
+              <orig>régnoit</orig>
+              <reg>régnait</reg>
+            </choice> en France, il se présenta une question entre Yves <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice>
+            <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, tous deux <choice>
+              <orig>prétendans</orig>
+              <reg>prétendants</reg>
+            </choice> devoir être évêques de Chartres. De vous dire par quels
+            moyens, ce me sont lettres closes. Bien vous dirai-je que Yves
+            s'étant présenté devant Richer, archevêque de Sens, il refusa de le
+            consacrer, estimant qu'en ce faisant, il eût fait tort à <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>. <choice>
+              <orig>A</orig>
+              <reg>À</reg>
+            </choice> ce refus, la voie ordinaire <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> d'avoir recours à un concile provincial. Mais Yves, pour
+            abréger la <choice>
+              <orig>matiere</orig>
+              <reg>matière</reg>
+            </choice>, voulut prendre un plus long chemin, qui fut celui de
+            Rome, où, sans ouir <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, on consacra Yves en cet évêché..... Richer porta cela
+            impatiemment. Au moyen de quoi le pape Urbain, s'en <pb
+              xml:id="p312"/> excuse à lui par lettres. Ce nonobstant Richer
+            assembla un concile provincial dans <choice>
+              <orig>Estampes</orig>
+              <reg>Étampes</reg>
+            </choice>, où il fit condamner tout ce qui s'<choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> passé à Rome, comme préjudiciant aux droits du roi <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de sa couronne. Yves en écrit à Urbain, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le prie vouloir soutenir sa querelle, se donnant tel jeu
+            qu'il lui plaît dans sa lettre, pour favoriser sa cause&#160;: mais,
+            quant à moi, il me suffit que l'histoire soit telle, comme je <choice>
+              <orig>recueuille</orig>
+              <reg>recueille</reg>
+            </choice> de lui. Voire que pour couvrir son fait, il dit, en
+            quelque lieu, que son élection <choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> été ratifiée par le roi. Voilà comment il employa la
+            grandeur extraordinaire de Rome, au préjudice de nos anciennes
+            libertés.</quote> Faites-moi le plaisir de me dire maintenant
+          quelles idées vous a laissé ce récit&#160;?</p>
+
+        <p>J'en conclus, répondit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, que votre Yves de Chartres est un ambitieux, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> même un fourbe. Je plains ce malheureux <choice>
+            <orig>Geoffroi</orig>
+            <reg>Geoffroy</reg>
+          </choice>, à qui tout le zèle de son métropolitain <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les suffrages d'un concile deviennent inutiles. Mais, ce que
+          je ne conçois pas, c'est la conduite du pape. Il consacre Yves de
+          Chartres, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ensuite en fait des excuses à l'archevêque de Sens. Dans la <choice>
+            <orig>premiere</orig>
+            <reg>première</reg>
+          </choice> démarche, <pb xml:id="p313"/> il me semble voir une
+          injustice&#160;; dans la seconde, une inconséquence mêlée de
+          bassesse.</p>
+
+        <p>Il faut donc maintenant, reprit Euphorbe, vous éclaircir tout cela, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> vous réconcilier avec Yves de Chartres&#160;: car il est bon
+          de vous faire observer, que ce prélat <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> un homme du premier mérite, zélé pour la discipline, ferme,
+          quand il le <choice>
+            <orig>falloit</orig>
+            <reg>fallait</reg>
+          </choice>, contre les abus de la cour de Rome, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à qui le <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> Pétau, dans son <hi rend="italic">rationarium temporum</hi>,
+          donne le double éloge de la sainteté <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la science.<note resp="editor">Denis Pétau (Dionysius
+            Petavius, 1583- 1652), était bibliothécaire du roi et théologien
+            jésuite. Le <hi rend="italic">Rationarium temporum</hi> est une
+            version abrégée de son <hi rend="italic">Opus de doctrina
+              temporum</hi> de 1627.</note> Ainsi, lisons ce même événement dans
+          l'abbé <choice>
+            <orig>Fleuri</orig>
+            <reg>Fleury</reg>
+          </choice>. Il n'est pas suspect sur nos libertés, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sur les entreprises des papes. <note resp="author">Hist.
+            Eccles. l. 64, n. 1.</note><quote rend="inline"><choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, évêque de Chartres, deux fois déposés par le légat Hugues
+            de Die, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> deux fois rétabli par le pape Grégoire VII, fut encore
+            accusé devant le pape Urbain II, de simonie, de concubinage,
+            d'adultère, de parjure <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de trahison. Le pape ayant soigneusement examiné la
+            vérité, obligea <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice> à renoncer entre ses mains purement <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> simplement à l'épiscopat, dont il se reconnut <pb
+              xml:id="p314"/> indigne. Alors le pape exhorta le clergé <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le peuple de Chartres à faire une élection canonique, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> à choisir Yves, prêtre <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> prévôt de <choice>
+              <orig>S.</orig>
+              <reg>Saint</reg>
+            </choice> Quentin de Beauvais, dont il <choice>
+              <orig>connaissoit</orig>
+              <reg>connaissait</reg>
+            </choice> le mérite depuis longtemps. Il écrivit à Richer,
+            archevêque de Sens, pour lui faire <choice>
+              <orig>connoitre</orig>
+              <reg>connaitre</reg>
+            </choice> la procédure faite contre <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le prier de favoriser l'élection, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> sacrer celui qui <choice>
+              <orig>seroit</orig>
+              <reg>serait</reg>
+            </choice> élu. Le clergé <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le peuple de Chartres, suivant l'intention du pape,
+            élurent Yves, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le présentèrent au roi Philippe, de qui il reçut le bâton
+            pastoral en signe d'investiture. Ensuite ils, requirent l'archevêque
+            Richer de le sacrer&#160;: mais il le refusa, prétendant que la
+            déposition de <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice> n'<choice>
+              <orig>était</orig>
+              <reg>était</reg>
+            </choice> pas légitime, et, qu'avant que d'aller au pape, on <choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> dû se pourvoir devant lui, comme métropolitain. Yves
+            écrivit au pape, se plaignant du fardeau dont il le <choice>
+              <orig>vouloit</orig>
+              <reg>voulait</reg>
+            </choice> charger, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> déclarant qu'il n'<choice>
+              <orig>auroit</orig>
+              <reg>aurait</reg>
+            </choice> jamais consenti à son élection, si l'église de Chartres ne l'<choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> assuré que le pape le <choice>
+              <orig>vouloit</orig>
+              <reg>voulait</reg>
+            </choice>, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> l'<choice>
+              <orig>avoit</orig>
+              <reg>avait</reg>
+            </choice> ainsi ordonné. Il alla donc à Rome avec les députés de
+            cette église&#160;; qui s'y plaignirent du refus de l'archevêque de
+            Sens&#160;; <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le pape, pour <pb xml:id="p315"/> éviter le préjudice
+            qu'un plus grand retardement <choice>
+              <orig>pouvoit</orig>
+              <reg>pouvait</reg>
+            </choice> faire à l'église de Chartres, sacra Yves lui-même... <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> le renvoya avec deux lettres&#160;; l'une au clergé <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> au peuple de Chartres&#160;; l'autre à l'archevêque
+            Richer..... Dans la lettre à l'archevêque, il dit&#160;: Nous avons
+            sacré Yves, sans préjudice de l'obbéissance qu'il doit à votre
+            église, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> nous vous prions d'étouffer tout ressentiment, de le
+            recevoir avec la bonté convenable, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> lui, donner votre secours pour la conduite de son
+            diocèse.</quote></p>
+        <p>Plus bas, l'historien continue ainsi&#160;: <note resp="author"><hi
+              rend="italic">Ibid. n. 3</hi>.</note><quote rend="inline"
+            >L'archevêque Richer tint un concile à <choice>
+              <orig>Etampes</orig>
+              <reg>Étampes</reg>
+            </choice>, par le conseil de <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, évêque de Paris, homme de grand crédit. Il <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> frère d'Eustache comte de Boulogne, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> oncle de <choice>
+              <orig>Godefroi de Bouillon</orig>
+              <reg>Godefroy de Bouillon</reg>
+            </choice>, depuis si fameux..... L'évêque de Chartres, <choice>
+              <orig>Geoffroi</orig>
+              <reg>Geoffroy</reg>
+            </choice>, <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> aussi son neveu&#160;; <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> c'est ce qui <choice>
+              <orig>excitoit</orig>
+              <reg>excitait</reg>
+            </choice> l'évêque de Paris à prendre cette affaire à cœur. Il
+            assista donc au concile d'<choice>
+              <orig>Etampes</orig>
+              <reg>Étampes</reg>
+            </choice>, avec les évêques de Meaux <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de Troies, de la même province, <pb xml:id="p316"/>
+            <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> qui <choice>
+              <orig>agissoient</orig>
+              <reg>agissaient</reg>
+            </choice> par le même esprit. En ce concile, l'archevêque accusa
+            Yves de Chartres de s'être fait ordonner à Rome, prétendant que c'<choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> au préjudice de l'autorité royale. Il <choice>
+              <orig>vouloit</orig>
+              <reg>voulait</reg>
+            </choice> le déposer <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> rétablir Geoffroi&#160;: mais Yves appella au pape, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> arrêta la procédure du concile.</quote> Eh bien,
+          plaignez-vous encore <choice>
+            <orig>Geoffroi</orig>
+            <reg>Geoffroy</reg>
+          </choice>&#160;? êtes-vous encore indisposé contre celui qu'on lui a
+          donné pour successeur&#160;?</p>
+
+        <p>Tout le ressentiment que j'<choice>
+            <orig>avois</orig>
+            <reg>avais</reg>
+          </choice> contre lui, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, se tourne contre le premier de vos deux historiens qui nous
+          en impose. Car enfin, c'est en imposer, que de cacher les désordres <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les crimes d'un homme qu'il s'agit de déposer, afin de le
+          faire <choice>
+            <orig>paroître</orig>
+            <reg>paraître</reg>
+          </choice> innocent, ainsi que ceux qui le <choice>
+            <orig>protégent</orig>
+            <reg>protègent</reg>
+          </choice>&#160;: <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'écrivain n'en peut être quitte pour dire&#160;; <hi
+            rend="italic">ce sont pour moi lettres closes</hi>. C'est un
+          mensonge d'assurer que <choice>
+            <orig>Geoffroi</orig>
+            <reg>Geoffroy</reg>
+          </choice> ne fût point entendu&#160;: c'en est un, de passer sous
+          silence la circonstance du bâton pastoral donné par le roi, preuve du
+          consentement de ce prince&#160;: enfin, c'est tromper ses lecteurs,
+          que de leur laisser ignorer les dispositions <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les intérêts des prélats qui <choice>
+            <orig>composoient</orig>
+            <reg>composaient</reg>
+          </choice> le concile d'<choice>
+            <orig>Etampes</orig>
+            <reg>Étampes</reg>
+          </choice>&#160;; puisque ces affections <pb xml:id="p317"/>
+          <choice>
+            <orig>particulieres</orig>
+            <reg>particulières</reg>
+          </choice>
+          <choice>
+            <orig>suffisoient</orig>
+            <reg>suffisaient</reg>
+          </choice> pour autoriser Yves de Chartres à récuser leur jugement.</p>
+
+        <p>C'est une autre <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> d'imposture&#160;; poursuivit Euphorbe, de ne prêter à
+          l'archevêque de Sens que des vues d'équité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de justice, tandis qu'il n'<choice>
+            <orig>écoutoit</orig>
+            <reg>écoutait</reg>
+          </choice> que son intérêt particulier <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les conseils de l'évêque de Paris, parent, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> partisan de <choice>
+            <orig>Geoffroi</orig>
+            <reg>Geoffroy</reg>
+          </choice>. <quote rend="inline">Car</quote>, selon le <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> d'Orléans<note resp="author"><choice>
+              <orig>Préf. des Révol. d'Angl.</orig>
+              <reg>Préface de <hi rend="italic">L'Histoire des révolutions
+                  d'Angleterre</hi>.</reg>
+            </choice></note>, <quote rend="inline">il n'est pas plus permis de
+            falsifier les pensées <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> les motifs de ceux dont on écrit l'histoire, que leurs
+            actions.</quote>&#160;</p>
+
+        <p>Si ce principe est vrai, comme je n'en doute pas, interrompit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, je crains fort pour la fameuse pensée de Lucain au sujet de
+          César, qui versa des larmes en voyant la tête de Pompée.<note
+            resp="author"><choice>
+              <orig>Luca. civ. Belli. lib.</orig>
+              <reg>Lucain, <hi rend="italic">Belli civilis</hi>, liber </reg>
+            </choice>9, v. 1038. </note></p>
+
+        <p><quote rend="verse">
+            <l rend="indent"><hi rend="italic">Lachrymas non sponte
+                cadentes</hi></l>
+            <l><hi rend="italic">Essudit, gemitusque expressit pectore
+              lato</hi>,</l>
+            <l><hi rend="italic">Non aliter manifesta putans abscondere
+                mentir</hi></l>
+            <l><hi rend="italic">Gaudia, quam lachrymis&#160;: meritumque imma
+                ne tyranni</hi></l>
+            <l><hi rend="italic">Destruit, et generi mavult lugere
+              revulfum</hi>,</l>
+            <l><hi rend="italic">Quam debere caput</hi>.</l></quote></p>
+
+        <p><pb xml:id="p318"/> Je ne <choice>
+            <orig>sçais</orig>
+            <reg>sais</reg>
+          </choice> pourquoi le <choice>
+            <orig>poëte</orig>
+            <reg>poète</reg>
+          </choice> veut que les larmes de César n'aient été qu'un artifice pour
+          cacher sa joie, ou même, ce qui est plus infâme encore, pour se
+          décharger du poids de la <choice>
+            <orig>reconnoissance</orig>
+            <reg>reconnaissance</reg>
+          </choice> que cet affreux présent lui <choice>
+            <orig>imposoit</orig>
+            <reg>imposait</reg>
+          </choice>. Pour attribuer à un si grand homme des sentiments si bas,
+          il faut des preuves très fortes&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> je n'en vois ici aucune. Les historiens même, tels que
+          Plutarque, Valère-Maxime, ne s'accordent point avec lui là-dessus. </p>
+
+        <p>Lucain <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> un partisan outré de la liberté républicaine, répartit
+          Euphorbe, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dès-lors un ennemi mortel de César, qui l'<choice>
+            <orig>avait</orig>
+            <reg>avoit</reg>
+          </choice> détruite. Cette haine empoisonne chez lui toutes les actions
+          du héros, même les plus naturelles <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les plus louables. Comme les défauts de ceux qu'on aime ont
+          des charmes, aussi les vertus de ceux qu'on hait <choice>
+            <orig>paroissent</orig>
+            <reg>paraissent</reg>
+          </choice> des vices. On peut bien appliquer ici ce que <choice>
+            <orig>la Bruyere</orig>
+            <reg>La Bruyère</reg>
+          </choice> dit des ouvrages d'esprit en général<note resp="author"><choice>
+              <orig>Caract.</orig>
+              <reg><hi rend="italic">Les Charactères,</hi></reg>
+            </choice> ch. 1.</note>. <quote rend="inline">L'on a cette
+            incommodité à essuyer dans la lecture des livres faits par des gens
+            de parti <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de cabale, que l'on n'y voit pas toujours la <pb
+              xml:id="p319"/> vérité. Les faits y sont déguisés&#160;; les
+            raisons réciproques n'y sont point rapportées dans toute leur force,
+            ni avec une <choice>
+              <orig>entiere</orig>
+              <reg>entière</reg>
+            </choice> exactitude.</quote> Ce n'est pas même assez, pour
+          s'assurer de la vérité dans un historien, d'examiner quel intérêt
+          personnel il <choice>
+            <orig>pouvoit</orig>
+            <reg>pouvait</reg>
+          </choice> avoir&#160;: il faut encore rechercher quel <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> l'esprit dominant du temps ou il <choice>
+            <orig>écrivoit</orig>
+            <reg>écrivait</reg>
+          </choice>. Un auteur s'accommode au goût de son <choice>
+            <orig>siécle</orig>
+            <reg>siècle</reg>
+          </choice>. Dans des jours de révolte ou d'anarchie, toutes les plumes <choice>
+            <orig>célebrent</orig>
+            <reg>célèbrent</reg>
+          </choice> l'indépendance&#160;: sous un gouvernement ferme <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> jaloux de son autorité, on a peine à se défendre de la <choice>
+            <orig>flaterie</orig>
+            <reg>flatterie</reg>
+          </choice>&#160;: et, dans cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> d'épidémie, les meilleurs écrivains se copient presque
+          toujours les uns les autres. Bien plus, un certain penchant, une
+          certaine trempe de génie suffisent pour écarter un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> de la route du vrai. Tacite est impartial <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> profond&#160;; mais, comme le remarque fort bien le <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> Bouhours, il <choice>
+            <sic>rafine</sic>
+            <corr>raffine</corr>
+          </choice> souvent <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> raisonne beaucoup. Son goût décidé pour la politique lui
+          fait <choice>
+            <orig>appercevoir</orig>
+            <reg>apercevoir</reg>
+          </choice> partout des intrigues cachées, des vues <choice>
+            <orig>secretes</orig>
+            <reg>secrètes</reg>
+          </choice>&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> malheureusement il voit presque toujours les objets du côté
+          le plus odieux. Il est incapable de rien changer dans les faits&#160;;
+          mais il les présente <pb xml:id="p320"/> quelquefois sous un jour
+          desavantageux. Je crois, pour moi, qu'un historien doit exposer <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> raconter, mais non pas deviner.</p>
+
+        <p>Vous me <choice>
+            <orig>paroissez</orig>
+            <reg>paraissez</reg>
+          </choice> un peu difficile, dit alors <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;: cependant, en prenant acte de vos derniers mots, je
+          crois avoir trouvé des historiens dignes de votre suffrage. César, par
+          exemple, n'a-t-il pas droit à toute votre estime&#160;? <choice>
+            <orig>son</orig>
+            <reg>Son</reg>
+          </choice> élégante simplicité semble être le garant de sa droiture <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de son impartialité. Il ne va point chercher dans le cœur de
+          ceux qu'il fait agir, des motifs singuliers <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> souvent imaginaires. Il raconte ses propres exploits, sans
+          chercher à les faire valoir, ni à diminuer la gloire des ennemis qu'il
+          a vaincus, même dans une guerre civile, où les haines personnelles <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice> permises, si elles <choice>
+            <orig>pouvoient</orig>
+            <reg>pouvaient</reg>
+          </choice> jamais être légitimes. Je peux bien placer à côté de lui le
+          seigneur d'Argenton.<note resp="editor">C'est-à-dire, Philippe de
+            Commynes.</note> L'aimable naïveté de son <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> n'est point un masque qui serve à cacher la flatterie ou
+          l'animosité&#160;; c'est l'expression d'une belle <choice>
+            <orig>ame</orig>
+            <reg>âme</reg>
+          </choice>, ennemie du déguisement. Comblé des bienfaits de Louis XI,
+          il n'en est pas plus indulgent pour ses vices <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ses <choice>
+            <orig>foiblesses</orig>
+            <reg>faiblesses</reg>
+          </choice>. Maltraité par Charles VIII, le ressentiment ne le rend <pb
+            xml:id="p321"/> point injuste. Il détaille les bonnes qualités de ce
+          prince, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tâche d'excuser ses fautes. Cette conduite de <choice>
+            <orig>Philippes de Commines</orig>
+            <reg>Philippe de Commynes</reg>
+          </choice> me fournit une réflexion. J'en conclus qu'un historien peut
+          se déclarer pour ou contre les personnages qui <choice>
+            <orig>paroissent</orig>
+            <reg>paraissent</reg>
+          </choice> sur la scène,<note resp="editor">La graphie de l'original
+            est ici plus moderne que dans d'autres endroits du texte.</note>
+          selon qu'il le juge à propos.</p>
+
+        <p>Dites mieux, interrompit Euphorbe&#160;: il le doit. L'histoire n'est
+          point une simple gazette&#160;; elle n'est pas même une compilation de
+          faits rangés par ordre de dates, telles que sont les chroniques <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les annales. Son but principal est de nous instruire.
+          Pourra-t-elle jamais y parvenir, si on lui interdit tout jugement sur
+          les actions qu'elle présente à ses lecteurs&#160;? Il en est de la
+          lecture de l'histoire, comme des voyages&#160;; on peut y perdre ou y
+          gagner beaucoup. Celui qui parcourt l'univers, s'il n'est accompagné
+          d'un guide sage, dont les conseils <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les <choice>
+            <orig>lumieres</orig>
+            <reg>lumières</reg>
+          </choice> puissent l'éclairer, remporte souvent chez lui les vices de
+          tous les peuples qu'il a vus. Le même inconvénient est à craindre dans
+          la <choice>
+            <orig>connoissance</orig>
+            <reg>connaissance</reg>
+          </choice> des temps. Il est bien peu de gens qui soient en état, par
+          eux-mêmes, de tirer les véritables conclusions des faits qu'ils
+          lisent. Il faut donc que l'écrivain supplée à cette <pb xml:id="p322"
+          /> incapacité, pour donner à son ouvrage l'utilité qui lui
+          convient.</p>
+
+        <p>Je <choice>
+            <orig>sçais</orig>
+            <reg>sais</reg>
+          </choice>, continua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, que Lucien regarde l'utilité, comme la propriété la plus
+          essentielle à l'histoire&#160;; mais il me semble qu'il ne la fait
+          naître que de la vérité. Il déclame même avec force contre les
+          louanges que les historiens donnent à ceux dont ils détaillent les
+            actions.<note resp="author">Quomodo scrib. sit hist.</note></p>
+
+        <p>Quels éloges condamne Lucien, répartit Euphorbe&#160;? ceux qui sont
+          outrés, fabuleux, déplacés. Mais il n'a jamais entendu proscrire les
+          louanges données à propos des hommes de mérite. Dans l'endroit même
+          que vous citez, il prévient votre objection par ces mots&#160;:<note
+            resp="author">[Grec.]</note><quote rend="inline">Je ne prétends pas
+            dire par-là, qu'il ne faut jamais louer dans l'histoire&#160;; mais
+            seulement qu'il faut le faire dans des circonstances convenables, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> se prescrire des bornes sur cet objet<choice>
+              <sic/>
+              <corr>.</corr>
+            </choice></quote> C'est dans ce même sens, que l'auteur des <pb
+            xml:id="p323"/>
+          <choice>
+            <orig><hi rend="italic">caracteres de ce siécle</hi></orig>
+            <reg><hi rend="italic">Caractères de ce siècle</hi></reg>
+          </choice>, a dit<note resp="author"><choice>
+              <orig>La Bru.</orig>
+              <reg>La Bruyère, <hi rend="italic">Caractères</hi>, </reg>
+            </choice> ch. 1.</note>
+          <quote rend="inline">Amas d'épithetes, mauvaises louanges&#160;: ce
+            sont les faits qui louent, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> la <choice>
+              <orig>maniere</orig>
+              <reg>manière</reg>
+            </choice> de les raconter.</quote> En observant ces <choice>
+            <orig>régles</orig>
+            <reg>règles</reg>
+          </choice>, l'écrivain s'acquitte du double devoir qui lui est imposé.
+          Le premier est de nous instruire de ce qui s'est passé avant
+          nous&#160;; <choice>
+            <orig>connoissance</orig>
+            <reg>connaissance</reg>
+          </choice> plus capable que toute autre de former notre esprit. En
+          effet, si nous avions vécu depuis la naissance du monde, nous aurions
+          aujourd'hui une expérience consommée. Mais notre vie est renfermée
+          dans un cercle étroit, qui nous laisse à peine la liberté de tirer
+          quelques conséquences des révolutions qui frappent rapidement nos <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice>. L'histoire supplée à cette <choice>
+            <orig>briéveté</orig>
+            <reg>brièveté</reg>
+          </choice> de nos jours&#160;: elle nous fait vivre dans tous les <choice>
+            <orig>siécles</orig>
+            <reg>siècles</reg>
+          </choice> passés&#160;: elle nous rend contemporains avec tous les
+          hommes. Dans ses fastes, le général d'armée apprend, que s'est
+          s'assurer la victoire, que d'éviter à propos le combat, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qu'une indulgence déplacée est souvent une véritable
+          cruauté&#160;; l'officier voit les fruits de la subordination&#160;;
+          tous les états enfin, lisent leurs obligations dans les actions <pb
+            xml:id="p324"/> d'autrui. Le second devoir imposé à l'historien
+          consiste à rendre la vertu aimable, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le vice odieux. Quelle <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> d'ouvrage est plus propre à produire cet effet, que le récit
+          historique&#160;? <quote rend="inline">Les bons exemples</quote>, dit
+          Pline le jeune<note resp="author"><choice>
+              <orig>Panégyr. de Traj</orig>
+              <reg><hi rend="italic">Panégyrique de Trajan</hi></reg>
+            </choice>.</note>, <quote rend="inline">ont cet avantage, qu'ils
+            montrent tout à la fois, que la vertu est possible, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> qu'elle est approuvée.</quote> Où se rencontre l'empreinte
+          de cette approbation, si ce n'est dans les jugements que porte des
+          faits, celui qui les raconte, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans le soin qu'il prend de remarquer les biens ou les maux
+          qu'ils ont occasionnés&#160;? Dans le récit de quelque fait équivoque,
+          de quelque événement plus conforme à la politique <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à l'usage qu'à la raison ou à la religion, la réflexion, le
+          bon mot d'un homme sage, rapportés à propos, suffiront pour fixer le
+          jugement qu'on doit porter de cette action, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> resteront gravés dans l'esprit du lecteur, où ils ne peuvent
+          manquer d'établir en même temps les principes les plus avantageux.</p>
+
+
+        <p>Voilà des fonctions bien nobles <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> bien importantes, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>.<pb xml:id="p325"/> Vous faites de l'historien un docteur,
+          chargé d'apprendre aux hommes ce qu'ils doivent <choice>
+            <orig>sçavoir</orig>
+            <reg>savoir</reg>
+          </choice>&#160;: un juge préposé pour distribuer à la vertu sa
+          récompense, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> au vice son châtiment. En effet, je conviens avec vous, que
+          les éloges donnés aux belles actions sont un puissant motif pour les
+          imiter, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que les <choice>
+            <orig>méchans</orig>
+            <reg>méchants</reg>
+          </choice> ne peuvent voir, sans un chagrin cuisant <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> un dépit secret, le juste tribut de louanges qu'on accorde à
+          ces <choice>
+            <orig>ames</orig>
+            <reg>âmes</reg>
+          </choice> droites, qu'ils affectent de rendre ridicules <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> méprisables. Je crois même que le spectacle affreux des
+          désordres <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des malheurs qu'entraîne ordinairement après soi la
+          corruption des mœurs, est un bon préservatif contre les attraits du
+          vice. On rapproche naturellement les <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> passés de ceux dont on est témoin&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>, dans ce parallèle, on craint que les mêmes causes n'aient
+          enfin d'aussi funestes effets. En lisant dans Tite-Live l'histoire de <choice>
+            <orig>Lucrece</orig>
+            <reg>Lucrèce</reg>
+          </choice>, il me semble y retrouver toujours l'imprudence <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'étourderie de nos jeunes seigneurs, la mollesse <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'oisiveté de la plupart de nos dames. <note resp="author"
+            >Forte potantibus his (regiis juvenibus) apud Sex Tarquinium, ubi <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> Collatinus cœnabat [p. 326] Tarquinius, incidit de
+            uxoribus mentio. Suam quisque laudare miris modis. Inde certamine
+            accenso, Collatinus negat, verbis opus esse&#160;: paucis id quidem
+            horis posse sciri, quantum cæteris præstet Lucretia sua. Quin, si
+            vigor juventæ inest, conscendimus equos, invisimusque præsentes
+            nostrarum ingenia&#160;? Id cuique spectatissimum sit, quod nec
+            opinato viri adventu occurrerit oculis. Incaluerant vino&#160;: age
+            sane, omnes citatis equis advolant [p. 327] Romam. Quo quum primis
+            se intendentibus tenebris pervenissent, pergunt inde
+            Collatiam&#160;; ubi Lucretiam, haud quaquam ut regias nurus, quas
+            in convivio, luxæque cum æqualibus viderant tempus terentes, sed
+            nocte sera deditam lanæ inter lucubrantes ancillas in medio œdium
+            sedentem inveniunt. <hi rend="italic">Liv. l.</hi> 1. c.
+            57.</note><quote rend="inline">Dans une partie de débauche, <pb
+              xml:id="p326"/> dit-il, où les princes du sang royal <choice>
+              <orig>soupoient</orig>
+              <reg>soupaient</reg>
+            </choice> chez Sextus-Tarquinius, avec Collatinus, la conversation
+            tomba, par hasard, sur les femmes. Chacun dit des merveilles de la
+            sienne. La dispute <choice>
+              <orig>commençoit</orig>
+              <reg>commençait</reg>
+            </choice> à s'animer, lorsque Collatinus prit la parole&#160;:
+            Laissons-là, dit il, tous ces propos&#160;: il ne faut que quelques
+            heures pour vous démontrer combien <choice>
+              <orig>Lucrece</orig>
+              <reg>Lucrèce</reg>
+            </choice>, mon épouse, l'emporte sur toutes les vôtres. Nous sommes
+            jeunes <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> vigoureux&#160;: montons à cheval, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> allons nous assurer par nous-mêmes de la conduite de nos
+            dames. Dans cette arrivée subite <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> imprévue d'un époux, le premier objet qui frappera nos <choice>
+              <orig>ieux</orig>
+              <reg>yeux</reg>
+            </choice>, sera la preuve <choice>
+              <orig>complette</orig>
+              <reg>complète</reg>
+            </choice> de ce que nous cherchons.</quote> C'<choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> au camp devant Ardée, à seize <choice>
+            <sic>mille</sic>
+            <corr>milles</corr>
+          </choice> de Rome, que <pb xml:id="p327"/> cette scène se <choice>
+            <orig>passoit</orig>
+            <reg>passait</reg>
+          </choice>. Voyons quelle en fut l'issue. <quote rend="inline">Cette
+            jeunesse, continue Tite-Live, <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> échauffée par le vin. On accepte le défi&#160;; on vole à
+            toute bride à Rome. Ils y <choice>
+              <orig>arriverent</orig>
+              <reg>arrivèrent</reg>
+            </choice> au commencement de la nuit. <choice>
+              <orig>De-là</orig>
+              <reg>De là</reg>
+            </choice> ils <choice>
+              <orig>allerent</orig>
+              <reg>allèrent</reg>
+            </choice> à Collatie, où <choice>
+              <orig>résidoit</orig>
+              <reg>résidait</reg>
+            </choice>
+            <choice>
+              <orig>Lucrece</orig>
+              <reg>Lucrèce</reg>
+            </choice>. Ils ne la <choice>
+              <orig>trouverent</orig>
+              <reg>trouvèrent</reg>
+            </choice> pas, comme les autres princesses, livrée à ses plaisirs,
+            dans des cercles <choice>
+              <orig>brillans</orig>
+              <reg>brillants</reg>
+            </choice>, au milieu des festins où <choice>
+              <orig>régnoit</orig>
+              <reg>régnait</reg>
+            </choice> le luxe <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> la somptuosité<choice>
+              <sic>,</sic>
+              <corr>.</corr>
+            </choice> Quoique la nuit fût bien avancée, elle <choice>
+              <orig>étoit</orig>
+              <reg>était</reg>
+            </choice> encore assise au milieu de ses femmes qui <choice>
+              <orig>veilloient</orig>
+              <reg>veillaient</reg>
+            </choice> avec elle, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> s'<choice>
+              <orig>occupoit</orig>
+              <reg>occupait</reg>
+            </choice> d'ouvrages propres à son sexe.</quote> Dans les dames de
+          Rome, peut-on <choice>
+            <orig>méconnoître</orig>
+            <reg>méconnaître</reg>
+          </choice> la vie voluptueuse <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> oisive de bien des femmes de nos jours&#160;? Dans <choice>
+            <orig>Lucrece</orig>
+            <reg>Lucrèce</reg>
+          </choice>, au contraire, je vois une innocence de mœurs, exempte même
+          du soupçon de vanité&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> c'est ce qui en <pb xml:id="p328"/> fait le plus grand
+          mérite. Car la meilleure <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> de juger si une action est vraiment vertueuse, c'est
+          d'examiner si celui qui l'a faite, a cru qu'elle <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> ignorée.</p>
+
+        <p>Sans doute, poursuivit Euphorbe, les vices <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les vertus des autres sont un miroir fidèle,<note
+            resp="editor">La graphie de l'original est ici plus moderne que dans
+            le reste du texte.</note> où nous retrouvons les nôtres. Mais
+          l'affreuse catastrophe qui termina cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de comédie, nous donne bien d'autres instructions.
+          Collatinus ne <choice>
+            <orig>prévoyoit</orig>
+            <reg>prévoyait</reg>
+          </choice> assurément pas, que sa plaisanterie dût coûter l'honneur <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la vie à son épouse, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que la brutalité de Sextus <choice>
+            <orig>renverseroit</orig>
+            <reg>renverserait</reg>
+          </choice> le trône des Tarquins, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>changeroit</orig>
+            <reg>changerait</reg>
+          </choice> le gouvernement. Cette révolution nous en rappelle plusieurs
+          autres, sorties de la même source. Le Roi Roderic ravit l'honneur à la
+          fille de Julien&#160;: le <choice>
+            <orig>pere</orig>
+            <reg>père</reg>
+          </choice>, pour s'en venger, appelle les Maures en Espagne. Le Roi est
+          défait <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> tué dans le combat, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'empire des Visigoths est détruit. Henri VIII est épris
+          d'Anne de Boulen&#160;: il veut faire dissoudre son premier
+          mariage&#160;: les obstacles qu'il y trouve, le rendent furieux&#160;:
+          il se sépare de l'église Romaine&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'Angleterre commence par le schisme, pour finir bientôt
+          après par l'hérésie. Ce <choice>
+            <orig>sont-là</orig>
+            <reg>sont là</reg>
+          </choice> les chef-d'œuvres d'une <pb xml:id="p329"/> ﻿passion dont on
+          plaisante, qu'on flatte, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui devient l'assaisonnement de tous les plaisirs. On ne
+          peut nier assurément que des faits de cette nature, surtout s'ils sont
+          aidés de quelques réflexions courtes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sensées, ne forment un excellent traité de morale.</p>
+
+        <p>Laissons donc à l'historien, reprit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, le droit de censurer les crimes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de louer la vertu&#160;; pourvu qu'il ne s'écarte jamais de
+          la vérité&#160;; pourvu qu'il rende hommage à ce qui est louable, même
+          dans les ennemis de sa patrie <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de sa religion, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qu'il ne cherche point à excuser les attentats de ceux qui
+          lui appartiennent par quelque endroit. Ce <choice>
+            <orig>sont-là</orig>
+            <reg>sont là</reg>
+          </choice> des <choice>
+            <orig>écueuils</orig>
+            <reg>écueils</reg>
+          </choice> où l'on ne vient échouer que trop souvent, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui ont fait désirer à des gens d'esprit, qu'un historien
+          fût sans religion, sans patrie, sans <choice>
+            <orig>parens</orig>
+            <reg>parents</reg>
+          </choice>, sans amis.</p>
+
+        <p>Gardons-nous d'un pareil <choice>
+            <orig>remede</orig>
+            <reg>remède</reg>
+          </choice>, répartit Euphorbe&#160;: il est pire que le mal. Dites-moi,
+          dans un procès où il s'<choice>
+            <orig>agiroit</orig>
+            <reg>agirait</reg>
+          </choice> de votre fortune <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de votre vie, choisiriez-vous des juges pareils à
+          l'historien dont vous venez de parler&#160;?</p>
+
+        <p>Non, répondit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;: je ne <choice>
+            <orig>serois</orig>
+            <reg>serais</reg>
+          </choice> pas même curieux, que mon sort fût remis entre les mains
+          d'un Aréopage <pb xml:id="p330"/> instruit à l'école de nos prétendus
+            philosophes.<note resp="editor">«&#160;L'aréopage est le nom d'un
+            tribunal à Athènes , placé dans un lieu consacré à Mars, et célèbre
+            dans l'antiquité par sa réputation de sagesse. Dans le style figuré,
+            on dit d'une Compagnie respectable, C'est un Aréopage; et dans ce
+            sens il s'emploie pour désigner en général une assemblée de Juges,
+            de Magistrats, d'Hommes d'État.&#160;» (<hi rend="italic"
+              >Dictionnaire de l'Académie française</hi>, 4e. éd. de
+            1762).</note></p>
+
+        <p>Je le crois, poursuivit Euphorbe. Que n'<choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice>-on pas à craindre de gens sans principes, qui <choice>
+            <orig>ignoreroient</orig>
+            <reg>ignoreraient</reg>
+          </choice> ou <choice>
+            <orig>méconnaîtroient</orig>
+            <reg>méconnaîtraient</reg>
+          </choice> les liens réciproques établis par la nature entre les <choice>
+            <orig>peres</orig>
+            <reg>pères</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les <choice>
+            <orig>enfans</orig>
+            <reg>enfants</reg>
+          </choice>, entre les princes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les sujets&#160;; qui <choice>
+            <orig>renverseroient</orig>
+            <reg>renverseraient</reg>
+          </choice> les fondements des devoirs <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de la <choice>
+            <orig>reconnoissance</orig>
+            <reg>reconnaissance</reg>
+          </choice>&#160;? Vous avez remarqué vous-même, il n'y a qu'un moment,
+          que l'historien <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> un juge. Pourquoi donc en ferions-nous <choice>
+            <sic>un</sic>
+            <corr>une</corr>
+          </choice>
+          <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de monstre, incapable de décider entre les vices <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la vertu, puisqu'il ne <choice>
+            <orig>connoîtroit</orig>
+            <reg>connaîtrait</reg>
+          </choice> point les véritables sources de l'un <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de l'autre? Un écrivain, sans religion, traitera de
+          fanatisme <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> d'entêtement ce zèle pour les intérêts de Dieu, qui a
+          distingué tant de grands hommes, aussi utiles à l'église qu'à l'état. <choice>
+            <orig>A</orig>
+            <reg>À</reg>
+          </choice> ses <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice>, le crime cessera d'être crime, s'il est couronné du succès.
+          Il effacera du temple de mémoire les noms des Constantins, des
+          Charlemagnes, des Louis, pour y graver ceux des Alexandres, des Césars <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des <choice>
+            <orig>Cromvels</orig>
+            <reg>Cromwells</reg>
+          </choice>. L'expérience nous montre que les gens de cette trempe ne
+          sont rien moins qu'<choice>
+            <orig>indifférens</orig>
+            <reg>indifférents</reg>
+          </choice>, par rapport aux partisans d'un <pb xml:id="p331"/> culte
+          qu'ils abhorrent&#160;; qu'ils ne leur épargnent pas les
+          invectives&#160;; en un mot, <hi rend="italic">qu'ils s'embarassent
+            peu qu'on les croie, pourvu qu'on les lise</hi>. Dans tous les faits
+          qui porteront quelque empreinte du prodige, l'<choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> sans religion ne verra qu'une aveugle crédulité&#160;:
+          fussent-ils attestés par des témoins éclairés, vertueux, sans
+          intérêts, il les rejettera, il les rendra suspects, ou, du moins, il
+          les accompagnera de quelque réflexion maligne. Partout il mettra en
+          parallèle la simplicité supposée, ou plutôt la stupidité des premiers
+          âges, avec les <choice>
+            <orig>lumieres</orig>
+            <reg>lumières</reg>
+          </choice> d'un <choice>
+            <orig>siécle</orig>
+            <reg>siècle</reg>
+          </choice> éclairé par une prétendue philosophie. En un mot, tout
+          attachement pour un culte particulier, sera dans son esprit
+          superstition&#160;; tout zèle, sera fanatisme. Si l'historien est sans
+          patrie, placera-t-il l'héroïque soumission d'un Camille, au-dessus de
+          la vengeance aveugle d'un Coriolan&#160;? Mettra-t-il dans tout son
+          jour la grandeur d'<choice>
+            <orig>ame</orig>
+            <reg>âme</reg>
+          </choice> de ces citoyens qui se disputent l'honneur d'être livrés à
+          un vainqueur irrité, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de s'immoler à leur fidélité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à leur dévouement pour leur prince&#160;? Ces <choice>
+            <orig>sentimens</orig>
+            <reg>sentiments</reg>
+          </choice> ne sont point dans son cœur&#160;; il ne pourra les faire
+          passer dans le mien. Ce que nous appelions zèle du <pb xml:id="p332"/>
+          bien public, il le nommera esclavage <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> préjugé. Qui n'eut jamais de <choice>
+            <orig>parens</orig>
+            <reg>parents</reg>
+          </choice> ni d'amis, peut-il éprouver <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> communiquer aux autres cette douce émotion, qui nous fait
+          partager les <choice>
+            <orig>allarmes</orig>
+            <reg>alarmes</reg>
+          </choice> d'une épouse, d'un fils, d'un ami, dans les dangers de ceux
+          à qui leur cœur est attaché&#160;; cette horreur qu'inspirent
+          l'ingratitude, la trahison <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les scènes tragiques que donne si souvent l'ambition, lorsqu
+          elle brise les nœuds les plus sacrés&#160;? <choice>
+            <orig>A</orig>
+            <reg>À</reg>
+          </choice> la place de ces <choice>
+            <orig>sentimens</orig>
+            <reg>sentiments</reg>
+          </choice>, nous ne rencontrerons qu'une affreuse indifférence
+          également funeste à la vertu <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à la société. Il faut donc que l'historien ait de la
+          religion, pour nous faire distinguer le fanatisme <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la superstition, du zèle éclairé <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> légitime&#160;; il faut qu'il ait une patrie, pour <choice>
+            <orig>connoître</orig>
+            <reg>connaître</reg>
+          </choice> les devoirs qu'elle nous impose <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le prix du patriotisme&#160;; il faut qu il ait des <choice>
+            <orig>parens</orig>
+            <reg>parents</reg>
+          </choice>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des amis, pour assigner à chaque action le degré de mérite
+          ou de scélératesse qui lui convient.</p>
+
+        <p>J'entends parfaitement tout cela, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>&#160;; mais avouez qu'il est bien difficile à un auteur de
+          ne pas déguiser certains faits qui semblent nuire à une religion qu'il
+          chérit&#160;; de ne pas les présenter sous un aspect désavantageux,
+            <pb xml:id="p334"/> ou du moins de ne pas les accompagner de
+          quelques réflexions propres à décréditer les ennemis du culte qu'il
+          professe&#160;; de détailler certains <choice>
+            <orig>événemens</orig>
+            <reg>événements</reg>
+          </choice> honteux pour sa nation&#160; de raconter des crimes <choice>
+            <orig>déshonorans</orig>
+            <reg>déshonorants</reg>
+          </choice> pour ceux à qui il est uni par les liens du sang, ou par
+          ceux des bienfaits. La <choice>
+            <orig>reconnoissance</orig>
+            <reg>reconnaissance</reg>
+          </choice> est la réaction d'un cœur noble <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> vertueux. Ainsi, plus il aura de mérite, plus il sera exposé
+          à se laisser aveugler. <choice>
+            <orig>De-là</orig>
+            <reg>De là</reg>
+          </choice>, sans doute, il est si peu d'historiens qui ne laissent
+          entrevoir quelque inclination <choice>
+            <orig>particuliere</orig>
+            <reg>particulière</reg>
+          </choice>.</p>
+
+        <p>Quand les <choice>
+            <orig>inconvéniens</orig>
+            <reg>inconvénients</reg>
+          </choice> dont vous parlez, répartit Euphorbe, <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice> absolument inévitables,<note resp="editor">C'est-à-dire,
+            même si les inconvénients étaient inévitables.</note> ils <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice> moins à craindre que les premiers&#160;; car du moins ils <choice>
+            <orig>seroient</orig>
+            <reg>seraient</reg>
+          </choice> plus rares. Mais pourquoi les regarder comme
+          nécessaires&#160;? Doit-on condamner dans un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> certains <choice>
+            <orig>penchans</orig>
+            <reg>penchants</reg>
+          </choice> légitimes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> raisonnables, lorsqu'ils ne portent aucun préjudice au
+          devoir qu'il a dû s'imposer&#160;? Cette condition est rare, mais non
+          pas impossible. Si, demander un historien sans religion, sans patrie,
+          sans <choice>
+            <orig>parens</orig>
+            <reg>parents</reg>
+          </choice>, sans amis, ne veut dire autre chose, sinon, qu'aucune
+          considération quelle qu'elle puisse être, ne doit l'engager à trahir
+          la vérité essentielle à l'histoire, nous sommes d'accord. Mais
+          assurément votre proposition énonce quelque chose de plus&#160;; et,
+          par son excès elle tombe dans un inconvénient plus grand encore,
+          peut-être, que celui qu'elle <choice>
+            <orig>vouloit</orig>
+            <reg>voulait</reg>
+          </choice> éviter. Au reste, vous avez une bien mauvaise opinion des
+          hommes, si vous croyez qu'il soit si difficile de trouver un écrivain,
+          que sa droiture <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> sa fermeté rendent inflexible aux sollicitations de
+          l'amour-propre, de l'intérêt, de l'amitité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des passions. Outre César <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>Philippes de Commines</orig>
+            <reg>Philippe de Commynes</reg>
+          </choice>, que vous avez vous-même appellés en témoignage, Salluste
+          lui seul <choice>
+            <orig>pourroit</orig>
+            <reg>pourrait</reg>
+          </choice> servir de modèle<note resp="editor">La graphie de l'original
+            est ici plus moderne que dans le reste du texte.</note> en ce genre.
+          Une malheureuse conformité de mœurs avec Catilina, <choice>
+            <orig>devoit</orig>
+            <reg>devait</reg>
+          </choice> lui rendre cher ce scélérat fameux&#160;; il <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> d'ailleurs ennemi particulier de Cicéron. Cependant, il fait
+          le portrait le plus hideux du premier&#160;; il le peint tel qu'il
+          était, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> nous donne de l'horreur pour ses vices, par les couleurs
+          fortes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> vraies dont il les charge&#160;: d'un autre côté, il rend
+          hommage aux vertus <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> à l'habileté du consul&#160;; il loue sa conduite, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ne dissimule point la grandeur du service qu'il rendit à sa
+          patrie. <choice>
+            <orig>C'est-là</orig>
+            <reg>C'est là</reg>
+          </choice> ce qui s'appelle être <pb xml:id="p335"/>
+          <choice>
+            <orig>intégre</orig>
+            <reg>intègre</reg>
+          </choice>, même à ses propres dépens.</p>
+
+        <p>C'est en effet, continua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, un phénomène assez singulier, que de trouver dans un même
+          homme des mœurs <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des écrits si peu d'accord. Dans ses ouvrages, tout respire
+          l'honnêteté, la décence, la probité la plus exacte. Les discours,
+          surtout, qu'il met dans la bouche de ses <choice>
+            <orig>différens</orig>
+            <reg>différents</reg>
+          </choice> personnages, sont remplis d'une morale si belle <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> si parfaite, qu'on <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> tenté de le placer à côté des Catons <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des <choice>
+            <orig>Séneques</orig>
+            <reg>Sénèques</reg>
+          </choice>. Mais, à propos de ces discours, je ne <choice>
+            <orig>sçais</orig>
+            <reg>sais</reg>
+          </choice> pourquoi nos historiens modernes ne suivent plus l'exemple
+          des anciens. Ceux-ci <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> dans l'usage de prêter aux généraux, aux princes, aux hommes
+          fameux, des harangues proportionnées aux conjonctures où ils se <choice>
+            <orig>trouvoient</orig>
+            <reg>trouvaient</reg>
+          </choice>. Elles <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> composées avec beaucoup d'art, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> on en lit de parfaitement belles dans Quinte-Curce, dans
+          Salluste, dans Tite-Live <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans Tacite. Aujourd'hui, on copie mot pour mot ce qu'on
+          rencontre dans ses mémoires, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> on se fait un scrupule d'y rien ajouter. Cependant, ces
+          morceaux d'éloquence ont d'abord l'avantage de charmer le lecteur, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> de répandre de la diversité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des <choice>
+            <orig>graces</orig>
+            <reg>grâces</reg>
+          </choice> dans une narration trop continue&#160;; ensuite ils <pb
+            xml:id="p336"/> sont propres à rendre l'histoire plus utile encore,
+          par les excellentes maximes dont ils sont remplis. Pour moi, je les ai
+          toujours lus avec le plus grand plaisir.</p>
+
+        <p>Ce sont des <choice>
+            <orig>pieces</orig>
+            <reg>pièces</reg>
+          </choice> admirables, pour la plupart, reprit Euphorbe&#160;; mais,
+          par malheur, elles ne peuvent trouver place dans l'histoire, quelles
+          ne la rendent suspecte, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ne lui donnent un air de fiction, qui ne lui convient
+          point&#160;: car enfin, on s'<choice>
+            <orig>apperçoit</orig>
+            <reg>aperçoit</reg>
+          </choice> aisément, que ces harangues sont <choice>
+            <orig>dûes</orig>
+            <reg>dues</reg>
+          </choice> tout <choice>
+            <orig>entieres</orig>
+            <reg>entières</reg>
+          </choice> à l'imagination de l'auteur. Quoi qu'en dise M. Rollin, on
+          ne se persuadera jamais, que des généraux se soient avisés de
+          haranguer en plein air <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> au moment de livrer le combat, une armée de vingt ou trente
+          mille hommes, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> souvent plus nombreuse. Quels poumons <choice>
+            <orig>auroient</orig>
+            <reg>auraient</reg>
+          </choice> pu porter la voix à une distance aussi énorme&#160;? Les
+          raisons qu'apporte notre éloquent rhéteur<note resp="author"><choice>
+              <orig>Hist. Anc.</orig>
+              <reg><hi rend="italic">Histoire ancienne</hi></reg>
+            </choice>, t. II, part. 2.</note>, ne sont pas tout-à-fait
+          satisfaisantes. Dans les premiers temps de la république, les armées
+          ne <choice>
+            <orig>paroissent</orig>
+            <reg>paraissent</reg>
+          </choice> pas aussi petites qu'il le dit. <choice>
+            <orig>A</orig>
+            <reg>À</reg>
+          </choice> la journée de l'Allia<note resp="author"><choice>
+              <orig>Laur.</orig>
+              <reg>Laurence</reg>
+            </choice> Echard. l. 2, ch. 5.</note>, les Romains <pb xml:id="p337"
+          /> envoyèrent contre les Gaulois quarante mille hommes de pied.<note
+            resp="editor">Bérardier fait sans doute allusion à l'<hi
+              rend="italic">Roman history</hi> (1695) de l'historien anglais
+            Laurence Echard (1670-1730), paru en français en 1699.</note> L'an
+          410 de Rome,<note resp="author"><choice>
+              <orig><hi rend="italic">Ibid. l. 2, ch. 7</hi>.</orig>
+              <reg><hi rend="italic">Ibid</hi>. livre 2, chap. 7.</reg>
+            </choice></note> Cornélius-Cossus défit les Samnites, qui <choice>
+            <orig>laisserent</orig>
+            <reg>laissèrent</reg>
+          </choice> trente mille hommes sur le champ de bataille. Il en <choice>
+            <orig>falloit</orig>
+            <reg>fallait</reg>
+          </choice> bien du moins autant du côté des Romains, pour passer
+          ceux-là au fil de l'épée. Mais quand on <choice>
+            <orig>supposeroit</orig>
+            <reg>supposerait</reg>
+          </choice> que les armées ne <choice>
+            <orig>passoient</orig>
+            <reg>passaient</reg>
+          </choice> pas vingt mille hommes, nous n'en serions pas beaucoup plus
+          avancés. Nos orateurs, <hi rend="italic">quelque forte, quelque
+            distincte que soit <choice>
+              <sic>leurs</sic>
+              <corr>leur</corr>
+            </choice> voix</hi>, ont peine à se faire entendre par deux mille
+          personnes, dans un lieu couvert&#160;: que <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice>-ce s'ils <choice>
+            <orig>parloient</orig>
+            <reg>parlaient</reg>
+          </choice> en rase campagne, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que le nombre de leurs auditeurs fût dix fois plus
+          grand&#160;? Apporter pour exemple les discours que les magistrats <choice>
+            <orig>faisoient</orig>
+            <reg>faisaient</reg>
+          </choice> au peuple dans la tribune aux harangues, c'est, <choice>
+            <orig>premierement</orig>
+            <reg>premièrement</reg>
+          </choice>, présenter une difficulté pour en résoudre une autre. Les <choice>
+            <orig>sçavans</orig>
+            <reg>savants</reg>
+          </choice> sont encore assez embarrassés à expliquer le mécanisme de
+          cet usage. Mais, d'ailleurs, entre l'un <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> l'autre il y a des différences toutes à l'avantage du
+          dernier. La place publique <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> enfermée de <choice>
+            <orig>bâtimens</orig>
+            <reg>bâtiments</reg>
+          </choice>, <pb xml:id="p338"/> qui <choice>
+            <orig>repercutoient</orig>
+            <reg>repercutaient</reg>
+          </choice> les sons de la voix&#160;; sa forme <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> probablement circulaire ou elliptique&#160;; les auditeurs y <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> placés en amphithéâtre. Ces dispositions favorables à
+          l'orateur, le <choice>
+            <orig>mettoient</orig>
+            <reg>mettaient</reg>
+          </choice> en état d'être entendu du plus grand nombre de ceux qui <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> présents, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> qui ne <choice>
+            <orig>formoient</orig>
+            <reg>formaient</reg>
+          </choice> peut-être pas la dixième partie du peuple de Rome. Ce nombre
+          suffisait pour instruire les autres de ce qui <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> été dit&#160;; parce que chacun <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> le temps <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la facilité de le répandre dans son voisinage <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans son quartier. Toutes ces ressources manquent à un
+          général, qui doit parler à une armée. Elle occupe un <choice>
+            <orig>terrein</orig>
+            <reg>terrain</reg>
+          </choice> immense&#160;; et, sur le point de donner bataille, personne
+          n'a le loisir ni la liberté d'aller partager avec les autres les <choice>
+            <orig>sentimens</orig>
+            <reg>sentiments</reg>
+          </choice> qu'il a reçus. Ajoutons à cela, que ces discours faits pour
+          animer <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> échauffer des guerriers, ne doivent leurs succès qu'à une
+          éloquence vive, des traits mâles <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> pleins de feu, qui <choice>
+            <orig>perdroient</orig>
+            <reg>perdraient</reg>
+          </choice> toute leur force en passant par la bouche des simples
+          soldats. La colonne Trajane prouve que l'empereur <choice>
+            <orig>assembloit</orig>
+            <reg>assemblait</reg>
+          </choice> quelquefois son armée pour lui faire savoir ses volontés.
+          Alors les principaux officiers se <choice>
+            <orig>rangeoient</orig>
+            <reg>rangeaient</reg>
+          </choice> autour <pb xml:id="p339"/> de lui&#160;; <choice>
+            <orig>recevoient</orig>
+            <reg>recevaient</reg>
+          </choice> ses ordres, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>alloient</orig>
+            <reg>allaient</reg>
+          </choice> les faire exécuter à ceux qui n'<choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> rien entendu. Mais ce monument n'établit point que Trajan
+          ait fait à pure perte une harangue étudiée à ses soldats, dont les
+          trois quarts ne <choice>
+            <orig>pouvoient</orig>
+            <reg>pouvaient</reg>
+          </choice> en profiter, quand il <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> employé le secours d'un <choice>
+            <orig>porte voix</orig>
+            <reg>portevoix</reg>
+          </choice>. M. Rollin se fait une objection à l'occasion d'un long
+          discours rapporté par Justin, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que cet <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> suppose avoir été débité par Mithridate à une armée de trois
+          cent mille hommes, composée de vingt-deux nations différentes, qui
+          toutes <choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> leur langage particulier. Quelle réponse y donne-t-il&#160;?
+          Un souhait inutile, qui démontre assez qu'il n'y en à point de bonne, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> que Trogue Pompée est le seul auteur de ce discours, que
+          Mithridate n'a jamais prononcé.<note resp="author"><choice>
+              <orig><hi rend="italic">Hist. Anc</hi>.</orig>
+              <reg><hi rend="italic">Histoire Ancienne</hi>,</reg>
+            </choice> t. II, part. 2.</note> «&#160;Il <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> à souhaiter, dit-il, que l'historien se fût expliqué plus
+          clairement, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> nous eût donné quelque <choice>
+            <orig>lumiere</orig>
+            <reg>lumière</reg>
+          </choice> sur ce point.&#160;» Puisque nous n'en avons point, je crois
+          qu il faut nous en tenir au moyen qu'il admet lui-même dans les
+          grandes armées&#160;: c'est-à-dire, <pb xml:id="p340"/> que le général <choice>
+            <orig>parcouroit</orig>
+            <reg>parcourait</reg>
+          </choice> les rangs, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice>
+          <choice>
+            <orig>disoit</orig>
+            <reg>disait</reg>
+          </choice> rapidement quelques mots à chcacun des corps&#160;; ou bien
+          qu'il <choice>
+            <orig>chargeoit</orig>
+            <reg>chargeait</reg>
+          </choice> les premiers officiers d'animer leurs gens au combat. D'où
+          je conclus que tous ces discours d'appareil ont été imaginés dans le
+          cabinet par l'écrivain, jaloux de prouver son éloquence <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> son savoir faire.</p>
+
+        <p>Indépendamment de toutes ces raisons, poursuivit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, ne vous semble-t-il pas que le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> même de ces discours fournit une nouvelle preuve de ce que
+          vous avancez&#160;? Tous ceux qui parlent dans Quinte-Curce, ont une
+          éloquence riche <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> fleurie&#160;; dans Tite-Live, noble <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> abondante&#160;: chez Salluste, leur <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> est fort <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> serré&#160;; chez Tacite, il est concis, profond, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> quelquefois énigmatique. Assurément ces grands hommes <choice>
+            <orig>avoient</orig>
+            <reg>avaient</reg>
+          </choice> des <choice>
+            <orig>caracteres</orig>
+            <reg>caractères</reg>
+          </choice>
+          <choice>
+            <orig>différens</orig>
+            <reg>différents</reg>
+          </choice>&#160;: les historiens même ont soin d'en conserver les
+          nuances <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> le coloris. Si les harangues qu'on leur prête <choice>
+            <orig>étoient</orig>
+            <reg>étaient</reg>
+          </choice> sorties de leurs plumes, il y <choice>
+            <orig>auroit</orig>
+            <reg>aurait</reg>
+          </choice> autant de diversité dans leur <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> de s'exprimer, que dans leur façon de penser. Mais on <choice>
+            <orig>apperçoit</orig>
+            <reg>aperçoit</reg>
+          </choice> aisément l'empreinte de la même main qui les a tracées. Au
+          reste, cette empreinte est agréable, <pb xml:id="p341"/>
+          <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> je <choice>
+            <orig>serois</orig>
+            <reg>serais</reg>
+          </choice> fort faché que leurs <choice>
+            <orig>Auteurs</orig>
+            <reg>auteurs</reg>
+          </choice> nous eussent privés de ces beaux morceaux.</p>
+
+        <p>Je n'en suis pas moins enchanté que vous, repartit Euphorbe&#160;:
+          mais je ne leur pardonne point de venir se mêler dans un récit
+          véritable, en portant les livrées du mensonge. J'<choice>
+            <orig>aimerois</orig>
+            <reg>aimerais</reg>
+          </choice> mieux lire la bibliothèque bleue, si elle <choice>
+            <orig>avoit</orig>
+            <reg>avait</reg>
+          </choice> pour fondement la vérité, que les fastes des princes <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des empires où <choice>
+            <orig>regneroit</orig>
+            <reg>regnerait</reg>
+          </choice> la fiction.</p>
+
+        <p>Mais, après tout, répliqua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, pourquoi ne <choice>
+            <orig>mettroit</orig>
+            <reg>mettrait</reg>
+          </choice>-on pas au rang de nos histoires la vie de Cartouche, par
+            exemple&#160;?<note resp="editor">Louis Dominique Garthausen, dit
+            Cartouche (1693-1721), était un brigand puis un chef de bande, sous
+            la Régence.</note> Elle a été écrite par un <choice>
+            <orig>Auteur</orig>
+            <reg>auteur</reg>
+          </choice> contemporain&#160;; ce qui donne la certitude des
+          faits&#160;: <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> il me semble qu'on peut tirer plus d'un avantage de cette
+          lecture. On apprend à se précautionner contre les fourberies <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les violences d'un bandit public&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> son supplice est bien capable d'effrayer quiconque <choice>
+            <orig>voudroit</orig>
+            <reg>voudrait</reg>
+          </choice> lui ressembler.</p>
+
+        <p>Ne seriez-vous pas tenté, dit Euphorbe en riant, de chercher un sujet
+          de tragédie dans la vie de ce scélérat&#160;? Il en <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> de votre <choice>
+            <orig>Arame</orig>
+            <reg>drame</reg>
+          </choice>, comme de la prétendue histoire dont vous parlez. En lui
+          accordant le vrai <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> même l'utile, <pb xml:id="p342"/> il lui manquera toujours
+          la dignité <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> la noblesse, qualité essentielle à cette <choice>
+            <orig>espece</orig>
+            <reg>espèce</reg>
+          </choice> de composition. L'histoire est le livre des <choice>
+            <orig>Rois</orig>
+            <reg>rois</reg>
+          </choice>, des princes, des ministres, des hommes en place. Elle doit
+          leur dire ce qu'aucun autre souvent n'ose leur faire entendre. Il faut
+          donc qu'elle mette sous leurs <choice>
+            <orig>ieux</orig>
+            <reg>yeux</reg>
+          </choice> des hommes capables de se mesurer avec eux, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dont exemple puisse les enseigner <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les frapper. Le petit peuple apprend assez par d'autres
+          moyens ce qu'il doit suivre ou éviter. Ainsi, l'histoire doit être
+          noble, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans le sujet qu'elle choisit, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> dans le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> qu'elle emploie.</p>
+
+        <p>Par cette noblesse du sujet, interrompit <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, vous n'entendez pas, sans doute, celle qui vient de
+          l'extraction, ni même de la vertu. <choice>
+            <orig>Artevelle</orig>
+            <reg>Artevelde</reg>
+          </choice>
+          <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> un brasseur, <choice>
+            <orig>Cromwel</orig>
+            <reg>Cromwell</reg>
+          </choice>
+          <choice>
+            <orig>étoit</orig>
+            <reg>était</reg>
+          </choice> fils d'un forgeron, Catilina est assez connu par ses
+            crimes&#160;:<note resp="editor">Il s'agit de Jacques ou Jacob Van
+            Artevelde (~1287-1345), négociant et homme politique flamand&#160;;
+            de Thomas Cromwell (~1485–1540), homme politique anglais, conseiller
+            du roi Henri VIII d'Angleterre&#160;; et de Lucius Sergius Catilina,
+            (108-62 av. J.-C.), homme politique romain pendant le dernier siècle
+            de la République romaine.</note> cependant ces trois hommes, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> plusieurs autres semblables, figurent très bien dans une
+          histoire, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> même dans une tragédie&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> je <choice>
+            <orig>choisirois</orig>
+            <reg>choisirais</reg>
+          </choice> assurément plutôt un de ces sujets, que celui sur qui nous
+          plaisantions tout-à-l'heure.</p>
+
+        <p>Vous auriez bien raison, répondit Euphorbe. Ils sont <choice>
+            <orig>très-propres</orig>
+            <reg>très propres</reg>
+          </choice> pour cela&#160;: <pb xml:id="p343"/> car nous ne demandons
+          ici qu'un homme fameux par quelque exploit, quelque projet, quelque
+          crime même intéressant pour des peuples ou des royaumes entiers. Mais
+          il <choice>
+            <orig>seroit</orig>
+            <reg>serait</reg>
+          </choice> aussi ridicule de nous raconter les ruses <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> les supercheries d'un voleur, que les occupations innocentes
+          d'un bourgeois dans sa famille. La vertu <choice>
+            <orig>devroit</orig>
+            <reg>devrait</reg>
+          </choice> avoir, sans doute, des droits exclusifs à la célébrité. Mais
+          nous sommes esclaves de l'opinion. C'est elle, beaucoup plus que la
+          raison, qui <choice>
+            <orig>régle</orig>
+            <reg>règle</reg>
+          </choice> les rangs dans le monde&#160;; <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> comme il est des vertus sans éclat, il est aussi des vices
+          qu'on s'obstine à admirer. Au reste, nous avons déjà remarqué que
+          l'histoire des grands crimes est aussi instructive que toute autre,
+          lorsqu'elle est bien maniée.</p>
+
+        <p>Je vois bien, continua <choice>
+            <orig>Timagene</orig>
+            <reg>Timagène</reg>
+          </choice>, qu'il faut mettre à l'écart les vices roturiers, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> nous réserver les forfaits de condition. <choice>
+            <sic>Delà</sic>
+            <corr>De là</corr>
+          </choice> je n'ai pas de peine à conclure, que le <choice>
+            <orig>stile</orig>
+            <reg>style</reg>
+          </choice> doit avoir aussi de la dignité. La <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> de raconter, doit se conformer à l'objet que l'on raconte.
+          Mais je <choice>
+            <orig>voudrois</orig>
+            <reg>voudrais</reg>
+          </choice> examiner en quoi consiste précisément cette qualité. Le <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> Rapin dit, en parlant de <pb xml:id="p344"/>
+          l'histoire&#160;: <note resp="author"><choice>
+              <orig>Réflex. sur l'Hist.</orig>
+              <reg><hi rend="italic">Réflexions sur l'Histoire</hi>.</reg>
+            </choice></note>
+          <quote rend="inline">Il faut l'écrire sensément, c'est-à-dire, ne
+            point se livrer à son imagination, se posséder dans les grands
+            sujets, se soutenir dans les petits, sacrifier ce qui doit être
+            omis, n'être ni trop diffus, ni trop serré. Mariana est un modèle
+            dans cette partie.</quote><note resp="editor">Dans les <hi
+              rend="italic">Instructions sur l'histoire</hi> (1677) du Père
+            Rapin, on peut lire&#160;: «&#160;Écrire sensément, c'est aller
+            droit au but en quelque matière que ce soit qu'on écrive, sans
+            s'éarter, ou s'amuser en chemin&#160;: c'est exposer les choses avec
+            une espèce de sagesse <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de retenue, sans s'abandonner ni à la chaleur de son
+            imagination, ni à la vivacité de son esprit&#160;: c'est savoir
+            supprimer ce qu'il y a de superflu dans l'expression, comme sont ces
+            adverbes <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> ces épithetes qui diminuent les choses en les
+            exagerant&#160;; n'y laisser rien d'oisif, de languissant,
+            d'inutile&#160;; retrancher généreusement ce qu'il ne faut pas dire,
+            quelque beau qu'il soit&#160;; donner toujours moins à l'éclat qu'au
+            solide, ne point montrer de feu ni de chaleur, où il ne faut que du
+            sang-froid <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> du sérieux&#160;; examiner toutes ses pensées, de mesurer
+            toutes ses paroles, avec cette justesse de sens, <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> ce jugement exquis, à qui rien n'échappe que d'exact <choice>
+              <orig>&amp;</orig>
+              <reg>et</reg>
+            </choice> de judicieux&#160;: c'est enfin avoir la force de résister
+            à la tentation qu'on a naturellement de faire paraitre son
+            esprit&#160;;&#160;» (voir <ref target="/dossier/critique"
+              >bibliographie</ref>, p.&#160;7-8).</note> Voilà des préceptes <choice>
+            <orig>excellens</orig>
+            <reg>excellents</reg>
+          </choice>, mais un peu généraux. On y découvre cependant les deux <choice>
+            <orig>écueuils</orig>
+            <reg>écueils</reg>
+          </choice> opposés que doit éviter l'historien&#160;; l'un de
+          s'abandonner aux fougues d'une imagination déréglée, l'autre d'écrire
+          d'une <choice>
+            <orig>maniere</orig>
+            <reg>manière</reg>
+          </choice> rampante <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> triviale. Le grand art est donc de tenir un juste milieu
+          entre une espèce<note resp="editor">L'accent dans <hi rend="italic"
+              >espèce</hi> est ici bien en place dans l'original, contrairement
+            à l'usage dans l'<hi rend="italic">Essai sur le récit</hi>.</note>
+          d'enthousiasme qui fatigue <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> ennuie, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> une plate monotonie qui dégoûte. Par quels moyens
+          pourrons-nous y réussir&#160;?</p>
+
+        <p>Le succès en cela, repartit Euphorbe, dépend beaucoup de l'ordre <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> des <choice>
+            <orig>ornemens</orig>
+            <reg>ornements</reg>
+          </choice> propres à l'histoire. Cette matière<note resp="editor"
+            >L'accent dans <hi rend="italic">matière</hi> est ici (et dans la
+            phrase suivante) bien en place dans l'original, contrairement à
+            l'usage dans l'<hi rend="italic">Essai sur le récit</hi>.</note> est
+          abondante&#160;: si vous y consentez, nous la remettrons à un autre
+          moment. D'ailleurs nous ne prétendons pas épuiser la matière, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> répéter sur ce sujet, <pb xml:id="p345"/> tout ce qu'ont dit
+          Denis d'Halicarnasse, Vossius, Gomberville, la Motte le Vayer, le <choice>
+            <orig>P.</orig>
+            <reg>Père</reg>
+          </choice> le Moine, M. de Cordemoi <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> plusieurs autres. Le temps nous invite à sortir. Allons
+          faire un tour dans le potager, <choice>
+            <orig>&amp;</orig>
+            <reg>et</reg>
+          </choice> voir en quel état sont nos fruits.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

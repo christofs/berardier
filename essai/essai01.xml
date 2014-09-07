@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="fra">
+
+        <fileDesc>
+            <titleStmt>
+                <title>Essai sur le récit, ou Entretiens sur la manière de
+                    raconter. Édition électronique.</title>
+                <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
+                <editor>Christof Schöch</editor>
+                <principal>Christof Schöch</principal>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Version 0.6, 12/2010</edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <p>Édition électronique publiée en ligne à l'adresse
+                    http://www.berardier.org sous licence Creative Commons
+                    BY-NC-SA 3.0 (Attribution-Noncommercial-Share Alike).</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>Bérardier de Bataut, François-Joseph
+                        (1720-1794)</author>
+                    <title>Essai sur le récit, ou entretiens sur la manière de
+                        raconter</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Charles-Pierrre Berton</publisher>
+                    <date>1776</date>
+                    <extent>Format in-12, X-725 pages.</extent>
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Cette édition fournit une édition accessible en ligne et
+                    commentée de l'Essai sur le récit, ou Entretiens sur la
+                    manière de raconter, par François-Joseph Bérardier de
+                    Bataut. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>L'édition électronique est réalisée au format XML et conforme
+                    au standard TEI, version 5, défini par la Text Encoding
+                    Initiative. Elle utilise un sous-ensemble d'éléments définis
+                    dans le TEI-Lite, ce sous-ensemble étant documenté dans un
+                    schéma XML. L'édition réunit une transcription diplomatique
+                    (graphies d'époque, coquilles, abréviations) et une version
+                    de lecture (graphies modernisées, coquilles corrigées,
+                    abréviations explicitées). L'édition fournit avec le texte
+                    des commentaires explicatifs, des références
+                    bibliographiques et un dossier critique. </p>
+            </editorialDecl>
+        </encodingDesc>
+
+        <revisionDesc>
+            <change when="2010-01-08" who="Christof Schöch">Transfer zu
+                TEI-Lite</change>
+            <change when="2010-01-11" who="Christof Schöch">Added
+                choice.</change>
+            <change when="2010-01-11" who="Christof Schöch">Revised header
+                information.</change>
+            <change when="2010-05-16" who="Christof Schöch">Revised source
+                description.</change>
+            <change when="2011-11-06" who="Christof Schöch">Revised page numbering.</change>
+           <change when="2012-07-03" who="Christof Schöch">Revised page numbering: "E0001" etc instead of "A0001".</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="fra">
+
+        <body>
+            <div xml:id="ER_ENT01" type="chapter">
+                <head>PREMIER ENTRETIEN. <hi rend="italic">Nature du
+                                <choice><orig>Récit</orig><reg>récit</reg></choice>.</hi></head>
+
+                <p>
+                    <pb n="[1]" xml:id="E0001"/>
+                </p>
+
+                <p>Euphorbe <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    Timagène
+                        <choice><orig>avoient</orig><reg>avaient</reg></choice>
+                    passé ensemble, dans une éducation commune, les
+                            <choice><orig>premieres</orig><reg>premières</reg></choice>
+                    années de leur vie. Une émulation égale, des succès à peu
+                    près semblables
+                            <choice><orig>avoient</orig><reg>avaient</reg></choice>
+                    formé entr'eux <pb n="2" xml:id="E0002"/> une étroite
+                    liaison. L'estime réciproque produisit bientôt l'amitié la
+                    plus <choice><orig>sincere</orig><reg>sincère</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> la plus
+                    inviolable. Les
+                            <choice><orig>différens</orig><reg>différents</reg></choice>
+                    intérêts de leur famille
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    leur goût particulier les
+                            <choice><orig>avoient</orig><reg>avaient</reg></choice>
+                    enfin séparés. Le premier, à l'aide d'une fortune honnête,
+                            s'<choice><orig>étoit</orig><reg>était</reg></choice>
+                    livré tout entier à l'étude des belles-lettres, et, pour
+                    suivre plus aisément en cela son inclination, il
+                            s'<choice><orig>étoit</orig><reg>était</reg></choice>
+                    retiré dans une agréable maison de campagne, qu'il
+                            <choice><orig>avoit</orig><reg>avait</reg></choice>
+                    héritée de ses
+                        <choice><orig>peres</orig><reg>pères</reg></choice>.
+                    L'autre, après avoir consacré à son prince
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> à
+                    sa patrie, au milieu des combats, ses travaux
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> ses
+                    jours, avait reçu la récompense de ses belles actions
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    ses longs services. Impatient de revoir un ami que
+                    l'éloignement lui
+                        <choice><orig>avoit</orig><reg>avait</reg></choice>
+                    encore rendu plus cher, il s'empresse de le rejoindre dans
+                    sa retraite, pour y goûter pendant quelques mois avec lui
+                    les douceurs de l'amitié
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    la solitude. Après les premiers
+                            <choice><orig>embrassemens</orig><reg>embrassements</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> les
+                            <choice><orig>épanchemens</orig><reg>épanchements</reg></choice>
+                    de cœur, naturels dans une pareille entrevue, la
+                    conversation tomba bientôt sur les belles-lettres.
+                            C'<choice><orig>étoit</orig><reg>était</reg></choice>,
+                    après la vertu, l'objet le plus capable de les occuper. On
+                    traita bien des sujets&#160;; on agita bien des
+                    questions&#160;; on critiqua bien des écrivains&#160;; on en
+                    loua quelques-uns. Enfin un jour, Euphorbe dit à son<pb
+                        n="3" xml:id="E0003"/> ami&#160;: J'admire, en vérité,
+                    votre modeste indifférence. Nous sommes ici depuis quelques
+                    semaines, <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    vous ne m'avez pas encore dit un mot de vos campagnes.
+                    Pensez-vous, que le détail de vos exploits guerriers
+                            n'<choice><orig>aurait</orig><reg>aurait</reg></choice>
+                    pas pour moi des charmes tout particuliers&#160;? Éloigné
+                    des villes, comme je le suis, je n'apprends les
+                            <choice><orig>événemens</orig><reg>événements</reg></choice>
+                    que par l'écho de la renommée, qui ne parle qu'après la
+                    voix&#160;: encore ne
+                            <choice><orig>répéte</orig><reg>répète</reg></choice>-t-il
+                    qu'imparfaitement les dernières syllabes.</p>
+
+                <p>Jamais, reprit Timagène, je n'eus la démangeaison de raconter
+                    mes expéditions militaires. J'ai pris part à bien des
+                            <choice><orig>siéges</orig><reg>sièges</reg></choice>,
+                    à bien des combats aussi
+                            <choice><orig>intéressans</orig><reg>intéressants</reg></choice>
+                    par leur objet, que par les belles actions dont j'ai été le
+                    témoin. Mais tant d'autres, sans moi, se chargent tous les
+                    jours d'en faire les détails les plus circonstanciés, que je
+                    leur abandonne volontiers ce soin, qui favorise ma
+                    paresse&#160;; voulez-vous que je vous parle
+                    franchement&#160;? L'ennui que causent souvent ces
+                    conversations historiques,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> que
+                    l'on déguise sous des
+                            <choice><orig>complimens</orig><reg>compliments</reg></choice>
+                    affectés, est une leçon pour moi. Je ne veux point courir
+                    les risques de déplaire, pour satisfaire ma vanité.</p>
+
+                <p><pb n="4" xml:id="E0004"/> Vous n'avez assurément rien à
+                    craindre d'un pareil
+                            <choice><orig>écueuil</orig><reg>écueil</reg></choice>,
+                    interrompit Euphorbe.</p>
+
+                <p>Plus qu'un autre, continua Timagène. Lorsque j'entends
+                    quelqu'un de ces conteurs éternels, je souffre, je m'agite,
+                    je me tourmente, dans l'impatience de voir finir un récit
+                    qui, dès son début, me
+                            <choice><orig>paraissoit</orig><reg>paraissait</reg></choice>
+                    déjà trop long&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> si
+                    je me demande à moi-même la raison de ces dégoûts
+                    involontaires, je suis fort embarrassé de me la rendre.</p>
+
+                <p>Je n'en suis point étonné, reprit Euphorbe. Rien de plus
+                    ordinaire que de raconter&#160;: rien de plus rare
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    plus difficile que de raconter, comme il faut. La
+                    délicatesse de votre goût est révoltée par un récit sans
+                    grâce <choice><orig>&amp;</orig><reg>et</reg></choice> sans
+                    art, quoiqu'elle n'en ait point encore aperçu les défauts.
+                    Un peu de loisir
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    réflexion vous les <choice><orig>feroient</orig><reg>
+                            feraient</reg></choice> bientôt découvrir. Cette
+                            <choice><orig>matiere</orig><reg>matière</reg></choice>
+                    est également curieuse
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    agréable. Si vous y consentez, pendant que j'ai l'avantage
+                    de vous posséder ici, elle fera le sujet de nos
+                    entretiens.</p>
+
+                <p>Vous me ferez un véritable plaisir, dit alors Timagène, de me
+                    donner des
+                            <choice><orig>connoissances</orig><reg>connaissances</reg></choice>
+                    sur ce sujet. Je profiterai<pb n="5" xml:id="E0005"/> de vos
+                            <choice><orig>lumieres</orig><reg>lumières</reg></choice>
+                    avec
+                            <choice><orig>reconnoissance</orig><reg>reconnaissance</reg></choice>,
+                    mais sans ménagement.</p>
+
+                <p>Ce n'est pas ainsi que je l'entends, répliqua Euphorbe. Je
+                    compte bien que vous fournirez à ces entretiens, autant
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    plus que moi. Vous trouverez chez vous des trésors, que vous
+                    n'avez point encore
+                            <choice><orig>apperçus</orig><reg>aperçus</reg></choice>,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> que
+                    votre modestie n'a cachés jusqu'ici qu'à vous seul. Mais,
+                    sans nous amuser à des
+                            <choice><orig>complimens</orig><reg>compliments</reg></choice>
+                    qui vous
+                            <choice><orig>ennuieroient</orig><reg>ennuieraient</reg></choice>
+                    encore plus que les récits dont vous me parliez
+                            <choice><orig>tout-à-l'heure</orig><reg>tout à
+                            l'heure</reg></choice>, donnons quelque ordre aux
+                    conversations que nous nous proposons d'avoir ensemble sur
+                    cet objet. Si vous m'en croyez, nous considérerons d'abord
+                    le récit en général selon sa nature
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> sa
+                    fin&#160;; <choice><orig>de-là</orig><reg>de
+                        là</reg></choice> nous passerons à ses qualités&#160;;
+                    ensuite à ses
+                            <choice><orig>ornemens</orig><reg>ornements</reg></choice>&#160;;
+                    enfin nous examinerons les différentes
+                            <choice><orig>especes</orig><reg>espèces</reg></choice>
+                    de récits en particulier. Ma bibliothèque, sans être
+                    nombreuse, suffira pour fournir les exemples nécessaires au
+                    sujet que nous traitons.</p>
+
+                <p>C'est un procédé bien noble de votre part, dit en riant
+                    Timagène, de me prêter des armes, pour vous combattre. Vous
+                    craignez peu mon bras dans cette
+                            <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    de guerre. Non, non, mon cher, répondit Euphorbe,<pb n="6"
+                        xml:id="E0006"/> ce n'est point à vous que je prétends
+                    la faire, c'est au mauvais goût. Unissons-nous pour
+                    l'attaquer&#160;: et, pour entrer d'abord en
+                            <choice><orig>matiere</orig><reg>matière</reg></choice>,
+                    je crois apercevoir beaucoup de ressemblance entre la nature
+                    du récit <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    celle de la peinture. L'un
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    l'autre se propose de nous instruire d'un fait que nous
+                    ignorons, ou que nous ne
+                            <choice><orig>connoissons</orig><reg>connaissons</reg></choice>
+                    qu'imparfaitement. Mais il est bien des degrés
+                            <choice><orig>différens</orig><reg>différents</reg></choice>,
+                    dans la
+                            <choice><orig>connoissance</orig><reg>connaissance</reg></choice>
+                    que l'on peut avoir du même événement. Le peintre qui se
+                    propose de me représenter une bataille,
+                            n'<choice><orig>atteindroit</orig><reg>atteindrait</reg></choice>
+                    point son but, s'il se
+                            <choice><orig>contentoit</orig><reg>contentait</reg></choice>
+                    de mettre sous mes yeux une multitude d'hommes aux prises
+                    les uns avec les autres&#160;; si le costume des
+                            <choice><orig>habillemens</orig><reg>habillements</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> des armes,
+                    la forme des enseignes ne
+                            m'<choice><orig>apprenoient</orig><reg>apprenaient</reg></choice>
+                    pas quels sont les peuples rivaux&#160;; si les
+                            <choice><orig>Généraux</orig><reg>généraux</reg></choice>
+                    ne se
+                        <choice><orig>faisoient</orig><reg>faisaient</reg></choice>
+                    pas
+                        <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>,
+                    à leur air, à leurs attitudes&#160;; si les traits du
+                    visage, dans les combattants,
+                            n'<choice><orig>étoient</orig><reg>étaient</reg></choice>
+                    pas l'image des passions qui agitent leur cœur. Il en est de
+                    même du narrateur. Quelle impression fera-t-il sur moi, s'il
+                    me raconte un fait dépouillé de ses circonstances&#160;? Le
+                    bruit court qu'un combat s'est livré entre deux puissances
+                    ennemies&#160;: des gens dignes de foi me l'assurent&#160;;
+                    ils nomment le vainqueur&#160;: <pb n="7" xml:id="E0007"/>
+                    je sais en substance ce qui s'est passé&#160;; mais, comme
+                    dit Quintilien, c'est un courrier, qui, dans la rapidité de
+                    sa course, me jette, comme en passant, une nouvelle. Cette
+                            <choice><orig>légere</orig><reg>légère</reg></choice>
+                    esquisse ne fait qu'irriter ma curiosité,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    augmenter l'impatience où je suis d'apprendre des détails
+                    plus particuliers&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    cette impatience est d'autant plus violente, que je prends
+                    un intérêt plus vif à l'action dont il s'agit.</p>
+
+                <p>Ces derniers mots
+                            <choice><orig>rappelerent</orig><reg>rappelèrent</reg></choice>
+                    à Timagène ce qui
+                            s'<choice><orig>étoit</orig><reg>était</reg></choice>
+                    passé sous ses
+                        <choice><orig>ieux</orig><reg>yeux</reg></choice>. Ne
+                            <choice><orig>pourroit</orig><reg>pourrait</reg></choice>-on
+                    pas, dit-il à son ami, appliquer le principe que vous venez
+                    d'établir au touchant
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    magnifique spectacle dont nous fumes les témoins, il y a
+                    quelques années&#160;? Un écrivain me rapportera<note
+                        resp="editor">C'est un futur a valeur
+                        d'hypothèse.</note> que le
+                            <choice><orig>Souverain</orig><reg>souverain</reg></choice>
+                    d'un grand
+                        <choice><orig>Royaume</orig><reg>royaume</reg></choice>,
+                    à la tête de ses armées, fut attaqué subitement d'une
+                    maladie mortelle, qui le mit aux portes du tombeau&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> que
+                    son rétablissement inespéré le rendit à ses sujets. Ce peu
+                    de mots indique rapidement un fait, sans nous éclairer, ni
+                    nous instruire. Mais si cet historien expose la douleur de
+                    toute une grande ville à cette affreuse nouvelle&#160;; s'il
+                    peint les progrès de cet abattement <pb n="8" xml:id="E0008"
+                    /> général, à mesure que le péril augmente&#160;; si, dans
+                    les derniers
+                        <choice><orig>momens</orig><reg>moments</reg></choice>,
+                    il représente le désespoir gravé sur le front de tous les
+                    citoyens, les uns prosternés au pied des autels, offrant au
+                    Très-Haut leurs jours pour racheter ceux du prince, les
+                    autres, sans songer à leurs familles, à leurs épouses, à
+                    leurs enfants, passent les journées
+                            <choice><orig>entieres</orig><reg>entières</reg></choice>
+                    à l'entrée de ces lieux publics, où leur tendre inquiétude
+                    se flatte à tout moment de recevoir quelque nouvelle plus
+                    heureuse&#160;; s'il fait succéder à ce tableau, celui de
+                    l'allégresse
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    transports de ce même peuple instruit que son roi est enfin
+                    échappé au bras de la mort&#160;; s'il me montre ces fidèles
+                    sujets livrés<choice><orig>,</orig><reg/></choice> aux accès
+                    d'une joie, qui, dans toute autre occasion,
+                            <choice><orig>auroit</orig><reg>aurait</reg></choice>
+                    passé pour une
+                        <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    d'ivresse, je conçois combien ce monarque
+                            <choice><orig>étoit</orig><reg>était</reg></choice>
+                    aimé <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    <choice><orig>méritoit</orig><reg>méritait</reg></choice> de
+                    l'être. Les mêmes temples que ces
+                            <choice><orig>habitans</orig><reg>habitants</reg></choice>
+                    éplorés
+                        <choice><orig>avoient</orig><reg>avaient</reg></choice>
+                    baignes de leurs larmes, retentissent de leurs chants
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    leurs actions de
+                            <choice><orig>graces</orig><reg>grâces</reg></choice>&#160;:
+                    dans les places, dans les cercles, dans les promenades
+                    publiques, la vie rendue au
+                            <choice><orig>Monarque</orig><reg>monarque</reg></choice>
+                    est la
+                        <choice><orig>matiere</orig><reg>matière</reg></choice>
+                    de tous les entretiens&#160;: le fils s'en félicite avec son
+                            <choice><orig>pere</orig><reg>père</reg></choice>,
+                    l'épouse avec son époux&#160;: cent fois ils ont entendu ces
+                    détails
+                            <choice><orig>intéressans</orig><reg>intéressants</reg></choice>&#160;;
+                    ils les écoutent <pb n="9" xml:id="E0009"/> encore avec un
+                    plaisir nouveau&#160;: jamais ils ne les ont assez
+                    appris&#160;; jamais ils ne les ont assez répétés. À cette
+                    peinture, je vois quel empire a sur des cœurs généreux la
+                    bonté d'un souverain digne de tant d'amour&#160;: à ces
+                    traits, je
+                            <choice><orig>reconnois</orig><reg>reconnais</reg></choice>
+                    des
+                        <choice><orig>François</orig><reg>Français</reg></choice>.</p>
+
+                <p>L'exemple que vous venez d'apporter, répliqua Euphorbe, est
+                    plus capable qu'aucun autre de prouver ce que j'avance.
+                    Présenter rapidement les parties les plus essentielles d'un
+                    fait, ce n'est donc pas proprement raconter.<note
+                        resp="editor">Avec cette définition négative du récit,
+                        que les interlocuteurs développent davantage dans la
+                        suite, Bérardier s'écarte du principe du 'discours
+                        vectorisé' (Randa Sabry), dominant depuis la fin du
+                        XVIIe siècle.</note> L'homme, toujours esclave de
+                    l'amour-propre, ne s'attache qu'à ce qui l'intéresse
+                    personnellement. Tout objet étranger fait peu d'impression
+                    sur nous, si l'art ne sait le rapprocher des idées qui nous
+                    plaisent, <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    lui prêter des traits conformes à nos inclinations. Il faut
+                    les chercher, ces traits, dans les différentes circonstances
+                    qui accompagnent un événement. Les
+                            <choice><orig>ornemens</orig><reg>ornements</reg></choice>
+                    sont un secours subalterne. Du choix des
+                            circonstances<choice><orig>,</orig><reg/></choice>
+                    naît cette
+                        <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    d'enchantement qui nous transporte au-delà des temps
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    lieux, <choice><orig>&amp;</orig><reg>et</reg></choice> qui
+                    nous passionne dans des choses qui n'ont aucun rapport avec
+                    nous. Que m'importe à moi, que César ait péri, au milieu
+                    d'un Sénat, dont il
+                            <choice><orig>opprimoit</orig><reg>opprimait</reg></choice>
+                    la liberté&#160;? Cette <pb n="10" xml:id="E0010"/>
+                    catastrophe est un des jeux ordinaires de la Fortune. Les
+                    Romains eux-mêmes
+                            l'<choice><orig>oublierent</orig><reg>oublièrent</reg></choice>
+                    bientôt&#160;; et, deux ans après, ils répandirent des
+                    larmes sur la mort de ses assassins&#160;: je ne puis être
+                    plus sensible qu'eux à la perte d'un de leurs citoyens. Mais
+                    si l'historien prépare habilement mon esprit&#160;; s'il me
+                    fait apercevoir dans cet usurpateur, à travers une ambition
+                    sans bornes, des
+                            <choice><orig>talens</orig><reg>talents</reg></choice>
+                    rares, un génie vaste
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    prévoyant, un cœur intrépide dans le danger, un homme que le
+                    Ciel
+                        <choice><orig>sembloit</orig><reg>semblait</reg></choice>
+                    avoir formé pour commander, parce qu'il
+                            <choice><orig>sembloit</orig><reg>semblait</reg></choice>
+                    l'avoir formé pour faire des heureux&#160;: s'il me le
+                    dépeint seul, au milieu d'une foule de meurtriers comblés de
+                    ses bienfaits&#160;; s'il me montre un Brutus, armé d'une
+                    fureur
+                        <choice><orig>Stoïque</orig><reg>stoïque</reg></choice>
+                    contre celui à qui la nature, ou du moins la
+                            <choice><orig>reconnoissance</orig><reg>reconnaissance</reg></choice>
+                    <choice><orig>devoient</orig><reg>devaient</reg></choice>
+                    l'attacher par des nœuds éternels, cet attentat n'est plus
+                    indifférent pour moi. Je pleure le sort de ce grand
+                    homme&#160;; je deviens son partisan, son ami&#160;; parce
+                    que le mérite
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> la
+                    grandeur d'<choice><orig>ame</orig><reg>âme</reg></choice>
+                    sont de tous les pays, comme de tous les âges.</p>
+
+                <p>Je n'ai qu'un petit embarras sur tout ce que vous venez de
+                    dire, interrompit Timagène. Vous établissez que le détail
+                    des circonstances est nécessaire au récit. <pb n="11"
+                        xml:id="E0011"/> Que penserons-nous donc des abrégés
+                    chronologiques, historiques, des annales, des
+                    chroniques&#160;?</p>
+
+                <p>Que ce ne sont point des histoires, répondit Euphorbe, mais
+                    des matériaux pour servir à l'histoire. Un écrivain de nos
+                    jours a su répandre des
+                            <choice><orig>agrémens</orig><reg>agréments</reg></choice>
+                    tout nouveaux dans une compilation de cette nature&#160;; il
+                    a trouvé le rare talent d'attacher par le plaisir à la
+                    lecture d'un ouvrage qui semble n'être pas fait pour être lu
+                    de suite. Il a eu bien des imitateurs,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    bien peu de rivaux.<note resp="editor">Cet auteur n'a pas
+                        encore pu être identifié. Notons que Bérardier connaît
+                        les difficultés du genre, puisqu'il est lui-même
+                        l'auteur d'un <hi rend="italic">Précis d'histoire
+                            universelle</hi> en un seul volume, paru en
+                        1766.</note> Mais, malgré cette
+                            <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    de charme, je ne puis l'appeler un récit. Ce sont des
+                    membres détachés, dont les contours sont gracieux
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    parfaits, mais qu'il
+                            <choice><orig>faudroit</orig><reg>faudrait</reg></choice>
+                    rapprocher <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    réunir, pour en faire un beau corps.</p>
+
+                <p>Vous voulez donc, reprit vivement Timagène, que je juge du
+                    prix d'un auteur, par la longueur de son récit,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> que
+                    je le mesure, pour ainsi dire, à la toise&#160;? N'est-ce
+                    pas retomber dans le défaut que nous reprochions à ces
+                    conteurs éternels, dont nous parlions il n'y a qu'un
+                    instant&#160;?</p>
+
+                <p>Ce n'est pas là ma pensée, lui dit Euphorbe. Je sais que,
+                    dans tous les ouvrages d'esprit, il est des bornes étroites,
+                        <pb n="12" xml:id="E0012"/> dans lesquelles il faut se
+                    renfermer, pour atteindre la perfection.<note resp="author"
+                        >Horace, <choice><orig>Liv. 1, Sat. 1</orig><reg><hi
+                                    rend="italic">Satires</hi>, livre 1, satire
+                                1</reg></choice>.</note><note resp="editor"
+                        >Horace, <hi rend="italic">Satires</hi> (32 et 29 av.
+                        JC) livre 1, satire 1 (voir <ref target="/node/20"
+                            >bibliographie</ref>). Euphorbe fait allusion à une
+                        phrase qui renferme pour ainsi dire la morale de cette
+                        satire&#160;: « Est modus in rebus&#160;: sunt certi
+                        denique fines, / Quos ultra citraque nequit consistere
+                        rectum » (lignes 106-107). Traduction&#160;: « Ne
+                        sais-tu pas qu'il y a un milieu dans les choses, et de
+                        certaines bornes fixes, au-delà et au-deçà desquelles la
+                        vertu ne se trouve plus&#160;? » (p. 16).</note> C'est
+                    ce juste milieu que je cherche&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    pour y parvenir dans le sujet que nous traitons, distinguez
+                    avec moi deux
+                        <choice><orig>especes</orig><reg>espèces</reg></choice>
+                    de circonstances. Les unes, que j'appelle circonstances
+                    principales, contribuent à faire
+                            <choice><orig>connoître</orig><reg>connaître</reg></choice>
+                    l'objet que l'on veut peindre. Sans elles, il ne fait
+                    qu'effleurer notre esprit&#160;; et, quelque différentes
+                    qu'elles puissent être, elles sont essentielles. Les autres,
+                    que j'appelle circonstances d'ornement, jettent dans le
+                    récit de l'intérêt
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    l'agrément&#160;; mais il peut absolument s'en passer.
+                    L'écrivain ne peut se dispenser d'employer les
+                            <choice><orig>premieres</orig><reg>premières</reg></choice>&#160;;
+                    et, s'il veut faire un grand effet, il n'omettra pas les
+                    autres.</p>
+
+                <p>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice>
+                    bien savoir, interrompit Timagène, quel rang vous donneriez
+                    à celles qu'employa
+                            <choice><orig>dernierement</orig><reg>dernièrement</reg></choice>
+                    un homme de ma
+                            <choice><orig>connoissance</orig><reg>connaissance</reg></choice>,
+                    pour me décrire son voyage
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> son
+                    embarquement&#160;? <quote rend="inline">Je vins au port,
+                        dit-il, <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        j'y trouvai plusieurs vaisseaux&#160;; je les examinai
+                        tous&#160;; je m'arrêtai à un&#160;; je demandai combien
+                        on
+                            <choice><orig>prenoit</orig><reg>prenait</reg></choice>
+                        par place&#160;; nous convînmes <pb n="13"
+                            xml:id="E0013"/> du prix&#160;; j'entrai&#160;; on
+                        leva l'ancre,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        nous nous mîmes en mer.</quote></p>
+
+                <p>Faites-moi grâce du reste, reprit Euphorbe. De pareils faits
+                    sont trop inutiles, pour qu'on puisse les admettre dans un
+                    récit. Il est heureux qu'un tel homme ne s'avise pas
+                    d'écrire ses voyages&#160;: il
+                            <choice><orig>donneroit</orig><reg>donnerait</reg></choice>
+                    un volume par lieue. Mais, pour revenir à ce que je vous
+                            <choice><orig>disois</orig><reg>disais</reg></choice>,
+                    examinons un même sujet traité par trois écrivains
+                            <choice><orig>différens</orig><reg>différents</reg></choice>&#160;:
+                    nous y découvrirons ces circonstances, dont les unes sont
+                    inséparables du récit&#160;; les autres en font<note
+                        resp="editor">Le texte lit bien 'font'.</note> la
+                    richesse <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    l'ornement. Vous
+                            <choice><orig>connoissez</orig><reg>connaissez</reg></choice>
+                    la fable du chat
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    souris. Voyons comment elle a été racontée par trois auteurs
+                    bien faits pour nous servir de modèle, Ésope, Phèdre
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    <choice><orig>la Fontaine</orig><reg>La
+                        Fontaine</reg></choice>. La voici, telle qu'elle est
+                    dans Ésope.</p>
+
+                <p><quote rend="inline">Un chat, ayant su qu'une maison du
+                        voisinage était pleine de souris, s'y transporta, &amp;
+                        dévora une grande partie de ces animaux. Les souris,
+                        voyant que de jour en jour leur nombre diminuait, dirent
+                        entr'elles&#160;: Ne descendons plus, si nous ne voulons
+                        périr toutes. Le seul moyen de nous garantir de la mort,
+                        est de rester ici&#160;; puisque le chat n'y peut
+                        monter. Le chat, les voyant obstinées à rester chez
+                        elles, <pb n="14" xml:id="E0014"/> résolut de les en
+                        faire sortir par artifice&#160;; il grimpa sur une
+                        cheville fichée dans la muraille,
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        s'y pendit par la patte, comme s'il fut mort. Mais une
+                        des souris, mettant la tête hors de son trou,
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        voyant le chat ainsi suspendu, lui dit&#160;: Vas, vas,
+                        quand tu serais sac, je ne voudrais pas
+                        t'approcher.</quote> Rien de si clair
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    si naturel que ce récit&#160;; mais aussi rien de si simple.
+                    Tout y est nécessaire.
+                            L'<choice><orig>Auteur</orig><reg>auteur</reg></choice>
+                    ne se permet d'autres détails que ceux dont dépend l'action
+                    qu'il raconte. Il s'en tient aux circonstances principales.
+                    Phèdre a répandu quelques couleurs sur cette
+                            <choice><orig>premiere</orig><reg>première</reg></choice>
+                        esquisse.<note resp="editor">La métaphore pictuale
+                        prolonge le parallèle, commencé plus haut (page <ref
+                            target="/essai/premier#p6">6</ref>) entre lettres et
+                        peinture, les lignes de l'esquisse étant les faits
+                        narratifs, les couleurs les circonstances.</note> Voici
+                    comme il s'exprime.<note resp="author"><quote rend="italic"
+                            >Mustela, cum annis
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            <choice><orig>senectâ</orig><reg>senecta</reg></choice>
+                            debilis
+                                    <choice><orig>mures</orig><reg><lb/>Mures</reg></choice>
+                            veloces non valeret assequi,
+                                    <choice><orig>involvit</orig><reg><lb/>Involuit</reg></choice>
+                            se
+                                <choice><orig>farinâ</orig><reg>farina</reg></choice>,
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            obscuro loco
+                                    <choice><orig>abjecit</orig><reg><lb/>Abiecit</reg></choice>
+                            negligenter. Mus escam putans
+                                    <choice><orig>adsiluit</orig><reg><lb/>Assiluit</reg></choice>,
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                                    compressus<choice><orig>,
+                                    </orig><reg> </reg></choice>occubuit neci.
+                                    <choice><orig/><reg><lb/></reg></choice><lb/>Alter
+                            similiter&#160;: <choice><sic>dein
+                                    periit</sic><corr>deinde perit
+                                et</corr></choice> tertius. <choice><sic>Aliquot
+                                    secutis, venit &amp;</sic><corr><lb/>Mox
+                                    venit aliquot saeculis</corr></choice>
+                            retorridus,
+                                    <choice><orig>qui</orig><reg><lb/>Qui</reg></choice>
+                            <choice><orig>saepè</orig><reg>saepe</reg></choice>
+                            laqueos
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            muscipula effugerat&#160;;
+                                    <choice><orig>proculque</orig><reg><lb/>Proculque</reg></choice>
+                            insidias cernens hostis callidi,
+                                    <choice><orig>sic</orig><reg><lb/>Sic</reg></choice>
+                            valeas, inquit, ut farina es, quæ
+                                    <choice><orig>jaces</orig><reg>iaces</reg></choice>.</quote></note><note
+                        resp="editor">Phaedrus, <hi rend="italic">Liber
+                            fabularum</hi> (voir <ref target="/dossier/ouvrages"
+                            >bibliographie</ref>), IV.2, v. 10-19. Pour le vers
+                        16, il n'y a pas de tradition textuelle fiable.
+                        Plusieurs conjectures ont été suggérées, et Bérardier
+                        suit ici une version proposée par Nicolaus Rigaltius
+                        dans son édition des <hi rend="italic">Fables</hi>
+                        publiée en 1617, ce qui indiquerait que Bérardier ait
+                        utilisé cette édition ou une édition ultérieure qui suit
+                        cette édition. Les variantes du vers 15 (<hi
+                            rend="italic">dein periit tertius</hi> vs. <hi
+                            rend="italic">deinde perit et tertius</hi>)
+                        importent peu au niveau du contenu, mais sont
+                        problématiques au niveau métrique, puisque le vers de
+                        Bérardier ne forme pas un sénaire jambique complet (chez
+                        Rigault, on lit <hi rend="italic">deinde peryt
+                            tertius</hi>). Les diacritiques du texte original,
+                        que Bérardier a introduit, semblent indiquer une voyelle
+                        longue et donc un ablatif.</note></p>
+
+                <p><quote rend="inline">Une belette, chargée d'années
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        affaiblie par la vieillesse, ne pouvait plus atteindre
+                        les souris plus légères <pb n="15" xml:id="E0015"/>
+                        qu'elle à la course. Elle se couvrit de farine
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        s'étendit négligemment, dans un endroit obscur. Un rat,
+                        croyant que c'était de la pâture, accourut&#160;: il fut
+                        pris <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        mis à mort. Un second eut le même sort&#160;: un
+                        troisième périt encore. Quelques autres ayant été
+                        traités de même, il en vint un dont les rides
+                        attestaient l'expérience,
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        qui souvent était échappé aux pièges
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        aux souricières. Découvrant de loin l'artifice
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        la ruse de son ennemie&#160;: O toi, lui cria-t-il, que
+                        je vois couchée là-bas, puisse le Ciel t'aider, comme il
+                        est vrai que tu es farine.</quote><note resp="editor">La
+                        fable <hi rend="italic">De mustela et muribus</hi> forme
+                        chez Phèdre la seconde partie d'un poème intitulé <hi
+                            rend="italic">Poeta</hi>. Phèdre explique que les
+                        fables sont des textes simples en apparence, mais que
+                        cette apparence est souvent trompeuse. La véritable
+                        signification d'une fable y est cachée et ne peut être
+                        decouverte que par des lecteurs ou auditeurs
+                        perspicaces. C'est comme preuve de ces affirmations que
+                        l'auteur donne ensuite la fable <hi rend="italic">La
+                            belette et les rats</hi>.</note> Vous voyez que
+                    l'affranchi d'Auguste embellit plus sa
+                            <choice><orig>matiere</orig><reg>matière</reg></choice>
+                    que l'esclave Phrygien,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    qu'il nous présente quelques circonstances d'ornement. Sans
+                    parler de l'artifice de la belette, différent de celui du
+                    chat, l'épithète <hi rend="italic">veloces</hi> est un
+                    agrément qu'on
+                        <choice><orig>auroit</orig><reg>aurait</reg></choice> pu
+                    absolument retrancher. Mais, dans ce que les deux auteurs
+                    ont de commun, le dernier fait un détail qui ne se trouve
+                    point dans l'autre. <quote rend="inline">Un rat croyant que
+                        c'était de la pâture, accourut&#160;: il fut pris
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        mis à mort. Un second eut le même sort&#160;: un
+                        troisième périt encore.</quote> Tout cela n'est point
+                    dans le fabuliste grec. Le mot <hi rend="italic"
+                        >retorridus</hi>, qui caractérise le rat défiant <pb
+                        n="16" xml:id="E0016"/>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    précautionné, est un coup de pinceau qui fait seul un
+                    portrait achevé,
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> que
+                    l'auteur rend encore plus frappant, en ajoutant, <quote
+                        rend="italic">que souvent il était échappé aux pièges
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        aux souricières</quote>.</p>
+
+                <p>Je vois, dit alors Timagène, que <choice><orig>la
+                            Fontaine</orig><reg>La Fontaine</reg></choice> a mis
+                    à profit les deux modèles qu'il
+                            <choice><orig>avoit</orig><reg>avait</reg></choice>
+                    sous les <choice><orig>ieux</orig><reg>yeux</reg></choice>,
+                    en réunissant le double artifice qu'ils emploient. Je me
+                    souviens encore de cette fable, que j'ai toujours lue avec
+                    un nouveau plaisir&#160;: car je pense que c'est celle-ci,
+                    que vous voulez citer. </p>
+
+                <p>
+                    <quote rend="verse">
+                        <l rend="indent">J'ai lu chez un conteur de fables, </l>
+                        <l>Qu'un second Rodilard, l'Alexandre des chats,</l>
+                        <l rend="indent">L'Attila, le fléau des rats, </l>
+                        <l rend="indent">Rendait ces derniers misérables. </l>
+                        <l rend="indent">J'ai lu, dis-je, en certain Auteur, </l>
+                        <l rend="indent">Que ce chat exterminateur, </l>
+                        <l>Vrai Cerbère, était craint une lieue à la ronde. </l>
+                        <l>Il voulait de souris dépeupler tout le monde. </l>
+                        <l>Les planches qu'on suspend sur un léger appui, </l>
+                        <l rend="indent">La mort aux rats, les souricières, </l>
+                        <l rend="indent">N'étaient que jeux au prix de lui. </l>
+                        <l rend="indent">Comme il voit que dans leurs tanières </l>
+                        <l rend="indent"><pb n="17" xml:id="E0017"/>Les souris
+                            étaient prisonnières, </l>
+                        <l>Qu'elles n'osaient sortir, qu'il avait beau
+                            chercher&#160;; </l>
+                        <l>Le galant fait le mort,
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            du haut d'un plancher </l>
+                        <l>Se pend la tête en bas. La bête scélérate </l>
+                        <l>A de certains cordons se tenait par la patte. </l>
+                        <l>Le peuple des souris croit que c'est châtiment, </l>
+                        <l>Qu'il a fait un larcin de rot ou de fromage, </l>
+                        <l>Égratigné quelqu'un, causé quelque dommage, </l>
+                        <l>Enfin qu'on a pendu le mauvais garnement </l>
+                        <l rend="indent">Toutes, dis-je, unanimement </l>
+                        <l>Se promettent de rire à son enterrement&#160;; </l>
+                        <l>Mettent le nez à l'air, montrent un peu la
+                            tête&#160;; </l>
+                        <l rend="indent">Puis rentrent dans leurs nids à rats, </l>
+                        <l rend="indent">Puis ressortant font quatre pas, </l>
+                        <l rend="indent">Puis enfin se mettent en quête. </l>
+                        <l rend="indent">Mais voici bien une autre fête. </l>
+                        <l>Le pendu ressuscite, et, sur ses pieds tombant, </l>
+                        <l rend="indent">Attrape les plus paresseuses. </l>
+                        <l>Nous en savons plus d'un, dit-il, en les
+                            gobant&#160;! </l>
+                        <l>C'est tour de vieille guerre,
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            vos cavernes creuses </l>
+                        <l>Ne vous sauveront pas&#160;; je vous en
+                            avertis&#160;: </l>
+                        <l rend="indent"><pb n="18" xml:id="E0018"/>Vous
+                            viendrez toutes au logis. </l>
+                        <l>Il prophétisait vrai. </l>
+                        <l>Notre maître Mitis </l>
+                        <l>Pour la seconde fois les trompe
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            les affine&#160;; </l>
+                        <l rend="indent">Blanchit sa robe,
+                                    <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            s'enfarine&#160;; </l>
+                        <l rend="indent">Et de la sorte déguisé, </l>
+                        <l>Se niche
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                            se blottit dans une huche ouverte. </l>
+                        <l rend="indent">Ce fut à lui bien avisé. </l>
+                        <l>La gent trotte-menu s'en vint chercher sa perte. </l>
+                        <l>Un rat, sans plus, s'abstient d'aller flairer autour. </l>
+                        <l>Ç'était un vieux routier&#160;; il savait plus d'un
+                            tour&#160;; </l>
+                        <l>Même il avait perdu sa queue à la bataille. </l>
+                        <l>Ce bloc enfariné ne me dit rien qui vaille, </l>
+                        <l>S'écria-t-il de loin au général des chats&#160;: </l>
+                        <l>Je soupçonne dessous encor quelque machine. </l>
+                        <l rend="indent">Rien ne te sert d'être farine&#160;; </l>
+                        <l>Car quand tu serais sac, je n'approcherais pas.</l>
+                    </quote>
+                </p>
+
+                <p>Il faut avouer que le
+                            <choice><orig>Fabuliste</orig><reg>fabuliste</reg></choice>
+                    <choice><orig>François</orig><reg>français</reg></choice> a
+                    bien enchéri sur ses deux rivaux. Je ne trouve point dans
+                    ceux-ci le portrait du chat par lequel débute notre
+                            <choice><orig>Poëte</orig><reg>poète</reg></choice>.
+                            <choice><orig>Esope</orig><reg>Ésope</reg></choice>
+                    ne nous dit rien de ce que <pb n="19" xml:id="E0019"/>
+                    pensent les souris à la vue du chat suspendu. Quoi de plus
+                    naturel que cette peinture,</p>
+
+                <p>
+                    <quote rend="verse">
+                        <l>Mettent le nez à l'air, montrent un peu la
+                            tête&#160;; </l>
+                        <l rend="indent">Puis rentrent dans leurs nids à rats, </l>
+                        <l rend="indent">Puis ressortant font quatre pas, </l>
+                        <l rend="indent">Puis enfin se mettent en quête. </l>
+                    </quote>
+                </p>
+
+                <p>L'apostrophe ironique du chat n'est pas dans Phèdre, non plus
+                    que cette réflexion à l'occasion du rat défiant&#160;;
+                        <quote rend="italic">même il
+                                <choice><orig>avoit</orig><reg>avait</reg></choice>
+                        perdu sa queue à la bataille</quote>. Si
+                            <choice><orig>la Fontaine</orig><reg>La
+                            Fontaine</reg></choice> n'a pas le mérite de
+                    l'invention, il a certainement celui de l'embellissement
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    la richesse.</p>
+
+                <p>Vous avez raison, répliqua Euphorbe. Mais remarquez aussi que
+                    c'est un accessoire,
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> que le
+                    récit
+                        <choice><orig>pouvoit</orig><reg>pouvait</reg></choice>
+                    s'en passer, sans rien perdre de sa nature. Peut-être même
+                    est-on en droit quelquefois de reprocher à cette abondance
+                    un peu de prodigalité&#160;: c'est le défaut des grands
+                    esprits, comme des grandes
+                            <choice><orig>ames</orig><reg>âmes</reg></choice>.
+                    Mais ne nous arrêtons point ici à cette réflexion. Il me
+                    suffit maintenant de vous avoir montré que le récit exige
+                    certains détails, à moins que le fait dont il s'agit ne soit
+                    connu parfaitement de tous ceux à qui l'on parle.</p>
+
+                <p><pb n="20" xml:id="E0020"/> Mais, après tout, poursuivit
+                    Timagène, les
+                            <choice><orig>Auteurs,</orig><reg>auteurs</reg></choice><choice><orig>,</orig><reg/></choice>
+                    que vous venez de citer,
+                            <choice><orig>étoient</orig><reg>étaient</reg></choice>
+                    maîtres de leur
+                            <choice><orig>matiere</orig><reg>matière</reg></choice>.
+                    Dans une fable, ils
+                            <choice><orig>pouvoient</orig><reg>pouvaient</reg></choice>
+                    inventer telles circonstances que bon leur
+                            <choice><orig>sembloit</orig><reg>semblait</reg></choice>.
+                    Il n'en est pas de même partout. La sévérité de l'histoire
+                    rend l'historien esclave des mémoires qu'il consulte,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                            <choice><orig>événemens</orig><reg>événements</reg></choice>
+                    qu'il écrit. La fiction même n'a-t-elle pas ses bornes dans
+                    l'épopée, la
+                            <choice><orig>Tragédie</orig><reg>tragédie</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> la
+                            <choice><orig>Comédie</orig><reg>comédie</reg></choice>&#160;?
+                    Les deux
+                        <choice><orig>premieres</orig><reg>premières</reg></choice>
+                    semblent exiger que leur sujet soit connu,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> ne
+                    laissent à l'invention de
+                            l'<choice><orig>Auteur</orig><reg>auteur</reg></choice>
+                    que certaines circonstances subalternes&#160;: l'autre, dans
+                    les portraits qu'elle emprunte de la vie commune, demande
+                    une vraisemblance réellement revêtue des couleurs de la
+                    vérité, qu'on la confond presque avec elle. La
+                            <choice><orig>Fable</orig><reg>fable</reg></choice>
+                    seule se met au-dessus même de la vraisemblance&#160;; tout
+                    lui est permis&#160;; elle peut inventer l'action qu'elle
+                    traite, <choice><orig>&amp;</orig><reg>et</reg></choice> les
+                    circonstances qui l'accompagnent&#160;: elle prête de la
+                    voix <choice><orig>&amp;</orig><reg>et</reg></choice> du
+                    raisonnement aux animaux&#160;; elle étend même ce
+                            <choice><orig>privilége</orig><reg>privilège</reg></choice>
+                    aux êtres inanimés.</p>
+
+                <p>Je conviens avec vous, dit alors Euphorbe, que la
+                            <choice><orig>Fable</orig><reg>fable</reg></choice>
+                    a plus de liberté dans
+                        l'invention<choice><orig>,</orig><reg/></choice>
+                    qu'aucun autre récit&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> je
+                            <choice><orig>comprens</orig><reg>comprends</reg></choice>
+                    ici, sous le nom de
+                            <choice><orig>Fable</orig><reg>fable</reg></choice>,
+                    le <choice><orig>Conte</orig><reg>conte</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> le
+                            <choice><orig>Roman</orig><reg>roman</reg></choice>.<note
+                        resp="editor">Pour une discussion du rapport entre
+                        fiction et roman, voir le <ref target="/node/8">douzième
+                            entretien</ref> sur le conte et le roman.</note>
+                    Pour l'historien, <pb n="21" xml:id="E0021"/> il n'est le
+                    maître que de décider le sujet qu'il veut traiter&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    c'est là-dessus qu'il doit consulter son génie
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> ses
+                    forces&#160;: <quote rend="italic">quid ferre recusent, quid
+                        valeant humeri</quote>. L'un a l'imagination plus propre
+                    au bruit des combats, au tumulte des guerres&#160;; l'autre
+                    entendra mieux à manier une négociation
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> à
+                    en développer toutes les intrigues&#160;: celui-ci réussira
+                    dans le détail des actions de quelques particuliers&#160;;
+                    celui-là traitera mieux l'histoire des peuples
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    empires&#160;: mais tous sont les interprètes de la vérité,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    n'ont d'autre choix à faire que celui des circonstances
+                    qu'il faut admettre ou rejeter. Vous croyez que c'est une
+                    contrainte fort gênante de travailler sur un sujet déjà
+                    connu. Je suis fâché que vous ne soyez pas du sentiment
+                        d'Horace.<note resp="author"><quote rend="verse"><l><hi
+                                    rend="italic">Difficile est proprie communia
+                                    dicere, tuque</hi></l><l><hi rend="italic"
+                                    >Rectius Iliacum carmen deducis in
+                                    actus,</hi>
+                            </l><l><hi rend="italic">Quam si proferres nova
+                                    indictaque
+                                primus.</hi></l></quote><choice><orig>Hor. Art.
+                                Poët.</orig><reg>Horace, <hi rend="italic">Art
+                                    poétique.</hi></reg></choice></note>
+                    <quote rend="inline">Il est difficile</quote>, dit cet
+                    habile critique en parlant de la tragédie, <quote
+                        rend="inline">d'appliquer à un personnage particulier de
+                        votre invention, un de ces caractères généraux, livrés,
+                        pour ainsi dire, à la discrétion <pb n="22"
+                            xml:id="E0022"/> du public, tels que l'ambition, la
+                        vengeance&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        vous ferez mieux d'emprunter un sujet dans
+                                l'<choice><orig>Iliade</orig><reg><hi
+                                    rend="italic">Iliade</hi></reg></choice>,
+                        que de mettre sur la scène des portraits nouveaux
+                                <choice><orig>&amp;</orig><reg>et</reg></choice>
+                        inconnus jusqu'alors.</quote><note resp="editor">Horace,
+                            <hi rend="italic">Ars poetica</hi> (voir <ref
+                            target="/dossier/ouvrages">bibliographie</ref>),
+                        vers 128-130. Dans son édition de l'<hi rend="italic"
+                            >Ars poetica</hi> de 1995, D.R. Shackleton Bailey
+                        montre que la formule initiale de ce passage, <hi
+                            rend="italic">difficile est</hi>, ne saurait être
+                        fiable. Le sens du passage suggérait plutôt une
+                        conjecture comme <hi rend="italic">praesterit</hi>
+                        («&#160;il serait mieux&#160;»). Bérardier suit la
+                        première variante qui, de son temps, n'était pas encore
+                        mise en doute. Cependant, il semble se rendre compte de
+                        ce que <hi rend="italic">difficile est</hi> pose
+                        problème, puisqu'il cherche à adapter sa traduction au
+                        sens d'ensemble du passage qu'il cite. Horace dit, selon
+                        lui, qu'il est difficile pour le poète de rapporter des
+                        traits connus et généraux à des personnages inventés.
+                        Ceci est contraire au texte latin cité, qui parle du
+                        traitement particulier de matières connues. Voir aussi
+                        les remarques que Batteux consacre à ce passage, dans sa
+                        traduction du texte, dans les <hi rend="italic">Quatre
+                            poétiques</hi> de 1771 (voir <ref
+                            target="/dossier/ouvrages">bibliographie</ref>), p.
+                        80-81.</note> Vous voyez qu'il regarde comme un embarras
+                    ce que vous appeliez une liberté. Je
+                            n'<choice><orig>oserois</orig><reg>oserais</reg></choice>
+                    condamner un
+                        <choice><orig>Auteur</orig><reg>auteur</reg></choice>
+                    qui <choice><orig>auroit</orig><reg>aurait</reg></choice>
+                    inventé son sujet tout entier dans
+                            l'<choice><orig>Épopée</orig><reg>épopée</reg></choice>,
+                    ou dans la
+                        <choice><orig>Tragédie</orig><reg>tragédie</reg></choice>&#160;;
+                    mais je condamnerai toujours celui qui n'aura pas observé la
+                    vraisemblance des mœurs
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                            <choice><orig>caracteres</orig><reg>caractères</reg></choice>&#160;;
+                    vraisemblance qui s'étend jusqu'à la fiction dans la
+                            <choice><orig>Fable</orig><reg>fable</reg></choice>
+                    <choice><orig>poëtique</orig><reg>poétique</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> dans
+                            l'<choice><orig>Apologue</orig><reg>apologue</reg></choice>.
+                    Junon doit être vindicative&#160;; Mars, impétueux&#160;;
+                    Momus, plaisant. La fierté ne convient pas mieux à l'âne,
+                    que la timidité au lion.</p>
+
+                <p>Eh-bien&#160;! soit, interrompit Timagène. Je ne veux point
+                    me faire d'affaires avec Horace. Je conçois que celui qui
+                    travaille sur la vérité, a moins d'objets qui l'occupent,
+                    que celui qui doit tirer de son fonds le sujet qu'il traite,
+                    les circonstances dont il est revêtu, les mœurs des
+                            <choice><orig>différens</orig><reg>différents</reg></choice>
+                    personnages qu'il introduit. Celui-ci est responsable des
+                    causes qu'il fait agir,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    effets qu'il leur prête. D'un autre côté, le premier, qui
+                    n'est point maître de sa
+                            <choice><orig>matiere</orig><reg>matière</reg></choice>,
+                    doit se donner <pb n="23" xml:id="E0023"/> bien des peines
+                    pour la rendre moins ingrate&#160;; pour éviter la
+                            <choice><orig>sécheresse</orig><reg>sècheresse</reg></choice>,
+                    la monotonie
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> les
+                    autres
+                        <choice><orig>écueuils</orig><reg>écueils</reg></choice>
+                    qui l'environnent. D'où je conclus, que le récit n'est pas
+                    aussi aisé que bien des gens se l'imaginent. Mais je
+                            <choice><orig>voudrois</orig><reg>voudrais</reg></choice>
+                    m'en faire une idée nette
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    distincte&#160;: et, sur ce que nous avons dit jusqu'ici, je
+                    pense que le récit n'est autre chose que l'exposition
+                    détaillée d'un fait véritable ou inventé.
+                            J'<choice><orig>ajouterois</orig><reg>ajouterais</reg></choice>,
+                    dit alors Euphorbe, dont le but est d'instruire ses
+                    lecteurs, ou ses auditeurs.</p>
+
+                <p>Comment l'entendez-vous, reprit Timagène&#160;? Quand je
+                    rapporte les fureurs d'un Néron, les folies d'un Caligula,
+                    les superstitieuses dévotions d'un Louis XI, puis-je
+                    chercher à instruire&#160;? Prétendrez-vous que nos
+                            <choice><orig>Romans</orig><reg>romans</reg></choice>
+                    soient une école propre à nous former&#160;?</p>
+
+                <p>Quelle vivacité est la vôtre, continua Euphorbe&#160;! Vous
+                    mettez ici presque autant de feu, que vous en aviez dans les
+                    combats. Voici quelle est ma pensée. Il y a deux
+                            <choice><orig>manieres</orig><reg>manières</reg></choice>
+                    d'instruire, qui conviennent toutes deux au récit. La
+                            <choice><orig>premiere</orig><reg>première</reg></choice>,
+                    que je regarde comme la moins importante, consiste à nous
+                    faire
+                        <choice><orig>connoître</orig><reg>connaître</reg></choice>
+                    des
+                        <choice><orig>événemens</orig><reg>événements</reg></choice>
+                    que nous ignorions, ou dont nous n'avions qu'une
+                            <choice><orig>légere</orig><reg>légère</reg></choice>
+                    idée. Cette
+                        <choice><orig>premiere</orig><reg>première</reg></choice>
+                    qualité forme <pb n="24" xml:id="E0024"/> l'essence de toute
+                    narration. L'autre, bien plus utile,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    presque aussi indispensable, dépend des leçons que nous
+                    donne cette
+                        <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    d'ouvrage pour nous inspirer l'amour de la vertu,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    régler notre conduite. Le récit des actions des fameux
+                    scélérats, n'est pas moins propre à produire cet effet, que
+                    l'histoire des hommes les plus vertueux&#160;; à moins que
+                    l'historien ne se fasse un plaisir criminel de déguiser le
+                    vice, <choice><orig>&amp;</orig><reg>et</reg></choice> de le
+                    rendre aimable.<note resp="editor">C'est ce type de
+                        raisonnement que Sade prétendra récuser pour défendre
+                            <hi rend="italic">Justine</hi>, dans son <hi
+                            rend="italic">Idée sur les romans</hi> de
+                        1799.</note> On lit avec horreur le récit des désordres
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> des
+                    cruautés&#160;; on s'intéresse pour la vertu persécutée par
+                    les tyrans&#160;; on s'applaudit de juger avec la postérité,
+                    qui les condamne sans appel&#160;;
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    l'on prend insensiblement l'heureuse habitude d'aimer le
+                    juste <choice><orig>&amp;</orig><reg>et</reg></choice> le
+                    beau, <choice><orig>&amp;</orig><reg>et</reg></choice> de
+                    haïr tout ce qui choque la nature
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> la
+                    raison. Le
+                        <choice><orig>Roman</orig><reg>roman</reg></choice>
+                    lui-même est un monstre dans la littérature, si l'on n'en
+                    peut tirer aucun fruit pour les mœurs.</p>
+
+                <p>Il faut avouer, continua Timagène, que le
+                            <choice><orig>stile</orig><reg>style</reg></choice>
+                    d'un écrivain
+                        <choice><orig>&amp;</orig><reg>et</reg></choice> sa
+                    façon de penser influent beaucoup, non seulement sur sa
+                            <choice><orig>maniere</orig><reg>manière</reg></choice>
+                    de raconter, mais encore sur l'effet que produit son récit.
+                    J'ai été souvent étonné
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    même indigné de trouver tant de différence dans le même fait
+                    rapporté par divers auteurs, sans <pb n="25" xml:id="E0025"
+                    /> pouvoir les accuser néanmoins d'avoir altéré les
+                    circonstances principales.</p>
+
+                <p>Il en est de ces
+                            <choice><orig>Auteurs</orig><reg>auteurs</reg></choice>,
+                    reprit Euphorbe, comme d'un peintre chargé de faire le
+                    portrait d'un homme louche, ou privé d'un œil&#160;: il le
+                    représente de profil. S'il grossit ou allonge les traits, il
+                    peut rendre hideuse la plus belle personne. Sous la plume
+                    d'un homme gai
+                        <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    naturellement doux, tout est riant, tout est au moins
+                    excusable&#160;: sous celle d'un mélancolique
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    d'un atrabilaire, tout est vicieux,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> si
+                    l'action est indifférente, les vues seront criminelles. Mais
+                    ce mérite<choice><orig>,</orig><reg/></choice> ou ce défaut
+                    appartient plus
+                            <choice><orig>particuliérement</orig><reg>particulièrement</reg></choice>
+                    à l'histoire qu'à tout autre récit&#160;:
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    nous aurons occasion de nous en entretenir plus à loisir. Le
+                    sujet le mérite bien.</p>
+
+                <p>Il me semble, dit alors Timagène, qu'il faut
+                            <choice><orig>réünir</orig><reg>réunir</reg></choice>
+                    bien des qualités pour former un excellent narrateur. Outre
+                    la droiture, la fermeté
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> le
+                    désintéressement, quelle étendue de
+                            <choice><orig>connoissance</orig><reg>connaissance</reg></choice>
+                    ne doit-il pas avoir&#160;! Il faut qu'il soit instruit de
+                    la morale <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    de la théologie, qui en est le fondement
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> la
+                            <choice><orig>regle</orig><reg>règle</reg></choice>&#160;;
+                    qu'il
+                        <choice><orig>connoisse</orig><reg>connaisse</reg></choice>
+                    les <choice><orig>loix</orig><reg>lois</reg></choice> des
+                            <choice><orig>différens</orig><reg>différents</reg></choice>
+                    peuples&#160;; s'il ignore la chronologie
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> la
+                    géographie, il confondra les temps
+                            <choice><orig>&amp;</orig><reg>et</reg></choice> les
+                    lieux. La physique doit l'éclairer sur les
+                            <choice><orig>événemens</orig><reg>événements</reg></choice>
+                    <pb n="26" xml:id="E0026"/> naturels, sur les
+                            <choice><orig>penchans</orig><reg>penchants</reg></choice>
+                    <choice><orig>&amp;</orig><reg>et</reg></choice> les
+                    inclinations propres aux
+                            <choice><orig>différens</orig><reg>différents</reg></choice>
+                    âges <choice><orig>&amp;</orig><reg>et</reg></choice> à
+                    chaque <choice><orig>espece</orig><reg>espèce</reg></choice>
+                    d'animal. Il ne doit point être neuf dans toutes les parties
+                    de la science militaire, qui fournit tant de sujets à tous
+                    les récits. Il
+                        <choice><orig>seroit</orig><reg>serait</reg></choice>
+                    même à désirer qu'il eût quelque teinture des arts
+                    mécaniques. Que d'occasions ne peut-il pas avoir d'en
+                    parler&#160;! Et s'il ne le fait pas en homme instruit, il
+                    s'expose à la censure des gens du plus bas étage.</p>
+
+                <p>Votre réflexion est juste, répondit Euphorbe.
+                            <choice><orig>De-là</orig><reg>De là</reg></choice>
+                    vient que nous trouvons si peu de récits parfaits. Au reste,
+                    l'homme ne peut être universel&#160;; il faut avoir quelque
+                    indulgence pour sa faiblesse,
+                            <choice><orig>&amp;</orig><reg>et</reg></choice>
+                    dire de cette
+                        <choice><orig>espece</orig><reg>espèce</reg></choice> de
+                    composition ce qu'Horace dit du
+                            <choice><orig>poëme</orig><reg>poème</reg></choice>&#160;:</p>
+
+                <p>
+                    <quote rend="verse">
+                        <l>Verum ubi plura
+                                    <choice><sic>nitens</sic><corr>nitent</corr></choice>
+                            in carmine, non ego paucis</l>
+                        <l>Offendar maculis, quas aut incuria fudit, </l>
+                        <l>Aut humana parum cavit natura.<note resp="author"
+                                        ><choice><orig>Art. Poët.
+                                        v.</orig><reg><hi rend="italic">Art
+                                        Poétique</hi>, vers</reg></choice>
+                                351.</note><note resp="editor">Horace, <hi
+                                    rend="italic">Art poétique</hi> (voir <ref
+                                    target="/node/20">bibliographie</ref>), vers
+                                351-353. Batteux traduit&#160;: « Que dans un
+                                poëme le grand nombre soit celui des beautés je
+                                ne m'offenserai pas de quelques taches échappées
+                                à l'attention, ou que la foiblesse humaine
+                                n'aura pu éviter. » (p. 53). </note></l>
+                    </quote>
+                </p>
+
+                <p>Mais je m'aperçois qu'on vient nous avertir de nous mettre à
+                    table. La compagnie nous attend. Remettons à demain à
+                    continuer la
+                        <choice><orig>matiere</orig><reg>matière</reg></choice>
+                    que nous avons entamée.</p>
+                <p>&#160;</p>
+            </div>
+        </body>
+    </text>
+</TEI>
