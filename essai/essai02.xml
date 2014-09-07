@@ -1,292 +1,1228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
-<!-- <!DOCTYPE TEI SYSTEM "tei_all.dtd"> -->
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-
-
-   <teiHeader>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="fra">
     <fileDesc>
       <titleStmt>
-        <title>Essai sur le récit, ou entretiens sur la manière de raconter : édition électronique. "Second entretien : Qualités du récit".</title>
-        <author>François-Joseph Bérardier de Bataut (1720-1794) </author>
-        <respStmt>
-          <resp>Édition sous la drection de </resp>
-          <name>Christof Schöch</name>
-        </respStmt>
+        <title>"Second entretien" de : Essai sur le récit, ou Entretiens sur la manière de raconter. Édition
+          électronique.</title>
+        <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
+        <editor>Christof Schöch</editor>
       </titleStmt>
       <editionStmt>
-        <p>Version 0.5, 2009</p>
-      </editionStmt> 
+        <edition>Version 0.7, 09/2014</edition>
+      </editionStmt>
       <publicationStmt>
-        <p>Édition électronique publiée sous la direction de Christof Schöch. Publiée en ligne à l'adresse www.berardier.org, sous licence Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported. Date de publication 2008-2010.</p>
+        <p>Texte libre de droits. Édition électronique publiée en ligne à l'adresse http://tapas.neu.edu/berardier/essai/
+          sous licence Creative Commons Attribution 3.0 (CC-BY). Republication de l'édition
+          électronique publiée en ligne à l'adresse http://berardier.org en 2010.</p>
       </publicationStmt>
       <sourceDesc>
-        <biblStruct>
-          <monogr>
-            <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
-            <title>Essai sur le récit, ou entretiens sur la manière de raconter</title>
-            <imprint>
-              <pubPlace>Paris</pubPlace>
-              <publisher>Charles-Pierrre Berton</publisher>
-              <date>1776</date>
-            </imprint>
-            <extent>Format in-12, X-725 pages.</extent>
-          </monogr> 
-        </biblStruct>
+        <bibl>
+          <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
+          <title>Essai sur le récit, ou entretiens sur la manière de raconter</title>
+          <pubPlace>Paris</pubPlace>
+          <publisher>Charles-Pierrre Berton</publisher>
+          <date>1776</date>
+          <extent>Format in-12, X-725 pages.</extent>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-      <p>Cette édition a pour objectif de fournir une édition fiable, librement accessible en ligne, commentée, contextualisée et indexée de l'Essai sur le récit, ou entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut. </p>
+        <p>Cette édition fournit une édition accessible en ligne et commentée de l'Essai sur le
+          récit, ou Entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut.
+        </p>
       </projectDesc>
       <editorialDecl>
-        <p>L'édition électronique est réalisée au format XML et conforme au standard TEI, version 5, défini par la Text Encoding Initiative. Elle utilise un sous-ensemble d'éléments définis dans le TEI-Lite, ce sous-ensemble étant documenté dans un schéma XML. L'édition réunit une transcription diplomatique avec graphies originales (graphies d'époque et coquilles) et une version de lecture avec graphies modernisées et corrigées. Les coupures de mots en fin de ligne ne sont pas maintenues. La ségmentation en chapitres ainsi que la pagination originale sont maintenues, l'affichage se fait par chapitres. L'édition fournit avec le texte des commentaires explicatifs, des références bibliographiques et des index détaillés. L'édition distingue, pour des fins de recherches précises sur le texte, le texte principal, les citations, les notes de l'auteur ainsi que les notes de l'éditeur.</p>
+        <p>L'édition réunit une transcription diplomatique (graphies d'époque, coquilles,
+          abréviations) et une version de lecture (graphies modernisées, coquilles corrigées,
+          abréviations explicitées).</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
       <change when="2010-01-14" who="Christof Schöch">Transfer zu TEI-Lite.</change>
       <change when="2010-01-25" who="Christof Schöch">Choice.</change>
+      <change when="2014-09-06" who="Christof Schöch">Minor adjustments for TAPAS
+        publication.</change>
     </revisionDesc>
   </teiHeader>
-
-    <text>
+  <text>
     <body>
-    <div type="chapter" xml:id="ENT02">
-<head>SECOND ENTRETIEN. <hi rend="italic">Qualités du <choice><orig>Récit</orig><reg>récit</reg></choice>.</hi></head>
-
-<p><choice><orig>A</orig><reg>À</reg></choice> peine le soleil eut-il commencé à <choice><orig>paroître</orig><reg>paraître</reg></choice>, que Timagène se rendit à l'appartement de son ami. Il le trouva auprès de son bureau. Quoi&#160;! déjà, lui dit-il, en conversation avec vos livres&#160;! En disant ces mots, il ouvrit un volume qui se présenta sous sa main. C'<choice><orig>étoient</orig><reg>étaient</reg></choice> les <choice><orig>fables</orig><reg><hi rend="italic">Fables</hi></reg></choice> de <choice><orig>la Fontaine</orig><reg>La Fontaine</reg></choice>. Vous vous amusez donc encore, ajouta-t-il, à la lecture de cet <choice><orig>Auteur</orig><reg>auteur</reg></choice>&#160;?</p>
-
-<p>Oui, répondit Euphorbe, <choice><orig>&amp;</orig><reg>et</reg></choice> j'y <choice><orig>prens</orig><reg>prends</reg></choice> tous les jours un nouveau goût. J'y trouve toutes les qualités que l'on peut désirer dans un excellent récit&#160;; une clarté qui le met à la portée de tous ses lecteurs&#160;; une brièveté qui ne laisse aucun lieu à l'ennui.<note resp="editor">Voir, à titre de comparaison, la caractérisation de la <hi rend="italic">narration</hi> que donne Marmontel dans l'article «&#160;Narration&#160;» des <hi rend="italic">Éléments de littérature</hi> de 1787 (voir <ref target="/node/21">bibliographie</ref>).</note></p>
-
-<p>Il me semble, interrompit Timagène, que ce sont là les objets sur lesquels nous devons nous entretenir aujourd'hui&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> je m'en suis occupé depuis que je vous ai eu quitté. Au reste, je trouve que c'est une assez bonne fortune de rencontrer dans un même <choice><orig>Auteur</orig><reg>auteur</reg></choice> toutes ces <pb n="28" xml:id="A0028"></pb> qualités que vous cherchez. Commençons, si vous le trouvez bon, par celle que vous avez nommée la première. Je conçois qu'un écrivain doit être clair. Il n'écrit sans doute que pour être entendu&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> je ne peux me persuader qu'il se fasse une gloire de son obscurité.<note resp="editor">Pour le contexte de la discussion sur la clarté ou l'obscurité du discours qui commence ici, voir Michel Delon, <hi rend="italic">L'Idée d'énergie au tournant des Lumières</hi>, 1988 (voir <ref target="/node/21">bibliographie</ref>), p. 58-104.</note></p>
-
-<p>Cela n'est pas si étrange que vous le croyez, reprit Euphorbe.<note resp="author"><hi rend="italic">Sallustio vigente, amputatæ sententiæ et obscura veritas fuere pro cultu.</hi> <choice><orig><hi rend="italic">Ep. 114</hi></orig><reg><hi rend="italic">Epistulae</hi>, 114</reg></choice>.</note> <choice><orig>Séneque</orig><reg>Sénèque</reg></choice> reproche aux imitateurs de Salluste ce défaut, dont il n'<choice><orig>étoit</orig><reg>était</reg></choice> pas trop exempt lui-même. <quote rend="inline">Du temps de Salluste, dit cet <choice><orig>Auteur</orig><reg>auteur</reg></choice>, on se fit un mérite de tronquer sa pensée, <choice><orig>&amp;</orig><reg>et</reg></choice> d'envelopper la vérité d'un nuage épais.</quote><note resp="editor">La citation dirigée contre Salluste (Caius Sallustius Crispus, 86-35 av. JC.) est tirée des <hi rend="italic">Lettres à Lucilius</hi> (<hi rend="italic">Epistulae morales ad Lucilium</hi>, 63 et 64 ap. JC.) de Sénèque, livre 19, lettre 114. (Omission, dans l'original, des guillemets fermants la citation.)</note></p>
-
-<p>Cette pensée de <choice><orig>Séneque</orig><reg>Sénèque</reg></choice>, dit alors Timagène, me rappelle l'épigramme que Maynard a faite contre un écrivain obscur.</p>
-
-<p><quote rend="verse">
-    <l>Charles, nos plus rares esprits </l>
-    <l>Ne <choice><orig>sauroient</orig><reg>sauraient</reg></choice> lire tes écrits, </l>
-    <l>Sans consulter Muret ou Lipse. </l>
-    <l>Ton Phébus s'explique si bien, </l>
-    <l>Que tes volumes ne sont rien </l>
-    <l>Qu'une éternelle Apocalypse.<note resp="editor">François Maynard, <hi rend="italic">Œuvres de Maynard</hi>, 1646 (voir <ref target="/node/20">bibliographie</ref>), p. 146 : <lb/>
-    <l>Tu veux passer pour un auteur</l>
-    <l>Digne de l'estime publique, </l>
-    <l>Et crois me rendre imitateur </l>
-    <l>De ton jargon énigmatique. </l>
-    <l>Charles, nos plus rares esprits </l>
-    <l>Ne sauraient lire tes écrits </l>
-    <l>Sans consulter Muret ou Lypse.</l>
-    <l>Ton Phébus s'explique si bien, </l>
-    <l>Que les volumes ne sont rien </l>
-    <l>Qu'une éternelle apocalypse.</l>
-L'épigramme fait sans doute allusion à Marc-Antoine Muret (1526-1585) et Juste Lipse (Justus Lipsius, 1547-1606), deux humanistes et philologues</note></l>
-  </quote></p>
-
-<p>Ces jours derniers, poursuivit Euphorbe, <pb xml:id="p29"></pb> j'en <choice><orig>lisois</orig><reg>lisais</reg></choice>, dans le même <choice><orig>poëte</orig><reg>poète</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> sur le même sujet, une autre dont la pensée me <choice><orig>paroît</orig><reg>paraît</reg></choice> avoir quelque chose de plus frappant. La voici :</p>
-
-<p><quote rend="verse">
-    <l>Mon ami, chasse bien loin </l>
-    <l>Cette noire <choice><sic>réthorique</sic><corr>rhétorique</corr></choice></l>
-    <l>Tes ouvrages ont besoin </l>
-    <l>D'un devin qui les explique. </l>
-    <l>Si ton esprit veut cacher </l>
-    <l>Les belles choses qu'il pense, </l>
-    <l>Dis-moi, qui peut t'empêcher </l>
-    <l>De te servir du silence.<note resp="editor">François Maynard, <hi rend="italic">Œuvres de Maynard</hi>, 1646 (voir <ref target="/node/20">bibliographie</ref>), p. 195 : <lb/>
-    <l>Ce que ta plume produit </l>
-    <l>Est couvert de trop de voiles. </l>
-    <l>Ton Discours est une nuit </l>
-    <l>Vetue de Lune, &amp; d'Étoiles. </l>
-    <l>Mon Ami, chasse bien loin </l>
-    <l>Cette noire Rhétorique : </l>
-    <l>Tes Ouvrages ont besoin </l>
-    <l>D'un Devin qui les explique. </l>
-    <l>Si ton Esprit veut cacher </l>
-    <l>Les belles choses qu'il pense, </l>
-    <l>Dis-moi, qui peut t'empêcher </l>
-    <l>De te servir du silence.</l>
-  </note></l></quote></p>
-
-<p>Vous voyez que, dans tous les temps, des esprits médiocres ont cru se rendre estimables, en se rendant impénétrables. La cause de cette erreur est qu'ils n'ont point assez de génie, pour distinguer ce qui est admirable par soi-même, de ce qui ne l'est que par notre <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice>. L'admiration stupide est fille de l'ignorance <choice><orig>&amp;</orig><reg>et</reg></choice> de l'amour-propre. Tout essor dont le vulgaire ignore la cause <choice><orig>&amp;</orig><reg>et</reg></choice> qui n'est pas ordinaire, il l'attribue à un ordre de causes élevées au-dessus de l'humanité, par la seule raison qu'il est supérieur à ses forces <choice><orig>&amp;</orig><reg>et</reg></choice> à son entendement. <choice><orig>De-là</orig><reg>De là</reg></choice> on s'est persuadé que, pour mériter des <choice><orig>applaudissemens</orig><reg>applaudissements</reg></choice>, il <choice><orig>suffisoit</orig><reg>suffisait</reg></choice> de se voiler <pb xml:id="p30"></pb> aux <choice><orig>ieux</orig><reg>yeux</reg></choice> du peuple, <choice><orig>&amp;</orig><reg>et</reg></choice> de parler en oracle. Je ne pardonne point à Muret<note resp="author"><choice><orig>Or.</orig><reg><hi rend="italic">Orationes</hi>,</reg></choice> 12.</note><note resp="editor">Il s'agit sans doute de l'humaniste Marc-Antoine Muret ou M. Antonii Muretus (1526-1585), auteur de nombreux <hi rend="italic">Orationes</hi> et annotateur des œuvres de Térence.</note> d'avoir fait l'éloge de l'obscurité, pour défendre Tacite. C'est une <choice><orig>espece</orig><reg>espèce</reg></choice> enthousiasme à peine excusable, même dans un orateur ; <choice><orig>&amp;</orig><reg>et</reg></choice>, quoiqu'il en puisse dire, les <choice><orig>connoisseurs</orig><reg>connaisseurs</reg></choice> désapprouvent cette façon d'écrire, <choice><orig>&amp;</orig><reg>et</reg></choice> n'y voient que l'impuissance de donner du jour à une pensée que l'<choice><orig>Auteur</orig><reg>auteur</reg></choice> lui-même a mal conçue, ou l'affectation ridicule d'un savoir déplacé.</p>
-
-<p>N'est-ce pas cette démangeaison de <choice><orig>paroître</orig><reg>paraître</reg></choice> savant, reprit Timagène, qui a introduit le <choice><orig>stile</orig><reg>style</reg></choice> singulier dont se servent aujourd'hui la plupart de nos <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> ? Je me sais assurément bon gré d'avoir eu quelque teinture des mathématiques. Sans ce secours, je n'<choice><orig>entendrois</orig><reg>entendrais</reg></choice> rien dans des ouvrages purement académiques, <choice><orig>&amp;</orig><reg>et</reg></choice> qui devraient être, ce semble, à la portée de tous les lecteurs. Je ne rencontre partout que sommes, produits, chocs, réactions, proportions, équilibre, <choice><orig>&amp;</orig><reg>et</reg></choice> cent autres idées empruntées de la géométrie <choice><orig>&amp;</orig><reg>et</reg></choice> de la physique, qui jettent une merveilleuse obscurité dans toute la composition.</p>
-
-<p>Ouvrez ce Quintilien, dit alors Euphorbe ; <pb xml:id="p31"></pb> vous y verrez au <choice><orig>chap.</orig><reg>chapitre</reg></choice> 3 du <choice><orig>liv.</orig><reg>livre</reg></choice> 2, à quel principe ce fameux rhéteur attribue ce <choice><orig>stile</orig><reg>style</reg></choice> énigmatique.</p>
-
-<p>Timagène, après avoir cherché un moment, lut ce passage. <quote rend="inline">Moins on a de mérite, plus on fait d'efforts pour se faire remarquer <choice><orig>&amp;</orig><reg>et</reg></choice> tenir un rang. Ainsi, les gens d'une petite taille se dressent sur la pointe du pied ; ceux qui sentent leur <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice> font plus de menaces que les autres. L'obscurité du <choice><orig>stile</orig><reg>style</reg></choice> dans un écrivain est donc la preuve <choice><orig>&amp;</orig><reg>et</reg></choice> la mesure de son incapacité.</quote><note resp="author"><quote rend="italic">Quo quisque ingenio minus valet, hoc se magis attollere et dilatare conatur ; ut statura breves, in digitos eriguntur, et plura infirmi minantur.<choice><orig> </orig><reg> [...] </reg></choice>Erit ergo obscurior etiam, quo cuisque deterior</quote>.</note><note resp="editor">Quintilianus, <hi rend="italic">De institutione oratoria</hi>, livre 2, chapitre 3 (voir <ref target="http://www.berardier.org/node/20">bibliographie</ref>). Entre la première et la deuxième phrase, Bérardier omet un bref passage du texte original.</note></p>
-
-<p>Je suis fâché, poursuivit-il, de la justesse de la comparaison, pour l'honneur de ceux dont il s'agit ici. La conclusion qu'il en tire est encore plus humiliante : mais j'ai peine à l'accorder avec l'estime que les <choice><orig>savans</orig><reg>savants</reg></choice> ont faite de tout temps de deux <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> anciens, connus par leur obscurité ; je veux dire Tacite <choice><orig>&amp;</orig><reg>et</reg></choice> Perse.<note resp="editor">Aulus Persius Flaccus, Perse en français, est un auteur latin du Ier siècle après JC.</note> Qu'en pensez-vous ?</p>
-
-<p>Ce que j'en pense, répondit Euphorbe ? <choice><orig>Premierement</orig><reg>Premièrement</reg></choice>, que ce défaut de clarté n'est point ce qu'on estime dans <pb xml:id="p32"></pb> leurs ouvrages. D'ailleurs, je <choice><orig>croirois</orig><reg>croirais</reg></choice> volontiers que Tacite n'est tombé dans cet <choice><orig>écueuil</orig><reg>écueil</reg></choice>, que pour n'avoir pas été assez en garde contre son propre esprit. C'<choice><orig>étoit</orig><reg>était</reg></choice> un génie profond : il s'<choice><orig>appliquoit</orig><reg>appliquait</reg></choice> tout entier à exprimer les <choice><orig>sentimens</orig><reg>sentiments</reg></choice>, les passions <choice><orig>&amp;</orig><reg>et</reg></choice> les vues des principaux personnages dont il <choice><orig>écrivoit</orig><reg>écrivait</reg></choice> l'histoire. Jaloux de les peindre avec la même force qu'il les <choice><orig>concevoit</orig><reg>concevait</reg></choice> lui-même, il craignit d'<choice><orig>affoiblir</orig><reg>affaiblir</reg></choice> son coloris, <choice><orig>&amp;</orig><reg>et</reg></choice> de détourner l'attention de son lecteur par la multitude de ses expressions : il en devint avare. <quote rend="italic">Brevis esse laboro ; obscurus fio</quote>.<note resp="editor">La phrase, du reste assez courante, est le plus souvent attribuée à Horace, chez qui elle se trouve au début de l'<hi rend="italic">Art poétique</hi> (voir <ref target="/node/20">bibliographie</ref>), vers 25-26.</note> Perse eut une autre raison de s'envelopper dans un <choice><orig>stile</orig><reg>style</reg></choice> <choice><orig>mistérieux</orig><reg>mystérieux</reg></choice>. Ses traits <choice><orig>satyriques</orig><reg>satiriques</reg></choice> s'<choice><orig>adressoient</orig><reg>adressaient</reg></choice> à Néron lui-même. Il n'<choice><orig>étoit</orig><reg>était</reg></choice> pas sûr d'attaquer ce prince farouche. Il <choice><orig>falloit</orig><reg>fallait</reg></choice> donc s'exprimer de <choice><orig>maniere</orig><reg>manière</reg></choice> à n'être point entendu de tout le monde, <choice><orig>&amp;</orig><reg>et</reg></choice> laisser ignorer, du moins au peuple, quels <choice><orig>étoient</orig><reg>étaient</reg></choice> les originaux des portraits qu'il <choice><orig>présentoit</orig><reg>présentait</reg></choice> sous des couleurs aussi odieuses. D'ailleurs, peut-être l'éloignement des temps nous a-t-il fait perdre la <choice><orig>connoissance</orig><reg>connaissance</reg></choice> de certains faits qui <choice><orig>étoient</orig><reg>étaient</reg></choice> publics alors, <choice><orig>&amp;</orig><reg>et</reg></choice> qui nous <choice><orig>auroient</orig><reg>auraient</reg></choice> donné la clé de plusieurs passages, dont l'obscurité nous fait peine. Quoi qu'il en soit de ces deux ouvrages, il faut dire, avec <pb xml:id="p33"></pb> un <choice><orig>Auteur</orig><reg>auteur</reg></choice> ingénieux du siècle dernier,<note resp="author"><choice><orig>Manière de bien penser</orig><reg><hi rend="italic">Manière de bien penser</hi></reg></choice>.</note><quote rend="inline">qu'il en est du récit comme des <choice><orig>diamans</orig><reg>diamants</reg></choice>, qui doivent leur prix à leur solidité, <choice><orig>&amp;</orig><reg>et</reg></choice> à la netteté de leur eau.</quote><note resp="editor">La citation provient de l'ouvrage du Père Bouhours, <hi rend="italic">La Manière de bien penser dans les ouvrages d’esprit</hi>, 1687 (voir <ref target="/node/20">bibliographie</ref>). Ce traité sous forme de quatre dialogues entre les personnages d'Eudoxe <choice><orig>&amp;</orig><reg>et</reg></choice> de Philante est sans doute parmi les modèles de Bérardier pour son <hi rend="italic">Essai sur le récit</hi>, autant au niveau de la forme que pour certaines de ses idées.</note>  Un écrivain à la mode a dit que l'enthousiasme d'esprit <choice><orig>avoit</orig><reg>avait</reg></choice> produit les erreurs d'un Luther. Je crois pouvoir dire, à plus juste titre, que l'enthousiasme d'esprit a produit le phébus.<note resp="editor">C'est-à-dire, « un langage, un discours, d'un style guindé, trop figuré » (Féraud, <hi rend="italic">Dictionaire critique de la langue française</hi>, 1787-88).</note> Quand on n'a point de grandeur naturelle dans l'esprit, on enfle son expression, on affecte un <choice><orig>stile</orig><reg>style</reg></choice> singulier : c'est un nain qui monte sur des échasses, pour se faire remarquer. Le <choice><orig>stile</orig><reg>style</reg></choice> de Bossuet <choice><orig>&amp;</orig><reg>et</reg></choice> de Corneille est toujours clair <choice><orig>&amp;</orig><reg>et</reg></choice> sans prétentions : quelquefois même il <choice><orig>paroît</orig><reg>parait</reg></choice> négligé.</p> 
-
-<p>Je m'imagine, reprit Timagène, qu'il n'est pas si difficile d'écrire avec clarté. Car enfin, on se fait aisément entendre lorsqu'on conçoit nettement ce qu'on veut peindre, lorsqu'on donne une juste étendue à sa pensée, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on emploie des expressions naturelles. L'<choice><orig>Auteur</orig><reg>auteur</reg></choice> des <choice><orig>mœurs de ce siécle</orig><reg><hi rend="italic">Mœurs de ce siècle</hi></reg></choice> dit<note resp="author"><choice><orig>Chap.</orig><reg>Chapitre</reg> 1.</choice></note> sur les ouvrages d'esprit : <quote rend="inline">Qu'un bon <choice><orig>Auteur</orig><reg>auteur</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qui écrit avec soin, éprouve souvent que l'expression qu'il <choice><orig>cherchoit</orig><reg>cherchait</reg></choice> <pb xml:id="p34"></pb> depuis <choice><orig>long-temps</orig><reg>longtemps</reg></choice>, sans la <choice><orig>connoître</orig><reg>connaître</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il a enfin trouvée, est celle qui <choice><orig>étoit</orig><reg>était</reg></choice> la plus simple, la plus naturelle <choice><orig>&amp;</orig><reg>et</reg></choice> qui <choice><orig>sembloit</orig><reg>semblait</reg></choice> devoir se présenter d'abord <choice><orig>&amp;</orig><reg>et</reg></choice> sans effort.</quote><note resp="editor">Jean de La Bruyère, <hi rend="italic">Les Caractères ou Les mœurs de ce siècle</hi>, 1688 (voir <ref target="/node/20">bibliographie</ref>). La formule apparaît au premier chapitre, traitant « Des ouvrages de l'esprit », n° 17.</note> En réfléchissant sur cette pensée, je crois apercevoir que l'obscurité vient quelquefois de la crainte d'être obscur, <choice><orig>&amp;</orig><reg>et</reg></choice> presque toujours d'un excès de travail produit par le désir de parler ou d'écrire mieux que les autres. L'un enrichit sa diction de comparaisons, mais il les va chercher trop loin ; l'autre emploie les métaphores, mais il les continue trop <choice><orig>long-temps</orig><reg>longtemps</reg></choice>, ou les enchâsse les unes dans les autres ; celui-là, pour s'exprimer avec énergie, emprunte des termes étrangers à sa <choice><orig>matiere</orig><reg>matière</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> peu connus. Il ne dit pas assez, parce qu'il veut trop dire.</p>
-
-<p>Je suis ravi, répliqua Euphorbe, que vous vous rencontriez si bien avec un excellent juge en cette <choice><orig>matiere</orig><reg>matière</reg></choice>. C'est de Quintilien que je veux parler. Voici sa pensée :<note resp="author"><quote rend="italic">Erit aperta narratio atque dilucida ; si fuerit exposita verbis propiiis et significantibus, et non sordidis quidem, non tamen exquisitis, et ab usu remotis : tum distincta rebus, personis temporibus, locis, causis.</quote> <choice><orig>Quint. liv. 4, ch. 2</orig><reg>Quintilien, livre 4, chapitre 2</reg></choice>.</note> <quote rend="inline">Le récit ne manquera ni de clarté, ni <pb xml:id="p35"></pb> de netteté, si l'on y emploie des termes propres <choice><orig>&amp;</orig><reg>et</reg></choice> expressifs, qui, sans avoir rien de bas <choice><orig>&amp;</orig><reg>et</reg></choice> de trivial, ne soient pas non plus trop recherchés <choice><orig>&amp;</orig><reg>et</reg></choice> peu en usage ; si l'on place dans un beau jour <choice><orig>&amp;</orig><reg>et</reg></choice> sans confusion les <choice><orig>événemens</orig><reg>événements</reg></choice>, les personnages, les temps, les lieux <choice><orig>&amp;</orig><reg>et</reg></choice> les causes.</quote><note resp="editor">La citation latine provient de l'<hi rend="italic">Institutio Oratoria</hi>, livre IV, chapitre 2, section XXXVII (voir <ref target="http://www.berardier.org/node/20">bibliographie</ref>).</note> Dans ce peu de mots, nous trouvons les principales sources de l'obscurité du <choice><orig>stile</orig><reg>style</reg></choice>. Les uns, pour éviter le langage du peuple, ont recours à des figures outrées. Un nuage, qui passe dans les airs, est un océan qui flotte au-dessus de la terre. Un certain Furius, du temps d'Horace,<note resp="author"><choice><orig>Hor. Sat. 5, liv. 2, v. 41</orig><reg>Horace, <hi rend="italic">Satire</hi> 5, livre 2, vers 41</reg></choice>.</note> <choice><orig>appelloit</orig><reg>appellait</reg></choice> la neige, la salive de Jupiter.<note resp="editor">Le passage auquel Bérardier fait ici allusion se trouve dans la Satire connue sous le titre «&#160;L'art de s'enrichir&#160;» ; Horace, <hi rend="italic">Sermones</hi> (voir <ref target="/node/20">bibliographie</ref>), livre II, satire 5, vers 39-41. Tirésias y conseille à Ulysse de s'enrichir par l'abus de riches clients dans les procès. Marcus Furius Bibaculus était un poète romain qui, semble-t-il, était l'inventeur de l'image dans laquelle Jupiter crache de la neige sur les Alpes. Quintilien cite l'image dans l'<hi rend="italic">Institutio Oratoria</hi> (voir <ref target="/node/20">bibliographie</ref>), livre VIII, chapitre 5, section XVII (Iuppiter hibernas cana nive conspuit Alpes). Dans une visée satirique, Horace fait d'une part de Furius l'auteur de la neige-salive (et non de l'expression). Par ailleurs, l'image apparaît dans un contexte d'exagération au service de l'objectif satirique du dialogue dans son ensemble.</note> L'expression propre est celle qui peint le mieux l'objet. Horace,<note resp="author"><choice><orig>Hor. Sat. 6, liv. 2, v. 98</orig><reg>Horace, <hi rend="italic">Satire</hi> 6, livre 2, vers 98</reg></choice>.</note> en décrivant le départ du rat de campagne, dit de lui : <quote rend="italic">Levis exilit</quote>. <hi rend="italic">Exit</hi> <choice><orig>eût</orig><reg>eut</reg></choice> été trop <choice><orig>foible</orig><reg>faible</reg></choice> ; <hi rend="italic">erumpit</hi> <choice><orig>eût</orig><reg>eut</reg></choice> été trop fort.<note resp="editor">Voir Horace, <hi rend="italic">Sermones</hi> (voir <ref target="/node/20">bibliographie</ref>), livre II, satire 6, vers 97-100.</note> L'expression qu'il emploie <choice><orig>étoit</orig><reg>était</reg></choice> la meilleure pour nous faire concevoir sa <choice><orig>légéreté</orig><reg>légèreté</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> son impatience. D'autres veulent tout dire à la fois, <choice><orig>&amp;</orig><reg>et</reg></choice> jettent dans leur récit un désordre qui le rend inintelligible. Par des digressions <pb xml:id="p36"></pb> sans fin, ils font oublier à tout moment le principal objet dont ils <choice><orig>devoient</orig><reg>devaient</reg></choice> s'occuper. Théodore est un homme instruit ; il parle purement sa langue : il aime à raconter ; mais il le fait d'une <choice><orig>maniere</orig><reg>manière</reg></choice> qui impatiente tous ceux qui l'entendent. Il nous <choice><orig>rapportoit</orig><reg>rapportait</reg></choice> <choice><orig>derniérement</orig><reg>dernièrement</reg></choice> l'entrevue qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> eue avec <choice><orig>Eugene</orig><reg>Eugène</reg></choice>, dont il <choice><orig>vouloit</orig><reg>voulait</reg></choice> obtenir une lettre de recommandation dans une affaire qui l'<choice><orig>intéressoit</orig><reg>intéressait</reg></choice> beaucoup : voici comme il s'y prit. <quote rend="inline">Comme <choice><orig>Eugene</orig><reg>Eugène</reg></choice> demeure fort loin de chez moi, je partis de bonne heure, <choice><orig>&amp;</orig><reg>et</reg></choice> j'arrivai chez lui entre cinq <choice><orig>&amp;</orig><reg>et</reg></choice> six. Il <choice><orig>étoit</orig><reg>était</reg></choice> absent. Je fus reçu par son épouse. C'est la fille de ce riche négociant qui a rapporté tant de bien du Nouveau Monde. Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> me rappeller son nom : certainement vous le <choice><orig>connoissez</orig><reg>connaissez</reg></choice> aussi bien que moi. On dit que cette femme est haute, <choice><orig>&amp;</orig><reg>et</reg></choice> d'une humeur difficile. Cependant elle me fit politesse. En entrant, j'<choice><orig>avois</orig><reg>avais</reg></choice> admiré la beauté de la maison. Elle a été bâtie par Chrysolite, qui a dépensé, dit-on, cent mille écus à la décorer, <choice><orig>&amp;</orig><reg>et</reg></choice> qui a été obligé de la vendre trois ans après. Lorsqu'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> fut arrivé, je lui exposai ma demande ; et, pendant que nous faisions un moment de <pb xml:id="p37"></pb> conversation, on expédia la lettre ; il la signa, <choice><orig>&amp;</orig><reg>et</reg></choice> me la remit. C'<choice><orig>étoit</orig><reg>était</reg></choice> précisément le jour que vous vîntes me demander à souper, ajouta-t-il, en s'adressent à une personne de la compagnie.</quote> Tout cela fut encore entrecoupé de plusieurs pauses qui <choice><orig>paroissoient</orig><reg>paraissaient</reg></choice> l'effet d'une distraction presque continuelle. Vous avouerez sans doute avec moi qu'après un pareil récit, on n'est pas plus instruit qu'auparavant. L'objet principal, qui est la recommandation d'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> dans une affaire qu'on <choice><orig>seroit</orig><reg>serait</reg></choice> curieux de <choice><orig>connoître</orig><reg>connaître</reg></choice>, est celui sur lequel on passe le plus <choice><orig>légérement</orig><reg>légèrement</reg></choice>. Ne sentez-vous pas combien il est intéressant de savoir que la maison d'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> a été bâtie par Chrysolite, qui s'est ruiné ; que sa femme est haute ; qu'elle est fille d'un négociant dont on a oublié le nom ? Ajoutez qu'on ne songe à nous décrire la maison, que quand on est prêt d'en sortir ;<note resp="editor">Les conventions en vigueur concernant la description dans le récit veulent qu'on décrive une maison lorsqu'on y arrive.</note> qu'on ne donne la date de l'événement qu'après l'avoir raconté ; encore ne l'indique-t-on qu'à une personne de la compagnie. N'est-ce pas là du désordre ?</p>
-
-<p>Oui, sans doute, répondit Timagène, <choice><orig>&amp;</orig><reg>et</reg></choice> je ne crois pas qu'il soit un effet de l'art. Je me rappelle d'avoir entendu <pb xml:id="p38"></pb> reprocher autrefois à <choice><orig>Homere</orig><reg>Homère</reg></choice> ces digressions déplacées. En voici un exemple.<note resp="author"><choice><orig>Il. liv. 7</orig><reg><hi rend="italic">Iliade</hi>, livre 7</reg></choice>.</note> Nestor, pour animer les Grecs au combat, leur rappelle sa victoire sur Ereuthalion, revêtu des armes d'Areïthous. À l'occasion de ces armes, il raconte la <choice><orig>maniere</orig><reg>manière</reg></choice> dont cet Areïthous <choice><orig>combattoit</orig><reg>combattait</reg></choice>, avec une massue d'airain, <choice><orig>&amp;</orig><reg>et</reg></choice> comment il fut tué par Lycurgue, qui le surprit, le perça de sa lance, <choice><orig>&amp;</orig><reg>et</reg></choice> le dépouilla de ses armes. Toute la vieillesse de Nestor ne suffit pas pour excuser cet écart : celle d'Homère lui-même y <choice><orig>suffiroit</orig><reg>suffirait</reg></choice> à peine.<note resp="desit">Commenter?</note></p>
-
-<p>Il faut donc, continua Euphorbe, pour qu'un récit soit clair, non pas simplement que le lecteur puisse l'entendre au prix d'une application longue <choice><orig>&amp;</orig><reg>et</reg></choice> pénible, mais qu'il soit, comme dit<note resp="author"><hi rend="italic">Non ut intelligere possis (auditor) sed ne omnino possit non intelligere curandum</hi>. <choice><orig>Quint., liv. 8, c. 2</orig><reg>Quintilien, livre 8, chapitre 2</reg></choice>. (Desit: identifier et citer passsage, vérifier traduction.)</note> Quintilien, dans une <choice><orig>espece</orig><reg>espèce</reg></choice> d'impossibilité de ne pas concevoir ce qu'on lui raconte.<note resp="editor">Randa Sabry cite cette phrase de Bérardier dans le contexte des discussions, au dix-septième et dix-huitième siècles, sur le rôle du <hi rend="italic">plan</hi> pour atteindre une lisibilité parfaite. Voir <hi rend="italic">Stratégies discursives</hi>, 1992 (voir <ref target="/node/21">bibliographie</ref>), p.&#160;50-51.</note> Le vrai secret, pour produire cet effet, consiste à ne point s'écarter de son objet principal ; à éviter les digressions trop longues <choice><orig>&amp;</orig><reg>et</reg></choice> trop fréquentes ; <pb xml:id="p39"></pb> à faire un usage modéré des figures ; à se servir d'expressions propres, <choice><orig>&amp;</orig><reg>et</reg></choice> à donner à ses phrases l'arrangement le plus naturel qu'il est possible. Rien ne contribue davantage à ce bel ordre que les transitions. Elles conduisent l'esprit doucement, et, pour ainsi dire, sans secousse, d'un objet à l'autre : elles aident la mémoire à les retenir l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre ; c'est un lien réciproque qui rapproche <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>réünit</orig><reg>réunit</reg></choice> les idées les plus différentes ; car toute bonne transition doit avoir une liaison également sensible avec ce qui a été dit <choice><orig>&amp;</orig><reg>et</reg></choice> avec ce que l'on va dire. Cet art des transitions est aussi précieux dans le <choice><orig>stile</orig><reg>style</reg></choice>, que la dégradation des couleurs dans la peinture, <choice><orig>&amp;</orig><reg>et</reg></choice> ces demi-teintes qui font passer insensiblement de la lumière aux ombres.<note resp="editor">Voir également la comparaison entre peinture et écriture dans le premier entretien, page <ref target="/node/4#p6">6</ref> et <ref target="/node/4#p14">14</ref>.</note></p>
-
-<p>Je pense comme vous, interrompit Timagène, <choice><orig>&amp;</orig><reg>et</reg></choice> je crois qu'un récit dépourvu de transitions ne ressemble pas mal à un pays coupé de fossés <choice><orig>&amp;</orig><reg>et</reg></choice> de ravines, qu'il faut franchir à chaque instant ; mais je crois aussi qu'il faut beaucoup de réserve dans l'usage que l'on en fait. Lorsqu'elles sont trop fréquentes, elles jettent dans le <choice><orig>stile</orig><reg>style</reg></choice> une monotonie ennuyeuse. Je m'indigne contre un <choice><orig>Auteur</orig><reg>auteur</reg></choice> qui veut toujours me conduire par la main. Je découvre son artifice, <choice><orig>&amp;</orig><reg>et</reg></choice> <pb xml:id="p40"></pb> je lui en sais mauvais gré. C'est peut-être un tour de l'amour-propre : mais il faut ménager cette passion dans les autres.</p>
-
-<p>Ménageons-là dans ces objets <choice><orig>indifférens</orig><reg>indifférents</reg></choice>, poursuivit Euphorbe : j'en suis d'accord ; <choice><orig>&amp;</orig><reg>et</reg></choice> quand je dis qu'il faut des transitions, je n'entends point qu'elles soient prodiguées sans goût <choice><orig>&amp;</orig><reg>et</reg></choice> sans mesure. Je mets même sur ce sujet une grande différence entre le <choice><orig>stile</orig><reg>style</reg></choice> oratoire <choice><orig>&amp;</orig><reg>et</reg></choice> celui de la narration. La pompe <choice><orig>&amp;</orig><reg>et</reg></choice> l'appareil de l'éloquence semble exiger que toutes ses parties soient enchâssées, pour former un tout capable de plaire <choice><orig>&amp;</orig><reg>et</reg></choice> de persuader. L'art s'y déploie <choice><orig>&amp;</orig><reg>et</reg></choice> s'y laisse <choice><orig>appercevoir</orig><reg>apercevoir</reg></choice>. La simplicité du récit ne lui permet point d'<choice><orig>ornemens</orig><reg>ornements</reg></choice> trop étudiés. S'il a recours aux transitions, il faut qu'elles ne soient pas trop multipliées. Lorsqu'elles sont rares <choice><orig>&amp;</orig><reg>et</reg></choice> heureuses, elles raniment l'attention, <choice><orig>&amp;</orig><reg>et</reg></choice> rendent le sujet plus intéressant.<note resp="editor">Voir également les remarques dans le cinquième entretien, pages <ref target="/node/29#p248">248-249</ref>.</note> Dans nos bons <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> il s'en trouve beaucoup qui ont ces qualités. Je me contente de vous en citer deux, tirées de l'histoire des <choice><orig>révolutions d'Angleterre</orig><reg><hi rend="italic">Révolutions d'Angleterre</hi></reg></choice>. L'historien, après avoir raconté la conquête que fit Edouard I du pays de Galles, <choice><orig>&amp;</orig><reg>et</reg></choice> la mort de Léolyn, passe à la paix qui suivit cette guerre, <choice><orig>&amp;</orig><reg>et</reg></choice> <pb xml:id="p41"></pb> s'exprime ainsi.<note resp="author"><choice><orig>Révol. d'Angl. liv. 4</orig><reg><hi rend="italic">Révolutions d'Angleterre</hi>, livre 4</reg></choice>.</note>&#160;<note resp="editor">Il s'agit sans doute de l'ouvrage d'Antoine de Bordeaux, <hi rend="italic">Révolutions d'Angleterre, depuis la mort du Protecteur Olivier jusques au rétablissement du roy</hi>, 1670 (voir <ref target="/node/20">bibliographie</ref>).</note><quote rend="inline">La gloire que le roi s'était acquise par l'heureux succès de la guerre de Galles, reçut un nouvel éclat par l'emploi qu'il fit de la paix, dont elle fut suivie.</quote> Quelques lignes après, pour nous conduire de cette même paix au mariage qui fut conclu entre le fils de ce même Edouard l <choice><orig>&amp;</orig><reg>et</reg></choice> l'héritière d'Écosse, <choice><orig>&amp;</orig><reg>et</reg></choice> à la guerre qui fut occasionnée par ce mariage, il emploie cette belle transition.<note resp="author"><hi rend="italic">Ibid</hi>. (Desit: identifier citations.)</note> <quote rend="inline">Pendant que la prudence d'Édouard lui <choice><orig>faisoit</orig><reg>faisait</reg></choice> prévoir cette guerre (avec la France), sa bonne fortune lui en <choice><orig>préparoit</orig><reg>préparait</reg></choice> une autre bien plus avantageuse pour lui, puisqu'avec beaucoup de gloire, il y acquit une nouvelle couronne.</quote></p>
-
-<p>Il faut avouer, répartit Timagène, que ces sortes de phrases servent tout-à-la-fois d'ornement au <choice><orig>stile</orig><reg>style</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> de liaison à des <choice><orig>événemens</orig><reg>événements</reg></choice> détachés par eux-mêmes. Mais je crois qu'il faut non-seulement les bannir du récit familier, mais que, dans les grands sujets mêmes, si elles sont trop répétées, elles rendent la diction languissante <choice><orig>&amp;</orig><reg>et</reg></choice> affectée.</p>
-
-<p><pb xml:id="p42"></pb>Ajoutez, dit Euphorbe, qu'elles nuisent à la <choice><orig>briéveté</orig><reg>brièveté</reg></choice>, autre qualité nécessaire au récit. Une des louanges qu'Horace donne à <choice><orig>Homere</orig><reg>Homère</reg></choice>, c'est de s'avancer toujours à grands pas vers son but :</p>
-
-<p><quote rend="verse">
-    <l>Semper ad eventum festinat.<note resp="author"><choice><orig>Hor. Art. Poët. v. 148</orig><reg>Horace, <hi rend="italic">Art poétique</hi>, vers 148</reg></choice>.</note><note resp="editor">Voir Horace, <hi rend="italic">Art poétique</hi> (<ref target="/node/20">bibliographie</ref>), v. 148-149. Horace déconseille au poète de toujours remonter aux premières origines de son récit ; il lui recommande de commencer plutôt son récit « in medias res » et de supposer le reste connu des lecteurs ou auditeurs. La modification de perspective que donne Bérardier à ce passage horatien est déjà présent chez Boileau, dans son <hi rend="italic">Art poétique</hi>, 1674 (voir <ref target="/node/20">bibliographie</ref>), chant III, v. 302-306  : « Il ne s'égare point en de trop longs détours ; / Sans garder dans ses vers un ordre méthodique, / Son sujet de soi-même et s'arrange et s'explique ; / Tout, sans faire d'apprêts, s'y prépare aisément ; / Chaque vers, chaque mot court à l'événement ». Chez Boileau s'exprime donc « l'idéal du discours linéaire » qui est celui des siècles classiques&#160;; voir Randa Sabry, <hi rend="italic">Stratégies discursives</hi>, 1992 (<ref target="/node/21">bibliographie</ref>), p.&#160;129.</note></l>
-  </quote></p>
-
-<p>Assurément, répliqua Timagène, voilà un éloge qui me <choice><orig>paroît</orig><reg>paraît</reg></choice> bien déplacé. Peut-on faire un mérite de sa brièveté à un écrivain qui a composé deux <choice><orig>poëmes</orig><reg>poèmes</reg></choice> de vingt quatre livres chacun ? J'<choice><orig>accorderois</orig><reg>accorderais</reg></choice> encore plus volontiers cette gloire à Virgile, qui a su les renfermer tous deux dans les douze livres de son <choice><orig>Ænéïde</orig><reg><hi rend="italic">Énéide</hi></reg></choice>. Je ne vois pas bien clairement ce qu'on entend par cette qualité. Peut-on la trouver dans un ouvrage de longue haleine ?</p>
-
-<p>N'en doutez pas, répondit Euphorbe, comme elle peut manquer dans un écrit d'une heure de lecture. Cette qualité, plus nécessaire encore au récit qu'aux autres genres d'écrire, se trouve, comme toutes les vertus, placée entre deux vices : d'un côté, l'obscurité ; de l'autre, la prolixité.<note resp="editor">Cette définition de la vertu reprend la doctrine du juste milieu, déjà apparue au premier entretien (page <ref target="/node/4#p12">12</ref>), et célèbre depuis l'<hi rend="italic">Éthique à Nicomaque</hi> d'Aristote.</note> Nous avons examiné quels moyens <pb xml:id="p43"></pb> il <choice><orig>falloit</orig><reg>fallait</reg></choice> prendre pour ne pas tomber dans ce premier <choice><orig>écueuil</orig><reg>écueil</reg></choice> : on évite le second, lorsqu'on ne dit rien qui n'ait rapport au sujet qu'on traite, lorsqu'on retranche tous les détails inutiles, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne contribuent point à faire mieux <choice><orig>connoître</orig><reg>connaître</reg></choice> l'objet dont il s'agit. Je ne dirai point qu'un tel prit son fusil, y mit de la poudre <choice><orig>&amp;</orig><reg>et</reg></choice> une balle ; qu'il l'arma ; qu'il mit en joue ; qu'il déchargea son coup sur tel autre, qui en fut renversé <choice><orig>&amp;</orig><reg>et</reg></choice> mis à mort : tandis que je puis dire, sans tous ces détours, qu'il le tua d'un coup de fusil. La <choice><orig>briéveté</orig><reg>brièveté</reg></choice> consiste donc à dire tout ce qu'il faut, mais à ne dire que ce qu'il faut. Cette <choice><orig>regle</orig><reg>règle</reg></choice>, toute sévère qu'elle <choice><orig>paroît&#160;;</orig><reg>paraît,</reg></choice> s'accommode fort bien quelquefois avec la longueur du récit.<note resp="editor">Ponctuation modifiée dans le texte de lecture.</note> Elle n'exclut pas même les <choice><orig>ornemens</orig><reg>ornements</reg></choice>. Le plaisir qu'ils nous procurent est une <choice><orig>espece</orig><reg>espèce</reg></choice> de charme qui nous fait <choice><orig>paroître</orig><reg>paraître</reg></choice> la narration moins étendue. Une route unie sur un tapis de verdure, quelque longue qu'elle soit, nous fatigue moins qu'un sentier plus court, mais rude <choice><orig>&amp;</orig><reg>et</reg></choice> escarpé. Tout ce que je dis ici est emprunté de Quintilien,<note resp="author"><choice><orig>Quint. liv.</orig><reg>Quintilien, livre</reg></choice> 4. (Desit: identifier et citer passage.)</note> dans un endroit où il conseille même de ne point  <pb xml:id="p44"></pb> se proposer pour modèle le <choice><orig>stile</orig><reg>style</reg></choice> concis de Salluste. Il l'approuve dans cet historien, mais il craint, avec raison, qu'il ne fasse de mauvais imitateurs.</p>
-
-<p>Je crois saisir votre pensée, reprit Timagène. Ne dire que ce qu'il faut, c'est élaguer tous les détails superflus, <choice><orig>traînans</orig><reg>traînants</reg></choice>, ennuyeux <choice><orig>;</orig><reg>,</reg></choice> ne point noyer dans une foule d'expressions ce qui peut être renfermé dans un mot <choice><orig>:</orig><reg>;</reg></choice> dire tout ce qu'il faut, c'est n'omettre aucune des circonstances nécessaires ou utiles au sujet, <choice><orig>&amp;</orig><reg>et</reg></choice> qui puisse contribuer à le faire <choice><orig>connoître</orig><reg>connaître</reg></choice> ou à l'orner.<note resp="editor">La ponctuation de cette phrase a été modifiée, dans le texte de lecture.</note> <choice><orig>De-là</orig><reg>De là</reg></choice>, il est aisé de conclure qu'un récit peut être court, <choice><orig>&amp;</orig><reg>et</reg></choice> renfermer grand nombre de circonstances. Vous me réconciliez avec la <choice><orig>briéveté</orig><reg>brièveté</reg></choice>. Je m'<choice><orig>imaginois</orig><reg>imaginais</reg></choice> qu'elle <choice><orig>proscrivoit</orig><reg>proscrivait</reg></choice> bien des morceaux d'histoire dont la lecture me <choice><orig>faisoit</orig><reg>faisait</reg></choice> grand plaisir, <choice><orig>&amp;</orig><reg>et</reg></choice> où je vois aujourd'hui qu'elle <choice><orig>avoit</orig><reg>avait</reg></choice> beaucoup de part. Je veux vous en remettre un sous les <choice><orig>ieux</orig><reg>yeux</reg></choice> qui me semble <choice><orig>sur-tout</orig><reg>surtout</reg></choice> dans ce genre. En disant ces mots, il prit, dans la bibliothèque, un volume de l'histoire de France, par le <choice><orig>P.</orig><reg>Père</reg></choice> Daniel, <choice><orig>&amp;</orig><reg>et</reg></choice> lut cet endroit où l'historien raconte la mort du fameux Henri, duc de Guise.<note resp="author"><choice><orig>Hist. de France</orig><reg><hi rend="italic">Histoire de France</hi></reg></choice>, Henri III, an 1588.</note>&#160;<note resp="editor">Il s’agit de l’<hi rend="italic">Histoire de France, depuis l'établissement de la monarchie française dans les Gaules</hi>, par le Père Gabriel Daniel, Paris : Delespine, 1713, 3 vol. in-fol. Une nouvelle édition paraît en 1755-1760, 17 vol. in-4. Le Père Gabriel Daniel, né le 8 février 1649 à Rouen et décédé le 23 juin 1728 à Paris, est un historiographe jésuite français. Henri Ier de Guise, dit le Balafré, est né le 31 décembre 1549. D'abord prince de Joinville, il devient duc de Guise (1563) et pair de France. Il devient chef de la Ligue catholique (1576) durant les guerres de Religion en France. Il est assassiné sur l'ordre d'Henri III lors des États Généraux, le 23 décembre 1588, au château de Blois. Voir <hi rend="italic">La Tragédie de Blois. Quatre siècles de polémique autour de l'assassinat du duc de Guise</hi>. Blois : Château de Blois, 1988.</note> <quote rend="inline">Les <pb xml:id="p45"></pb> mesures furent prises pour le 23 de décembre. Le Roi fit dire au duc de Guise qu'il voulait tenir conseil le matin ce jour-là , <choice><orig>&amp;</orig><reg>et</reg></choice> expédier beaucoup d'affaires, pour aller passer les fêtes à Notre-Dame de Cléry, où il prétendait faire ses dévotions. Le soir du 22, Larchant alla trouver le duc de Guise, <choice><orig>&amp;</orig><reg>et</reg></choice> lui dit que, pressé par les officiers <choice><orig>&amp;</orig><reg>et</reg></choice> par les gardes de sa compagnie, il venait le supplier d'employer son autorité pour leur faire donner leur paye ; qu'ils n'avaient rien reçu depuis longtemps ; que, sans cela, les gardes pour la plupart, seraient obligés de se retirer, <choice><orig>&amp;</orig><reg>et</reg></choice> plusieurs d'entr'eux contraints de vendre leurs chevaux, pour avoir de quoi faire leur voyage à pied : <choice><orig>&amp;</orig><reg>et</reg></choice> sur ce que le duc lui promit de faire ce qu'ils demandaient, il le supplia de trouver bon qu'il lui présentât un placet lorsqu'il entrerait au conseil. Le lendemain dès le grand matin, le Roi fit venir dans son cabinet Ornano, Bonivet, la Grange Montigny <choice><orig>&amp;</orig><reg>et</reg></choice> d'Entragues, qui, depuis quelque temps, avait quitté le parti du duc de Guise pour se donner au Roi, au prix du gouvernement d'Orléans : il était fort irrité contre le duc, qui, s'obstinant <pb xml:id="p46"></pb> à vouloir que cette place fût du nombre des villes de sûreté qu'on lui avait accordées, empêchait qu'il ne se mit en possession de ce gouvernement. Loignac s'y rendit pareillement avec neuf des plus résolus des Quarante-cinq, qu'on y avait fait entrer avant le jour par un escalier dérobé, <choice><orig>&amp;</orig><reg>et</reg></choice> à qui ce seigneur dit alors de quoi il s'agissait.
-
-<lb/> Dès qu'il furent tous assemblés, le Roi leur parla en peu de mots, sur le service qu'il attendait de leur courage <choice><orig>&amp;</orig><reg>et</reg></choice> de leur fidélité... Il l'assurèrent tous de la disposition où ils étaient de se sacrifier pour Sa Majesté, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'ils répondraient parfaitement à la confiance dont on les honorait. Il se fit apporter autant de poignard que Loignac avait choisi d'hommes dans sa compagnie, <choice><orig>&amp;</orig><reg>et</reg></choice> leur dit, en les leur mettant en main : <hi rend="italic">C'est une exécution de justice que je vous recommande de faire sur l'homme le plus criminel de mon Royaume, <choice><orig>&amp;</orig><reg>et</reg></choice> que les lois divines <choice><orig>&amp;</orig><reg>et</reg></choice> humaines me permettent de punir : et, ne le pouvant faire les lois ordinaires de la Justice, je vous autorise à le faire par le droit que me donne ma puissance royale</hi>. Il les plaça, avec Loignac, à l'entrée d'un cabinet qui <pb xml:id="p47"></pb> était à gauche en entrant dans la chambre, pour y attendre le duc de Guise, <choice><orig>&amp;</orig><reg>et</reg></choice> se retira dans une autre plus avancé, suivi des seigneurs que j'ai nommés.
-
-<lb/>Si le duc de Guise n'évita pas ce péril, ce ne fut point faute d'en avoir été averti : car, quelques précautions que le Roi eût prises pour tenir son dessein caché, bien des gens s'en défièrent, soit qu'ils jugeassent que le Roi ferait enfin ce que son intérêt demandait qu'il fît, soit qu'attentifs à tout ce qui se passait, ils eussent entrevu <choice><orig>&amp;</orig><reg>et</reg></choice> deviné quelque chose qui leur eût donné cette pensée. Le sieur des Vins, chef de la Ligue dans la Provence, écrivit au duc, en désapprouvant sa trop grande confiance, ayant tant de sujets de se défier du Roi, quelque bonne mine qu'il lui fît : à quoi il répondit, qu'il ne comptait nullement sur la bonté du Roi, dont il connaissait la dissimulation ; mais sur la crainte <choice><orig>&amp;</orig><reg>et</reg></choice> le bon sens de ce prince, qui n'ignorait pas que s'il entreprenait sur sa personne, il se perdrait lui-même sans ressource.
-
-<lb/>Après tout, il ne laissait pas quelquefois de faire ses réflexions sur ce sujet avec ses confidents ; <choice><orig>&amp;</orig><reg>et</reg></choice> peu de <pb xml:id="p48"></pb> jours avant son malheur, comme il s'entretenait avec le Cardinal de Guise son frère, l'archevêque de Lyon, le siëur de Mandreville, gouverneur de S. Menehoult, le président de Neuilly, <choice><orig>&amp;</orig><reg>et</reg></choice> la Chapelle Marteau, prévôt des marchands, chacun disant les conjectures sur je ne sais qu'elles apparences qui leur faisaient juger qu'il se tramait quelque chose, tous lui conseillèrent de s'éloigner sous quelque  prétexte. Il n'y eut que l'archevêque de Lyon qui soutint que ce serait quitter la partie, <choice><orig>&amp;</orig><reg>et</reg></choice> par conséquent la perdre, <choice><orig>&amp;</orig><reg>et</reg></choice> que le Roi, du génie dont il était, ne ferait jamais une entreprise si hasardeuse, où il courait lui-même risque de sa vie ; sur quoi Mandreville s'emportant, traita de folie un si mauvais raisonnement, dans une conjoncture où il s'agissait de tout perdre.
-
-<lb/>Mais le duc de Guise ne répondit point autre chose à tout cela, sinon qu'il était trop avancé pour reculer ; <choice><orig>&amp;</orig><reg>et</reg></choice> que le Roi <choice><orig>&amp;</orig><reg>et</reg></choice> lui étaient comme deux armées en présence, dont l'une en se retirant, donnait la victoire à l'autre.
-
-<lb/>Le jour qui précéda l'exécution, <pb xml:id="p49"></pb> se mettant à table, il trouva sous sa serviette un billet, par lequel on lui donnait avis de prendre garde à lui, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on lui préparait un mauvais tour. L'ayant lu, il prit son crayon <choice><orig>&amp;</orig><reg>et</reg></choice> écrivit au bas ; <hi rend="italic">on n'oserait</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> le jetta sous la table. C'est ainsi que ce malheureux prince, dominé par son ambition, se cachant à lui-même tous les dangers, ou les méprisant trop, s'opiniâtrait à sa perte, jusqu'à ce qu'enfin le moment fatal arriva. Le 23 de décembre, ceux qui étaient du conseil, suivant l'ordre du Roi, se trouvèrent de grand matin dans l'anti-chambre. Les cardinaux de Vendôme <choice><orig>&amp;</orig><reg>et</reg></choice> de Gondi, les maréchaux d'Aumont <choice><orig>&amp;</orig><reg>et</reg></choice> de Retz, les sieurs Nicolas de Rambouillet <choice><orig>&amp;</orig><reg>et</reg></choice> d'O s'y rendirent les premiers, <choice><orig>&amp;</orig><reg>et</reg></choice> un peu après vinrent le cardinal de Guise <choice><orig>&amp;</orig><reg>et</reg></choice> l'archevêque de Lyon.
-
-<lb/>Le duc de Guise arriva le dernier, <choice><orig>&amp;</orig><reg>et</reg></choice> trouva au sortir de son appartement Larchant, avec la plupart de sa compagnie des Gardes, pour lui présenter le placet dont il lui avait parlé le soir précédent. Ils le suivirent jusqu'à la porte de l'anti-chambre, les Gardes s'étant rangés des deux côtés de <pb xml:id="p50"></pb> l'escalier, selon l'ordre qu'ils en avaient de leur capitaine, comme pour faire honneur au duc de Guise, <choice><orig>&amp;</orig><reg>et</reg></choice> rendre le passage libre. Le duc, avec son honnêteté <choice><orig>&amp;</orig><reg>et</reg></choice> ses manières ordinaires, leur promit de ne les pas oublier <choice><orig>&amp;</orig><reg>et</reg></choice> entra dans l'antichambre. Larchant demeura sur l'escalier avec les Gardes rangés comme ils étaient, <choice><orig>&amp;</orig><reg>et</reg></choice> fit descendre dans la cour les pages, les valets-de-pied, <choice><orig>&amp;</orig><reg>et</reg></choice> tous ceux de la suite du duc <choice><orig>&amp;</orig><reg>et</reg></choice> des autres seigneurs qui étaient entrés. Le duc s'étant approché du feu, sentit une espèce de faiblesse qui le prenait. Quelques-uns prétendent qu'elle ne venait que d'une débauche de la nuit précédente, qu'on dit qu'il avait passée avec une maîtresse ; d'autres l'attribuèrent à une peur subite qui le saisit, au sujet des fréquents avertissements qu'on lui avait donnés. Car à cela près, il s'était trouvé tant de fois sans Gardes dans cette antichambre pour le conseil qu'il n'y avait rien de particulier qui dût plus l'effrayer qu'en un autre temps. Saint-Prix, valet-de-chambre du Roi, lui présenta des prunes de Brignoles, dont il goûta, <choice><orig>&amp;</orig><reg>et</reg></choice> un mouchoir pour s'essuyer l'œil, qui était souvent humide du côté de <pb xml:id="p51"></pb> la plaie qu'il avait reçue autrefois à la joue. On dit, à cette occasion, que Pericard, son secrétaire, ayant su que Grillon, colonel du régiment des Gardes, avait fait fermer les portes du château, entra dans une grande appréhension, <choice><orig>&amp;</orig><reg>et</reg></choice> lui envoya un page pour lui porter son mouchoir qu'il avait oublié, <choice><orig>&amp;</orig><reg>et</reg></choice> que dedans il mit un billet, où ces mots étaient écrits : sauvez-vous, Monsieur, ou vous êtes mort : mais on ne le laissa pas passer.
-
-<lb/>Sur les huit heures du matin, Revol, secrétaire d'état, vint dire au duc de Guise, que le Roi le demandait dans son cabinet ; il y alla <choice><orig>&amp;</orig><reg>et</reg></choice> entra dans la chambre par une courte galerie qui la séparait de l'antichambre. La porte ayant été aussitôt fermée, comme c'était la coutume, il tourna vers le cabinet de la gauche, où on lui avait fait entendre que le Roi était. Ayant levé la tapisserie, <choice><orig>&amp;</orig><reg>et</reg></choice> s'étant un peu penché, parce que la porte était basse, il fut à l'instant atteint de six coups de poignards, qui ne lui laissèrent que le temps de crier, mon Dieu, ayez pitié de moi.
-
-<lb/>D'autres disent que Saint-Malin, un <pb xml:id="p52"></pb> des Quarante-cinq, fut celui qui lui porta le premier coup, <choice><orig>&amp;</orig><reg>et</reg></choice> que de crainte qu'il ne fut armé sous ses habits, il s'était placé de telle sorte qu'il pût de haut en bas lui plonger son poignard dans la gorge, à défaut de la cuirasse, <choice><orig>&amp;</orig><reg>et</reg></choice> que le duc ne poussa qu'un grand soupir, sans dire mot ; que tous les autres se jetèrent en même-temps sur lui, <choice><orig>&amp;</orig><reg>et</reg></choice> le percèrent d'une infinité de coups.
-
-<lb/>Il y en a qui racontent, qu'ayant aperçu Loignac assis sur un coffre, <choice><orig>&amp;</orig><reg>et</reg></choice> jugé à sa contenance, qu'il avait un mauvais dessein contre sa personne, il porta la main à son épée, marchant droit à lui ; mais qu'ayant le bras embarrasse de son manteau, <choice><orig>&amp;</orig><reg>et</reg></choice> ayant été prévenu par les coups qu'on lui porta, il ne put la tirer qu'à moitié.
-
-<lb/>Quoi qu'il en soit de ces diverses circonstances ; car l'on en feint souvent dans ces sortes de rencontres, il est certain que la chose fut faite en un moment. Le Roi en étant averti, sortit de son cabinet, <choice><orig>&amp;</orig><reg>et</reg></choice> ayant fait jeter un tapis sur le corps, rentra pour attendre qu'on eut achevé d'exécuter les autres ordres qu'il avait donnés.</quote><note>Desit: "choice" pour la citation, édition de référence.</note></p>
-
-<p>Assurément on <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> donner à ce <pb xml:id="p53"></pb> récit beaucoup moins d'étendue, <choice><orig>&amp;</orig><reg>et</reg></choice> se contenter de dire avec l'auteur de la <hi rend="italic">Henriade</hi> : </p>
-
-><p><quote rend="verse">
-    <l>Le Roi le fit lui-même immoler à sa vue. </l>
-    <l>De cent coups de poignard indignement percé </l>
-    <l>Son orgueil en mourant ne fut point abaissé </l>
-    <l>Et ce front, que Valois <choice><orig>craignoit</orig><reg>craignait</reg></choice> encor peut-être, </l>
-    <l>Tout pâle <choice><orig>&amp;</orig><reg>et</reg></choice> tout sanglant <choice><orig>sembloit</orig><reg>semblait</reg></choice> braver son maître.<note resp="editor">Voltaire, <hi rend="italic">La Henriade</hi> (1723), dans : <hi rend="italic">Œuvres de M. de Voltaire : La Henriade</hi>, nouvelle édition, 1772 (voir <ref target="/node/20">bibliographie</ref>), p. 96-97 (chant troisième).</note></l></quote></p>
-
-<p>Il semble même que le <choice><orig>P.</orig><reg>Père</reg></choice> Daniel s'arrête à des circonstances petites en elles-mêmes : car, sans parler du détail de tous les <choice><orig>avertissemens</orig><reg>avertissements</reg></choice> que reçut le duc, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il méprisa, des entretiens qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> eus avec ses <choice><orig>confidens</orig><reg>confidents</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> de ses craintes <choice><orig>particulieres</orig><reg>particulières</reg></choice>, quoi de plus inutile en apparence, que de nous dire qu'il arriva le dernier au conseil ; qu'il eut une <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice> dans l'antichambre du Roi ; que son secrétaire lui envoya un page, qui ne put pas lui parler ; qu'on vint l'avertir que le Roi le <choice><orig>demandoit</orig><reg>demandait</reg></choice> ; qu'il passa par une galerie pour arriver au cabinet ; qu'il leva la tapisserie, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il se pencha pour entrer ? Cependant cette description ne m'a jamais <pb xml:id="p54"></pb> causé le moindre ennui, <choice><orig>&amp;</orig><reg>et</reg></choice> je ne puis disconvenir qu'elle m'a toujours attaché plus puissamment, <choice><orig>&amp;</orig><reg>et</reg></choice> ma causé un plaisir bien plus vif, que le court <choice><orig>&amp;</orig><reg>et</reg></choice> pompeux récit du <choice><orig>poëte</orig><reg>poète</reg></choice>, malgré les <choice><orig>ornemens</orig><reg>ornements</reg></choice> dont il le charge.</p>
-
-<p>Il est évident, dit alors Euphorbe, que <choice><sic>cet</sic><corr>cette</corr></choice> <choice><orig>espece</orig><reg>espèce</reg></choice><note resp="editor">À plusieurs reprises, mais de manière peu systématique, le mot 'espèce' est traité comme masculin, dans l'<hi rend="italic">Essai sur le récit</hi>.</note> d'enchantement est dû à l'adresse de l'écrivain, qui <choice><orig>sçait</orig><reg>sait</reg></choice> habilement se faire oublier, pour nous tenir attachés tout entiers à l'objet qu'il nous présente. Il nous fait suivre pas à pas un homme fameux, dans un moment critique qui va décider de son sort <choice><orig>&amp;</orig><reg>et</reg></choice> de celui de l'État. Ce n'est plus une simple lecture ; c'est un spectacle <choice><orig>très-intéressant</orig><reg>très intéressant</reg></choice> pour moi. L'exposé des plus minces circonstances favorise cette illusion, <choice><orig>&amp;</orig><reg>et</reg></choice> cet intérêt les ennoblit : il n'en est plus alors d'inutiles : uniquement attentif à l'événement qui se passe, pour ainsi dire, sous mes <choice><orig>ieux</orig><reg>yeux</reg></choice>, je ne m'aperçois pas de la longueur d'un récit qui me charme.<note resp="editor">Noter le lien établi par Euphorbe entre la richesse des circonstances <choice><orig>&amp;</orig><reg>et</reg></choice> l'illusion de présence propre à l'hypotypose qui 'met sous les yeux'.</note> Le <choice><orig>poëte</orig><reg>poète</reg></choice> se montre à découvert : il travaille à me plaire, sans déguiser l'envie qu'il a d'y réussir. Je pense trop à lui, pour m'occuper beaucoup du héros qu'il chante.</p>
-
-<p>Je m'<choice><orig>étois</orig><reg>étais</reg></choice> imaginé, interrompit Timagène, que la petitesse de ces détails <pb xml:id="p55"></pb> n'<choice><orig>étois</orig><reg>était</reg></choice> relevée que par l'importance des personnages qui sont introduits sur la scène. Tout <choice><orig>paroit</orig><reg>parait</reg></choice> grand dans les gens d'un certain rang. L'éclat du trône réfléchi sur eux frappe les <choice><orig>ieux</orig><reg>yeux</reg></choice> du peuple, <choice><orig>&amp;</orig><reg>et</reg></choice> attire son admiration <choice><orig>&amp;</orig><reg>et</reg></choice> ses respects.</p>
-
-<p>Vous avez raison, répliqua Euphorbe : cette grandeur attire l'admiration ; mais elle ne forme pas le plaisir <choice><orig>&amp;</orig><reg>et</reg></choice> l'agrément. Au reste, on se lasse bientôt d'admirer ; témoins ces récits pompeux de Lucain, qui fatiguent peut-être autant par leur continuelle magnificence, que par leur longueur. Mais pour vous convaincre que c'est moins la noblesse de l'action, <choice><orig>&amp;</orig><reg>et</reg></choice> des acteurs, que l'intérêt qu'on sait y mettre, qui soutient l'attention dans un récit, qui en rend les détails agréables, <choice><orig>&amp;</orig><reg>et</reg></choice> qui le fait <choice><orig>paroître</orig><reg>paraître</reg></choice> court, quelque long qu'il puisse être, je veux vous citer un morceau d'un ancien <choice><orig>poëte</orig><reg>poète</reg></choice>, qui vous plaira assurément. Permettez que je vous lise l'histoire de Philémon<choice><sic>,</sic><corr></corr></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> Baucis, dans Ovide.<note resp="editor">Voir Ovide, <hi rend="italic">Métamorphoses</hi>, livre VIII, 611-724.</note> Jupiter <choice><orig>&amp;</orig><reg>et</reg></choice> Mercure <choice><orig>voyageoient</orig><reg>voyageaient</reg></choice>. Fatigués de la route, ils cherchent une retraite dans le premier bourg où ils se trouvent. Tous les <choice><orig>habitans</orig><reg>habitants</reg></choice> ferment leurs portes, excepté les deux heureux époux, que je viens <pb xml:id="p56"></pb> de nommer. Écoutez maintenant le récit du <choice><orig>poëte</orig><reg>poète</reg></choice>.<note resp="author"><quote rend="inline">Les deux Divinités abordent donc cette chétive demeure, <choice><orig>&amp;</orig><reg>et</reg></choice> la porte trop bâtie, les oblige à courber la tête en y entrant. A l'instant le vieillard invite les Dieux à se reposer, <choice><orig>&amp;</orig><reg>et</reg></choice> leur présente un siège, sur lequel Baucis, toujours attentive, jette un mauvais tapis. Delà, elle va écarter les cendres du foyer ; elle ranime le feu de la veille ; elle le nourrit avec des écorces <choice><orig>&amp;</orig><reg>et</reg></choice> des feuilles bien sèches, <choice><orig>&amp;</orig><reg>et</reg></choice> elle trouve encore assez d'haleine pour y faire naître la flamme. Elle apporte alors, du lieu le plus élevé de la maison, des éclats de bois, des branches desséchées ; elle les brise en morceaux <choice><orig>&amp;</orig><reg>et</reg></choice> les range sous une petite chaudière. [p.57] Cela fait, elle nettoie quelques légumes, que son mari avait cueillis dans le jardin. <choice><orig>Philémond</orig><reg>Philémon</reg></choice> lui-même prend une fourche ; détache d'un pieu noirci par la vétusté, un quartier de lard bien enfumé <choice><orig>&amp;</orig><reg>et</reg></choice> gardé depuis longtemps ; il en coupe une légère tranche, <choice><orig>&amp;</orig><reg>et</reg></choice> la met dans l'eau bouillante. Tous les deux cependant tâchent, par leurs propos, d'amuser leurs hôtes, <choice><orig>&amp;</orig><reg>et</reg></choice> de faire disparaître la longueur de ces préparatifs. Dans la chambre, il y avait un bassin de bois, suspendu par l'anse à un clou ; on le remplit d'eau tiède, <choice><orig>&amp;</orig><reg>et</reg></choice> on donne à laver aux deux étrangers. Au milieu de ce réduit, une couchette de bois de saule portait un matelas ·rempli· d'herbages tendres <choice><orig>&amp;</orig><reg>et</reg></choice> mollets ; [p.58] on le couvre d'une housse, qu'on ne déployait qu'aux jours de fêtes : elle était vieille <choice><orig>&amp;</orig><reg>et</reg></choice> grossière ; mais elle allait assez bien sur un lit de saule. Les Dieux y prirent leur place. Baucis se prépare au service, <choice><orig>&amp;</orig><reg>et</reg></choice> d'une main tremblante, dresse la table. Mais l'un des trois pieds était plus court que les autres : le remède fut un éclat de brique glissé sous le pied inégal : il mit la table de niveau, <choice><orig>&amp;</orig><reg>et</reg></choice> dans cet état, on l'essuie avec des herbes fraîches. Aussitôt, on la couvre de figues des deux couleurs, de cornouilles conservées dans la lie, de chicorée, de racines, de fromages <choice><orig>&amp;</orig><reg>et</reg></choice> d'œufs passés légèrement dans la cendre chaude. Tout cela est servi sur de la vaisselle de terre. Cette argenterie [p.59] est accompagnée d'une coupe de même métal, <choice><orig>&amp;</orig><reg>et</reg></choice> de deux tasses de bois de hêtre enduites de cire en-dedans. Bientôt après, on voit paraître les mets chauds, <choice><orig>&amp;</orig><reg>et</reg></choice> l'on remet sur la table du vin dont la date n'était pas fort ancienne. Ce service étant levé, fait place au dessert. Il était composé de noix, de dattes de palmier, de plusieurs corbeilles de différents fruits d'une odeur charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> de grappes de raisin, qui auraient fait pâlir la pourpre. Au milieu était un rayon de miel. À tout cela, se joignait un air d'ouverture <choice><orig>&amp;</orig><reg>et</reg></choice> de franchise, <choice><orig>&amp;</orig><reg>et</reg></choice> une bonne volonté, qui ne se sentait en rien de leur âge <choice><orig>&amp;</orig><reg>et</reg></choice> de leur pauvreté. Cependant, ils s'aperçoivent que la coupe n'est pas plutôt vidée, qu'elle se remplit d'elle-même, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'une nouvelle liqueur [p.60] succède toujours à la première. Ce prodige nouveau les surprend, les effraie l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre. Ils ont recours aux prières, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un air humble <choice><orig>&amp;</orig><reg>et</reg></choice> timide, ils demandent grâce pour un repas aussi mal apprêté. Il ne leur restait qu'une seule oie, l'unique gardien de ce petit héritage. Déjà ses maîtres se préparaient à l'immoler aux Dieux qui les avaient visités. L'animal, aidé de ses ailes, fatigue à la course les deux vieillards ; il élude longtemps leurs poursuites ; il semble même aller chercher un asile sous les pieds des deux Divinités. Elles s'opposèrent à sa mort ; <choice><orig>&amp;</orig><reg>et</reg></choice> prenant alors la parole, nous sommes des immortels, dirent elles ; vos voisins sont des impies ; ils recevront le châtiment qu'ils méritent. Vous seuls serez exempts de ces maux. Abandonnez seulement ce séjour : suivez nos pas, <choice><orig>&amp;</orig><reg>et</reg></choice> rendez-vous l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre au sommet de cette montagne.</quote></note></p>
-
-<p><quote rend="verse">
-    <l>Ergo ubi cælicolæ parvos tetigêre pénates, </l>
-    <l>Summissoque humiles intrarunt vertice postes, </l>
-    <l>Membra senex posito jussit relevare sedili, </l>
-    <l>Quod super injecit textum rude sedula Baucis. </l>
-    <l>Inde foco tepidum cinerem dimovit, et ignes </l>
-    <l>Suscitat hesternos, soliisque et cortice ficco<note>(Desit: vérifier latin.)</note></l>
-    <l>Nutrit, et ad flammas animâ perducit anili : </l>
-    <l>Multifidasque faces, ramaliaque arida, tecto </l>
-    <l>Detulit, et minuit, parvoque admovit aheno, </l>
-    <l>Quodque suus conjux riguo collegerat horto, </l>
-    <l>Truncat olus foliis. Furcâ levat ille bicorni </l>
-    <l>Sordida terga fuis, nigro pendentia tigno, </l>
-    <l>Servatoque diu resecat de tergore, partem </l>
-    <l><pb xml:id="p57"></pb> Eriguam, sectamque domat ferventibus undis. </l>
-    <l>Interea medias fallunt sermonibus horas, </l>
-    <l>Sentirique moram prohibent. Erat alveus illic </l>
-    <l>Fagineus, durâ clavo suspensus ab ansâ. </l>
-    <l>Is tepidis impletur aquis, artusque fovendos </l>
-    <l>Accipit. In medio torus est de mollibus ulvis </l>
-    <l>Impositus lecto spondâ pedibusque salignis. </l>
-    <l>Vestibus hunc velant, quas non nisi tempore festo </l>
-    <l>Sternere consuerant, sed et haec vilisque vetusque </l>
-    <l>Vestis erat, lecto non indignanda saligno. </l>
-    <l>Accubuere Dei. Mensam succincta tremensque </l>
-    <l>Ponit anus, mensae sed erat pes tertius impar : </l>
-    <l><pb xml:id="p58"></pb> Testa parem fecit, quæ postquam fubdita clivum </l>
-    <l>Sustulit, æquatam menthâ extersere virenti. </l>
-    <l>Ponitur hîc bicolor finceræ bacca Minervæ, </l>
-    <l>Conditaque in liquidâ corna autumnalia fæce </l>
-    <l>Intybaque et radix et lactis massa coacti, </l>
-    <l>Ovaque non acri leviter versata favilla : </l>
-    <l>Omnia fictilibus. Post hæc cœlatus eodem </l>
-    <l>Sistitur argento crater, fabricataque fago </l>
-    <l>Pocula, quæ cava sunt flaventibus illita ceris. </l>
-    <l>Parva mora est, epulasque foci misere calentes, </l>
-    <l>Nec longæ rursus referuntur vina senectaæ ; </l>
-    <l>Dantque locum mensis paulum seducta secundis. </l>
-    <l><pb xml:id="p59"></pb> He nux, hîc mixta est rugosis carica palmis, </l>
-    <l>Prunaque, et in patulis redolentia mala canistris, </l>
-    <l>Et de purpureis collectæ vitibus uvæ. </l>
-    <l>Candidus in medio favus est. Super omnia vultus </l>
-    <l>Accessere boni, nec iners pauperque voluntas. </l>
-    <l>Interea, quoties haustum cratera repleri </l>
-    <l>Sponte suâ, per seque vident succrescere vina, </l>
-    <l>Attoniti novitate pavent, manibusque supinis </l>
-    <l>Concipiunt Baucifque preces timidusque Philemon, </l>
-    <l>Et veniam dapibus nullisque paratibus orant. </l>
-    <l><pb xml:id="p60"></pb> Unicus anser erat minimæ custodia villæ, </l>
-    <l>Quem diis hospitibus domini mactare parabant. </l>
-    <l>Ille celer pennâ tardos ætate fatigat, </l>
-    <l>Eluditque diu, tandemque est visus ad ipsos </l>
-    <l>Confugisse Deos. Superi vetuerc necari ; </l>
-    <l>Dîque sumus, meritasque luet vicinia pœnas </l>
-    <l>Impia, dixerunt : vobis immunibus hujus </l>
-    <l>Esse mali dabitur : modo vestra relinquite tecta, </l>
-    <l>Ac nostros comitate gradus, et in ardua montis </l>
-    <l>Ite simul.</l>
-  </quote></p>
-
-<p><pb xml:id="p61"></pb>Voilà un grand détail de circonstances <choice><orig>&amp;</orig><reg>et</reg></choice> même des plus minces. Quoi de plus frivole en apparence que cette remarque : <quote rend="italic">Summissoque humiles intrarunt vertice postes</quote>, <choice><orig>&amp;</orig><reg>et</reg></choice> que celle-ci, <quote rend="italic">quod super injecit textum rude sedula Baucis</quote> ? La peinture de cette table boiteuse qu'il faut étayer pour lui donner son <choice><orig>à-plomb</orig><reg>aplomb</reg></choice>, a quelque chose qui approche du comique : la fuite de cette <choice><orig>oye</orig><reg>oie</reg></choice>, qui va chercher un asile sous les pieds de Jupiter, ne <choice><orig>paroît</orig><reg>paraît</reg></choice> pas digne d'occuper un esprit raisonnable. Malgré tout cela, dites-moi quelle impression a fait sur vous cette lecture ?</p>
-
-<p>Une impression fort agréable, répondit Timagène ; mais bien différente de celle que j'ai éprouvée dans le récit de la mort du duc de Guise. Ici, le plaisir <choice><orig>étoit</orig><reg>était</reg></choice> accompagné de trouble <choice><orig>&amp;</orig><reg>et</reg></choice> d'<choice><orig>allarmes</orig><reg>alarmes</reg></choice> : l'esprit <choice><orig>étoit</orig><reg>était</reg></choice> inquiet ; <choice><orig>&amp;</orig><reg>et</reg></choice> cette inquiétude <choice><orig>avoit</orig><reg>avait</reg></choice> des charmes. Là, c'est un je ne <choice><orig>sçais</orig><reg>sais</reg></choice> quoi de doux <choice><orig>&amp;</orig><reg>et</reg></choice> de paisible, que je ne peux définir.<note resp="editor">Sur la notion du 'je ne sais quoi', voir l'article d'Erich Köhler, « ‘Je ne sais quoi’. Ein Kapitel aus der Begriffsgeschichte des Unbegreiflichen », 1966/1984 (voir <ref target="http://www.berardier.org/node/21">bibliographie</ref>). D'autres occurrences du concept dans l'<hi rend="italic">Essai sur le récit</hi> se trouvent aux pages <ref target="http://www.berardier.org/node/26?#p103">103</ref> et <ref target="http://www.berardier.org/node/7?#p594">594</ref>.</note></p>
-
-<p><choice><orig>C'est-là</orig><reg>C'est là</reg></choice> précisément, ajouta Euphorbe, l'effet de ces circonstances détaillées à propos, <choice><orig>&amp;</orig><reg>et</reg></choice> qui <choice><orig>alongent</orig><reg>allongent</reg></choice> le récit sans nuire à sa <choice><orig>briéveté</orig><reg>brièveté</reg></choice>. Les unes plus sérieuses, m'attachent à un objet important, excitent ma curiosité <choice><orig>&amp;</orig><reg>et</reg></choice> me donnent une agréable impatience de voir l'issue d'un événement <pb xml:id="p62"></pb> intéressant par lui-même, ou par les personnages qui y figurent : les autres peignent la nature toujours belle, même lorsqu'elle est sans <choice><orig>ornemens</orig><reg>ornements</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> cette vue fait naître un sentiment délicieux, qui répand dans le cœur le calme <choice><orig>&amp;</orig><reg>et</reg></choice> la joie. Dans ces superbes jardins, où l'art déployé toutes ses richesses, les <choice><orig>compartimens</orig><reg>compartiments</reg></choice> des parterres, la beauté des terrasses, le fini des statues, l'abondance des eaux jaillissantes sous cent formes différentes, l'ingénieux tissu des bosquets obtiennent notre admiration <choice><orig>&amp;</orig><reg>et</reg></choice> nos suffrages : dans un vallon tapissé d'un gazon émaillé de mille fleurs, fermé par des coteaux couronnés de verdure, rien ne nous surprend ; mais cette belle nature enchante nos sens, <choice><orig>&amp;</orig><reg>et</reg></choice> nous invite à goûter la fraîcheur <choice><orig>&amp;</orig><reg>et</reg></choice> le repos sur les bords d'un ruisseau dont l'onde claire <choice><orig>disparoît</orig><reg>disparaît</reg></choice> souvent sous l'épaisseur de la pelouse qui l'environne. Voilà l'image des deux espèces de récit dont nous parlons.<note resp="editor">La comparaison reprend des éléments du <hi rend="italic">locus amoenus</hi>, mais fait également penser à celle que Marivaux utilise pour figurer la différence entre la beauté et le 'je ne sais quoi', dans la « Seconde feuille » du <hi rend="italic">Cabinet du philosophe</hi> de 1734 ; voir Marivaux, <hi rend="italic">Journaux et Œuvres diverses</hi>, 1988, p. 346 (voir <ref target="http://www.berardier.org/node/21">bibliographie</ref>).</note></p>
-
-<p>Je vois, <choice><sic>repris</sic><corr>reprit</corr></choice> Timagène, que la plus grande difficulté consiste ici à bien distinguer les occasions <choice><sic>ou</sic><corr>où</corr></choice> ce détail peut faire un bon effet, d'avec celles où il <choice><orig>deviendroit</orig><reg>deviendrait</reg></choice> ennuyeux : c'est en quoi l'auteur doit consulter <choice><orig>&amp;</orig><reg>et</reg></choice> suivre son goût. Mais, outre cette <choice><orig>briéveté</orig><reg>brièveté</reg></choice> qui regarde <pb xml:id="p63"></pb> plus <choice><orig>particulierement</orig><reg>particulièrement</reg></choice> les faits qu'il faut décrire, n'en est-il point une autre qui n'appartient qu'à l'expression ?</p>
-
-<p>Sans doute, repartit Euphorbe ; <choice><orig>&amp;</orig><reg>et</reg></choice> cette <choice><orig>derniere</orig><reg>dernière</reg></choice> est toujours belle, lorsqu'elle n'est point outrée. Quintilien nous en donne la définition, lorsqu'il nous dit que la perfection de la <choice><orig>briéveté</orig><reg>brièveté</reg></choice> consiste à renfermer beaucoup de choses dans peu de mots. <quote rend="italic">Pulcherrima brevitas est, cum plura paucis complectimur</quote>.<note resp="editor">La citation vient d'un passage de Quintilien consacré à la 'brevitas' : « Ac merito laudatur brevitas integra. Sed ea minus praestat quotiens nihil dicit nisi quod necesse est (brachylogian vocant, quae reddetur inter schemata), est vero pulcherrima cum plura paucis complectimur, quale Sallusti est: ‹ Mithridates corpore ingenti, perinde armatus ›. » Quintilien, <hi rend="italic">De institutione oratoria</hi> (voir <ref target="/node/20">bibliographie</ref>), livre VIII, 82.</note> Lorsque Tite-Live, en décrivant le combat des Horaces <choice><orig>&amp;</orig><reg>et</reg></choice> des Curiaces, dit de ces six héros&#160;; <quote rend="italic">Magnorum exercituum animos gerentes</quote> ;<note resp="editor">Tite-Live, <hi rend="italic">Ab Urbe condita</hi> (<hi rend="italic">Histoire romaine</hi>), livre I, 25 : « Datur signum infestisque armis velut acies terni iuvenes magnorum exercituum animos gerentes concurrunt ».</note> qu'elle foule d'idées ne fait pas naître dans l'esprit ce peu d'expressions, qui peint <choice><orig>tout-à-la-fois</orig><reg>tout à la fois</reg></choice> leur contenance, leur résolution, les grands intérêts dont ils sont dépositaires, <choice><orig>&amp;</orig><reg>et</reg></choice> les espérances même de ceux dont ils défendent la cause ? <choice><orig>C'est-là</orig><reg>C'est là</reg></choice> une de ces façons de parler fécondes, qui donnent à penser plus qu'on ne dit.</p>
-
-<p>S'il est beau de faire penser plus qu'on ne dit, répliqua Timagène, il s'ensuit qu'il ne faut pas revenir à plusieurs reprises sur ce que l'on a déjà dit, <choice><orig>&amp;</orig><reg>et</reg></choice> le répéter en différentes façons. Sur cela, j'ai une petite querelle à faire <choice><sic>à l'Auteur</sic><corr>au poète</corr></choice> que vous venez de citer.<note resp="editor">Timagène veut parler d'Ovide. (Les Errata que l'édition originale contient, page 725, signalent l'imprecision : « page 63, lig. 25, à l'Auteur ; <hi rend="italic">lisez</hi>, au poëte. »).</note>&#160;Il n'est jamais content de sa première expression ; <pb xml:id="p64"></pb> il revient sur ses pas, <choice><orig>&amp;</orig><reg>et</reg></choice> retourne cent fois une même pensée. Selon lui, le chaos est une masse informe <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>grossiere</orig><reg>grossière</reg></choice> ; il n'a d'autre force qu'une oisive pesanteur&#160;; c'est un amas confus de principes désunis, sans ordre <choice><orig>&amp;</orig><reg>et</reg></choice> sans harmonie.<note resp="author"><choice><orig>Métam. l. 1, v. 7</orig><reg><hi rend="italic">Métamorphoses</hi>, livre 1, vers 7</reg></choice>.</note>&#160;<note resp="editor">Voir Ovide, <hi rend="italic">Métamorphoses</hi>, livre 1, vers 5-9 :<lb/>
-    <l>Ante mare et terras et quod tegit omnia caelum </l>
-    <l>Unus erat toto naturae vultus in orbe, </l>
-    <l>Quem dixere chaos : rudis indigestaque moles </l>
-    <l>Nec quicquam nisi pondus iners congestaque eodem </l>
-    <l>Non bene iunctarum discordia semina rerum. </l>
-  Traduction française : « Avant la formation de la mer, de la terre, et du ciel qui les environne, la nature dans l'univers n'offrait qu'un seul aspect; on l'appela chaos, masse grossière, informe, qui n'avait que de la pesanteur, sans action et sans vie, mélange confus d'éléments qui se combattaient entre eux. » (Traduction légèrement adaptée de G.T. Villenave, Paris, 1806, source : <ref target="http://bcs.fltr.ucl.ac.be/META/00.htm">Bibliotheca Classica Selecta</ref>).</note> </p>
-
-<p><quote rend="verse"> 
-    <l rend="indent"><hi rend="italic">Rudis indigestaque moles ;</hi> </l>
-    <l><hi rend="italic">Nec quidquam, nisi pondus iners, congestaque eodem</hi> </l>
-    <l><hi>Non bene junctarum discordia semina rerum.</hi></l>
-  </quote></p>
-
-<p>Parle-t-il du Déluge ? Ce n'est pas assez d'avoir dit, que la terre <choice><orig>&amp;</orig><reg>et</reg></choice> les eaux ne <choice><orig>formoient</orig><reg>formaient</reg></choice> plus deux éléments distingués.<note resp="author"><hi rend="italic">Ibid</hi>.<choice><orig> l. 1, v.</orig><reg>, livre 1, vers</reg></choice> 291</note><note resp="editor">Dans les <hi rend="italic">Métamorphoses</hi> d'Ovide, au livre 1, vers 291-291, on peut lire effectivement : <lb/>
-    Iamque mare et tellus nullum discrimen habebant : 
-    Omnia pontus erat, derant quoque litora ponto. 
-Traduction française : « Déjà la terre ne se distinguait plus de l'océan : tout était mer, et la mer n'avait point de rivages. » (Traduction légèrement adaptée de G.T. Villenave, Paris, 1806, source : <ref target="http://bcs.fltr.ucl.ac.be/META/00.htm">Bibliotheca Classica Selecta</ref>. (Desit: Meilleure source.)</note> Il ajoute : <quote rend="inline">tout était mer ; <choice><orig>&amp;</orig><reg>et</reg></choice> cette mer n'avait pas même de rivage.</quote><note resp="editor">Dans l'original, les guillemets initiaux de la citation sont placés avant « Il ajoute ».</note> Dans la belle description qu'il fait de cette peste, qui emporta tous les <choice><orig>habitans</orig><reg>habitants</reg></choice> de la petite <choice><orig>Isle d'Œgine</orig><reg>Île d'Égine</reg></choice>, il répète encore jusqu'à trois fois la même idée. <quote rend="inline">Ces malheureux citoyens, dit-il, dans leur désespoir fuyent les lieux qui les ont <choice><sic>vû</sic><corr>vu</corr></choice> naître ; chacun d'eux regarde sa maison comme un séjour funeste, <choice><orig>&amp;</orig><reg>et</reg></choice> ne pouvant découvrir la cause de leurs maux, ils en accusent la demeure qu'ils habitent.</quote></p> 
-
-<p><quote rend="verse">
-    <l rend="indent"><pb xml:id="p65"></pb><hi rend="italic">Fugiuntque penates </hi></l>
-    <l><hi rend="italic">Quisque suos : sua cuique domus funesta videtur :  </hi></l>
-    <l><hi rend="italic">Et quia causa latet, lotus est in crimine.</hi></l>
-  </quote></p>
-
-<p>Je <choice><orig>pourrois</orig><reg>pourrais</reg></choice> citer une foule d'autres exemples.</p>
-
-<p>Il me <choice><orig>paroît</orig><reg>paraît</reg></choice>, reprit Euphorbe, que vous n'avez pas oublié vos anciens <choice><orig>Auteurs</orig><reg>auteurs</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> que vous les avez lus avec bien du goût. Au reste, sans parler des deux <choice><orig>Sénéques</orig><reg>Sénèques</reg></choice>, combien est il d'écrivains aussi verbeux qu'Ovide, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne <choice><orig>rachetent</orig><reg>rachètent</reg></choice> pas comme lui ce défaut par la richesse de leur diction <choice><orig>&amp;</orig><reg>et</reg></choice> la beauté de leur esprit ? Un historien moderne, qui jouit d'une réputation bien méritée, tombe souvent dans le défaut que vous reprochez au <choice><orig>poëte</orig><reg>poète</reg></choice> latin. Laissant à part ces dissertations <choice><orig>&amp;</orig><reg>et</reg></choice> ces réflexions, soit morales, soit critiques, que l'on rencontre à toutes les pages de son ouvrage, voici quelques endroits où vous verrez qu'il prodigue les phrases <choice><orig>&amp;</orig><reg>et</reg></choice> les expressions pour la même pensée.<note resp="author"><choice><orig>Hist. Anc. t. 2, p. 309</orig><reg><hi rend="italic">Histoire Ancienne</hi>, tome 2, p. 309</reg></choice>.</note><note resp="editor">Il s'agit de Charles Rollin (1661-1741), historien, professeur et administrateur français, et de son <hi rend="italic">Histoire ancienne des Égyptiens, des Carthaginois, des Assyriens, des Babyloniens, des Mèdes et des Perses, des Macédoniens, des Grecs</hi>, 13 vol., 1730-1738, seconde édition de 1732 (voir <ref target="/node/20">bibliographie</ref>), vol. 2, p. 304-305 (« Éloge et caractère de Cyrus »).</note> Il dit, <quote rend="inline">qu'un Roi<choice><orig>, </orig><reg> </reg></choice>doit se regarder comme un pasteur ; qu'il doit en avoir la vigilance, l'attention, la bonté ; veiller afin que les peuples soient en sûreté, se charger des soins <choice><orig>&amp;</orig><reg>et</reg></choice> des inquiétudes, afin que les autres en soient exempts ; <pb xml:id="p66"></pb> choisir tout ce qui leur est salutaire ; écarter tout ce qui leur peut nuire ; mettre sa joie à les voir croître <choice><orig>&amp;</orig><reg>et</reg></choice> multiplier, <choice><orig>&amp;</orig><reg>et</reg></choice> s'exposer avec courage pour les défendre.</quote> .... Et plus bas, il ajoute : <quote rend="inline">en effet, c'est la même chose d'être à la république <choice><orig>&amp;</orig><reg>et</reg></choice> d'être Roi, d'être pour le peuple, <choice><orig>&amp;</orig><reg>et</reg></choice> d'être souverain. On est né pour les autres, dès qu'on est né pour commander ; parce qu'on ne leur doit commander que pour leur être utiles. C'est le fondement <choice><orig>&amp;</orig><reg>et</reg></choice> comme la base des princes de n'être point à eux : c'est le caractère même de leur grandeur, d'être consacrés au bien public. Il en est d'eux comme de la lumière, qui n'est placée dans un lieu éminent que pour se répandre <choice><orig>par-tout</orig><reg>partout</reg></choice>.</quote> Quelques pages après, en parlant des <choice><orig>conquérans</orig><reg>conquérants</reg></choice>, voici comme il les dépeint.<note resp="author"><hi rend="italic">Ibid.</hi>, p. 315.</note><note resp="editor">Rollin, <hi rend="italic">Histoire ancienne</hi>, vol. 2, p. 310-311. (Desit : renvoi à l'édition.)</note> <quote rend="inline">Ces ennemis publics du genre humain, qui ne connaissent d'autre droit que la force ; qui regardent les règles communes de la justice, comme des lois qui n'obligent que les particuliers, <choice><orig>&amp;</orig><reg>et</reg></choice> qui aviliraient la Majesté Royale ; qui ne bornent leurs desseins <choice><orig>&amp;</orig><reg>et</reg></choice> leurs prétentions, que par l'impuissance d'aller <pb xml:id="p67"></pb> aussi loin que leurs désirs ; qui sacrifient à leur ambition la vie d'un million d'hommes ; qui mettent leur gloire à tout détruire, comme les torrents <choice><orig>&amp;</orig><reg>et</reg></choice> les embrasements, <choice><orig>&amp;</orig><reg>et</reg></choice> qui règnent comme le feraient les lions <choice><orig>&amp;</orig><reg>et</reg></choice> les ours, s'ils étaient les maîtres. Voilà ce que sont dans la vérité la plupart de ces prétendus héros que le siècle admire.</quote> Je n'<choice><orig>apperçois</orig><reg>aperçois</reg></choice> que deux idées distinctes noyées dans cette profusion de paroles ; le mépris des <choice><orig>loix</orig><reg>lois</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> celui des autres hommes. Dans le premier morceau tout se réduit à dire que le souverain est né pour travailler au bien public, comme le berger est fait pour veiller sur son troupeau. <choice><orig>C'est-là</orig><reg>C'est là</reg></choice> l'unique pensée qu'on répète cent fois.</p>
-
-<p>J'aime fort, interrompit Timagène, la repartie de ce bel esprit, à qui on <choice><orig>reprochoit</orig><reg>reprochait</reg></choice> la longueur d'un discours qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> composé à la hâte. Je n'ai pas eu, répondit-il, le temps de le faire plus court. Ce mot me fait comprendre qu'un homme de goût, en retouchant son ouvrage, fait <choice><orig>main-basse</orig><reg>main basse</reg></choice> sur beaucoup d'inutilités dans l'expression, que le feu de la composition <choice><orig>&amp;</orig><reg>et</reg></choice> la fécondité de l'imagination <choice><orig>avoient</orig><reg>avaient</reg></choice> laisse échapper. L'<choice><orig>Auteur</orig><reg>auteur</reg></choice> de l'<choice><orig>histoire ancienne</orig><reg><hi rend="italic">Histoire ancienne</hi></reg></choice> <choice><orig>avoit</orig><reg>avait</reg></choice> professé <pb xml:id="p68"></pb> <choice><orig>longtems</orig><reg>longtemps</reg></choice> l'éloquence, avec les plus grands <choice><orig>applaudissemens</orig><reg>applaudissements</reg></choice>.<note resp="editor">Charles Rollin a effectivement enseigné, à partir de 1687, comme professeur de rhétorique au Collège du Plessis (où Bérardier de Bataut enseigna plus tard), puis à partir de 1688 comme professeur d'éloquence au Collège royal (voir <ref target="http://fr.wikipedia.org/wiki/Charles_Rollin">Charles Rollin</ref>).</note> Peut-être dans le cabinet trouva-t-il quelque peine à se débarrasser de ce <choice><orig>stile</orig><reg>style</reg></choice> classique, où l'on donne souvent des mots pour des choses. Mais je crois qu'on peut lui pardonner ce petit défaut, en faveur des bons ouvrages dont il a enrichi les belles-lettres.</p>
-
-<p>Quand ils n'<choice><orig>auroient</orig><reg>auraient</reg></choice>, répliqua Euphorbe, d'autre mérite<choice><orig>, </orig><reg> </reg></choice>que les excellentes maximes<choice><orig>, </orig><reg> </reg></choice>qui s'y rencontrent, ils <choice><orig>seroient</orig><reg>seraient</reg></choice> toujours pour les belles-lettres des morceaux précieux. Mais, en traitant de la <choice><orig>briéveté</orig><reg>brièveté</reg></choice>, je crains que nous ne tombions enfin dans le <choice><orig>stile</orig><reg>style</reg></choice> diffus. Si vous m'en croyez, nous profiterons du beau temps, <choice><orig>&amp;</orig><reg>et</reg></choice> nous irons faire un tour dans le jardin.</p>
-
+      <div type="chapter" xml:id="essai02">
+        <head>SECOND ENTRETIEN. <hi rend="italic">Qualités du
+                <choice><orig>Récit</orig><reg>récit</reg></choice>.</hi></head>
+        <p><choice><orig>A</orig><reg>À</reg></choice> peine le soleil eut-il commencé à
+              <choice><orig>paroître</orig><reg>paraître</reg></choice>, que Timagène se rendit à
+          l'appartement de son ami. Il le trouva auprès de son bureau. Quoi&#160;! déjà, lui dit-il,
+          en conversation avec vos livres&#160;! En disant ces mots, il ouvrit un volume qui se
+          présenta sous sa main. C'<choice><orig>étoient</orig><reg>étaient</reg></choice> les
+              <choice><orig>fables</orig><reg><hi rend="italic">Fables</hi></reg></choice> de
+              <choice><orig>la Fontaine</orig><reg>La Fontaine</reg></choice>. Vous vous amusez donc
+          encore, ajouta-t-il, à la lecture de cet
+            <choice><orig>Auteur</orig><reg>auteur</reg></choice>&#160;?</p>
+        <p>Oui, répondit Euphorbe, <choice><orig>&amp;</orig><reg>et</reg></choice> j'y
+              <choice><orig>prens</orig><reg>prends</reg></choice> tous les jours un nouveau goût.
+          J'y trouve toutes les qualités que l'on peut désirer dans un excellent récit&#160;; une
+          clarté qui le met à la portée de tous ses lecteurs&#160;; une brièveté qui ne laisse aucun
+          lieu à l'ennui.<note resp="editor">Voir, à titre de comparaison, la caractérisation de la
+              <hi rend="italic">narration</hi> que donne Marmontel dans l'article
+            «&#160;Narration&#160;» des <hi rend="italic">Éléments de littérature</hi> de 1787 (voir
+              <ref target="/node/21">bibliographie</ref>).</note></p>
+        <p>Il me semble, interrompit Timagène, que ce sont là les objets sur lesquels nous devons
+          nous entretenir aujourd'hui&#160;; <choice><orig>&amp;</orig><reg>et</reg></choice> je
+          m'en suis occupé depuis que je vous ai eu quitté. Au reste, je trouve que c'est une assez
+          bonne fortune de rencontrer dans un même
+            <choice><orig>Auteur</orig><reg>auteur</reg></choice> toutes ces <pb n="28"
+            xml:id="A0028"/> qualités que vous cherchez. Commençons, si vous le trouvez bon, par
+          celle que vous avez nommée la première. Je conçois qu'un écrivain doit être clair. Il
+          n'écrit sans doute que pour être entendu&#160;;
+            <choice><orig>&amp;</orig><reg>et</reg></choice> je ne peux me persuader qu'il se fasse
+          une gloire de son obscurité.<note resp="editor">Pour le contexte de la discussion sur la
+            clarté ou l'obscurité du discours qui commence ici, voir Michel Delon, <hi rend="italic"
+              >L'Idée d'énergie au tournant des Lumières</hi>, 1988 (voir <ref target="/node/21"
+              >bibliographie</ref>), p. 58-104.</note></p>
+        <p>Cela n'est pas si étrange que vous le croyez, reprit Euphorbe.<note resp="author"><hi
+              rend="italic">Sallustio vigente, amputatæ sententiæ et obscura veritas fuere pro
+              cultu.</hi>
+            <choice><orig><hi rend="italic">Ep. 114</hi></orig><reg><hi rend="italic"
+                >Epistulae</hi>, 114</reg></choice>.</note>
+          <choice><orig>Séneque</orig><reg>Sénèque</reg></choice> reproche aux imitateurs de
+          Salluste ce défaut, dont il n'<choice><orig>étoit</orig><reg>était</reg></choice> pas trop
+          exempt lui-même. <q rend="inline">Du temps de Salluste, dit cet
+                <choice><orig>Auteur</orig><reg>auteur</reg></choice>, on se fit un mérite de
+            tronquer sa pensée, <choice><orig>&amp;</orig><reg>et</reg></choice> d'envelopper la
+            vérité d'un nuage épais.</q><note resp="editor">La citation dirigée contre Salluste
+            (Caius Sallustius Crispus, 86-35 av. JC.) est tirée des <hi rend="italic">Lettres à
+              Lucilius</hi> (<hi rend="italic">Epistulae morales ad Lucilium</hi>, 63 et 64 ap. JC.)
+            de Sénèque, livre 19, lettre 114. (Omission, dans l'original, des guillemets fermants la
+            citation.)</note></p>
+        <p>Cette pensée de <choice><orig>Séneque</orig><reg>Sénèque</reg></choice>, dit alors
+          Timagène, me rappelle l'épigramme que Maynard a faite contre un écrivain obscur.</p>
+        <p><q rend="verse">
+            <l>Charles, nos plus rares esprits </l>
+            <l>Ne <choice><orig>sauroient</orig><reg>sauraient</reg></choice> lire tes écrits, </l>
+            <l>Sans consulter Muret ou Lipse. </l>
+            <l>Ton Phébus s'explique si bien, </l>
+            <l>Que tes volumes ne sont rien </l>
+            <l>Qu'une éternelle Apocalypse.<note resp="editor">François Maynard, <hi rend="italic"
+                  >Œuvres de Maynard</hi>, 1646 (voir <ref target="/node/20">bibliographie</ref>),
+                p. 146 : <lb/>
+                <l>Tu veux passer pour un auteur</l>
+                <l>Digne de l'estime publique, </l>
+                <l>Et crois me rendre imitateur </l>
+                <l>De ton jargon énigmatique. </l>
+                <l>Charles, nos plus rares esprits </l>
+                <l>Ne sauraient lire tes écrits </l>
+                <l>Sans consulter Muret ou Lypse.</l>
+                <l>Ton Phébus s'explique si bien, </l>
+                <l>Que les volumes ne sont rien </l>
+                <l>Qu'une éternelle apocalypse.</l> L'épigramme fait sans doute allusion à
+                Marc-Antoine Muret (1526-1585) et Juste Lipse (Justus Lipsius, 1547-1606), deux
+                humanistes et philologues</note></l>
+          </q></p>
+        <p>Ces jours derniers, poursuivit Euphorbe, <pb xml:id="p29"/> j'en
+              <choice><orig>lisois</orig><reg>lisais</reg></choice>, dans le même
+              <choice><orig>poëte</orig><reg>poète</reg></choice>
+          <choice><orig>&amp;</orig><reg>et</reg></choice> sur le même sujet, une autre dont la
+          pensée me <choice><orig>paroît</orig><reg>paraît</reg></choice> avoir quelque chose de
+          plus frappant. La voici :</p>
+        <p><q rend="verse">
+            <l>Mon ami, chasse bien loin </l>
+            <l>Cette noire <choice><sic>réthorique</sic><corr>rhétorique</corr></choice></l>
+            <l>Tes ouvrages ont besoin </l>
+            <l>D'un devin qui les explique. </l>
+            <l>Si ton esprit veut cacher </l>
+            <l>Les belles choses qu'il pense, </l>
+            <l>Dis-moi, qui peut t'empêcher </l>
+            <l>De te servir du silence.<note resp="editor">François Maynard, <hi rend="italic"
+                  >Œuvres de Maynard</hi>, 1646 (voir <ref target="/node/20">bibliographie</ref>),
+                p. 195 : <lb/>
+                <l>Ce que ta plume produit </l>
+                <l>Est couvert de trop de voiles. </l>
+                <l>Ton Discours est une nuit </l>
+                <l>Vetue de Lune, &amp; d'Étoiles. </l>
+                <l>Mon Ami, chasse bien loin </l>
+                <l>Cette noire Rhétorique : </l>
+                <l>Tes Ouvrages ont besoin </l>
+                <l>D'un Devin qui les explique. </l>
+                <l>Si ton Esprit veut cacher </l>
+                <l>Les belles choses qu'il pense, </l>
+                <l>Dis-moi, qui peut t'empêcher </l>
+                <l>De te servir du silence.</l>
+              </note></l></q></p>
+        <p>Vous voyez que, dans tous les temps, des esprits médiocres ont cru se rendre estimables,
+          en se rendant impénétrables. La cause de cette erreur est qu'ils n'ont point assez de
+          génie, pour distinguer ce qui est admirable par soi-même, de ce qui ne l'est que par notre
+              <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice>. L'admiration stupide est
+          fille de l'ignorance <choice><orig>&amp;</orig><reg>et</reg></choice> de l'amour-propre.
+          Tout essor dont le vulgaire ignore la cause
+            <choice><orig>&amp;</orig><reg>et</reg></choice> qui n'est pas ordinaire, il l'attribue
+          à un ordre de causes élevées au-dessus de l'humanité, par la seule raison qu'il est
+          supérieur à ses forces <choice><orig>&amp;</orig><reg>et</reg></choice> à son entendement.
+              <choice><orig>De-là</orig><reg>De là</reg></choice> on s'est persuadé que, pour
+          mériter des <choice><orig>applaudissemens</orig><reg>applaudissements</reg></choice>, il
+              <choice><orig>suffisoit</orig><reg>suffisait</reg></choice> de se voiler <pb
+            xml:id="p30"/> aux <choice><orig>ieux</orig><reg>yeux</reg></choice> du peuple,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de parler en oracle. Je ne pardonne
+          point à Muret<note resp="author"><choice><orig>Or.</orig><reg><hi rend="italic"
+                  >Orationes</hi>,</reg></choice> 12.</note><note resp="editor">Il s'agit sans doute
+            de l'humaniste Marc-Antoine Muret ou M. Antonii Muretus (1526-1585), auteur de nombreux
+              <hi rend="italic">Orationes</hi> et annotateur des œuvres de Térence.</note> d'avoir
+          fait l'éloge de l'obscurité, pour défendre Tacite. C'est une
+              <choice><orig>espece</orig><reg>espèce</reg></choice> enthousiasme à peine excusable,
+          même dans un orateur ; <choice><orig>&amp;</orig><reg>et</reg></choice>, quoiqu'il en
+          puisse dire, les <choice><orig>connoisseurs</orig><reg>connaisseurs</reg></choice>
+          désapprouvent cette façon d'écrire, <choice><orig>&amp;</orig><reg>et</reg></choice> n'y
+          voient que l'impuissance de donner du jour à une pensée que
+              l'<choice><orig>Auteur</orig><reg>auteur</reg></choice> lui-même a mal conçue, ou
+          l'affectation ridicule d'un savoir déplacé.</p>
+        <p>N'est-ce pas cette démangeaison de
+            <choice><orig>paroître</orig><reg>paraître</reg></choice> savant, reprit Timagène, qui a
+          introduit le <choice><orig>stile</orig><reg>style</reg></choice> singulier dont se servent
+          aujourd'hui la plupart de nos <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> ? Je
+          me sais assurément bon gré d'avoir eu quelque teinture des mathématiques. Sans ce secours,
+          je n'<choice><orig>entendrois</orig><reg>entendrais</reg></choice> rien dans des ouvrages
+          purement académiques, <choice><orig>&amp;</orig><reg>et</reg></choice> qui devraient être,
+          ce semble, à la portée de tous les lecteurs. Je ne rencontre partout que sommes, produits,
+          chocs, réactions, proportions, équilibre, <choice><orig>&amp;</orig><reg>et</reg></choice>
+          cent autres idées empruntées de la géométrie
+            <choice><orig>&amp;</orig><reg>et</reg></choice> de la physique, qui jettent une
+          merveilleuse obscurité dans toute la composition.</p>
+        <p>Ouvrez ce Quintilien, dit alors Euphorbe ; <pb xml:id="p31"/> vous y verrez au
+              <choice><orig>chap.</orig><reg>chapitre</reg></choice> 3 du
+              <choice><orig>liv.</orig><reg>livre</reg></choice> 2, à quel principe ce fameux
+          rhéteur attribue ce <choice><orig>stile</orig><reg>style</reg></choice> énigmatique.</p>
+        <p>Timagène, après avoir cherché un moment, lut ce passage. <q rend="inline">Moins on a
+            de mérite, plus on fait d'efforts pour se faire remarquer
+                <choice><orig>&amp;</orig><reg>et</reg></choice> tenir un rang. Ainsi, les gens
+            d'une petite taille se dressent sur la pointe du pied ; ceux qui sentent leur
+                <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice> font plus de menaces que
+            les autres. L'obscurité du <choice><orig>stile</orig><reg>style</reg></choice> dans un
+            écrivain est donc la preuve <choice><orig>&amp;</orig><reg>et</reg></choice> la mesure
+            de son incapacité.</q><note resp="author"><q rend="italic">Quo quisque ingenio
+              minus valet, hoc se magis attollere et dilatare conatur ; ut statura breves, in
+              digitos eriguntur, et plura infirmi minantur.<choice><orig> </orig><reg> [...]
+                </reg></choice>Erit ergo obscurior etiam, quo cuisque deterior</q>.</note><note
+            resp="editor">Quintilianus, <hi rend="italic">De institutione oratoria</hi>, livre 2,
+            chapitre 3 (voir <ref target="http://www.berardier.org/node/20">bibliographie</ref>).
+            Entre la première et la deuxième phrase, Bérardier omet un bref passage du texte
+            original.</note></p>
+        <p>Je suis fâché, poursuivit-il, de la justesse de la comparaison, pour l'honneur de ceux
+          dont il s'agit ici. La conclusion qu'il en tire est encore plus humiliante : mais j'ai
+          peine à l'accorder avec l'estime que les
+            <choice><orig>savans</orig><reg>savants</reg></choice> ont faite de tout temps de deux
+              <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> anciens, connus par leur
+          obscurité ; je veux dire Tacite <choice><orig>&amp;</orig><reg>et</reg></choice>
+            Perse.<note resp="editor">Aulus Persius Flaccus, Perse en français, est un auteur latin
+            du Ier siècle après JC.</note> Qu'en pensez-vous ?</p>
+        <p>Ce que j'en pense, répondit Euphorbe ?
+              <choice><orig>Premierement</orig><reg>Premièrement</reg></choice>, que ce défaut de
+          clarté n'est point ce qu'on estime dans <pb xml:id="p32"/> leurs ouvrages. D'ailleurs, je
+              <choice><orig>croirois</orig><reg>croirais</reg></choice> volontiers que Tacite n'est
+          tombé dans cet <choice><orig>écueuil</orig><reg>écueil</reg></choice>, que pour n'avoir
+          pas été assez en garde contre son propre esprit.
+              C'<choice><orig>étoit</orig><reg>était</reg></choice> un génie profond : il
+              s'<choice><orig>appliquoit</orig><reg>appliquait</reg></choice> tout entier à exprimer
+          les <choice><orig>sentimens</orig><reg>sentiments</reg></choice>, les passions
+              <choice><orig>&amp;</orig><reg>et</reg></choice> les vues des principaux personnages
+          dont il <choice><orig>écrivoit</orig><reg>écrivait</reg></choice> l'histoire. Jaloux de
+          les peindre avec la même force qu'il les
+              <choice><orig>concevoit</orig><reg>concevait</reg></choice> lui-même, il craignit
+              d'<choice><orig>affoiblir</orig><reg>affaiblir</reg></choice> son coloris,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de détourner l'attention de son
+          lecteur par la multitude de ses expressions : il en devint avare. <q rend="italic"
+            >Brevis esse laboro ; obscurus fio</q>.<note resp="editor">La phrase, du reste assez
+            courante, est le plus souvent attribuée à Horace, chez qui elle se trouve au début de
+              l'<hi rend="italic">Art poétique</hi> (voir <ref target="/node/20"
+            >bibliographie</ref>), vers 25-26.</note> Perse eut une autre raison de s'envelopper
+          dans un <choice><orig>stile</orig><reg>style</reg></choice>
+          <choice><orig>mistérieux</orig><reg>mystérieux</reg></choice>. Ses traits
+              <choice><orig>satyriques</orig><reg>satiriques</reg></choice>
+              s'<choice><orig>adressoient</orig><reg>adressaient</reg></choice> à Néron lui-même. Il
+              n'<choice><orig>étoit</orig><reg>était</reg></choice> pas sûr d'attaquer ce prince
+          farouche. Il <choice><orig>falloit</orig><reg>fallait</reg></choice> donc s'exprimer de
+              <choice><orig>maniere</orig><reg>manière</reg></choice> à n'être point entendu de tout
+          le monde, <choice><orig>&amp;</orig><reg>et</reg></choice> laisser ignorer, du moins au
+          peuple, quels <choice><orig>étoient</orig><reg>étaient</reg></choice> les originaux des
+          portraits qu'il <choice><orig>présentoit</orig><reg>présentait</reg></choice> sous des
+          couleurs aussi odieuses. D'ailleurs, peut-être l'éloignement des temps nous a-t-il fait
+          perdre la <choice><orig>connoissance</orig><reg>connaissance</reg></choice> de certains
+          faits qui <choice><orig>étoient</orig><reg>étaient</reg></choice> publics alors,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> qui nous
+              <choice><orig>auroient</orig><reg>auraient</reg></choice> donné la clé de plusieurs
+          passages, dont l'obscurité nous fait peine. Quoi qu'il en soit de ces deux ouvrages, il
+          faut dire, avec <pb xml:id="p33"/> un
+            <choice><orig>Auteur</orig><reg>auteur</reg></choice> ingénieux du siècle dernier,<note
+            resp="author"><choice><orig>Manière de bien penser</orig><reg><hi rend="italic">Manière
+                  de bien penser</hi></reg></choice>.</note><q rend="inline">qu'il en est du
+            récit comme des <choice><orig>diamans</orig><reg>diamants</reg></choice>, qui doivent
+            leur prix à leur solidité, <choice><orig>&amp;</orig><reg>et</reg></choice> à la netteté
+            de leur eau.</q><note resp="editor">La citation provient de l'ouvrage du Père
+            Bouhours, <hi rend="italic">La Manière de bien penser dans les ouvrages d’esprit</hi>,
+            1687 (voir <ref target="/node/20">bibliographie</ref>). Ce traité sous forme de quatre
+            dialogues entre les personnages d'Eudoxe
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de Philante est sans doute parmi les
+            modèles de Bérardier pour son <hi rend="italic">Essai sur le récit</hi>, autant au
+            niveau de la forme que pour certaines de ses idées.</note> Un écrivain à la mode a dit
+          que l'enthousiasme d'esprit <choice><orig>avoit</orig><reg>avait</reg></choice> produit
+          les erreurs d'un Luther. Je crois pouvoir dire, à plus juste titre, que l'enthousiasme
+          d'esprit a produit le phébus.<note resp="editor">C'est-à-dire, « un langage, un discours,
+            d'un style guindé, trop figuré » (Féraud, <hi rend="italic">Dictionaire critique de la
+              langue française</hi>, 1787-88).</note> Quand on n'a point de grandeur naturelle dans
+          l'esprit, on enfle son expression, on affecte un
+              <choice><orig>stile</orig><reg>style</reg></choice> singulier : c'est un nain qui
+          monte sur des échasses, pour se faire remarquer. Le
+              <choice><orig>stile</orig><reg>style</reg></choice> de Bossuet
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de Corneille est toujours clair
+              <choice><orig>&amp;</orig><reg>et</reg></choice> sans prétentions : quelquefois même
+          il <choice><orig>paroît</orig><reg>parait</reg></choice> négligé.</p>
+        <p>Je m'imagine, reprit Timagène, qu'il n'est pas si difficile d'écrire avec clarté. Car
+          enfin, on se fait aisément entendre lorsqu'on conçoit nettement ce qu'on veut peindre,
+          lorsqu'on donne une juste étendue à sa pensée,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on emploie des expressions
+          naturelles. L'<choice><orig>Auteur</orig><reg>auteur</reg></choice> des
+              <choice><orig>mœurs de ce siécle</orig><reg><hi rend="italic">Mœurs de ce
+              siècle</hi></reg></choice> dit<note resp="author"
+                ><choice><orig>Chap.</orig><reg>Chapitre</reg></choice> 1.</note> sur les ouvrages
+          d'esprit : <q rend="inline">Qu'un bon
+              <choice><orig>Auteur</orig><reg>auteur</reg></choice>,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> qui écrit avec soin, éprouve
+            souvent que l'expression qu'il
+              <choice><orig>cherchoit</orig><reg>cherchait</reg></choice>
+            <pb xml:id="p34"/> depuis <choice><orig>long-temps</orig><reg>longtemps</reg></choice>,
+            sans la <choice><orig>connoître</orig><reg>connaître</reg></choice>,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il a enfin trouvée, est celle
+            qui <choice><orig>étoit</orig><reg>était</reg></choice> la plus simple, la plus
+            naturelle <choice><orig>&amp;</orig><reg>et</reg></choice> qui
+                <choice><orig>sembloit</orig><reg>semblait</reg></choice> devoir se présenter
+            d'abord <choice><orig>&amp;</orig><reg>et</reg></choice> sans effort.</q><note
+            resp="editor">Jean de La Bruyère, <hi rend="italic">Les Caractères ou Les mœurs de ce
+              siècle</hi>, 1688 (voir <ref target="/node/20">bibliographie</ref>). La formule
+            apparaît au premier chapitre, traitant « Des ouvrages de l'esprit », n° 17.</note> En
+          réfléchissant sur cette pensée, je crois apercevoir que l'obscurité vient quelquefois de
+          la crainte d'être obscur, <choice><orig>&amp;</orig><reg>et</reg></choice> presque
+          toujours d'un excès de travail produit par le désir de parler ou d'écrire mieux que les
+          autres. L'un enrichit sa diction de comparaisons, mais il les va chercher trop loin ;
+          l'autre emploie les métaphores, mais il les continue trop
+              <choice><orig>long-temps</orig><reg>longtemps</reg></choice>, ou les enchâsse les unes
+          dans les autres ; celui-là, pour s'exprimer avec énergie, emprunte des termes étrangers à
+          sa <choice><orig>matiere</orig><reg>matière</reg></choice>
+          <choice><orig>&amp;</orig><reg>et</reg></choice> peu connus. Il ne dit pas assez, parce
+          qu'il veut trop dire.</p>
+        <p>Je suis ravi, répliqua Euphorbe, que vous vous rencontriez si bien avec un excellent juge
+          en cette <choice><orig>matiere</orig><reg>matière</reg></choice>. C'est de Quintilien que
+          je veux parler. Voici sa pensée :<note resp="author"><q rend="italic">Erit aperta
+              narratio atque dilucida ; si fuerit exposita verbis propiiis et significantibus, et
+              non sordidis quidem, non tamen exquisitis, et ab usu remotis : tum distincta rebus,
+              personis temporibus, locis, causis.</q>
+            <choice><orig>Quint. liv. 4, ch. 2</orig><reg>Quintilien, livre 4, chapitre
+              2</reg></choice>.</note>
+          <q rend="inline">Le récit ne manquera ni de clarté, ni <pb xml:id="p35"/> de netteté,
+            si l'on y emploie des termes propres <choice><orig>&amp;</orig><reg>et</reg></choice>
+            expressifs, qui, sans avoir rien de bas <choice><orig>&amp;</orig><reg>et</reg></choice>
+            de trivial, ne soient pas non plus trop recherchés
+                <choice><orig>&amp;</orig><reg>et</reg></choice> peu en usage ; si l'on place dans
+            un beau jour <choice><orig>&amp;</orig><reg>et</reg></choice> sans confusion les
+                <choice><orig>événemens</orig><reg>événements</reg></choice>, les personnages, les
+            temps, les lieux <choice><orig>&amp;</orig><reg>et</reg></choice> les
+            causes.</q><note resp="editor">La citation latine provient de l'<hi rend="italic"
+              >Institutio Oratoria</hi>, livre IV, chapitre 2, section XXXVII (voir <ref
+              target="http://www.berardier.org/node/20">bibliographie</ref>).</note> Dans ce peu de
+          mots, nous trouvons les principales sources de l'obscurité du
+              <choice><orig>stile</orig><reg>style</reg></choice>. Les uns, pour éviter le langage
+          du peuple, ont recours à des figures outrées. Un nuage, qui passe dans les airs, est un
+          océan qui flotte au-dessus de la terre. Un certain Furius, du temps d'Horace,<note
+            resp="author"><choice><orig>Hor. Sat. 5, liv. 2, v. 41</orig><reg>Horace, <hi
+                  rend="italic">Satire</hi> 5, livre 2, vers 41</reg></choice>.</note>
+          <choice><orig>appelloit</orig><reg>appellait</reg></choice> la neige, la salive de
+            Jupiter.<note resp="editor">Le passage auquel Bérardier fait ici allusion se trouve dans
+            la Satire connue sous le titre «&#160;L'art de s'enrichir&#160;» ; Horace, <hi
+              rend="italic">Sermones</hi> (voir <ref target="/node/20">bibliographie</ref>), livre
+            II, satire 5, vers 39-41. Tirésias y conseille à Ulysse de s'enrichir par l'abus de
+            riches clients dans les procès. Marcus Furius Bibaculus était un poète romain qui,
+            semble-t-il, était l'inventeur de l'image dans laquelle Jupiter crache de la neige sur
+            les Alpes. Quintilien cite l'image dans l'<hi rend="italic">Institutio Oratoria</hi>
+            (voir <ref target="/node/20">bibliographie</ref>), livre VIII, chapitre 5, section XVII
+            (Iuppiter hibernas cana nive conspuit Alpes). Dans une visée satirique, Horace fait
+            d'une part de Furius l'auteur de la neige-salive (et non de l'expression). Par ailleurs,
+            l'image apparaît dans un contexte d'exagération au service de l'objectif satirique du
+            dialogue dans son ensemble.</note> L'expression propre est celle qui peint le mieux
+          l'objet. Horace,<note resp="author"><choice><orig>Hor. Sat. 6, liv. 2, v.
+                98</orig><reg>Horace, <hi rend="italic">Satire</hi> 6, livre 2, vers
+              98</reg></choice>.</note> en décrivant le départ du rat de campagne, dit de lui :
+            <q rend="italic">Levis exilit</q>. <hi rend="italic">Exit</hi>
+          <choice><orig>eût</orig><reg>eut</reg></choice> été trop
+              <choice><orig>foible</orig><reg>faible</reg></choice> ; <hi rend="italic">erumpit</hi>
+          <choice><orig>eût</orig><reg>eut</reg></choice> été trop fort.<note resp="editor">Voir
+            Horace, <hi rend="italic">Sermones</hi> (voir <ref target="/node/20"
+            >bibliographie</ref>), livre II, satire 6, vers 97-100.</note> L'expression qu'il
+          emploie <choice><orig>étoit</orig><reg>était</reg></choice> la meilleure pour nous faire
+          concevoir sa <choice><orig>légéreté</orig><reg>légèreté</reg></choice>
+          <choice><orig>&amp;</orig><reg>et</reg></choice> son impatience. D'autres veulent tout
+          dire à la fois, <choice><orig>&amp;</orig><reg>et</reg></choice> jettent dans leur récit
+          un désordre qui le rend inintelligible. Par des digressions <pb xml:id="p36"/> sans fin,
+          ils font oublier à tout moment le principal objet dont ils
+              <choice><orig>devoient</orig><reg>devaient</reg></choice> s'occuper. Théodore est un
+          homme instruit ; il parle purement sa langue : il aime à raconter ; mais il le fait d'une
+              <choice><orig>maniere</orig><reg>manière</reg></choice> qui impatiente tous ceux qui
+          l'entendent. Il nous <choice><orig>rapportoit</orig><reg>rapportait</reg></choice>
+          <choice><orig>derniérement</orig><reg>dernièrement</reg></choice> l'entrevue qu'il
+              <choice><orig>avoit</orig><reg>avait</reg></choice> eue avec
+              <choice><orig>Eugene</orig><reg>Eugène</reg></choice>, dont il
+              <choice><orig>vouloit</orig><reg>voulait</reg></choice> obtenir une lettre de
+          recommandation dans une affaire qui
+              l'<choice><orig>intéressoit</orig><reg>intéressait</reg></choice> beaucoup : voici
+          comme il s'y prit. <q rend="inline">Comme
+              <choice><orig>Eugene</orig><reg>Eugène</reg></choice> demeure fort loin de chez moi,
+            je partis de bonne heure, <choice><orig>&amp;</orig><reg>et</reg></choice> j'arrivai
+            chez lui entre cinq <choice><orig>&amp;</orig><reg>et</reg></choice> six. Il
+                <choice><orig>étoit</orig><reg>était</reg></choice> absent. Je fus reçu par son
+            épouse. C'est la fille de ce riche négociant qui a rapporté tant de bien du Nouveau
+            Monde. Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> me rappeller son nom
+            : certainement vous le <choice><orig>connoissez</orig><reg>connaissez</reg></choice>
+            aussi bien que moi. On dit que cette femme est haute,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> d'une humeur difficile. Cependant
+            elle me fit politesse. En entrant, j'<choice><orig>avois</orig><reg>avais</reg></choice>
+            admiré la beauté de la maison. Elle a été bâtie par Chrysolite, qui a dépensé, dit-on,
+            cent mille écus à la décorer, <choice><orig>&amp;</orig><reg>et</reg></choice> qui a été
+            obligé de la vendre trois ans après.
+              Lorsqu'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> fut arrivé, je lui
+            exposai ma demande ; et, pendant que nous faisions un moment de <pb xml:id="p37"/>
+            conversation, on expédia la lettre ; il la signa,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> me la remit.
+                C'<choice><orig>étoit</orig><reg>était</reg></choice> précisément le jour que vous
+            vîntes me demander à souper, ajouta-t-il, en s'adressent à une personne de la
+            compagnie.</q> Tout cela fut encore entrecoupé de plusieurs pauses qui
+              <choice><orig>paroissoient</orig><reg>paraissaient</reg></choice> l'effet d'une
+          distraction presque continuelle. Vous avouerez sans doute avec moi qu'après un pareil
+          récit, on n'est pas plus instruit qu'auparavant. L'objet principal, qui est la
+          recommandation d'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> dans une affaire
+          qu'on <choice><orig>seroit</orig><reg>serait</reg></choice> curieux de
+              <choice><orig>connoître</orig><reg>connaître</reg></choice>, est celui sur lequel on
+          passe le plus <choice><orig>légérement</orig><reg>légèrement</reg></choice>. Ne
+          sentez-vous pas combien il est intéressant de savoir que la maison
+              d'<choice><orig>Eugene</orig><reg>Eugène</reg></choice> a été bâtie par Chrysolite,
+          qui s'est ruiné ; que sa femme est haute ; qu'elle est fille d'un négociant dont on a
+          oublié le nom ? Ajoutez qu'on ne songe à nous décrire la maison, que quand on est prêt
+          d'en sortir ;<note resp="editor">Les conventions en vigueur concernant la description dans
+            le récit veulent qu'on décrive une maison lorsqu'on y arrive.</note> qu'on ne donne la
+          date de l'événement qu'après l'avoir raconté ; encore ne l'indique-t-on qu'à une personne
+          de la compagnie. N'est-ce pas là du désordre ?</p>
+        <p>Oui, sans doute, répondit Timagène, <choice><orig>&amp;</orig><reg>et</reg></choice> je
+          ne crois pas qu'il soit un effet de l'art. Je me rappelle d'avoir entendu <pb xml:id="p38"
+          /> reprocher autrefois à <choice><orig>Homere</orig><reg>Homère</reg></choice> ces
+          digressions déplacées. En voici un exemple.<note resp="author"><choice><orig>Il. liv.
+                7</orig><reg><hi rend="italic">Iliade</hi>, livre 7</reg></choice>.</note> Nestor,
+          pour animer les Grecs au combat, leur rappelle sa victoire sur Ereuthalion, revêtu des
+          armes d'Areïthous. À l'occasion de ces armes, il raconte la
+              <choice><orig>maniere</orig><reg>manière</reg></choice> dont cet Areïthous
+              <choice><orig>combattoit</orig><reg>combattait</reg></choice>, avec une massue
+          d'airain, <choice><orig>&amp;</orig><reg>et</reg></choice> comment il fut tué par
+          Lycurgue, qui le surprit, le perça de sa lance,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> le dépouilla de ses armes. Toute la
+          vieillesse de Nestor ne suffit pas pour excuser cet écart : celle d'Homère lui-même y
+              <choice><orig>suffiroit</orig><reg>suffirait</reg></choice> à peine.<note resp="desit"
+            >Commenter?</note></p>
+        <p>Il faut donc, continua Euphorbe, pour qu'un récit soit clair, non pas simplement que le
+          lecteur puisse l'entendre au prix d'une application longue
+              <choice><orig>&amp;</orig><reg>et</reg></choice> pénible, mais qu'il soit, comme
+            dit<note resp="author"><hi rend="italic">Non ut intelligere possis (auditor) sed ne
+              omnino possit non intelligere curandum</hi>. <choice><orig>Quint., liv. 8, c.
+                2</orig><reg>Quintilien, livre 8, chapitre 2</reg></choice>. (Desit: identifier et
+            citer passsage, vérifier traduction.)</note> Quintilien, dans une
+              <choice><orig>espece</orig><reg>espèce</reg></choice> d'impossibilité de ne pas
+          concevoir ce qu'on lui raconte.<note resp="editor">Randa Sabry cite cette phrase de
+            Bérardier dans le contexte des discussions, au dix-septième et dix-huitième siècles, sur
+            le rôle du <hi rend="italic">plan</hi> pour atteindre une lisibilité parfaite. Voir <hi
+              rend="italic">Stratégies discursives</hi>, 1992 (voir <ref target="/node/21"
+              >bibliographie</ref>), p.&#160;50-51.</note> Le vrai secret, pour produire cet effet,
+          consiste à ne point s'écarter de son objet principal ; à éviter les digressions trop
+          longues <choice><orig>&amp;</orig><reg>et</reg></choice> trop fréquentes ; <pb
+            xml:id="p39"/> à faire un usage modéré des figures ; à se servir d'expressions propres,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> à donner à ses phrases l'arrangement
+          le plus naturel qu'il est possible. Rien ne contribue davantage à ce bel ordre que les
+          transitions. Elles conduisent l'esprit doucement, et, pour ainsi dire, sans secousse, d'un
+          objet à l'autre : elles aident la mémoire à les retenir l'un
+              <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre ; c'est un lien réciproque
+          qui rapproche <choice><orig>&amp;</orig><reg>et</reg></choice>
+          <choice><orig>réünit</orig><reg>réunit</reg></choice> les idées les plus différentes ; car
+          toute bonne transition doit avoir une liaison également sensible avec ce qui a été dit
+              <choice><orig>&amp;</orig><reg>et</reg></choice> avec ce que l'on va dire. Cet art des
+          transitions est aussi précieux dans le
+          <choice><orig>stile</orig><reg>style</reg></choice>, que la dégradation des couleurs dans
+          la peinture, <choice><orig>&amp;</orig><reg>et</reg></choice> ces demi-teintes qui font
+          passer insensiblement de la lumière aux ombres.<note resp="editor">Voir également la
+            comparaison entre peinture et écriture dans le premier entretien, page <ref
+              target="/node/4#p6">6</ref> et <ref target="/node/4#p14">14</ref>.</note></p>
+        <p>Je pense comme vous, interrompit Timagène,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> je crois qu'un récit dépourvu de
+          transitions ne ressemble pas mal à un pays coupé de fossés
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de ravines, qu'il faut franchir à
+          chaque instant ; mais je crois aussi qu'il faut beaucoup de réserve dans l'usage que l'on
+          en fait. Lorsqu'elles sont trop fréquentes, elles jettent dans le
+              <choice><orig>stile</orig><reg>style</reg></choice> une monotonie ennuyeuse. Je
+          m'indigne contre un <choice><orig>Auteur</orig><reg>auteur</reg></choice> qui veut
+          toujours me conduire par la main. Je découvre son artifice,
+              <choice><orig>&amp;</orig><reg>et</reg></choice>
+          <pb xml:id="p40"/> je lui en sais mauvais gré. C'est peut-être un tour de l'amour-propre :
+          mais il faut ménager cette passion dans les autres.</p>
+        <p>Ménageons-là dans ces objets
+            <choice><orig>indifférens</orig><reg>indifférents</reg></choice>, poursuivit Euphorbe :
+          j'en suis d'accord ; <choice><orig>&amp;</orig><reg>et</reg></choice> quand je dis qu'il
+          faut des transitions, je n'entends point qu'elles soient prodiguées sans goût
+              <choice><orig>&amp;</orig><reg>et</reg></choice> sans mesure. Je mets même sur ce
+          sujet une grande différence entre le <choice><orig>stile</orig><reg>style</reg></choice>
+          oratoire <choice><orig>&amp;</orig><reg>et</reg></choice> celui de la narration. La pompe
+              <choice><orig>&amp;</orig><reg>et</reg></choice> l'appareil de l'éloquence semble
+          exiger que toutes ses parties soient enchâssées, pour former un tout capable de plaire
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de persuader. L'art s'y déploie
+              <choice><orig>&amp;</orig><reg>et</reg></choice> s'y laisse
+              <choice><orig>appercevoir</orig><reg>apercevoir</reg></choice>. La simplicité du récit
+          ne lui permet point d'<choice><orig>ornemens</orig><reg>ornements</reg></choice> trop
+          étudiés. S'il a recours aux transitions, il faut qu'elles ne soient pas trop multipliées.
+          Lorsqu'elles sont rares <choice><orig>&amp;</orig><reg>et</reg></choice> heureuses, elles
+          raniment l'attention, <choice><orig>&amp;</orig><reg>et</reg></choice> rendent le sujet
+          plus intéressant.<note resp="editor">Voir également les remarques dans le cinquième
+            entretien, pages <ref target="/node/29#p248">248-249</ref>.</note> Dans nos bons
+              <choice><orig>Auteurs</orig><reg>auteurs</reg></choice> il s'en trouve beaucoup qui
+          ont ces qualités. Je me contente de vous en citer deux, tirées de l'histoire des
+              <choice><orig>révolutions d'Angleterre</orig><reg><hi rend="italic">Révolutions
+                d'Angleterre</hi></reg></choice>. L'historien, après avoir raconté la conquête que
+          fit Edouard I du pays de Galles, <choice><orig>&amp;</orig><reg>et</reg></choice> la mort
+          de Léolyn, passe à la paix qui suivit cette guerre,
+              <choice><orig>&amp;</orig><reg>et</reg></choice>
+          <pb xml:id="p41"/> s'exprime ainsi.<note resp="author"><choice><orig>Révol. d'Angl. liv.
+                4</orig><reg><hi rend="italic">Révolutions d'Angleterre</hi>, livre
+            4</reg></choice>.</note>&#160;<note resp="editor">Il s'agit sans doute de l'ouvrage
+            d'Antoine de Bordeaux, <hi rend="italic">Révolutions d'Angleterre, depuis la mort du
+              Protecteur Olivier jusques au rétablissement du roy</hi>, 1670 (voir <ref
+              target="/node/20">bibliographie</ref>).</note><q rend="inline">La gloire que le
+            roi s'était acquise par l'heureux succès de la guerre de Galles, reçut un nouvel éclat
+            par l'emploi qu'il fit de la paix, dont elle fut suivie.</q> Quelques lignes après,
+          pour nous conduire de cette même paix au mariage qui fut conclu entre le fils de ce même
+          Edouard l <choice><orig>&amp;</orig><reg>et</reg></choice> l'héritière d'Écosse,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> à la guerre qui fut occasionnée par
+          ce mariage, il emploie cette belle transition.<note resp="author"><hi rend="italic"
+              >Ibid</hi>. (Desit: identifier citations.)</note>
+          <q rend="inline">Pendant que la prudence d'Édouard lui
+                <choice><orig>faisoit</orig><reg>faisait</reg></choice> prévoir cette guerre (avec
+            la France), sa bonne fortune lui en
+              <choice><orig>préparoit</orig><reg>préparait</reg></choice> une autre bien plus
+            avantageuse pour lui, puisqu'avec beaucoup de gloire, il y acquit une nouvelle
+            couronne.</q></p>
+        <p>Il faut avouer, répartit Timagène, que ces sortes de phrases servent tout-à-la-fois
+          d'ornement au <choice><orig>stile</orig><reg>style</reg></choice>,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de liaison à des
+              <choice><orig>événemens</orig><reg>événements</reg></choice> détachés par eux-mêmes.
+          Mais je crois qu'il faut non-seulement les bannir du récit familier, mais que, dans les
+          grands sujets mêmes, si elles sont trop répétées, elles rendent la diction languissante
+              <choice><orig>&amp;</orig><reg>et</reg></choice> affectée.</p>
+        <p><pb xml:id="p42"/>Ajoutez, dit Euphorbe, qu'elles nuisent à la
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice>, autre qualité nécessaire au
+          récit. Une des louanges qu'Horace donne à
+            <choice><orig>Homere</orig><reg>Homère</reg></choice>, c'est de s'avancer toujours à
+          grands pas vers son but :</p>
+        <p><q rend="verse">
+            <l>Semper ad eventum festinat.<note resp="author"><choice><orig>Hor. Art. Poët. v.
+                    148</orig><reg>Horace, <hi rend="italic">Art poétique</hi>, vers
+                  148</reg></choice>.</note><note resp="editor">Voir Horace, <hi rend="italic">Art
+                  poétique</hi> (<ref target="/node/20">bibliographie</ref>), v. 148-149. Horace
+                déconseille au poète de toujours remonter aux premières origines de son récit ; il
+                lui recommande de commencer plutôt son récit « in medias res » et de supposer le
+                reste connu des lecteurs ou auditeurs. La modification de perspective que donne
+                Bérardier à ce passage horatien est déjà présent chez Boileau, dans son <hi
+                  rend="italic">Art poétique</hi>, 1674 (voir <ref target="/node/20"
+                  >bibliographie</ref>), chant III, v. 302-306 : « Il ne s'égare point en de trop
+                longs détours ; / Sans garder dans ses vers un ordre méthodique, / Son sujet de
+                soi-même et s'arrange et s'explique ; / Tout, sans faire d'apprêts, s'y prépare
+                aisément ; / Chaque vers, chaque mot court à l'événement ». Chez Boileau s'exprime
+                donc « l'idéal du discours linéaire » qui est celui des siècles classiques&#160;;
+                voir Randa Sabry, <hi rend="italic">Stratégies discursives</hi>, 1992 (<ref
+                  target="/node/21">bibliographie</ref>), p.&#160;129.</note></l>
+          </q></p>
+        <p>Assurément, répliqua Timagène, voilà un éloge qui me
+              <choice><orig>paroît</orig><reg>paraît</reg></choice> bien déplacé. Peut-on faire un
+          mérite de sa brièveté à un écrivain qui a composé deux
+              <choice><orig>poëmes</orig><reg>poèmes</reg></choice> de vingt quatre livres chacun ?
+              J'<choice><orig>accorderois</orig><reg>accorderais</reg></choice> encore plus
+          volontiers cette gloire à Virgile, qui a su les renfermer tous deux dans les douze livres
+          de son <choice><orig>Ænéïde</orig><reg><hi rend="italic">Énéide</hi></reg></choice>. Je ne
+          vois pas bien clairement ce qu'on entend par cette qualité. Peut-on la trouver dans un
+          ouvrage de longue haleine ?</p>
+        <p>N'en doutez pas, répondit Euphorbe, comme elle peut manquer dans un écrit d'une heure de
+          lecture. Cette qualité, plus nécessaire encore au récit qu'aux autres genres d'écrire, se
+          trouve, comme toutes les vertus, placée entre deux vices : d'un côté, l'obscurité ; de
+          l'autre, la prolixité.<note resp="editor">Cette définition de la vertu reprend la doctrine
+            du juste milieu, déjà apparue au premier entretien (page <ref target="/node/4#p12"
+              >12</ref>), et célèbre depuis l'<hi rend="italic">Éthique à Nicomaque</hi>
+            d'Aristote.</note> Nous avons examiné quels moyens <pb xml:id="p43"/> il
+              <choice><orig>falloit</orig><reg>fallait</reg></choice> prendre pour ne pas tomber
+          dans ce premier <choice><orig>écueuil</orig><reg>écueil</reg></choice> : on évite le
+          second, lorsqu'on ne dit rien qui n'ait rapport au sujet qu'on traite, lorsqu'on retranche
+          tous les détails inutiles, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne
+          contribuent point à faire mieux
+            <choice><orig>connoître</orig><reg>connaître</reg></choice> l'objet dont il s'agit. Je
+          ne dirai point qu'un tel prit son fusil, y mit de la poudre
+              <choice><orig>&amp;</orig><reg>et</reg></choice> une balle ; qu'il l'arma ; qu'il mit
+          en joue ; qu'il déchargea son coup sur tel autre, qui en fut renversé
+              <choice><orig>&amp;</orig><reg>et</reg></choice> mis à mort : tandis que je puis dire,
+          sans tous ces détours, qu'il le tua d'un coup de fusil. La
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice> consiste donc à dire tout ce
+          qu'il faut, mais à ne dire que ce qu'il faut. Cette
+              <choice><orig>regle</orig><reg>règle</reg></choice>, toute sévère qu'elle
+              <choice><orig>paroît&#160;;</orig><reg>paraît,</reg></choice> s'accommode fort bien
+          quelquefois avec la longueur du récit.<note resp="editor">Ponctuation modifiée dans le
+            texte de lecture.</note> Elle n'exclut pas même les
+              <choice><orig>ornemens</orig><reg>ornements</reg></choice>. Le plaisir qu'ils nous
+          procurent est une <choice><orig>espece</orig><reg>espèce</reg></choice> de charme qui nous
+          fait <choice><orig>paroître</orig><reg>paraître</reg></choice> la narration moins étendue.
+          Une route unie sur un tapis de verdure, quelque longue qu'elle soit, nous fatigue moins
+          qu'un sentier plus court, mais rude <choice><orig>&amp;</orig><reg>et</reg></choice>
+          escarpé. Tout ce que je dis ici est emprunté de Quintilien,<note resp="author"
+                ><choice><orig>Quint. liv.</orig><reg>Quintilien, livre</reg></choice> 4. (Desit:
+            identifier et citer passage.)</note> dans un endroit où il conseille même de ne point
+            <pb xml:id="p44"/> se proposer pour modèle le
+            <choice><orig>stile</orig><reg>style</reg></choice> concis de Salluste. Il l'approuve
+          dans cet historien, mais il craint, avec raison, qu'il ne fasse de mauvais imitateurs.</p>
+        <p>Je crois saisir votre pensée, reprit Timagène. Ne dire que ce qu'il faut, c'est élaguer
+          tous les détails superflus, <choice><orig>traînans</orig><reg>traînants</reg></choice>,
+          ennuyeux <choice><orig>;</orig><reg>,</reg></choice> ne point noyer dans une foule
+          d'expressions ce qui peut être renfermé dans un mot
+            <choice><orig>:</orig><reg>;</reg></choice> dire tout ce qu'il faut, c'est n'omettre
+          aucune des circonstances nécessaires ou utiles au sujet,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> qui puisse contribuer à le faire
+              <choice><orig>connoître</orig><reg>connaître</reg></choice> ou à l'orner.<note
+            resp="editor">La ponctuation de cette phrase a été modifiée, dans le texte de
+            lecture.</note>
+          <choice><orig>De-là</orig><reg>De là</reg></choice>, il est aisé de conclure qu'un récit
+          peut être court, <choice><orig>&amp;</orig><reg>et</reg></choice> renfermer grand nombre
+          de circonstances. Vous me réconciliez avec la
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice>. Je
+              m'<choice><orig>imaginois</orig><reg>imaginais</reg></choice> qu'elle
+              <choice><orig>proscrivoit</orig><reg>proscrivait</reg></choice> bien des morceaux
+          d'histoire dont la lecture me <choice><orig>faisoit</orig><reg>faisait</reg></choice>
+          grand plaisir, <choice><orig>&amp;</orig><reg>et</reg></choice> où je vois aujourd'hui
+          qu'elle <choice><orig>avoit</orig><reg>avait</reg></choice> beaucoup de part. Je veux vous
+          en remettre un sous les <choice><orig>ieux</orig><reg>yeux</reg></choice> qui me semble
+              <choice><orig>sur-tout</orig><reg>surtout</reg></choice> dans ce genre. En disant ces
+          mots, il prit, dans la bibliothèque, un volume de l'histoire de France, par le
+              <choice><orig>P.</orig><reg>Père</reg></choice> Daniel,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> lut cet endroit où l'historien
+          raconte la mort du fameux Henri, duc de Guise.<note resp="author"><choice><orig>Hist. de
+                France</orig><reg><hi rend="italic">Histoire de France</hi></reg></choice>, Henri
+            III, an 1588.</note>&#160;<note resp="editor">Il s’agit de l’<hi rend="italic">Histoire
+              de France, depuis l'établissement de la monarchie française dans les Gaules</hi>, par
+            le Père Gabriel Daniel, Paris : Delespine, 1713, 3 vol. in-fol. Une nouvelle édition
+            paraît en 1755-1760, 17 vol. in-4. Le Père Gabriel Daniel, né le 8 février 1649 à Rouen
+            et décédé le 23 juin 1728 à Paris, est un historiographe jésuite français. Henri Ier de
+            Guise, dit le Balafré, est né le 31 décembre 1549. D'abord prince de Joinville, il
+            devient duc de Guise (1563) et pair de France. Il devient chef de la Ligue catholique
+            (1576) durant les guerres de Religion en France. Il est assassiné sur l'ordre d'Henri
+            III lors des États Généraux, le 23 décembre 1588, au château de Blois. Voir <hi
+              rend="italic">La Tragédie de Blois. Quatre siècles de polémique autour de l'assassinat
+              du duc de Guise</hi>. Blois : Château de Blois, 1988.</note>
+          <q rend="inline">Les <pb xml:id="p45"/> mesures furent prises pour le 23 de décembre.
+            Le Roi fit dire au duc de Guise qu'il voulait tenir conseil le matin ce jour-là ,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> expédier beaucoup d'affaires, pour
+            aller passer les fêtes à Notre-Dame de Cléry, où il prétendait faire ses dévotions. Le
+            soir du 22, Larchant alla trouver le duc de Guise,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> lui dit que, pressé par les
+            officiers <choice><orig>&amp;</orig><reg>et</reg></choice> par les gardes de sa
+            compagnie, il venait le supplier d'employer son autorité pour leur faire donner leur
+            paye ; qu'ils n'avaient rien reçu depuis longtemps ; que, sans cela, les gardes pour la
+            plupart, seraient obligés de se retirer,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> plusieurs d'entr'eux contraints de
+            vendre leurs chevaux, pour avoir de quoi faire leur voyage à pied :
+                <choice><orig>&amp;</orig><reg>et</reg></choice> sur ce que le duc lui promit de
+            faire ce qu'ils demandaient, il le supplia de trouver bon qu'il lui présentât un placet
+            lorsqu'il entrerait au conseil. Le lendemain dès le grand matin, le Roi fit venir dans
+            son cabinet Ornano, Bonivet, la Grange Montigny
+              <choice><orig>&amp;</orig><reg>et</reg></choice> d'Entragues, qui, depuis quelque
+            temps, avait quitté le parti du duc de Guise pour se donner au Roi, au prix du
+            gouvernement d'Orléans : il était fort irrité contre le duc, qui, s'obstinant <pb
+              xml:id="p46"/> à vouloir que cette place fût du nombre des villes de sûreté qu'on lui
+            avait accordées, empêchait qu'il ne se mit en possession de ce gouvernement. Loignac s'y
+            rendit pareillement avec neuf des plus résolus des Quarante-cinq, qu'on y avait fait
+            entrer avant le jour par un escalier dérobé,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> à qui ce seigneur dit alors de quoi
+            il s'agissait. <lb/> Dès qu'il furent tous assemblés, le Roi leur parla en peu de mots,
+            sur le service qu'il attendait de leur courage
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de leur fidélité... Il l'assurèrent
+            tous de la disposition où ils étaient de se sacrifier pour Sa Majesté,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> qu'ils répondraient parfaitement à
+            la confiance dont on les honorait. Il se fit apporter autant de poignard que Loignac
+            avait choisi d'hommes dans sa compagnie,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> leur dit, en les leur mettant en main
+            : <hi rend="italic">C'est une exécution de justice que je vous recommande de faire sur
+              l'homme le plus criminel de mon Royaume,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> que les lois divines
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> humaines me permettent de punir :
+              et, ne le pouvant faire les lois ordinaires de la Justice, je vous autorise à le faire
+              par le droit que me donne ma puissance royale</hi>. Il les plaça, avec Loignac, à
+            l'entrée d'un cabinet qui <pb xml:id="p47"/> était à gauche en entrant dans la chambre,
+            pour y attendre le duc de Guise, <choice><orig>&amp;</orig><reg>et</reg></choice> se
+            retira dans une autre plus avancé, suivi des seigneurs que j'ai nommés. <lb/>Si le duc
+            de Guise n'évita pas ce péril, ce ne fut point faute d'en avoir été averti : car,
+            quelques précautions que le Roi eût prises pour tenir son dessein caché, bien des gens
+            s'en défièrent, soit qu'ils jugeassent que le Roi ferait enfin ce que son intérêt
+            demandait qu'il fît, soit qu'attentifs à tout ce qui se passait, ils eussent entrevu
+                <choice><orig>&amp;</orig><reg>et</reg></choice> deviné quelque chose qui leur eût
+            donné cette pensée. Le sieur des Vins, chef de la Ligue dans la Provence, écrivit au
+            duc, en désapprouvant sa trop grande confiance, ayant tant de sujets de se défier du
+            Roi, quelque bonne mine qu'il lui fît : à quoi il répondit, qu'il ne comptait nullement
+            sur la bonté du Roi, dont il connaissait la dissimulation ; mais sur la crainte
+                <choice><orig>&amp;</orig><reg>et</reg></choice> le bon sens de ce prince, qui
+            n'ignorait pas que s'il entreprenait sur sa personne, il se perdrait lui-même sans
+            ressource. <lb/>Après tout, il ne laissait pas quelquefois de faire ses réflexions sur
+            ce sujet avec ses confidents ; <choice><orig>&amp;</orig><reg>et</reg></choice> peu de
+              <pb xml:id="p48"/> jours avant son malheur, comme il s'entretenait avec le Cardinal de
+            Guise son frère, l'archevêque de Lyon, le siëur de Mandreville, gouverneur de S.
+            Menehoult, le président de Neuilly, <choice><orig>&amp;</orig><reg>et</reg></choice> la
+            Chapelle Marteau, prévôt des marchands, chacun disant les conjectures sur je ne sais
+            qu'elles apparences qui leur faisaient juger qu'il se tramait quelque chose, tous lui
+            conseillèrent de s'éloigner sous quelque prétexte. Il n'y eut que l'archevêque de Lyon
+            qui soutint que ce serait quitter la partie,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> par conséquent la perdre,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> que le Roi, du génie dont il était,
+            ne ferait jamais une entreprise si hasardeuse, où il courait lui-même risque de sa vie ;
+            sur quoi Mandreville s'emportant, traita de folie un si mauvais raisonnement, dans une
+            conjoncture où il s'agissait de tout perdre. <lb/>Mais le duc de Guise ne répondit point
+            autre chose à tout cela, sinon qu'il était trop avancé pour reculer ;
+                <choice><orig>&amp;</orig><reg>et</reg></choice> que le Roi
+                <choice><orig>&amp;</orig><reg>et</reg></choice> lui étaient comme deux armées en
+            présence, dont l'une en se retirant, donnait la victoire à l'autre. <lb/>Le jour qui
+            précéda l'exécution, <pb xml:id="p49"/> se mettant à table, il trouva sous sa serviette
+            un billet, par lequel on lui donnait avis de prendre garde à lui,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on lui préparait un mauvais
+            tour. L'ayant lu, il prit son crayon <choice><orig>&amp;</orig><reg>et</reg></choice>
+            écrivit au bas ; <hi rend="italic">on n'oserait</hi>,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> le jetta sous la table. C'est ainsi
+            que ce malheureux prince, dominé par son ambition, se cachant à lui-même tous les
+            dangers, ou les méprisant trop, s'opiniâtrait à sa perte, jusqu'à ce qu'enfin le moment
+            fatal arriva. Le 23 de décembre, ceux qui étaient du conseil, suivant l'ordre du Roi, se
+            trouvèrent de grand matin dans l'anti-chambre. Les cardinaux de Vendôme
+                <choice><orig>&amp;</orig><reg>et</reg></choice> de Gondi, les maréchaux d'Aumont
+                <choice><orig>&amp;</orig><reg>et</reg></choice> de Retz, les sieurs Nicolas de
+            Rambouillet <choice><orig>&amp;</orig><reg>et</reg></choice> d'O s'y rendirent les
+            premiers, <choice><orig>&amp;</orig><reg>et</reg></choice> un peu après vinrent le
+            cardinal de Guise <choice><orig>&amp;</orig><reg>et</reg></choice> l'archevêque de Lyon.
+            <lb/>Le duc de Guise arriva le dernier, <choice><orig>&amp;</orig><reg>et</reg></choice>
+            trouva au sortir de son appartement Larchant, avec la plupart de sa compagnie des
+            Gardes, pour lui présenter le placet dont il lui avait parlé le soir précédent. Ils le
+            suivirent jusqu'à la porte de l'anti-chambre, les Gardes s'étant rangés des deux côtés
+            de <pb xml:id="p50"/> l'escalier, selon l'ordre qu'ils en avaient de leur capitaine,
+            comme pour faire honneur au duc de Guise,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> rendre le passage libre. Le duc, avec
+            son honnêteté <choice><orig>&amp;</orig><reg>et</reg></choice> ses manières ordinaires,
+            leur promit de ne les pas oublier <choice><orig>&amp;</orig><reg>et</reg></choice> entra
+            dans l'antichambre. Larchant demeura sur l'escalier avec les Gardes rangés comme ils
+            étaient, <choice><orig>&amp;</orig><reg>et</reg></choice> fit descendre dans la cour les
+            pages, les valets-de-pied, <choice><orig>&amp;</orig><reg>et</reg></choice> tous ceux de
+            la suite du duc <choice><orig>&amp;</orig><reg>et</reg></choice> des autres seigneurs
+            qui étaient entrés. Le duc s'étant approché du feu, sentit une espèce de faiblesse qui
+            le prenait. Quelques-uns prétendent qu'elle ne venait que d'une débauche de la nuit
+            précédente, qu'on dit qu'il avait passée avec une maîtresse ; d'autres l'attribuèrent à
+            une peur subite qui le saisit, au sujet des fréquents avertissements qu'on lui avait
+            donnés. Car à cela près, il s'était trouvé tant de fois sans Gardes dans cette
+            antichambre pour le conseil qu'il n'y avait rien de particulier qui dût plus l'effrayer
+            qu'en un autre temps. Saint-Prix, valet-de-chambre du Roi, lui présenta des prunes de
+            Brignoles, dont il goûta, <choice><orig>&amp;</orig><reg>et</reg></choice> un mouchoir
+            pour s'essuyer l'œil, qui était souvent humide du côté de <pb xml:id="p51"/> la plaie
+            qu'il avait reçue autrefois à la joue. On dit, à cette occasion, que Pericard, son
+            secrétaire, ayant su que Grillon, colonel du régiment des Gardes, avait fait fermer les
+            portes du château, entra dans une grande appréhension,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> lui envoya un page pour lui porter
+            son mouchoir qu'il avait oublié, <choice><orig>&amp;</orig><reg>et</reg></choice> que
+            dedans il mit un billet, où ces mots étaient écrits : sauvez-vous, Monsieur, ou vous
+            êtes mort : mais on ne le laissa pas passer. <lb/>Sur les huit heures du matin, Revol,
+            secrétaire d'état, vint dire au duc de Guise, que le Roi le demandait dans son cabinet ;
+            il y alla <choice><orig>&amp;</orig><reg>et</reg></choice> entra dans la chambre par une
+            courte galerie qui la séparait de l'antichambre. La porte ayant été aussitôt fermée,
+            comme c'était la coutume, il tourna vers le cabinet de la gauche, où on lui avait fait
+            entendre que le Roi était. Ayant levé la tapisserie,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> s'étant un peu penché, parce que la
+            porte était basse, il fut à l'instant atteint de six coups de poignards, qui ne lui
+            laissèrent que le temps de crier, mon Dieu, ayez pitié de moi. <lb/>D'autres disent que
+            Saint-Malin, un <pb xml:id="p52"/> des Quarante-cinq, fut celui qui lui porta le premier
+            coup, <choice><orig>&amp;</orig><reg>et</reg></choice> que de crainte qu'il ne fut armé
+            sous ses habits, il s'était placé de telle sorte qu'il pût de haut en bas lui plonger
+            son poignard dans la gorge, à défaut de la cuirasse,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> que le duc ne poussa qu'un grand
+            soupir, sans dire mot ; que tous les autres se jetèrent en même-temps sur lui,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> le percèrent d'une infinité de
+            coups. <lb/>Il y en a qui racontent, qu'ayant aperçu Loignac assis sur un coffre,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> jugé à sa contenance, qu'il avait
+            un mauvais dessein contre sa personne, il porta la main à son épée, marchant droit à lui
+            ; mais qu'ayant le bras embarrasse de son manteau,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> ayant été prévenu par les coups
+            qu'on lui porta, il ne put la tirer qu'à moitié. <lb/>Quoi qu'il en soit de ces diverses
+            circonstances ; car l'on en feint souvent dans ces sortes de rencontres, il est certain
+            que la chose fut faite en un moment. Le Roi en étant averti, sortit de son cabinet,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> ayant fait jeter un tapis sur le
+            corps, rentra pour attendre qu'on eut achevé d'exécuter les autres ordres qu'il avait
+            donnés.</q><note>Desit: "choice" pour la citation, édition de référence.</note></p>
+        <p>Assurément on <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> donner à ce <pb
+            xml:id="p53"/> récit beaucoup moins d'étendue,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> se contenter de dire avec l'auteur de
+          la <hi rend="italic">Henriade</hi> : </p><p><q rend="verse">
+            <l>Le Roi le fit lui-même immoler à sa vue. </l>
+            <l>De cent coups de poignard indignement percé </l>
+            <l>Son orgueil en mourant ne fut point abaissé </l>
+            <l>Et ce front, que Valois <choice><orig>craignoit</orig><reg>craignait</reg></choice>
+              encor peut-être, </l>
+            <l>Tout pâle <choice><orig>&amp;</orig><reg>et</reg></choice> tout sanglant
+                  <choice><orig>sembloit</orig><reg>semblait</reg></choice> braver son maître.<note
+                resp="editor">Voltaire, <hi rend="italic">La Henriade</hi> (1723), dans : <hi
+                  rend="italic">Œuvres de M. de Voltaire : La Henriade</hi>, nouvelle édition, 1772
+                (voir <ref target="/node/20">bibliographie</ref>), p. 96-97 (chant
+                troisième).</note></l></q></p>
+        <p>Il semble même que le <choice><orig>P.</orig><reg>Père</reg></choice> Daniel s'arrête à
+          des circonstances petites en elles-mêmes : car, sans parler du détail de tous les
+              <choice><orig>avertissemens</orig><reg>avertissements</reg></choice> que reçut le duc,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il méprisa, des entretiens qu'il
+              <choice><orig>avoit</orig><reg>avait</reg></choice> eus avec ses
+              <choice><orig>confidens</orig><reg>confidents</reg></choice>,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de ses craintes
+              <choice><orig>particulieres</orig><reg>particulières</reg></choice>, quoi de plus
+          inutile en apparence, que de nous dire qu'il arriva le dernier au conseil ; qu'il eut une
+              <choice><orig>foiblesse</orig><reg>faiblesse</reg></choice> dans l'antichambre du Roi
+          ; que son secrétaire lui envoya un page, qui ne put pas lui parler ; qu'on vint l'avertir
+          que le Roi le <choice><orig>demandoit</orig><reg>demandait</reg></choice> ; qu'il passa
+          par une galerie pour arriver au cabinet ; qu'il leva la tapisserie,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il se pencha pour entrer ?
+          Cependant cette description ne m'a jamais <pb xml:id="p54"/> causé le moindre ennui,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> je ne puis disconvenir qu'elle m'a
+          toujours attaché plus puissamment, <choice><orig>&amp;</orig><reg>et</reg></choice> ma
+          causé un plaisir bien plus vif, que le court
+            <choice><orig>&amp;</orig><reg>et</reg></choice> pompeux récit du
+              <choice><orig>poëte</orig><reg>poète</reg></choice>, malgré les
+              <choice><orig>ornemens</orig><reg>ornements</reg></choice> dont il le charge.</p>
+        <p>Il est évident, dit alors Euphorbe, que <choice><sic>cet</sic><corr>cette</corr></choice>
+          <choice><orig>espece</orig><reg>espèce</reg></choice><note resp="editor">À plusieurs
+            reprises, mais de manière peu systématique, le mot 'espèce' est traité comme masculin,
+            dans l'<hi rend="italic">Essai sur le récit</hi>.</note> d'enchantement est dû à
+          l'adresse de l'écrivain, qui <choice><orig>sçait</orig><reg>sait</reg></choice> habilement
+          se faire oublier, pour nous tenir attachés tout entiers à l'objet qu'il nous présente. Il
+          nous fait suivre pas à pas un homme fameux, dans un moment critique qui va décider de son
+          sort <choice><orig>&amp;</orig><reg>et</reg></choice> de celui de l'État. Ce n'est plus
+          une simple lecture ; c'est un spectacle <choice><orig>très-intéressant</orig><reg>très
+              intéressant</reg></choice> pour moi. L'exposé des plus minces circonstances favorise
+          cette illusion, <choice><orig>&amp;</orig><reg>et</reg></choice> cet intérêt les ennoblit
+          : il n'en est plus alors d'inutiles : uniquement attentif à l'événement qui se passe, pour
+          ainsi dire, sous mes <choice><orig>ieux</orig><reg>yeux</reg></choice>, je ne m'aperçois
+          pas de la longueur d'un récit qui me charme.<note resp="editor">Noter le lien établi par
+            Euphorbe entre la richesse des circonstances
+              <choice><orig>&amp;</orig><reg>et</reg></choice> l'illusion de présence propre à
+            l'hypotypose qui 'met sous les yeux'.</note> Le
+              <choice><orig>poëte</orig><reg>poète</reg></choice> se montre à découvert : il
+          travaille à me plaire, sans déguiser l'envie qu'il a d'y réussir. Je pense trop à lui,
+          pour m'occuper beaucoup du héros qu'il chante.</p>
+        <p>Je m'<choice><orig>étois</orig><reg>étais</reg></choice> imaginé, interrompit Timagène,
+          que la petitesse de ces détails <pb xml:id="p55"/>
+              n'<choice><orig>étois</orig><reg>était</reg></choice> relevée que par l'importance des
+          personnages qui sont introduits sur la scène. Tout
+              <choice><orig>paroit</orig><reg>parait</reg></choice> grand dans les gens d'un certain
+          rang. L'éclat du trône réfléchi sur eux frappe les
+              <choice><orig>ieux</orig><reg>yeux</reg></choice> du peuple,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> attire son admiration
+              <choice><orig>&amp;</orig><reg>et</reg></choice> ses respects.</p>
+        <p>Vous avez raison, répliqua Euphorbe : cette grandeur attire l'admiration ; mais elle ne
+          forme pas le plaisir <choice><orig>&amp;</orig><reg>et</reg></choice> l'agrément. Au
+          reste, on se lasse bientôt d'admirer ; témoins ces récits pompeux de Lucain, qui fatiguent
+          peut-être autant par leur continuelle magnificence, que par leur longueur. Mais pour vous
+          convaincre que c'est moins la noblesse de l'action,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> des acteurs, que l'intérêt qu'on sait
+          y mettre, qui soutient l'attention dans un récit, qui en rend les détails agréables,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> qui le fait
+              <choice><orig>paroître</orig><reg>paraître</reg></choice> court, quelque long qu'il
+          puisse être, je veux vous citer un morceau d'un ancien
+              <choice><orig>poëte</orig><reg>poète</reg></choice>, qui vous plaira assurément.
+          Permettez que je vous lise l'histoire de Philémon<choice><sic>,</sic><corr/></choice>
+          <choice><orig>&amp;</orig><reg>et</reg></choice> Baucis, dans Ovide.<note resp="editor"
+            >Voir Ovide, <hi rend="italic">Métamorphoses</hi>, livre VIII, 611-724.</note> Jupiter
+              <choice><orig>&amp;</orig><reg>et</reg></choice> Mercure
+              <choice><orig>voyageoient</orig><reg>voyageaient</reg></choice>. Fatigués de la route,
+          ils cherchent une retraite dans le premier bourg où ils se trouvent. Tous les
+              <choice><orig>habitans</orig><reg>habitants</reg></choice> ferment leurs portes,
+          excepté les deux heureux époux, que je viens <pb xml:id="p56"/> de nommer. Écoutez
+          maintenant le récit du <choice><orig>poëte</orig><reg>poète</reg></choice>.<note
+            resp="author"><q rend="inline">Les deux Divinités abordent donc cette chétive
+              demeure, <choice><orig>&amp;</orig><reg>et</reg></choice> la porte trop bâtie, les
+              oblige à courber la tête en y entrant. A l'instant le vieillard invite les Dieux à se
+              reposer, <choice><orig>&amp;</orig><reg>et</reg></choice> leur présente un siège, sur
+              lequel Baucis, toujours attentive, jette un mauvais tapis. Delà, elle va écarter les
+              cendres du foyer ; elle ranime le feu de la veille ; elle le nourrit avec des écorces
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> des feuilles bien sèches,
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> elle trouve encore assez
+              d'haleine pour y faire naître la flamme. Elle apporte alors, du lieu le plus élevé de
+              la maison, des éclats de bois, des branches desséchées ; elle les brise en morceaux
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> les range sous une petite
+              chaudière. [p.57] Cela fait, elle nettoie quelques légumes, que son mari avait
+              cueillis dans le jardin. <choice><orig>Philémond</orig><reg>Philémon</reg></choice>
+              lui-même prend une fourche ; détache d'un pieu noirci par la vétusté, un quartier de
+              lard bien enfumé <choice><orig>&amp;</orig><reg>et</reg></choice> gardé depuis
+              longtemps ; il en coupe une légère tranche,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> la met dans l'eau bouillante. Tous
+              les deux cependant tâchent, par leurs propos, d'amuser leurs hôtes,
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> de faire disparaître la longueur
+              de ces préparatifs. Dans la chambre, il y avait un bassin de bois, suspendu par l'anse
+              à un clou ; on le remplit d'eau tiède,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> on donne à laver aux deux
+              étrangers. Au milieu de ce réduit, une couchette de bois de saule portait un matelas
+              ·rempli· d'herbages tendres <choice><orig>&amp;</orig><reg>et</reg></choice> mollets ;
+              [p.58] on le couvre d'une housse, qu'on ne déployait qu'aux jours de fêtes : elle
+              était vieille <choice><orig>&amp;</orig><reg>et</reg></choice> grossière ; mais elle
+              allait assez bien sur un lit de saule. Les Dieux y prirent leur place. Baucis se
+              prépare au service, <choice><orig>&amp;</orig><reg>et</reg></choice> d'une main
+              tremblante, dresse la table. Mais l'un des trois pieds était plus court que les autres
+              : le remède fut un éclat de brique glissé sous le pied inégal : il mit la table de
+              niveau, <choice><orig>&amp;</orig><reg>et</reg></choice> dans cet état, on l'essuie
+              avec des herbes fraîches. Aussitôt, on la couvre de figues des deux couleurs, de
+              cornouilles conservées dans la lie, de chicorée, de racines, de fromages
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> d'œufs passés légèrement dans la
+              cendre chaude. Tout cela est servi sur de la vaisselle de terre. Cette argenterie
+              [p.59] est accompagnée d'une coupe de même métal,
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> de deux tasses de bois de hêtre
+              enduites de cire en-dedans. Bientôt après, on voit paraître les mets chauds,
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> l'on remet sur la table du vin
+              dont la date n'était pas fort ancienne. Ce service étant levé, fait place au dessert.
+              Il était composé de noix, de dattes de palmier, de plusieurs corbeilles de différents
+              fruits d'une odeur charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> de
+              grappes de raisin, qui auraient fait pâlir la pourpre. Au milieu était un rayon de
+              miel. À tout cela, se joignait un air d'ouverture
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> de franchise,
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> une bonne volonté, qui ne se
+              sentait en rien de leur âge <choice><orig>&amp;</orig><reg>et</reg></choice> de leur
+              pauvreté. Cependant, ils s'aperçoivent que la coupe n'est pas plutôt vidée, qu'elle se
+              remplit d'elle-même, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'une nouvelle
+              liqueur [p.60] succède toujours à la première. Ce prodige nouveau les surprend, les
+              effraie l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre. Ils ont recours
+              aux prières, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un air humble
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> timide, ils demandent grâce pour
+              un repas aussi mal apprêté. Il ne leur restait qu'une seule oie, l'unique gardien de
+              ce petit héritage. Déjà ses maîtres se préparaient à l'immoler aux Dieux qui les
+              avaient visités. L'animal, aidé de ses ailes, fatigue à la course les deux vieillards
+              ; il élude longtemps leurs poursuites ; il semble même aller chercher un asile sous
+              les pieds des deux Divinités. Elles s'opposèrent à sa mort ;
+                  <choice><orig>&amp;</orig><reg>et</reg></choice> prenant alors la parole, nous
+              sommes des immortels, dirent elles ; vos voisins sont des impies ; ils recevront le
+              châtiment qu'ils méritent. Vous seuls serez exempts de ces maux. Abandonnez seulement
+              ce séjour : suivez nos pas, <choice><orig>&amp;</orig><reg>et</reg></choice>
+              rendez-vous l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre au sommet de
+              cette montagne.</q></note></p>
+        <p><q rend="verse">
+            <l>Ergo ubi cælicolæ parvos tetigêre pénates, </l>
+            <l>Summissoque humiles intrarunt vertice postes, </l>
+            <l>Membra senex posito jussit relevare sedili, </l>
+            <l>Quod super injecit textum rude sedula Baucis. </l>
+            <l>Inde foco tepidum cinerem dimovit, et ignes </l>
+            <l>Suscitat hesternos, soliisque et cortice ficco<note>(Desit: vérifier
+              latin.)</note></l>
+            <l>Nutrit, et ad flammas animâ perducit anili : </l>
+            <l>Multifidasque faces, ramaliaque arida, tecto </l>
+            <l>Detulit, et minuit, parvoque admovit aheno, </l>
+            <l>Quodque suus conjux riguo collegerat horto, </l>
+            <l>Truncat olus foliis. Furcâ levat ille bicorni </l>
+            <l>Sordida terga fuis, nigro pendentia tigno, </l>
+            <l>Servatoque diu resecat de tergore, partem </l>
+            <l><pb xml:id="p57"/> Eriguam, sectamque domat ferventibus undis. </l>
+            <l>Interea medias fallunt sermonibus horas, </l>
+            <l>Sentirique moram prohibent. Erat alveus illic </l>
+            <l>Fagineus, durâ clavo suspensus ab ansâ. </l>
+            <l>Is tepidis impletur aquis, artusque fovendos </l>
+            <l>Accipit. In medio torus est de mollibus ulvis </l>
+            <l>Impositus lecto spondâ pedibusque salignis. </l>
+            <l>Vestibus hunc velant, quas non nisi tempore festo </l>
+            <l>Sternere consuerant, sed et haec vilisque vetusque </l>
+            <l>Vestis erat, lecto non indignanda saligno. </l>
+            <l>Accubuere Dei. Mensam succincta tremensque </l>
+            <l>Ponit anus, mensae sed erat pes tertius impar : </l>
+            <l><pb xml:id="p58"/> Testa parem fecit, quæ postquam fubdita clivum </l>
+            <l>Sustulit, æquatam menthâ extersere virenti. </l>
+            <l>Ponitur hîc bicolor finceræ bacca Minervæ, </l>
+            <l>Conditaque in liquidâ corna autumnalia fæce </l>
+            <l>Intybaque et radix et lactis massa coacti, </l>
+            <l>Ovaque non acri leviter versata favilla : </l>
+            <l>Omnia fictilibus. Post hæc cœlatus eodem </l>
+            <l>Sistitur argento crater, fabricataque fago </l>
+            <l>Pocula, quæ cava sunt flaventibus illita ceris. </l>
+            <l>Parva mora est, epulasque foci misere calentes, </l>
+            <l>Nec longæ rursus referuntur vina senectaæ ; </l>
+            <l>Dantque locum mensis paulum seducta secundis. </l>
+            <l><pb xml:id="p59"/> He nux, hîc mixta est rugosis carica palmis, </l>
+            <l>Prunaque, et in patulis redolentia mala canistris, </l>
+            <l>Et de purpureis collectæ vitibus uvæ. </l>
+            <l>Candidus in medio favus est. Super omnia vultus </l>
+            <l>Accessere boni, nec iners pauperque voluntas. </l>
+            <l>Interea, quoties haustum cratera repleri </l>
+            <l>Sponte suâ, per seque vident succrescere vina, </l>
+            <l>Attoniti novitate pavent, manibusque supinis </l>
+            <l>Concipiunt Baucifque preces timidusque Philemon, </l>
+            <l>Et veniam dapibus nullisque paratibus orant. </l>
+            <l><pb xml:id="p60"/> Unicus anser erat minimæ custodia villæ, </l>
+            <l>Quem diis hospitibus domini mactare parabant. </l>
+            <l>Ille celer pennâ tardos ætate fatigat, </l>
+            <l>Eluditque diu, tandemque est visus ad ipsos </l>
+            <l>Confugisse Deos. Superi vetuerc necari ; </l>
+            <l>Dîque sumus, meritasque luet vicinia pœnas </l>
+            <l>Impia, dixerunt : vobis immunibus hujus </l>
+            <l>Esse mali dabitur : modo vestra relinquite tecta, </l>
+            <l>Ac nostros comitate gradus, et in ardua montis </l>
+            <l>Ite simul.</l>
+          </q></p>
+        <p><pb xml:id="p61"/>Voilà un grand détail de circonstances
+              <choice><orig>&amp;</orig><reg>et</reg></choice> même des plus minces. Quoi de plus
+          frivole en apparence que cette remarque : <q rend="italic">Summissoque humiles
+            intrarunt vertice postes</q>, <choice><orig>&amp;</orig><reg>et</reg></choice> que
+          celle-ci, <q rend="italic">quod super injecit textum rude sedula Baucis</q> ? La
+          peinture de cette table boiteuse qu'il faut étayer pour lui donner son
+              <choice><orig>à-plomb</orig><reg>aplomb</reg></choice>, a quelque chose qui approche
+          du comique : la fuite de cette <choice><orig>oye</orig><reg>oie</reg></choice>, qui va
+          chercher un asile sous les pieds de Jupiter, ne
+              <choice><orig>paroît</orig><reg>paraît</reg></choice> pas digne d'occuper un esprit
+          raisonnable. Malgré tout cela, dites-moi quelle impression a fait sur vous cette lecture
+          ?</p>
+        <p>Une impression fort agréable, répondit Timagène ; mais bien différente de celle que j'ai
+          éprouvée dans le récit de la mort du duc de Guise. Ici, le plaisir
+              <choice><orig>étoit</orig><reg>était</reg></choice> accompagné de trouble
+              <choice><orig>&amp;</orig><reg>et</reg></choice>
+              d'<choice><orig>allarmes</orig><reg>alarmes</reg></choice> : l'esprit
+              <choice><orig>étoit</orig><reg>était</reg></choice> inquiet ;
+              <choice><orig>&amp;</orig><reg>et</reg></choice> cette inquiétude
+              <choice><orig>avoit</orig><reg>avait</reg></choice> des charmes. Là, c'est un je ne
+              <choice><orig>sçais</orig><reg>sais</reg></choice> quoi de doux
+              <choice><orig>&amp;</orig><reg>et</reg></choice> de paisible, que je ne peux
+            définir.<note resp="editor">Sur la notion du 'je ne sais quoi', voir l'article d'Erich
+            Köhler, « ‘Je ne sais quoi’. Ein Kapitel aus der Begriffsgeschichte des Unbegreiflichen
+            », 1966/1984 (voir <ref target="http://www.berardier.org/node/21">bibliographie</ref>).
+            D'autres occurrences du concept dans l'<hi rend="italic">Essai sur le récit</hi> se
+            trouvent aux pages <ref target="http://www.berardier.org/node/26?#p103">103</ref> et
+              <ref target="http://www.berardier.org/node/7?#p594">594</ref>.</note></p>
+        <p><choice><orig>C'est-là</orig><reg>C'est là</reg></choice> précisément, ajouta Euphorbe,
+          l'effet de ces circonstances détaillées à propos,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> qui
+              <choice><orig>alongent</orig><reg>allongent</reg></choice> le récit sans nuire à sa
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice>. Les unes plus sérieuses,
+          m'attachent à un objet important, excitent ma curiosité
+              <choice><orig>&amp;</orig><reg>et</reg></choice> me donnent une agréable impatience de
+          voir l'issue d'un événement <pb xml:id="p62"/> intéressant par lui-même, ou par les
+          personnages qui y figurent : les autres peignent la nature toujours belle, même
+          lorsqu'elle est sans <choice><orig>ornemens</orig><reg>ornements</reg></choice>,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> cette vue fait naître un sentiment
+          délicieux, qui répand dans le cœur le calme
+            <choice><orig>&amp;</orig><reg>et</reg></choice> la joie. Dans ces superbes jardins, où
+          l'art déployé toutes ses richesses, les
+              <choice><orig>compartimens</orig><reg>compartiments</reg></choice> des parterres, la
+          beauté des terrasses, le fini des statues, l'abondance des eaux jaillissantes sous cent
+          formes différentes, l'ingénieux tissu des bosquets obtiennent notre admiration
+              <choice><orig>&amp;</orig><reg>et</reg></choice> nos suffrages : dans un vallon
+          tapissé d'un gazon émaillé de mille fleurs, fermé par des coteaux couronnés de verdure,
+          rien ne nous surprend ; mais cette belle nature enchante nos sens,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> nous invite à goûter la fraîcheur
+              <choice><orig>&amp;</orig><reg>et</reg></choice> le repos sur les bords d'un ruisseau
+          dont l'onde claire <choice><orig>disparoît</orig><reg>disparaît</reg></choice> souvent
+          sous l'épaisseur de la pelouse qui l'environne. Voilà l'image des deux espèces de récit
+          dont nous parlons.<note resp="editor">La comparaison reprend des éléments du <hi
+              rend="italic">locus amoenus</hi>, mais fait également penser à celle que Marivaux
+            utilise pour figurer la différence entre la beauté et le 'je ne sais quoi', dans la «
+            Seconde feuille » du <hi rend="italic">Cabinet du philosophe</hi> de 1734 ; voir
+            Marivaux, <hi rend="italic">Journaux et Œuvres diverses</hi>, 1988, p. 346 (voir <ref
+              target="http://www.berardier.org/node/21">bibliographie</ref>).</note></p>
+        <p>Je vois, <choice><sic>repris</sic><corr>reprit</corr></choice> Timagène, que la plus
+          grande difficulté consiste ici à bien distinguer les occasions
+              <choice><sic>ou</sic><corr>où</corr></choice> ce détail peut faire un bon effet,
+          d'avec celles où il <choice><orig>deviendroit</orig><reg>deviendrait</reg></choice>
+          ennuyeux : c'est en quoi l'auteur doit consulter
+            <choice><orig>&amp;</orig><reg>et</reg></choice> suivre son goût. Mais, outre cette
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice> qui regarde <pb xml:id="p63"
+          /> plus <choice><orig>particulierement</orig><reg>particulièrement</reg></choice> les
+          faits qu'il faut décrire, n'en est-il point une autre qui n'appartient qu'à l'expression
+          ?</p>
+        <p>Sans doute, repartit Euphorbe ; <choice><orig>&amp;</orig><reg>et</reg></choice> cette
+              <choice><orig>derniere</orig><reg>dernière</reg></choice> est toujours belle,
+          lorsqu'elle n'est point outrée. Quintilien nous en donne la définition, lorsqu'il nous dit
+          que la perfection de la <choice><orig>briéveté</orig><reg>brièveté</reg></choice> consiste
+          à renfermer beaucoup de choses dans peu de mots. <q rend="italic">Pulcherrima brevitas
+            est, cum plura paucis complectimur</q>.<note resp="editor">La citation vient d'un
+            passage de Quintilien consacré à la 'brevitas' : « Ac merito laudatur brevitas integra.
+            Sed ea minus praestat quotiens nihil dicit nisi quod necesse est (brachylogian vocant,
+            quae reddetur inter schemata), est vero pulcherrima cum plura paucis complectimur, quale
+            Sallusti est: ‹ Mithridates corpore ingenti, perinde armatus ›. » Quintilien, <hi
+              rend="italic">De institutione oratoria</hi> (voir <ref target="/node/20"
+              >bibliographie</ref>), livre VIII, 82.</note> Lorsque Tite-Live, en décrivant le
+          combat des Horaces <choice><orig>&amp;</orig><reg>et</reg></choice> des Curiaces, dit de
+          ces six héros&#160;; <q rend="italic">Magnorum exercituum animos gerentes</q>
+            ;<note resp="editor">Tite-Live, <hi rend="italic">Ab Urbe condita</hi> (<hi
+              rend="italic">Histoire romaine</hi>), livre I, 25 : « Datur signum infestisque armis
+            velut acies terni iuvenes magnorum exercituum animos gerentes concurrunt ».</note>
+          qu'elle foule d'idées ne fait pas naître dans l'esprit ce peu d'expressions, qui peint
+              <choice><orig>tout-à-la-fois</orig><reg>tout à la fois</reg></choice> leur contenance,
+          leur résolution, les grands intérêts dont ils sont dépositaires,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> les espérances même de ceux dont ils
+          défendent la cause ? <choice><orig>C'est-là</orig><reg>C'est là</reg></choice> une de ces
+          façons de parler fécondes, qui donnent à penser plus qu'on ne dit.</p>
+        <p>S'il est beau de faire penser plus qu'on ne dit, répliqua Timagène, il s'ensuit qu'il ne
+          faut pas revenir à plusieurs reprises sur ce que l'on a déjà dit,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> le répéter en différentes façons. Sur
+          cela, j'ai une petite querelle à faire <choice><sic>à l'Auteur</sic><corr>au
+            poète</corr></choice> que vous venez de citer.<note resp="editor">Timagène veut parler
+            d'Ovide. (Les Errata que l'édition originale contient, page 725, signalent l'imprecision
+            : « page 63, lig. 25, à l'Auteur ; <hi rend="italic">lisez</hi>, au poëte.
+          »).</note>&#160;Il n'est jamais content de sa première expression ; <pb xml:id="p64"/> il
+          revient sur ses pas, <choice><orig>&amp;</orig><reg>et</reg></choice> retourne cent fois
+          une même pensée. Selon lui, le chaos est une masse informe
+              <choice><orig>&amp;</orig><reg>et</reg></choice>
+          <choice><orig>grossiere</orig><reg>grossière</reg></choice> ; il n'a d'autre force qu'une
+          oisive pesanteur&#160;; c'est un amas confus de principes désunis, sans ordre
+              <choice><orig>&amp;</orig><reg>et</reg></choice> sans harmonie.<note resp="author"
+                ><choice><orig>Métam. l. 1, v. 7</orig><reg><hi rend="italic">Métamorphoses</hi>,
+                livre 1, vers 7</reg></choice>.</note>&#160;<note resp="editor">Voir Ovide, <hi
+              rend="italic">Métamorphoses</hi>, livre 1, vers 5-9 :<lb/>
+            <l>Ante mare et terras et quod tegit omnia caelum </l>
+            <l>Unus erat toto naturae vultus in orbe, </l>
+            <l>Quem dixere chaos : rudis indigestaque moles </l>
+            <l>Nec quicquam nisi pondus iners congestaque eodem </l>
+            <l>Non bene iunctarum discordia semina rerum. </l> Traduction française : « Avant la
+            formation de la mer, de la terre, et du ciel qui les environne, la nature dans l'univers
+            n'offrait qu'un seul aspect; on l'appela chaos, masse grossière, informe, qui n'avait
+            que de la pesanteur, sans action et sans vie, mélange confus d'éléments qui se
+            combattaient entre eux. » (Traduction légèrement adaptée de G.T. Villenave, Paris, 1806,
+            source : <ref target="http://bcs.fltr.ucl.ac.be/META/00.htm">Bibliotheca Classica
+              Selecta</ref>).</note>
+        </p>
+        <p><q rend="verse">
+            <l rend="indent"><hi rend="italic">Rudis indigestaque moles ;</hi>
+            </l>
+            <l><hi rend="italic">Nec quidquam, nisi pondus iners, congestaque eodem</hi>
+            </l>
+            <l><hi>Non bene junctarum discordia semina rerum.</hi></l>
+          </q></p>
+        <p>Parle-t-il du Déluge ? Ce n'est pas assez d'avoir dit, que la terre
+              <choice><orig>&amp;</orig><reg>et</reg></choice> les eaux ne
+              <choice><orig>formoient</orig><reg>formaient</reg></choice> plus deux éléments
+            distingués.<note resp="author"><hi rend="italic">Ibid</hi>.<choice><orig> l. 1,
+                v.</orig><reg>, livre 1, vers</reg></choice> 291</note><note resp="editor">Dans les
+              <hi rend="italic">Métamorphoses</hi> d'Ovide, au livre 1, vers 291-291, on peut lire
+            effectivement : <lb/> Iamque mare et tellus nullum discrimen habebant : Omnia pontus
+            erat, derant quoque litora ponto. Traduction française : « Déjà la terre ne se
+            distinguait plus de l'océan : tout était mer, et la mer n'avait point de rivages. »
+            (Traduction légèrement adaptée de G.T. Villenave, Paris, 1806, source : <ref
+              target="http://bcs.fltr.ucl.ac.be/META/00.htm">Bibliotheca Classica Selecta</ref>.
+            (Desit: Meilleure source.)</note> Il ajoute : <q rend="inline">tout était mer ;
+                <choice><orig>&amp;</orig><reg>et</reg></choice> cette mer n'avait pas même de
+            rivage.</q><note resp="editor">Dans l'original, les guillemets initiaux de la
+            citation sont placés avant « Il ajoute ».</note> Dans la belle description qu'il fait de
+          cette peste, qui emporta tous les
+            <choice><orig>habitans</orig><reg>habitants</reg></choice> de la petite
+              <choice><orig>Isle d'Œgine</orig><reg>Île d'Égine</reg></choice>, il répète encore
+          jusqu'à trois fois la même idée. <q rend="inline">Ces malheureux citoyens, dit-il,
+            dans leur désespoir fuyent les lieux qui les ont
+              <choice><sic>vû</sic><corr>vu</corr></choice> naître ; chacun d'eux regarde sa maison
+            comme un séjour funeste, <choice><orig>&amp;</orig><reg>et</reg></choice> ne pouvant
+            découvrir la cause de leurs maux, ils en accusent la demeure qu'ils
+          habitent.</q></p>
+        <p><q rend="verse">
+            <l rend="indent"><pb xml:id="p65"/><hi rend="italic">Fugiuntque penates </hi></l>
+            <l><hi rend="italic">Quisque suos : sua cuique domus funesta videtur : </hi></l>
+            <l><hi rend="italic">Et quia causa latet, lotus est in crimine.</hi></l>
+          </q></p>
+        <p>Je <choice><orig>pourrois</orig><reg>pourrais</reg></choice> citer une foule d'autres
+          exemples.</p>
+        <p>Il me <choice><orig>paroît</orig><reg>paraît</reg></choice>, reprit Euphorbe, que vous
+          n'avez pas oublié vos anciens <choice><orig>Auteurs</orig><reg>auteurs</reg></choice>,
+              <choice><orig>&amp;</orig><reg>et</reg></choice> que vous les avez lus avec bien du
+          goût. Au reste, sans parler des deux
+            <choice><orig>Sénéques</orig><reg>Sénèques</reg></choice>, combien est il d'écrivains
+          aussi verbeux qu'Ovide, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ne
+              <choice><orig>rachetent</orig><reg>rachètent</reg></choice> pas comme lui ce défaut
+          par la richesse de leur diction <choice><orig>&amp;</orig><reg>et</reg></choice> la beauté
+          de leur esprit ? Un historien moderne, qui jouit d'une réputation bien méritée, tombe
+          souvent dans le défaut que vous reprochez au
+            <choice><orig>poëte</orig><reg>poète</reg></choice> latin. Laissant à part ces
+          dissertations <choice><orig>&amp;</orig><reg>et</reg></choice> ces réflexions, soit
+          morales, soit critiques, que l'on rencontre à toutes les pages de son ouvrage, voici
+          quelques endroits où vous verrez qu'il prodigue les phrases
+              <choice><orig>&amp;</orig><reg>et</reg></choice> les expressions pour la même
+            pensée.<note resp="author"><choice><orig>Hist. Anc. t. 2, p. 309</orig><reg><hi
+                  rend="italic">Histoire Ancienne</hi>, tome 2, p. 309</reg></choice>.</note><note
+            resp="editor">Il s'agit de Charles Rollin (1661-1741), historien, professeur et
+            administrateur français, et de son <hi rend="italic">Histoire ancienne des Égyptiens,
+              des Carthaginois, des Assyriens, des Babyloniens, des Mèdes et des Perses, des
+              Macédoniens, des Grecs</hi>, 13 vol., 1730-1738, seconde édition de 1732 (voir <ref
+              target="/node/20">bibliographie</ref>), vol. 2, p. 304-305 (« Éloge et caractère de
+            Cyrus »).</note> Il dit, <q rend="inline">qu'un Roi<choice><orig>,
+                </orig><reg> </reg></choice>doit se regarder comme un pasteur ; qu'il doit en avoir
+            la vigilance, l'attention, la bonté ; veiller afin que les peuples soient en sûreté, se
+            charger des soins <choice><orig>&amp;</orig><reg>et</reg></choice> des inquiétudes, afin
+            que les autres en soient exempts ; <pb xml:id="p66"/> choisir tout ce qui leur est
+            salutaire ; écarter tout ce qui leur peut nuire ; mettre sa joie à les voir croître
+                <choice><orig>&amp;</orig><reg>et</reg></choice> multiplier,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> s'exposer avec courage pour les
+            défendre.</q> .... Et plus bas, il ajoute : <q rend="inline">en effet, c'est la
+            même chose d'être à la république <choice><orig>&amp;</orig><reg>et</reg></choice>
+            d'être Roi, d'être pour le peuple, <choice><orig>&amp;</orig><reg>et</reg></choice>
+            d'être souverain. On est né pour les autres, dès qu'on est né pour commander ; parce
+            qu'on ne leur doit commander que pour leur être utiles. C'est le fondement
+                <choice><orig>&amp;</orig><reg>et</reg></choice> comme la base des princes de n'être
+            point à eux : c'est le caractère même de leur grandeur, d'être consacrés au bien public.
+            Il en est d'eux comme de la lumière, qui n'est placée dans un lieu éminent que pour se
+            répandre <choice><orig>par-tout</orig><reg>partout</reg></choice>.</q> Quelques
+          pages après, en parlant des
+          <choice><orig>conquérans</orig><reg>conquérants</reg></choice>, voici comme il les
+            dépeint.<note resp="author"><hi rend="italic">Ibid.</hi>, p. 315.</note><note
+            resp="editor">Rollin, <hi rend="italic">Histoire ancienne</hi>, vol. 2, p. 310-311.
+            (Desit : renvoi à l'édition.)</note>
+          <q rend="inline">Ces ennemis publics du genre humain, qui ne connaissent d'autre droit
+            que la force ; qui regardent les règles communes de la justice, comme des lois qui
+            n'obligent que les particuliers, <choice><orig>&amp;</orig><reg>et</reg></choice> qui
+            aviliraient la Majesté Royale ; qui ne bornent leurs desseins
+                <choice><orig>&amp;</orig><reg>et</reg></choice> leurs prétentions, que par
+            l'impuissance d'aller <pb xml:id="p67"/> aussi loin que leurs désirs ; qui sacrifient à
+            leur ambition la vie d'un million d'hommes ; qui mettent leur gloire à tout détruire,
+            comme les torrents <choice><orig>&amp;</orig><reg>et</reg></choice> les embrasements,
+                <choice><orig>&amp;</orig><reg>et</reg></choice> qui règnent comme le feraient les
+            lions <choice><orig>&amp;</orig><reg>et</reg></choice> les ours, s'ils étaient les
+            maîtres. Voilà ce que sont dans la vérité la plupart de ces prétendus héros que le
+            siècle admire.</q> Je n'<choice><orig>apperçois</orig><reg>aperçois</reg></choice>
+          que deux idées distinctes noyées dans cette profusion de paroles ; le mépris des
+              <choice><orig>loix</orig><reg>lois</reg></choice>
+          <choice><orig>&amp;</orig><reg>et</reg></choice> celui des autres hommes. Dans le premier
+          morceau tout se réduit à dire que le souverain est né pour travailler au bien public,
+          comme le berger est fait pour veiller sur son troupeau.
+              <choice><orig>C'est-là</orig><reg>C'est là</reg></choice> l'unique pensée qu'on répète
+          cent fois.</p>
+        <p>J'aime fort, interrompit Timagène, la repartie de ce bel esprit, à qui on
+              <choice><orig>reprochoit</orig><reg>reprochait</reg></choice> la longueur d'un
+          discours qu'il <choice><orig>avoit</orig><reg>avait</reg></choice> composé à la hâte. Je
+          n'ai pas eu, répondit-il, le temps de le faire plus court. Ce mot me fait comprendre qu'un
+          homme de goût, en retouchant son ouvrage, fait <choice><orig>main-basse</orig><reg>main
+              basse</reg></choice> sur beaucoup d'inutilités dans l'expression, que le feu de la
+          composition <choice><orig>&amp;</orig><reg>et</reg></choice> la fécondité de l'imagination
+              <choice><orig>avoient</orig><reg>avaient</reg></choice> laisse échapper.
+              L'<choice><orig>Auteur</orig><reg>auteur</reg></choice> de l'<choice><orig>histoire
+              ancienne</orig><reg><hi rend="italic">Histoire ancienne</hi></reg></choice>
+          <choice><orig>avoit</orig><reg>avait</reg></choice> professé <pb xml:id="p68"/>
+          <choice><orig>longtems</orig><reg>longtemps</reg></choice> l'éloquence, avec les plus
+          grands <choice><orig>applaudissemens</orig><reg>applaudissements</reg></choice>.<note
+            resp="editor">Charles Rollin a effectivement enseigné, à partir de 1687, comme
+            professeur de rhétorique au Collège du Plessis (où Bérardier de Bataut enseigna plus
+            tard), puis à partir de 1688 comme professeur d'éloquence au Collège royal (voir <ref
+              target="http://fr.wikipedia.org/wiki/Charles_Rollin">Charles Rollin</ref>).</note>
+          Peut-être dans le cabinet trouva-t-il quelque peine à se débarrasser de ce
+              <choice><orig>stile</orig><reg>style</reg></choice> classique, où l'on donne souvent
+          des mots pour des choses. Mais je crois qu'on peut lui pardonner ce petit défaut, en
+          faveur des bons ouvrages dont il a enrichi les belles-lettres.</p>
+        <p>Quand ils n'<choice><orig>auroient</orig><reg>auraient</reg></choice>, répliqua Euphorbe,
+          d'autre mérite<choice><orig>, </orig><reg> </reg></choice>que les excellentes
+              maximes<choice><orig>, </orig><reg> </reg></choice>qui s'y rencontrent, ils
+              <choice><orig>seroient</orig><reg>seraient</reg></choice> toujours pour les
+          belles-lettres des morceaux précieux. Mais, en traitant de la
+              <choice><orig>briéveté</orig><reg>brièveté</reg></choice>, je crains que nous ne
+          tombions enfin dans le <choice><orig>stile</orig><reg>style</reg></choice> diffus. Si vous
+          m'en croyez, nous profiterons du beau temps,
+            <choice><orig>&amp;</orig><reg>et</reg></choice> nous irons faire un tour dans le
+          jardin.</p>
       </div>
     </body>
   </text>
