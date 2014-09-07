@@ -1,80 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="drp_style.xsl"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/teilite.rng" type="xml"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="fra">
-
     <fileDesc>
       <titleStmt>
-        <title>Essai sur le récit, ou Entretiens sur la manière de raconter.
-          Édition électronique.</title>
+        <title>"Quatrième entretien" de : Essai sur le récit, ou Entretiens sur la manière de
+          raconter. Édition électronique.</title>
         <author>François-Joseph Bérardier de Bataut (1720-1794)</author>
         <editor>Christof Schöch</editor>
-        <principal>Christof Schöch</principal>
       </titleStmt>
-
       <editionStmt>
-        <edition>Version 0.6, 12/2010</edition>
+        <edition>Version 0.7, 09/2014</edition>
       </editionStmt>
-
       <publicationStmt>
-        <p>Édition électronique publiée en ligne à l'adresse
-          http://www.berardier.org sous licence Creative Commons BY-NC-SA 3.0
-          (Attribution-Noncommercial-Share Alike).</p>
+        <p>Texte libre de droits. Édition électronique publiée en ligne à l'adresse
+          http://tapas.neu.edu/berardier/essai/ sous licence Creative Commons Attribution 3.0
+          (CC-BY). Republication de l'édition électronique publiée en ligne à l'adresse
+          http://berardier.org en 2010.</p>
       </publicationStmt>
-
       <sourceDesc>
         <bibl>
           <author>Bérardier de Bataut, François-Joseph (1720-1794)</author>
-          <title>Essai sur le récit, ou entretiens sur la manière de
-            raconter</title>
+          <title>Essai sur le récit, ou entretiens sur la manière de raconter</title>
           <pubPlace>Paris</pubPlace>
-          <publisher>Charles-Pierrre Berton, 1776</publisher>
+          <publisher>Charles-Pierrre Berton</publisher>
+          <date>1776</date>
           <extent>Format in-12, X-725 pages.</extent>
         </bibl>
       </sourceDesc>
-
     </fileDesc>
-
     <encodingDesc>
       <projectDesc>
-        <p>Cette édition a pour objectif de fournir une édition fiable,
-          librement accessible en ligne, commentée, contextualisée <choice>
-            <orig>&amp;</orig>
-            <reg>et</reg>
-          </choice> indexée de l'Essai sur le récit, ou entretiens sur la
-          manière de raconter, par François-Joseph Bérardier de Bataut. </p>
+        <p>Cette édition fournit une édition accessible en ligne et commentée de l'Essai sur le
+          récit, ou Entretiens sur la manière de raconter, par François-Joseph Bérardier de Bataut.
+        </p>
       </projectDesc>
       <editorialDecl>
-        <p>L'édition électronique est réalisée au format XML et conforme au
-          standard TEI, version 5, défini par la Text Encoding Initiative. Elle
-          utilise un sous-ensemble d'éléments définis dans le TEI-Lite, ce
-          sous-ensemble étant documenté dans un schéma XML. L'édition réunit une
-          transcription diplomatique avec graphies originales (graphies d'époque
-          et coquilles) et une version de lecture avec graphies modernisées et
-          corrigées. Les coupures de mots en fin de ligne ne sont pas
-          maintenues. La ségmentation en chapitres ainsi que la pagination
-          originale sont maintenues, l'affichage se fait par chapitres.
-          L'édition fournit avec le texte des commentaires explicatifs, des
-          références bibliographiques et des index détaillés. L'édition
-          distingue, pour des fins de recherches précises sur le texte, le texte
-          principal, les citations, les notes de l'auteur ainsi que les notes de
-          l'éditeur.</p>
+        <p>L'édition réunit une transcription diplomatique (graphies d'époque, coquilles,
+          abréviations) et une version de lecture (graphies modernisées, coquilles corrigées,
+          abréviations explicitées).</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
-      <change when="2010-04-11" who="Christof Schöch">Transfer zu
-        TEI-Lite.</change>
-      <change when="2010-05-16" who="Christof Schöch">Quote, Note</change>
-      <change when="2011-11-19" who="Christof Schöch">New pb system.</change>
+      <change when="2010-01-29" who="Christof Schöch">Transfer zu TEI-Lite.</change>
+      <change when="2010-04-24" who="Christof Schöch">Plus quote, note, choice Tags.</change>
+      <change when="2011-11-06" who="Christof Schöch">Revised page numbers.</change>
+      <change when="2014-09-06" who="Christof Schöch">Minor adjustments for TAPAS
+        publication.</change>
     </revisionDesc>
   </teiHeader>
-
   <text>
     <body>
       <div type="chapter" xml:id="ER_ENT04">
-
         <head>QUATRIÈME ENTRETIEN.</head>
         <head rend="italic">Suite des <choice>
             <orig>ornemens</orig>
@@ -83,7 +60,6 @@
             <orig>Récit</orig>
             <reg>récit</reg>
           </choice></head>
-
         <p>Le lendemain le soleil s'étant levé dans un nuage assez épais, <choice>
             <orig>sembloit</orig>
             <reg>semblait</reg>
@@ -99,7 +75,6 @@
             <orig>connoissez - vous</orig>
             <reg>connaissez-vous</reg>
           </choice> depuis longtemps ?</p>
-
         <p>Non, répondit Euphorbe, je l'ai peut-être <pb n="161" xml:id="A0161"
           /> vu cinq ou six fois chez moi. Il vient passer la belle saison dans
           la terre de ce gentilhomme voisin, près de qui il <choice>
@@ -118,14 +93,12 @@
             <orig>acquité</orig>
             <reg>acquitté</reg>
           </choice>.</p>
-
         <p>Assez mal, selon moi, reprit Timagène. Il parle beaucoup, il a tout
           vu, tout connu&#160;; mais, malgré cela, tous les contes qu'il nous a
           faits n'ont pas eu le don de me plaire&#160;; <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> je vous déclare que je n'en crois pas un mot.</p>
-
         <p>Je pense, répliqua Euphorbe, qu'il ne s'est pas flatté lui-même d'un
           meilleur succès, s'il a réfléchi sur le ton faux <choice>
             <orig>&amp;</orig>
@@ -147,8 +120,7 @@
             <reg>et</reg>
           </choice> de la nature, de qui la narration doit emprunter son plus
           bel ornement.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><pb n="162" xml:id="A0162"/>Rien n'est beau que le vrai&#160;;
               (dit Boileau) le vrai seul est aimable :<note resp="author"
                 >Boileau, <choice>
@@ -181,8 +153,7 @@
               </choice> qu'on aime &#160;: </l>
             <l>Un esprit né chagrin, plaît par son chagrin même. </l>
             <l>Chacun, pris dans son air, est agréable en soi.</l>
-          </quote></p>
-
+          </q></p>
         <p>Je ne comprends pas trop, interrompit Timagène, comment vous allez
           accorder tout ceci. Nous avons admis, il y a quelques jours, une <choice>
             <orig>espece</orig>
@@ -192,8 +163,7 @@
             <reg>poètes</reg>
           </choice>, par exemple, les fabulistes ont, en cela, autant de liberté
           que les peintres. </p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent"><choice>
                 <orig><hi rend="italic">Pictoribus atque poetis</hi></orig>
                 <reg>Pictoribus atque poetis</reg>
@@ -207,8 +177,7 @@
                   <reg>Horace, <hi rend="italic">Art poétique</hi>.</reg>
                 </choice></note><note resp="editor">Bérardier cite les lignes
                 9-10 de l'<hi rend="italic">Ars poetica</hi> d'Horace (voir
-                bibliographie).</note></l></quote></p>
-
+                bibliographie).</note></l></q></p>
         <p><pb n="163" xml:id="A0163"/> Ils inventent <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -222,7 +191,6 @@
             <corr>Fut</corr>
           </choice>-il jamais rien de plus contraire au vrai, que la fiction
           ?</p>
-
         <p>Le vrai dont je parle, répartit Euphorbe, peut se trouver, <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -298,7 +266,7 @@
               <reg><hi rend="italic">Livre des Juges</hi>, chapitre 6</reg>
             </choice>.</note><note resp="editor"><hi rend="italic">Livre des
               Juges</hi>, 6:11.</note>
-          <quote rend="inline">L'Ange du Seigneur, dit l'auteur sacré, apparut à
+          <q rend="inline">L'Ange du Seigneur, dit l'auteur sacré, apparut à
             Gédéon, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
@@ -352,7 +320,7 @@
             </choice> vous battrez les Madianites comme s'ils n'<choice>
               <orig>étaient</orig>
               <reg>étoient</reg>
-            </choice> qu'un seul homme.</quote> Cette simplicité, amie de la
+            </choice> qu'un seul homme.</q> Cette simplicité, amie de la
           droiture, se fait encore remarquer dans l'apparition d'un <choice>
             <orig>Ange</orig>
             <reg>ange</reg>
@@ -411,7 +379,6 @@
           </choice> plus étudié&#160;: mais elle ne perd jamais de vue la
           nature. Enfin l'art n'a de mérite, qu'à proportion de la ressemblance
           qu'il a avec elle.</p>
-
         <p>Si c'est là le vrai dont il est question, ajouta Timagène, je
           conviens qu'il peut se trouver dans un sujet de pure invention&#160;:
           mais il faut, assurément, une main de maître, pour atteindre cette
@@ -424,8 +391,7 @@
             <reg>et</reg>
           </choice> cependant de plus naturel, que ce beau portrait du
           rossignol&#160;? </p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><hi rend="italic">Qualis populea mœrens Philomela sub umbrâ</hi>
             </l>
             <l><hi rend="italic">Amissos queritur fœtus, quos durus arator</hi>
@@ -457,28 +423,24 @@
                   <reg><hi rend="italic">Géorgiques</hi>, livre</reg>
                 </choice> 4.</note><note resp="editor">Virgile, <hi
                   rend="italic">Les Géorgiques</hi> (36-29 av. JC.), livre
-                4.</note></l></quote><note resp="internal">Desit: citation, référence</note></p>
-
+                4.</note></l></q><note resp="internal">Desit: citation, référence</note></p>
         <p><pb n="167" xml:id="A0167"/> Quel coloris plus vrai, que celui qu'il
           emprunte pour nous peindre le saisissement de la <choice>
             <orig>mere</orig>
             <reg>mère</reg>
           </choice> d'Euriale, à la nouvelle de la mort de son fils !</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><hi rend="italic">Excussi manibus radii, revolutaque
-              pensa,</hi></l></quote></p>
-
-        <p><quote rend="inline">La navette lui échappe des mains, <choice>
+              pensa,</hi></l></q></p>
+        <p><q rend="inline">La navette lui échappe des mains, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> l'étoffe tombe en roulant à ses pieds.</quote> Cette idée
+            </choice> l'étoffe tombe en roulant à ses pieds.</q> Cette idée
           me rappelle toujours celle de Boileau, dans la <choice>
             <orig>satyre</orig>
             <reg>satire</reg>
           </choice> du festin.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent">L'assiette volant</l>
             <l>S'en va frapper le mur, <choice>
                 <orig>&amp;</orig>
@@ -486,8 +448,7 @@
               </choice> revient en roulant.<note resp="editor">Boileau, <hi
                   rend="italic">Satires</hi> (voir <ref target="/dossier/"
                   >bibliographie</ref>), Satire III, vers
-            215-216.</note></l></quote></p>
-
+            215-216.</note></l></q></p>
         <p>Dans les sujets de pure invention, il n'appartient qu'aux écrivains
           d'un goût exquis, de saisir ces nuances délicates&#160;: mais dans les <choice>
             <orig>monumens</orig>
@@ -540,7 +501,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> je m'en prends à moi-même de n'avoir retenu rien de plus. </p>
-
         <p>De l'humeur dont je vous vois, reprit Euphorbe, si vous aviez à
           rapporter les <choice>
             <orig>dernieres</orig>
@@ -548,8 +508,7 @@
           </choice> paroles d'un guerrier expirant, qui veut envoyer son cœur à
           sa maîtresse après sa mort, par les mains d'un confident, vous ne lui
           feriez pas dire, avec tout l'esprit imaginable,</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Dans mon corps expiré ta main prendra mon cœur. </l>
             <l>Tu frémis&#160;? S'il t'es cher, est-ce un objet d'horreur ?</l>
             <l><pb n="169" xml:id="A0169"/> Quitte un vain préjugé&#160;: que le
@@ -569,11 +528,9 @@
                 1770 (voir bibliographie), acte II, scène 2, p. 48. Dans sa «
                 Préface », de Belloy agite par ailleurs la question du rapport
                 entre événements historiques et les règles de la bienséance et
-                de la vraisemblance.</note></l></quote></p>
-
+                de la vraisemblance.</note></l></q></p>
         <p>Et vous ne feriez pas répéter froidement mot pour mot, par cet ami,
           l'ordre qu'il a reçu, devant celle à qui se fait l'envoi ?</p>
-
         <p>Ce <choice>
             <orig>Messager</orig>
             <reg>messager</reg>
@@ -595,8 +552,7 @@
             <corr>Hippolyte</corr>
           </choice> meurent avec bien moins d'esprit que cela, dans
           Racine&#160;? Le premier se contente de dire :</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent">. . . C'est assez, cher Arbate&#160;; </l>
             <l>Le sang <choice>
                 <orig>&amp;</orig>
@@ -605,12 +561,10 @@
             <l>Ne livrons pas surtout Mithridate vivant.<note resp="editor"
                 >Racine, <hi rend="italic">Mithridate</hi>, 1673, acte V, scène
                 4.</note>
-            </l></quote></p>
-
+            </l></q></p>
         <p>L'autre n'a pas l'adresse d'envoyer son cœur à Aricie&#160;; il se
           borne à la recommander à son ami.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Le ciel, dit-il, m'arrache une innocente vie, </l>
             <l>Prends soin, après ma mort, de la triste Aricie</l>
             <l><pb n="170" xml:id="A0170"/> Cher ami&#160;: si mon <choice>
@@ -630,8 +584,7 @@
                 Théramène rapporte ces mots d'<choice>
                   <sic>Hyppolite</sic>
                   <corr>Hippolyte</corr>
-                </choice> mourant. </note></l></quote></p>
-
+                </choice> mourant. </note></l></q></p>
         <p>Tout cela est fort bon, poursuivit Euphorbe&#160;; mais il faut bien
           entremêler un peu de ces gentillesses, pour égayer ce tragique <hi
             rend="italic">sombre</hi>, qui est à la mode <choice>
@@ -690,7 +643,6 @@
             1995 et Alice M. Killen, <hi rend="italic">Le Roman terrifiant ou
               roman noir de Walpole à Anne Radcliffe...</hi>, 1920/1984 (voir
             bibliographie).</note></p>
-
         <p>Il semble, en effet, répliqua Timagène, qu'on veut nous rendre un peu <choice>
             <orig>Cannibales</orig>
             <reg>cannibales</reg>
@@ -728,7 +680,6 @@
           l'on traite. Il faut donc un choix dans celles que l'on admet, soit
           qu'elles soient enfantées par l'imagination, soit qu'elles aient pour
           fondement des monuments dignes de foi.</p>
-
         <p>Je suis bien aise, repartit Euphorbe en riant, de vous voir convenir
           enfin, que les historiens ont encore d'autres <choice>
             <orig>regles</orig>
@@ -835,14 +786,12 @@
               <orig>Art. Poët.</orig>
               <reg><hi rend="italic">Art poétique</hi>,</reg>
             </choice> v. 317.</note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Respicere exemplar morum vitaeque jubebo</l>
             <l>Dodum imitatorem, <choice>
                 <orig>&amp;</orig>
                 <reg>et</reg>
-              </choice> veras hinc ducere voces.</l></quote></p>
-
+              </choice> veras hinc ducere voces.</l></q></p>
         <p>Étudions les <choice>
             <orig>caracteres</orig>
             <reg>caractères</reg>
@@ -883,7 +832,6 @@
             <reg>et</reg>
           </choice> pour se laisser à la fin enfermer dans un sac, où ce même
           valet l'assomme de coups de bâton en déguisant sa voix.</p>
-
         <p>Permettez-moi d'ajouter, interrompit Timagène, on n'imaginera pas non
           plus, qu'un général <choice>
             <orig>Romain</orig>
@@ -900,8 +848,8 @@
           prétendues vérités plus <choice>
             <orig>singulieres</orig>
             <reg>singulières</reg>
-          </choice> qu'intéressantes, plus audacieuses que libres. <quote
-            rend="italic">Quodcumque ostendis mihi sic, incredulus odi</quote>.
+          </choice> qu'intéressantes, plus audacieuses que libres. <q
+            rend="italic">Quodcumque ostendis mihi sic, incredulus odi</q>.
           Mais s'il est nécessaire que les circonstances soient vraisemblables,
           il ne l'est pas moins, qu'elles soient utiles au sujet. Je ne puis me
           lasser d'admirer l'adresse avec laquelle Tite-Live raconte la <choice>
@@ -1070,7 +1018,7 @@
             32//.</note><note resp="editor">Le texte latin correspond à
             Tite-Live, //Ab urbe condita//, liber XXI, section 32 (voir
             bibliographie).</note>
-          <quote rend="inline">La renommée, dit-il, qui, d'ordinaire, exagère
+          <q rend="inline">La renommée, dit-il, qui, d'ordinaire, exagère
             les objets qu'on ne connaît pas à fond <choice>
               <orig>avoit</orig>
               <reg>avait</reg>
@@ -1428,7 +1376,7 @@
             </choice> se rencontrer, <choice>
               <orig>étoit</orig>
               <reg>était</reg>
-            </choice> couvert par la neige...</quote><note resp="editor"
+            </choice> couvert par la neige...</q><note resp="editor"
             >Tite-Live, <hi rend="italic">Ab urbe condita</hi>, liber XXI,
             section 32. (voir bibliographie).</note> Voilà, sans doute, un récit
           bien circonstancié, dont je vous ai même épargné une partie, pour ne
@@ -1464,7 +1412,6 @@
               >www.deutsche-biographie.de</ref>.</note> je m'arrête avec plaisir
           à un buisson, à une ravine. Ce sont de petits objets&#160;: mais ils
           cachent de grandes choses.</p>
-
         <p>Nous trouvons dans le judicieux Tacite, reprit Euphorbe, un fait qui
           revient à ce que vous venez de dire.<note resp="author">Annal. L. 11.
             c. 31</note><note resp="editor">.Tacite, <hi rend="italic"
@@ -1488,8 +1435,8 @@
           </choice> comme on lui demanda ce qu'il <choice>
             <orig>découvroit</orig>
             <reg>découvrait</reg>
-          </choice> de si haut, <quote rend="inline">Un orage affreux,
-            répondit-il, qui se forme du côté d'Ostie.</quote> Cette
+          </choice> de si haut, <q rend="inline">Un orage affreux,
+            répondit-il, qui se forme du côté d'Ostie.</q> Cette
           circonstance, assurément, n'<choice>
             <orig>étoit</orig>
             <reg>était</reg>
@@ -1498,7 +1445,6 @@
             <orig>espece</orig>
             <reg>espèce</reg>
           </choice> de comédie.</p>
-
         <p>Cette utilité des circonstances suffit seule, pour ennoblir <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -1513,7 +1459,7 @@
           </choice><note resp="editor">La graphie originale n'est pas attestée
             dans les dictionnaires de référence&#160;; elle apparaît dans le <hi
               rend="italic">Thresor de la langue françoyse</hi> de Jean Nicot,
-            qui date de 1606.</note> qu'il fit pour ce sénateur. <quote
+            qui date de 1606.</note> qu'il fit pour ce sénateur. <q
             rend="inline">Milon, dit-il, après avoir assisté au sénat, tout le
             temps qu'<choice>
               <orig>avoit</orig>
@@ -1525,7 +1471,7 @@
             préparatifs qui sont alors d'usage, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> il part ensuite.</quote> Quoi de plus vil, que ces
+            </choice> il part ensuite.</q> Quoi de plus vil, que ces
           peintures de ménage <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -1540,14 +1486,12 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> naïf.</p>
-
         <p>Dites-moi, je vous prie, répliqua Timagène, de quelle utilité peut
           être à un homme accusé d'un meurtre, le changement de sa chaussure, <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> la toilette de sa femme&#160;? Je n'ai jamais bien saisi
           l'adresse de Cicéron dans cet endroit.</p>
-
         <p>Cette utilité consiste, répondit Euphorbe, à établir une des preuves
           les plus favorables à l'accusé, parce qu'elle est tirée de la nature.
           Dans la cause présente, l'orateur ne <choice>
@@ -1625,7 +1569,6 @@
           </choice> aux longueurs d'une femme&#160;? De pareilles minuties sont
           à peine supportables, <pb n="192" xml:id="A0192"/> quand on se propose
           une simple promenade.</p>
-
         <p>Admirez mon peu d'attention, poursuivit Timagèe. En lisant Cicéron, j'<choice>
             <orig>avois</orig>
             <reg>avais</reg>
@@ -1687,7 +1630,7 @@
             les deux princes aux champ. Du cousté du Roy, fuigt ung homme
             d'estat jusques a Lusignen, sans repaistre, &amp; du costé du conte,
             ung aultre homme de bien jusques au Quesnoy le Conte. Ces deux
-            n'avoient garde de se mordre&#160;! » (p. 30).</note><quote
+            n'avoient garde de se mordre&#160;! » (p. 30).</note><q
             rend="inline">Du côté du Roi, dit-il, fuit un homme d'état, qui
             s'enfuit jusqu'à Lusignan, sans repaître&#160;; <choice>
               <orig>&amp;</orig>
@@ -1696,7 +1639,7 @@
             Quesnai-le-Comte. Ces deux n'<choice>
               <orig>avoient</orig>
               <reg>avaient</reg>
-            </choice> garde de se mordre l'un l'autre.</quote> Cette aveugle
+            </choice> garde de se mordre l'un l'autre.</q> Cette aveugle
           frayeur de deux seigneurs de marque, nous fait <pb n="193"
             xml:id="A0193"/> conjecturer quelle <choice>
             <orig>étoit</orig>
@@ -1705,7 +1648,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> du soldat.</p>
-
         <p>Puisque vous parlez des <choice>
             <orig>sentimens</orig>
             <reg>sentiments</reg>
@@ -1755,7 +1697,7 @@
             fecissent. <hi rend="italic">Liv</hi>., lib. I, n. 25.</note><note
             resp="editor">Tite-Live, <hi rend="italic">Ab urbe condita</hi>,
             liber I, section 25 (voir bibliographie).</note>
-          <quote rend="inline">Ces jeunes <pb n="194" xml:id="A0194"/> héros,
+          <q rend="inline">Ces jeunes <pb n="194" xml:id="A0194"/> héros,
             renfermant dans leurs cœurs tout le courage de deux grandes armées,
             s'avancent l'épée à la main, sans penser à leur propre danger&#160;:
             les uns <choice>
@@ -1764,7 +1706,7 @@
             </choice> les autres ne s'occupent que de l'esclavage ou de l'empire
             réservé à leur patrie. Ils se représentent qu'elle n'aura désormais
             d'autre sort, que celui qu'ils vont lui assurer par leur victoire ou
-            leur défaite.</quote> Avec quel art <choice>
+            leur défaite.</q> Avec quel art <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> quelle vérité ce même auteur décrit-il les réflexions que
@@ -1782,7 +1724,7 @@
             provincias, ubi inter sepulchra patris patruique res gerendae
             essent, proficiscentis. Lib 26, n.18.</note><note resp="editor"
             >Tite-Live, <hi rend="italic">Ab urbe condita</hi>, liber XXVI,
-            section 18 (voir bibliographie).</note>&#160;? <quote rend="inline"
+            section 18 (voir bibliographie).</note>&#160;? <q rend="inline"
             >Tout étant terminé, lorsque les premiers transports furent calmés,
             à cette ardeur succéda un profond silence. Chacun réfléchit sur ce
             qu'il venoit de faire. On se reprochoit d'avoir plus écouté la
@@ -1798,7 +1740,7 @@
             commander au milieu des tombeaux de son père <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> de son oncle.</quote> C'est avec la même force qu'il
+            </choice> de son oncle.</q> C'est avec la même force qu'il
           dépeint le désespoir des Romains, enfermés dans les défilés de Caudium
             ;<note resp="author">Lib. 9, n. 2, 3 <choice>
               <orig>&amp;</orig>
@@ -1816,7 +1758,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> agir, mais penser.</p>
-
         <p>Croyez-vous, interrompit Timagène, que vos <choice>
             <orig>Auteurs</orig>
             <reg>auteurs</reg>
@@ -1828,8 +1769,7 @@
             graphie du terme est ici moderne.</note> avec tout ce que vous venez
           de citer, le <pb n="196" xml:id="A0196"/> bel endroit de Corneille sur
           la mort de Pompée&#160;; </p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Aucun gémissement à son cœur échappé </l>
             <l>Ne le montre, en mourant, digne d'être frappé. </l>
             <l>Immobile à leurs coups, en lui-même il rappelle </l>
@@ -1845,8 +1785,7 @@
             <l>Étale tout Pompée aux yeux des assassins.<note resp="editor"
                 >Pierre Corneille, <hi rend="italic">La Mort de Pompée</hi>,
                 1643 (voir bibliographie), acte II, scène
-          2.</note></l></quote></p>
-
+          2.</note></l></q></p>
         <p>C'est bien penser, assurément, que de faire penser ainsi un
           héros&#160;; <choice>
             <orig>&amp;</orig>
@@ -1861,14 +1800,13 @@
             <orig>ieux</orig>
             <reg>yeux</reg>
           </choice> de ses lecteurs.</p>
-
         <p>Pour vous prouver, continua Euphorbe, que je <choice>
             <orig>reconnois</orig>
             <reg>reconnais</reg>
           </choice> tout le mérite des modernes, j'ajouterai à l'exemple que
           vous apportez, celui de M. Fléchier, <pb n="197" xml:id="A0197"/> dans
           l'oraison funèbre<note resp="editor">Contrairement au reste du texte, la graphie du
-            terme est ici moderne.</note> du vicomte de Turenne. <quote
+            terme est ici moderne.</note> du vicomte de Turenne. <q
             rend="inline">Turenné meurt, tout se confond, la fortune chancelle,
             la victoire se lasse, la paix s'éloigne, les bonnes intentions des
             alliés se rallentissent, le courage des troupes est abattu par la
@@ -1881,7 +1819,7 @@
               <reg>et</reg>
             </choice> non pas aux blessures qu'ils ont reçues&#160;; les pères
             mourants envoient leurs fils pleurer sur leur général
-            mort.</quote><note resp="editor">Esprit Fléchier, <hi rend="italic"
+            mort.</q><note resp="editor">Esprit Fléchier, <hi rend="italic"
               >Oraison funébre de [...] Henri de La Tour d'Auvergne, vicomte de
               Turenne</hi>, 1676 (voir bibliographie).</note> ... Rien n'est
           plus curieux, pour un lecteur, que de découvrir ainsi tous les
@@ -1890,7 +1828,6 @@
             <orig>connoître</orig>
             <reg>connaître</reg>
           </choice> eux-mêmes.</p>
-
         <p>Si les historiens, répliqua Timagène, sont tenus de nous faire <choice>
             <orig>connoître</orig>
             <reg>connaître</reg>
@@ -1926,7 +1863,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> descriptions.</p>
-
         <p>On peut avoir à peindre, répartit <pb n="198" xml:id="A0198"/>
           Euphorbe, une action, un lieu, un être raisonnable ou supposé tel. Le
           détail d'un fait particulier, par exemple, d'une bataille, d'une
@@ -1970,7 +1906,6 @@
             <reg>ferait</reg>
           </choice> d'autres divisons, qui ne sont admises que dans les
           écoles.</p>
-
         <p>Quelque nom qu'on leur donne, reprit Timagène, avouez que les uns <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -1989,7 +1924,7 @@
             <orig>par-là</orig>
             <reg>par là</reg>
           </choice> se gravent plus aisément dans la mémoire. Je n'oublierai
-          jamais la description du combat de Télémaque avec Hyppias. <quote
+          jamais la description du combat de Télémaque avec Hyppias. <q
             rend="inline">À peine Télémaque eut tiré son épée, qu'Hyppias, qui
             voulait profiter de l'avantage <pb n="199" xml:id="A0199"/> de sa
             force, se jeta sur le jeune fils d'Ulysse pour la lui arracher.
@@ -2020,25 +1955,24 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> qui ne le laissait dans cette extrémité de péril que pour
-            l'instruire, n'eût déterminé la victoire en sa faveur.</quote><note
+            l'instruire, n'eût déterminé la victoire en sa faveur.</q><note
             resp="editor">Fénelon, <hi rend="italic">Les Aventures de
               Télémaque</hi>, 1699 (voir bibliographie), livre XIII, p.
             277-278.</note> N'êtes-vous point enchanté, comme moi, de la
-          vivacité de cette peinture&#160;? <quote rend="italic">Les voilà,
-            comme deux bêtes cruelles qui cherchent à se déchirer</quote>. On
+          vivacité de cette peinture&#160;? <q rend="italic">Les voilà,
+            comme deux bêtes cruelles qui cherchent à se déchirer</q>. On
           suit tous leurs <choice>
             <orig>mouvemens</orig>
             <reg>mouvements</reg>
-          </choice>. <quote rend="italic">Ils se raccourcissent, <pb n="200"
+          </choice>. <q rend="italic">Ils se raccourcissent, <pb n="200"
               xml:id="A0200"/> ils s'allongent, ils se baissent, ils se
-            relevent.</quote> ... Voilà ce que le pinceau ne peut exprimer sur
+            relevent.</q> ... Voilà ce que le pinceau ne peut exprimer sur
           la toile. C'est moins une lecture, qu'un spectacle intéressant.<note
             resp="editor">Ici affleure la problématique du paragone, de la
             comparaison des arts&#160;: la limitation de la peinture à
             l'instant, la capacité du récit de représenter le mouvement dans le
             temps, le caractère visuel et théâtral d'un tel passage de
             texte.</note></p>
-
         <p>J'admire encore plus que tout cela, ajouta Euphorbe, la sagesse <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -2054,7 +1988,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> les combats.</p>
-
         <p>Tout comme il vous plaira, répliqua Timagène&#160;; mais vous ne
           pouvez disconvenir que cet intérêt ne soit bien légitime, quand
           l'écrivain a le talent de le faire naître. II y a une <choice>
@@ -2105,7 +2038,7 @@
               >Dec</hi>. 1. <hi rend="italic">Lib</hi>. I n. 25.</note><note
             resp="editor">Tite-Livre, <hi rend="italic">Ab Urbe condita</hi>
             (voir bibliographie), liber I, section 25.</note>
-          <quote rend="inline">Les deux armées, dit-il, s'étaient placées devant
+          <q rend="inline">Les deux armées, dit-il, s'étaient placées devant
             leurs retranchements, pour être témoins d'un combat, où, sans
             partager le danger, elles avaient grande part aux craintes <choice>
               <orig>&amp;</orig>
@@ -2176,7 +2109,7 @@
             le plus grand intérêt. Le héros de Rome se hâte de <choice>
               <sic>termiminer</sic>
               <corr>terminer</corr>
-            </choice> ce nouveau combat.</quote> N'y a-t-il pas là-dedans une <choice>
+            </choice> ce nouveau combat.</q> N'y a-t-il pas là-dedans une <choice>
             <orig>espece</orig>
             <reg>espèce</reg>
           </choice> de magie qui nous transporte successivement dans l'une <choice>
@@ -2233,7 +2166,6 @@
             <orig>frappans</orig>
             <reg>frappants</reg>
           </choice> ?</p>
-
         <p>Je ne m'aviserai plus, reprit Euphorbe, de plaisanter Messieurs les
           militaires&#160;: je vois qu'ils savent se défendre autrement que
           l'épée à la main. Au surplus, je <choice>
@@ -2245,7 +2177,7 @@
           que l'on trouve dans la Lettre où <choice>
             <orig>Mad.</orig>
             <reg>Madame</reg>
-          </choice> de Sévigné décrit le passage du Rhin. <quote rend="inline"
+          </choice> de Sévigné décrit le passage du Rhin. <q rend="inline"
             >Le chevalier de Nantouillet <choice>
               <orig>étoit</orig>
               <reg>était</reg>
@@ -2255,7 +2187,7 @@
             le cheval, se trouve à la mêlée, reçoit deux coups dans son chapeau, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> revient gaillard.</quote><note resp="editor">Voir Madame
+            </choice> revient gaillard.</q><note resp="editor">Voir Madame
             de Sévigné, <hi rend="italic">Lettres de Madame de Sévigné et de
               Maintenon</hi>, avec une préface et des notes par M. de Lévizac,
             [...], troisième édition revue et corrigée, Paris&#160;: Gabriel
@@ -2263,7 +2195,7 @@
           description de la Bétique ?<note resp="editor">La Bétique est une
             province romaine (Hispania Baetica) dans le sud de l'actuelle
             Espagne.</note>
-          <quote rend="inline">Le fleuve Bétis coule dans un pays fertile, <choice>
+          <q rend="inline">Le fleuve Bétis coule dans un pays fertile, <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> sous un ciel pur qui est toujours serein. Le pays a pris
@@ -2284,7 +2216,7 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> de l'automne, qui semblent se donner la
-            main.</quote><note resp="internal">Desit: source, Madame de Sévigné.</note> Toutes
+            main.</q><note resp="internal">Desit: source, Madame de Sévigné.</note> Toutes
           ces peintures, sans être essentielles à l'objet principal,
           l'enrichissent beaucoup. Ainsi, la superbe architecture qui remplit le
           fond d'un tableau, est indépendante de l'action qu'il
@@ -2293,7 +2225,6 @@
             <orig>connoisseurs</orig>
             <reg>connaisseurs</reg>
           </choice>.</p>
-
         <p>De votre comparaison, interrompit Timagène, il s'ensuit que la
           description doit être propre au sujet que l'on traite. Je ne peindrai
           pas Adam <choice>
@@ -2337,7 +2268,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> nécessaires, comme celles que vous venez de rapporter.</p>
-
         <p>Votre <choice>
             <orig>régle</orig>
             <reg>règle</reg>
@@ -2385,7 +2315,6 @@
             <orig>matiere</orig>
             <reg>matière</reg>
           </choice> dont l'écrivain doit être occupé.</p>
-
         <p>Vous voulez que ces descriptions ne soient pas copiées, répliqua
           Timagène&#160;; cela, en vérité, ne me <choice>
             <orig>paroît</orig>
@@ -2442,8 +2371,7 @@
               </choice>. Lib. 12.</note>Il s'agit en fait du livre XI des <hi
               rend="italic">Métamorphoses</hi> d'Ovide (voir bibliographie),
             lignes 490-538.</note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Aspera crescit hyems, omnique à parte feroces </l>
             <l>Bella gerunt venti, fretaque indignantia miscent. </l>
             <l>Ipse pavet, nec se, quis sit status, ipse fatetur </l>
@@ -2465,8 +2393,7 @@
             <l>Fulmina, fulmineis ardescunt ignibus undae. </l>
             <l>Deficit ars, animique cadunt&#160;; totidemque videntur. </l>
             <l>Quot veniunt fluctus, ruere atque irrumpere mortes.</l>
-          </quote></p>
-
+          </q></p>
         <p>Voyons maintenant ce que dit Virgile sur le même objet :<note
             resp="author">L'Eutus, le Notus, l'Africus fécond en orages
             s'étendent sur la mer, la bouleversent jusque dans ses abîmes, <choice>
@@ -2491,8 +2418,7 @@
             au fond de ses sables. <hi rend="italic">AEn</hi>., lib. I. v.
             84.</note><note resp="editor">Virgile, Énéide, liber I, vers 84-91
             et 106-107 (voir bibliographie).</note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Incubuere mari, totumque à sedibus imis </l>
             <l>Una Eurus Notusqne ruunt creberque procellis </l>
             <l>Africus, et vastos volvunt ad littora fluctus. </l>
@@ -2504,8 +2430,7 @@
             <l>Praesentemque viris intentant omnia mortem. ... </l>
             <l>Hi summo in fluctu pendent, his unde dehiscens </l>
             <l>Terram inter fluctus aperit&#160;: furit aestus arenis. </l>
-          </quote></p>
-
+          </q></p>
         <p>Rapprochons de ces deux <choice>
             <orig>poëtes</orig>
             <reg>poètes</reg>
@@ -2513,8 +2438,7 @@
             <orig>Homere</orig>
             <reg>Homère</reg>
           </choice>, traduit par Boileau.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Comme l'on voit les flots soulevez par l'orage,</l>
             <l>Fondre sur un vaisseau qui s'oppose à leur rage&#160;; </l>
             <l>Le vent avec fureur dans les voiles frémit, </l>
@@ -2525,14 +2449,12 @@
             <l>Le matelot troublé, que son art abandonne, </l>
             <l>Croit voir dans chaque flot la mort qui l'environne. <note
                 resp="editor">Homère, <hi rend="italic">Iliade</hi>, traduction
-                de Boileau (voir bibliographie).</note></l></quote></p>
-
+                de Boileau (voir bibliographie).</note></l></q></p>
         <p><pb n="212" xml:id="A0212"/> Voici comme s'exprime l'auteur de la <choice>
             <orig>Henriade</orig>
             <reg><hi rend="italic">Henriade</hi></reg>
           </choice>.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>L'astre brillant du jour à l'instant s'obscurcit&#160;; </l>
             <l>L'air siffle, le ciel gronde, <choice>
                 <orig>&amp;</orig>
@@ -2546,14 +2468,12 @@
               </choice> l'abîme des flots </l>
             <l>Montrent partout la mort aux pâles matelots.<note resp="editor"
                 >Voltaire, <hi rend="italic">La Henriade</hi> (voir
-                bibliographie), chant premier.</note></l></quote></p>
-
+                bibliographie), chant premier.</note></l></q></p>
         <p>Enfin ce tableau tracé par Oreste dans la tragédie d'<choice>
             <orig>Electre</orig>
             <reg><hi rend="italic">Électre</hi></reg>
           </choice>, peut figurer à côté de ceux-là.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>La mer en un moment se mutine <choice>
                 <orig>&amp;</orig>
                 <reg>et</reg>
@@ -2576,8 +2496,7 @@
               effrayé que la flamme environne, </l>
             <l>Aux rochers qu'il fuyait lui-même s'abandonne.<note resp="editor"
                 >Crébillon, <hi rend="italic">Électre</hi>, 1708 (voir
-                bibliographie), acte II, scène 1.</note></l></quote></p>
-
+                bibliographie), acte II, scène 1.</note></l></q></p>
         <p>Il ne s'agit point d'examiner ici si la majesté énergique de Virgile
           l'emporte sur l'ingénieuse fécondité d'Ovide&#160;; qui des Français
           ou des Latins, ont la touche plus mâle ou le coloris plus
@@ -2593,7 +2512,6 @@
           </choice> le desespoir des matelots, le bruit du tonnerre, le feu des
           éclairs, enfin le pilote sans ressource, qui s'abandonne à la merci
           des flots.</p>
-
         <p>Avant de yous répondre, reprit Euphorbe, souffrez que je vous fasse
           une petite remarque. Sans cet étalage de <choice>
             <orig>poësie</orig>
@@ -2607,13 +2525,13 @@
           </choice> en a dit en quatre mots, autant que tous les <choice>
             <orig>Auteurs</orig>
             <reg>auteurs</reg>
-          </choice> que vous avez cités<note resp="author"><quote rend="italic"
+          </choice> que vous avez cités<note resp="author"><q rend="italic"
               >Dixit, et stetit spiritus procellæ, et exaltati sunt fluctus
               ejus. Ascendunt usque ad caelos, et descendunt usque ai abissos.
               ... Turbati sunt, et moti sunt sicut ebrius, et omnis sapientia
-              eorum devorata est.</quote> Ps. 106.</note>.<note resp="editor"
+              eorum devorata est.</q> Ps. 106.</note>.<note resp="editor"
             >Psaumes.</note>
-          <quote rend="inline">Dieu parle&#160;: <pb n="214" xml:id="A0214"/>
+          <q rend="inline">Dieu parle&#160;: <pb n="214" xml:id="A0214"/>
             les vents <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
@@ -2625,7 +2543,7 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> l'agitation des matelots, les rendent semblables à un
-            homme ivre. Toute leur habileté s'est évanouie.</quote> Ne <choice>
+            homme ivre. Toute leur habileté s'est évanouie.</q> Ne <choice>
             <orig>croiroit</orig>
             <reg>croirait</reg>
           </choice>-on pas que ces versets ont servi de <choice>
@@ -2644,14 +2562,12 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> de la variété dans leurs compositions&#160;: </p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><note resp="author">Art. Poet. v. 29.</note><hi rend="italic">Qui
                 variare cupit rem prodigialiter unam,</hi></l>
             <l><hi rend="italic">Delphinum sylvis appingit, fluctibus
                 aprum.</hi><note resp="editor">Horace, <hi rend="italic">Ars
-                  poetica</hi>, vers 29-30.</note></l></quote></p>
-
+                  poetica</hi>, vers 29-30.</note></l></q></p>
         <p>Il n'est donc pas étonnant que plusieurs grands <choice>
             <orig>Auteurs</orig>
             <reg>auteurs</reg>
@@ -2715,7 +2631,6 @@
             <orig>convenoit</orig>
             <reg>convenait</reg>
           </choice> également à plusieurs personnes différentes.</p>
-
         <p>Il y a pourtant, interrompit Timagène, des portraits qu'on appelle
           généraux&#160;; tels que sont ceux de l'avare, du prodigue, de
           l'ambitieux <choice>
@@ -2724,7 +2639,6 @@
           </choice> plusieurs autres. N'en est-il pas de ces morceaux, comme des
           descriptions&#160;? Si toutes les batailles se ressemblent, tous les
           avares ont quelque chose de commun.</p>
-
         <p>Cela est vrai, jusqu'à un certain point, continua Euphorbe&#160;;
           mais quelque généraux que soient ces <choice>
             <orig>caracteres</orig>
@@ -2748,7 +2662,6 @@
             <orig>Anglois</orig>
             <reg>anglais</reg>
           </choice> n'est pas celui de Paris.</p>
-
         <p>J'<choice>
             <orig>ajouterois</orig>
             <reg>ajouterais</reg>
@@ -2775,7 +2688,6 @@
           </choice> cela est si vrai, que leur mérite est plus grand, à
           proportion qu'ils ressemblent à un plus grand nombre de personnes dans
           le même genre.</p>
-
         <p>Votre raison, poursuivit Euphorbe, est encore meilleure que la
           mienne, pour prouver, qu'il ne faut pas leur appliquer à la rigueur ce
           que je <choice>
@@ -2838,13 +2750,11 @@
             <reg>tout au plus</reg>
           </choice>, un de ces portraits généraux dont nous venons de
           parler.</p>
-
         <p>Pensez-vous donc, dit alors Timagène, qu'il en soit d'un portrait,
           comme d'une énigme, <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> qu'on doive en deviner l'objet, sans qu'il soit nommé ?</p>
-
         <p>Non, répondit Euphorbe&#160;; mais je crois qu'il doit avoir certains
           traits particuliers à la personne qu'il représente. Voyez, par
           exemple, celui-ci, tracé de la main de M. Bossuet<note resp="author"><choice>
@@ -2855,7 +2765,7 @@
               funèbre de Henriette-Marie de France, Reine de la
               Grand'Bretagne</hi>, prononcée le 16 novembre 1669, en l'église
             des religieuses de Sainte-Marie de Chaillot (voir
-            bibliographie).</note>. <quote rend="inline">Un homme s'est
+            bibliographie).</note>. <q rend="inline">Un homme s'est
             rencontré d'une profondeur d'esprit incroyable, hypocrite raffiné
             autant qu'habile politique, capable de tout entreprendre <choice>
               <orig>&amp;</orig>
@@ -2884,7 +2794,7 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> audacieux <pb n="219" xml:id="A0219"/> qui semblent être
-            nés pour changer le monde.</quote> La profondeur d'esprit <choice>
+            nés pour changer le monde.</q> La profondeur d'esprit <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> l'hypocrisie, l'audace <choice>
@@ -2906,7 +2816,6 @@
             <orig>montreroit</orig>
             <reg>montrerait</reg>
           </choice> pas plus clairement.</p>
-
         <p>Je suis persuadé, comme vous, poursuivit Timagène, que c'est cet
           ensemble de plusieurs qualités rarement unies l'une avec l'autre, qui
           forme la ressemblance du portrait. Si l'on <choice>
@@ -2951,7 +2860,7 @@
             resp="editor">Salluste, <hi rend="italic">Bellum Catilinae</hi> (<hi
               rend="italic">La conjuration de Catilina</hi>), section 5 (voir
             bibliographie).</note>
-          <quote rend="inline">Catilina <choice>
+          <q rend="inline">Catilina <choice>
               <orig>étoit</orig>
               <reg>était</reg>
             </choice> d'une naissance illustre, <choice>
@@ -3007,7 +2916,7 @@
             chimères <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> de projets inouïs.</quote> On peut trouver, sans doute,
+            </choice> de projets inouïs.</q> On peut trouver, sans doute,
           dans <choice>
             <orig>différens</orig>
             <reg>différents</reg>
@@ -3052,7 +2961,6 @@
             <reg>talents</reg>
           </choice> médiocres, presque tous les vices sans aucune vertu, réunis
           dans un même homme.</p>
-
         <p>L'orateur <choice>
             <orig>Romain</orig>
             <reg>romain</reg>
@@ -3061,11 +2969,11 @@
           ordinaire, ce que Salluste <choice>
             <orig>avoit</orig>
             <reg>avait</reg>
-          </choice> renfermé dans ce peu de mots, <quote rend="italic">C'étoit
+          </choice> renfermé dans ce peu de mots, <q rend="italic">C'étoit
             un Prothée capable de tout feindre <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> de tout dissimuler</quote>&#160;; <choice>
+            </choice> de tout dissimuler</q>&#160;; <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> il nous fait concevoir comment ce fameux scélérat <choice>
@@ -3097,7 +3005,7 @@
               Coelio</hi>.</note><note resp="editor">Cicéron, <hi rend="italic"
               >Pro M. Caelio oratio</hi>, sections 12 et 13 (voir
             bibliographie).</note>
-          <quote rend="inline">Catilina, dit Cicéron, eut tous les dehors des
+          <q rend="inline">Catilina, dit Cicéron, eut tous les dehors des
             plus belles vertus&#160;; mais ce n'était qu'une écorce légère <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
@@ -3160,7 +3068,7 @@
             scélérats <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
-            </choice> débauché parmi les libertins.</quote> Il faut avouer que
+            </choice> débauché parmi les libertins.</q> Il faut avouer que
           c'est un objet bien satisfaisant, de voir deux grands maîtres
           travailler au même tableau, <choice>
             <orig>&amp;</orig>
@@ -3180,7 +3088,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> je le hais davantage dans l'orateur.</p>
-
         <p>C'est, sans doute, répliqua Timagène, que ce dernier s'étend <choice>
             <orig>particulierement</orig>
             <reg>particulièrement</reg>
@@ -3201,7 +3108,6 @@
             <reg>et</reg>
           </choice> en apparence. Dans Salluste, je ne vois rien de
           semblable.</p>
-
         <p>La véritable raison, repartit Euphorbe, est que l'un fait un <choice>
             <sic>plaidoyé</sic>
             <corr>plaidoyer</corr>
@@ -3248,7 +3154,6 @@
             <reg>et</reg>
           </choice> le montrer du côté le moins odieux. Au reste, ce portrait
           n'est pas moins ressemblant que le premier.</p>
-
         <p>Je ne <choice>
             <orig>sçais</orig>
             <reg>sais</reg>
@@ -3257,7 +3162,6 @@
           querelle avec eux&#160;: leur ressentiment est à craindre. Je vous
           demande seulement si cet artifice n'est point <pb n="226"
             xml:id="A0226"/> ce que vous appeliez le coloris du portrait ?</p>
-
         <p>Non, répondit Euphorbe. Je n'entends par là que le <choice>
             <orig>stile</orig>
             <reg>style</reg>
@@ -3269,7 +3173,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> qui font l'effet des couleurs dans la peinture.</p>
-
         <p>Je conçois ce que vous voulez dire, reprit Timagène&#160;; il faut
           que les pensées y soient belles, sans être trop recherchées&#160;; que
           les vices du personnage contrastent adroitement avec ses talents ou
@@ -3279,8 +3182,7 @@
           </choice> concise&#160;; qu'elle soit noble, surtout dans les grands
           sujets&#160;; telle que celle-ci, par exemple, dans le portrait du
           grand Condé.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent">J'ai le cœur comme la naissance&#160;; </l>
             <l>Je porte dans les yeux un feu vif <choice>
                 <orig>&amp;</orig>
@@ -3301,8 +3203,7 @@
                   rend="italic">Essai sur le récit</hi>, à savoir les dialogues
                 qui forment <hi rend="italic">La Manière de bien penser dans les
                   ouvrages d’esprit</hi>, 1687, du père Bouhours. Le portrait
-                s'y trouve au second entretien.</note></l></quote></p>
-
+                s'y trouve au second entretien.</note></l></q></p>
         <p><pb n="227" xml:id="A0227"/> Il est difficile, poursuivit Euphorbe,
           de trouver un exemple mieux assorti à ce que nous disons. Le <choice>
             <orig>stile</orig>
@@ -3347,7 +3248,7 @@
             <orig>à-coup-sûr,</orig>
             <reg>à coup sûr,</reg>
           </choice> toutes les qualités que vous venez de détailler vous-même.
-            <quote rend="inline">Télémaque <choice>
+            <q rend="inline">Télémaque <choice>
               <orig>demeuroit</orig>
               <reg>demeurait</reg>
             </choice> souvent étendu <choice>
@@ -3390,7 +3291,7 @@
             soutenir&#160;; ainsi le fils d'Ulysse <choice>
               <orig>étoit</orig>
               <reg>était</reg>
-            </choice> aux portes de la mort.</quote><note resp="editor">Fénelon,
+            </choice> aux portes de la mort.</q><note resp="editor">Fénelon,
               <hi rend="italic">Les Aventures de Télémaque</hi>, 1699 (voir
             bibliographie), livre VI, p. 126-127.</note> Que de netteté, que de
           noblesse dans ces idées&#160;! Rapprochons de ce morceau, le <choice>
@@ -3404,8 +3305,7 @@
             <orig>appercevrons</orig>
             <reg>apercevrons</reg>
           </choice> la différence des deux pinceaux. Le voici.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><note resp="author">Phars. lib. 1, v. 146.</note>Acer et
               indomicus&#160;; quo spes, quoque ira vocasset, </l>
             <l>Ferre manum, et nunquam temerando parcere ferro. </l>
@@ -3422,14 +3322,12 @@
             <l>Dat stragem late, sparsosque recolligit ignes.<note resp="editor"
                 >Lucain, <hi rend="italic">De bello civili sive Pharsalia</hi>
                   (<hi rend="italic">La Pharsale</hi>), livre 1, v. 146-157
-                (voir bibliographie).</note></l></quote></p>
-
+                (voir bibliographie).</note></l></q></p>
         <p><choice>
             <orig>Brebeuf</orig>
             <reg>Brébeuf</reg>
           </choice> a prétendu rendre ainsi ces vers.</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Esprit bouillant, enflé d'ambition,</l>
             <l>Toujours dans les desseins, toujours dans l'action&#160;; </l>
             <l>Pour qui la gloire même aurait de faibles charmes,</l>
@@ -3491,10 +3389,8 @@
                 traduction de Georges de Brébeuf, <hi rend="italic">La Pharsale
                   de Lucain, ou les Guerres civiles de César et de Pompée, en
                   vers françois</hi> (1654). Paris&#160;: Antoine de Sommaville,
-                1657.</note></l></quote></p>
-
+                1657.</note></l></q></p>
         <p>Que vous semble-t-il maintenant de ces deux portraits ?</p>
-
         <p>On ne peut nier, répliqua Timagène, qu'il n'y ait dans le dernier de
           la grandeur <choice>
             <orig>&amp;</orig>
@@ -3523,7 +3419,6 @@
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> lugubre.</p>
-
         <p>Et voilà précisément, interrompit Euphorbe, cette attitude naturelle <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
@@ -3547,7 +3442,7 @@
           </choice> de <choice>
             <orig>Télémaque</orig>
             <reg><hi rend="italic">Télémaque</hi></reg>
-          </choice>. <quote rend="inline">Je me souviendrai toute ma vie d'avoir
+          </choice>. <q rend="inline">Je me souviendrai toute ma vie d'avoir
             vu cette tête qui nageait dans le sang, ces yeux fermés <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
@@ -3560,11 +3455,10 @@
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> menaçant, que la mort même n'avait pu
-            effacer.</quote><note resp="editor">Fénelon, <hi rend="italic">Les
+            effacer.</q><note resp="editor">Fénelon, <hi rend="italic">Les
               Aventures de Télémaque</hi>, 1699 (voir bibliographie), livre II,
             p. 60-61.</note><note resp="internal">desit&#160;: note sur grâces / révoltant,
             Dubos.</note></p>
-
         <p>Toute hideuse que la mort est par elle-même, reprit Timagène, elle se
           montre ici sous un appareil plus noble <choice>
             <orig>&amp;</orig>
@@ -3573,8 +3467,7 @@
             <orig>poëte</orig>
             <reg>poète</reg>
           </choice> Saint-Armand, lorsqu'il nous dit,</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent">Là branle le squelette </l>
             <l>D'un pauvre amant qui se pendit.<note resp="editor">Marc-Antoine
                 Girard de Saint-Amant, « La Solitude », 1617 (voir
@@ -3587,8 +3480,7 @@
                 tenebres. / Sous un chevron de bois maudit / Y branle le
                 squelette horrible / D'un pauvre amant qui se pendit / Pour une
                 bergère insensible, / Qui d'un seul regard de pitié / Ne daigna
-                voir son amitié. »</note></l></quote></p>
-
+                voir son amitié. »</note></l></q></p>
         <p>Mais à propos de portraits difformes, je <choice>
             <orig>voudrois</orig>
             <reg>voudrais</reg>
@@ -3604,7 +3496,6 @@
             <reg>et</reg>
           </choice> parsemée de quelques cheveux.<note resp="editor">Homère, <hi
               rend="italic">Iliade</hi>, livre 2, vers 216.</note></p>
-
         <p>Je ne prétends le défendre, repartit Euphorbe, non plus que celui des
           Harpies, dans Virgile, que par ces vers d'Horace <note resp="author"
             >Lorsqu'un poeme est plein de beautés, je lui fais grâce de quelques
@@ -3614,12 +3505,10 @@
             </choice> v. 351.</note><note resp="editor">Bérardier cite ce même
             passage horatien dans le premier entretien, page <ref
               target="/node/4#p26">26</ref>.</note>:</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l><hi rend="italic">Ubi plura nitent in carmine, non ego paucis
               </hi></l>
-            <l><hi rend="italic">Offendar maculis</hi>.</l></quote></p>
-
+            <l><hi rend="italic">Offendar maculis</hi>.</l></q></p>
         <p><pb n="233" xml:id="A0233"/> Mais je ne ferai pas l'injustice au
           chantre d'<choice>
             <orig>Ænée</orig>
@@ -3632,23 +3521,19 @@
               <orig>Aen. liv. 2</orig>
               <reg>Virgile, <hi rend="italic">Énéide</hi>, livre 2</reg>
             </choice>.</note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l rend="indent">Et leurs langues sifflantes </l>
             <l>Lèchent les sales bords de leurs gueules béantes.</l>
-          </quote></p>
-
+          </q></p>
         <p>Il est toujours nécessaire d'écarter ou de déguiser tout ce qui peut
           avoir quelque chose de rebutant. Longin reproche avec raison à Hésiode
           d'avoir dit en peignant la tristesse,</p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>Une puante humeur lui <choice>
                 <orig>couloit</orig>
                 <reg>coulait</reg>
               </choice> des narines.<note resp="editor"
-            >Longin.</note></l></quote></p>
-
+            >Longin.</note></l></q></p>
         <p>Il <choice>
             <orig>vaudroit</orig>
             <reg>vaudrait</reg>
@@ -3660,7 +3545,6 @@
             <orig>Auteur</orig>
             <reg>auteur</reg>
           </choice> est-il donc obligé de tout dire ?</p>
-
         <p>Au contraire, répliqua Timagène, loin d'épuiser sa <choice>
             <orig>matiere</orig>
             <reg>matière</reg>
@@ -3700,7 +3584,6 @@
             resp="editor">Bérardier fait allusion au même principe dans le
             troisième entretien, aux pages <ref target="/node/26#p123"
               >123-124</ref>.</note></p>
-
         <p><choice>
             <orig>Homere</orig>
             <reg>Homère</reg>
@@ -3724,7 +3607,6 @@
             <reg>et</reg>
           </choice> qu'il se sait gré de sa découverte, qu'on ne lui fait point
           acheter d'ailleurs par une longue digression.</p>
-
         <p><pb n="235" xml:id="A0235"/> Dans ce genre, interrompit Timagène, je
           n'ai rien vu de plus énergique que ces quatre mots de Velleius
           Paterculus, pour peindre Maroboduus, chef des Marcomans, à qui Tibère <choice>
@@ -3737,7 +3619,6 @@
               >Historia romanae</hi> (<hi rend="italic">Histoire
             Romaine</hi>).</note><note resp="internal">Desit&#160;: identifier passage chez
             Velleius.</note></p>
-
         <p>J'aurai bien la hardiesse, reprit Euphorbe, de mettre à côté de
           Velleius Paterculus notre inimitable fabuliste, <choice>
             <orig>la Fontaine</orig>
@@ -3747,8 +3628,7 @@
             resp="author">Fable 139.</note>.<note resp="editor">La Fontaine, <hi
               rend="italic">Fables</hi> (voir bibliographie), livre 7, fable
             15.</note></p>
-
-        <p><quote rend="verse">
+        <p><q rend="verse">
             <l>C'<choice>
                 <orig>étoit</orig>
                 <reg>était</reg>
@@ -3758,29 +3638,25 @@
                 <orig>&amp;</orig>
                 <reg>et</reg>
               </choice> gras, </l>
-            <l rend="indent">Arbitre expert sur tous les cas.</l></quote></p>
-
+            <l rend="indent">Arbitre expert sur tous les cas.</l></q></p>
         <p>Mais souvent il peint en raccourci, <choice>
             <orig>&amp;</orig>
             <reg>et</reg>
           </choice> ne fait, pour ainsi parler, que des <pb n="236"
             xml:id="A0236"/>miniatures, telles que celles-ci ;</p>
-
-        <p><quote rend="italic">Dame Belette au corps long <choice>
+        <p><q rend="italic">Dame Belette au corps long <choice>
               <orig>&amp;</orig>
               <reg>et</reg>
             </choice> fluet. La cigogne au long bec.<note resp="editor">La
               Fontaine, Fables&#160;: « La belette entrée dans un grenier »
-              (voir bibliographie), livre III, fable 17.</note></quote></p>
-
-        <p><quote rend="verse">
+              (voir bibliographie), livre III, fable 17.</note></q></p>
+        <p><q rend="verse">
             <l><hi rend="italic">Un jour sur ses longs pieds allait je ne sais
                 où</hi>,</l>
             <l><hi rend="italic">Le Héron au long bec emmanché d'un long
                 cou</hi>.<note resp="editor">La Fontaine, <hi rend="italic"
                   >Fables</hi> (voir bibliographie)&#160;: « Le Héron - La Fille
-                », livre VII, fable 4.</note></l></quote></p>
-
+                », livre VII, fable 4.</note></l></q></p>
         <p>Ces héros ne sont point des <choice>
             <orig>conquérans</orig>
             <reg>conquérants</reg>
@@ -3790,7 +3666,6 @@
             <orig>ornemens</orig>
             <reg>ornements</reg>
           </choice> de la nature.</p>
-
         <p><choice>
             <orig>A</orig>
             <reg>À</reg>
@@ -3802,7 +3677,6 @@
             <sic>plutôt</sic>
             <corr>plus tôt</corr>
           </choice> qu'il me sera possible.</p>
-
       </div>
     </body>
   </text>
